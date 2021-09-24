@@ -14,7 +14,7 @@
    version="1.1"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="map-kb-overview.svg"
-   viewBox="0 0 1650 1080">
+   viewBox="0 0 1200 1000">
   <defs
      id="defs4">
     <marker
@@ -68,13 +68,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.50000003"
-     inkscape:cx="1509.8562"
-     inkscape:cy="1092.537"
+     inkscape:cx="632.7647"
+     inkscape:cy="320.99742"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3200"
-     inkscape:window-height="1721"
+     inkscape:window-width="1902"
+     inkscape:window-height="1001"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="0"
@@ -101,148 +101,137 @@
      id="layer1"
      transform="translate(-70.125,-238.59375)">
     <path
-       style="fill:#ebebeb;fill-opacity:1;stroke:none;stroke-width:1.78566px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1510.2779,1259.6661 -1.9493,-32.6581 79.8647,-0.2305 0.9839,-52.2678 -86.9,-1.1843 -21.1427,-458.70271 55.7374,-9.34957 -0.3805,-48.92312 -58.6763,9.67376 -14.736,-275.56659 54.9947,2.85076 -0.8925,-48.85278 -1255.92367,-55.30028 0.72327,45.89754 1151.5968,51.48329 13.948,281.65556 -1168.90888,11.58862 1.35993,46.71462 1168.74275,-11.05527 19.4974,456.01497 -1185.76901,-36.1256 1.11155,53.9958 1190.27336,37.0955 2.3606,34.1427 z"
+       style="fill:#ebebeb;fill-opacity:1;stroke:none;stroke-width:1.77451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1203.9688,1228.9948 v -44.4122 h 34.9485 v -48.7836 h -34.9485 l 0.8568,-429.0949 34.8808,6e-5 v -48.78365 l -34.8808,-0.0792 V 376.91215 l 35.5388,2.6e-4 v -48.78362 l -1130.49689,-3.1e-4 -4e-5,48.78366 H 1156.0421 l -10e-5,280.92911 -1046.17453,1e-5 3e-5,48.78366 h 1046.1746 l -10e-5,429.17408 H 105.65721 v 48.7836 H 1156.042 l -0.8569,44.4122 z"
        id="path3830"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccc" />
     <path
-       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.78566px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1211.4777,662.77805 -0.8338,-102.03415 -73.656,0.60227 -1.147,-140.29705 -73.0184,0.59683 -0.1532,-18.81255 -51.6549,0.42181 0.1533,18.81254 -19.45035,0.15872 -0.087,-10.84111 -33.16103,0.27178 0.0978,11.79778 -19.13151,0.15654 -0.14893,-18.17483 -52.93025,0.43267 0.15329,18.81254 -73.33717,0.59901 1.14703,140.29705 -72.69935,0.59465 0.83708,102.35301 z"
+       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.77451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 950.86015,649.95427 0.3381,-99.65668 -69.4757,-10e-6 V 410.80586 l -74.24556,0.20327 -0.15224,-17.90079 -51.33236,0.0448 0.15234,17.66538 -19.3289,0.15774 -0.18003,-8.71406 -32.86036,0.17647 0.0972,8.44788 -19.01205,-0.12527 -0.14801,-17.40609 -52.59974,-0.22529 0.15233,17.94622 -71.74787,-0.27018 v 139.49169 h -71.19411 v 99.6567 z"
        id="path3832"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.78566px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1211.6358,662.61726 -4.5366,-245.96447 24.4659,-21.98324 146.9512,0.2283 23.3058,24.28685 1.802,217.50937 -25.6805,24.45275 -166.3078,1.47849"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.77451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 950.85281,406.84144 24.31309,-21.84598 146.0336,0.22687 23.1604,24.1352 1.7907,216.15122 -25.5202,24.30006 -169.77025,0.14546 z"
        id="path3834"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.78566px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 741.57812,566.07471 -401.4306,3.28192 1.66566,102.38289 400.58202,-3.31441 z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.73231px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 489.34431,550.2765 -360.97009,-1e-5 v 99.69882 h 360.97009 z"
        id="path3836"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1361.6898,733.144 h -267.4277 l -22.0237,20.64238 v 74.25948 l 24.3059,18.78113 h 136.9898 l 67.1192,67.11915 v 113.47306 h 114.7317 l -13.6335,-255.47189 z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1145.2442,715.3904 H 828.39427 l -23.82847,23.82847 -0.32569,65.1856 24.15414,23.95907 h 136.13441 l 66.17064,65.11148 0.5296,114.35308 h 114.0153 z"
        id="path3838"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccc" />
+       sodipodi:nodetypes="cccccccccc" />
     <path
-       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.67806;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 998.24335,734.21601 -48.80005,0.13915 -107.14026,102.24581 -9.64821,-11.11648 h -44.09944 l -9.83193,9.83183 -94.4381,-100.44489 -55.624,-0.0761 -15.6493,15.20438 0.0739,52.0001 93.77999,99.045 -10.61445,9.6505 -1.48316,43.99073 9.51341,10.32907 -100.75562,93.33989 -1.0382,52.0238 16.73484,16.809 53.95338,0.1478 99.64094,-94.3014 8.65904,9.3264 46.21694,-0.4446 8.0072,-5.7824 96.69735,105.0078 49.82315,-0.3837 15.45366,-17.1077 0.81643,-51.2123 -96.13619,-105.25748 12.51245,-11.9192 -0.14893,-45.09351 -5.8822,-5.8822 102.88721,-94.67934 1.9249,-58.60426 z"
+       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.66758;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 730.7071,716.45572 682.21176,716.594 575.7405,818.20137 566.15253,807.1543 h -43.82407 l -9.77054,9.77044 -93.84842,-99.81769 -55.27667,-0.0756 -15.55159,15.10944 0.0735,51.67541 93.1944,98.42655 -10.54816,9.59024 -1.4739,43.71605 9.454,10.26457 -100.12647,92.75709 -1.03172,51.6989 16.63034,16.7041 53.61648,0.1468 99.01877,-93.7125 8.60497,9.2681 45.92836,-0.4418 7.9572,-5.7463 96.09357,110.4977 49.71055,-0.1283 15.15865,-23.3994 0.81133,-50.8926 -95.5359,-104.6002 12.43432,-11.84478 -0.14799,-44.81193 -5.84547,-5.84548 102.24476,-94.08815 1.91288,-58.23832 z"
        id="path3840"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccccccccccccccccccccccccc" />
     <path
-       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1273.3324,1040.8997 1.3963,105.8315 -195.149,-5.6291 -16.1504,-17.409 v -50.3392 l 31.7506,-31.8598 z"
+       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1005.7447,1021.8151 -0.2787,104.58 -193.93043,-0.2987 -16.04955,-22.5956 v -50.0248 l 31.55235,-31.6609 z"
        id="path3842"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 998.49143,1072.5744 65.10977,0.7414 v 50.2784 l -65.92652,0.054 z"
+       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 730.95363,1052.7014 64.70321,0.7368 v 49.9644 l -65.51486,0.054 z"
        id="path3844"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 1274.7287,1146.7312 126.1377,3.5595 19.5776,-19.5775 -5.3394,-103.2263 -141.8852,0.1751 z"
+       style="fill:#4700ba;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 1005.7447,1126.3279 119.7903,-0.4341 19.7201,-19.9848 -0.011,-98.0809 h -139.4994 z"
        id="path3846"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 547.35829,1110.3695 -16.61113,16.3147 -74.15682,-2.3733 1.29144,-121.0238 H 494.262 l 54.2828,57.2491 z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 283.76072,1087.2651 -16.99001,15.3252 h -73.19072 l 0.13963,-118.74361 h 36.15306 l 53.94385,56.89161 z"
        id="path3848"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 456.59034,1124.3109 -64.02209,-1.534 v -81.0448 l 65.17303,0.1435 z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.58,1102.5905 -64.76608,-10e-5 v -80.5388 l 64.76607,0.1427 z"
        id="path3850"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 558.37875,800.612 -59.30815,55.14168 -105.98184,0.009 V 735.06016 l 149.91958,-0.92623 15.0952,14.88216 z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 293.58907,782.43712 -58.93782,54.79738 -105.32007,0.008 V 717.29459 h 148.96786 l 15.01655,13.86879 z"
        id="path3852"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.67797px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 457.74128,1041.8758 -0.10871,-186.20181 -36.35275,0.009 V 1042.095 Z"
+       style="fill:#9d9c9d;fill-opacity:1;stroke:#777777;stroke-width:1.6675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 193.57999,1022.1945 -0.10802,-185.0392 -36.12576,0.008 v 185.248 z"
        id="path3854"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:23.2456px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.93714"
-       x="909.01367"
-       y="293.83267"
-       id="text3858"
-       transform="rotate(3.3927758)"><tspan
-         sodipodi:role="line"
-         id="tspan3860"
-         x="909.01367"
-         y="293.83267"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.2456px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#777777;fill-opacity:1;stroke-width:1.93714">Rue Voltaire</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:21.4278px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.78566"
-       x="975.18677"
-       y="479.81506"
+       style="font-style:normal;font-weight:normal;font-size:21.294px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.77451"
+       x="720.38849"
+       y="469.60931"
        id="text3891"><tspan
          sodipodi:role="line"
-         x="975.18677"
-         y="479.81506"
+         x="720.38849"
+         y="469.60931"
          id="tspan3901"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.1418px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.78566">Bâtiment Voltaire</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:31.9411px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.77451">Bâtiment Voltaire</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67797"
-       x="571.10547"
-       y="910.87292"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.6675"
+       x="306.23633"
+       y="892.00958"
        id="text3907"><tspan
          sodipodi:role="line"
          id="tspan3909"
-         x="571.10547"
-         y="910.87292"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.67797">Cour</tspan><tspan
+         x="306.23633"
+         y="892.00958"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.6675">Cour</tspan><tspan
          sodipodi:role="line"
-         x="571.10547"
-         y="951.97656"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.67797"
+         x="306.23633"
+         y="932.85657"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.6675"
          id="tspan3913">Paritalie</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.67797"
-       x="1098.521"
-       y="909.60327"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.6675"
+       x="830.35864"
+       y="890.7478"
        id="text3907-2"><tspan
          sodipodi:role="line"
-         x="1098.521"
-         y="909.60327"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.67797"
+         x="830.35864"
+         y="890.7478"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:1.6675"
          id="tspan3945">Cour Pasteur</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.67797"
-       x="807.25531"
-       y="884.93567"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.6675"
+       x="540.91162"
+       y="866.23431"
        id="text3947"><tspan
          sodipodi:role="line"
-         x="807.25531"
-         y="884.93567"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.67797"
+         x="540.91162"
+         y="866.23431"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.6675"
          id="tspan3957">Bâtiment X</tspan></text>
     <a
        xlink:href="map-kb-voltaire-f2.svg"
-       id="a4065"
-       transform="matrix(1.7856582,0,0,1.7856582,235.35549,-156.20838)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.7745083,0,0,1.7745083,-14.823213,-162.44272)"
+       id="a4065">
       <text
          id="text3997"
          y="376.56039"
@@ -259,9 +248,9 @@
     </a>
     <a
        xlink:href="map-kb-voltaire-f1.svg"
-       transform="matrix(1.7856582,0,0,1.7856582,236.08207,-156.20838)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4070"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.7745083,0,0,1.7745083,-14.101168,-162.44272)">
       <text
          id="text3997-8"
          y="394.892"
@@ -278,9 +267,9 @@
     </a>
     <a
        xlink:href="map-kb-voltaire-f0.svg"
-       transform="matrix(1.7856582,0,0,1.7856582,222.27636,-158.139)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4075"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.7745083,0,0,1.7745083,-27.820669,-164.36128)">
       <text
          id="text3997-4"
          y="415.53036"
@@ -295,9 +284,9 @@
     </a>
     <a
        xlink:href="map-kb-voltaire-f-1.svg"
-       transform="matrix(1.7856582,0,0,1.7856582,215.55608,-161.29481)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4079"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.7745083,0,0,1.7745083,-34.498994,-167.49738)">
       <text
          id="text3997-5"
          y="435.10086"
@@ -312,8 +301,8 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f0.svg"
-       id="a4138"
-       transform="matrix(1.6779775,0,0,1.6779775,275.41621,-89.910232)">
+       transform="matrix(1.6675,0,0,1.6675,12.393391,-102.52457)"
+       id="a4138">
       <text
          id="text4092-3"
          y="633.66809"
@@ -328,8 +317,8 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f-1.svg"
-       id="a4142"
-       transform="matrix(1.6779775,0,0,1.6779775,275.92999,-140.57447)">
+       transform="matrix(1.6675,0,0,1.6675,12.903956,-152.87246)"
+       id="a4142">
       <text
          id="text4092-5"
          y="680.05176"
@@ -344,9 +333,9 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f0.svg"
-       id="a4251"
-       transform="matrix(1.6779775,0,0,1.6779775,259.55786,-101.4185)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,-3.365943,-113.96099)"
+       id="a4251">
       <text
          id="text4200"
          y="667.38428"
@@ -363,19 +352,19 @@
     </a>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:43.6589px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.63825"
-       x="371.06616"
-       y="497.14804"
+       style="font-style:normal;font-weight:normal;font-size:43.3862px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.61553"
+       x="164.51988"
+       y="504.83777"
        id="text4217"><tspan
          sodipodi:role="line"
          id="tspan4219"
-         x="371.06616"
-         y="497.14804"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:145.53px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:3.63825">KB</tspan></text>
+         x="164.51988"
+         y="504.83777"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144.621px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:3.61553">KB</tspan></text>
     <a
        xlink:href="map-kb-pasteur-f1.svg"
-       transform="matrix(1.6779775,0,0,1.6779775,249.44956,-121.43753)"
-       id="a4138-9">
+       id="a4138-9"
+       transform="matrix(1.6675,0,0,1.6675,-13.411125,-133.85502)">
       <text
          id="text4092-3-6"
          y="633.66809"
@@ -392,9 +381,9 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f2.svg"
-       id="a4259"
-       transform="matrix(1.6779775,0,0,1.6779775,272.04583,-104.97394)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,9.044051,-117.49423)"
+       id="a4259">
       <text
          id="text4200-2"
          y="630.82306"
@@ -413,9 +402,9 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f5.svg"
-       id="a4263"
-       transform="matrix(1.6779775,0,0,1.6779775,271.53205,-108.34641)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,8.533476,-120.84564)"
+       id="a4263">
       <text
          id="text4200-6"
          y="613.60071"
@@ -434,9 +423,9 @@
     </a>
     <a
        xlink:href="map-kb-pasteur-f1.svg"
-       id="a4255"
-       transform="matrix(1.6779775,0,0,1.6779775,266.66273,-102.3369)"
-       style="fill:#ffffff;fill-opacity:1">
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,3.69456,-114.87365)"
+       id="a4255">
       <text
          id="text4200-1"
          y="648.04547"
@@ -455,107 +444,138 @@
     </a>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:7.2824px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.606866"
-       x="376.41818"
-       y="520.34058"
+       style="font-style:normal;font-weight:normal;font-size:7.23693px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.603076"
+       x="169.83847"
+       y="527.88556"
        id="text4217-3"><tspan
          sodipodi:role="line"
          id="tspan4219-4"
-         x="376.41818"
-         y="520.34058"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.2746px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.606866">Kremlin-Bicêtre</tspan></text>
+         x="169.83847"
+         y="527.88556"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.123px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.603076">Kremlin-Bicêtre</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:23.2456px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.93714"
-       x="868.63837"
-       y="715.67175"
-       id="text3858-1"
-       transform="rotate(-0.72585257)"><tspan
-         sodipodi:role="line"
-         id="tspan3860-8"
-         x="868.63837"
-         y="715.67175"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.2456px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#777777;fill-opacity:1;stroke-width:1.93714">Rue Pasteur</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:23.2456px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.93714"
-       x="865.90936"
-       y="1163.1295"
-       id="text3858-3"
-       transform="rotate(1.6307367)"><tspan
-         sodipodi:role="line"
-         id="tspan3860-6"
-         x="865.90936"
-         y="1163.1295"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.2456px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#777777;fill-opacity:1;stroke-width:1.93714">Rue Roger Salengro</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:23.2456px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.93714"
-       x="901.94794"
-       y="-1415.4546"
-       id="text3858-1-9"
-       transform="rotate(87.427376)"><tspan
-         sodipodi:role="line"
-         id="tspan3860-8-4"
-         x="901.94794"
-         y="-1415.4546"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.2456px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#777777;fill-opacity:1;stroke-width:1.93714">Rue Emile Zola</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32.8829px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02759"
-       x="1136.9979"
-       y="799.69604"
+       style="font-size:32.6776px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+       x="894.54187"
+       y="780.99738"
        id="text976"><tspan
          sodipodi:role="line"
          id="tspan974"
-         x="1136.9979"
-         y="799.69604"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.8829px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';fill:#777777;fill-opacity:1;stroke-width:1.02759">En travaux</tspan></text>
+         x="894.54187"
+         y="780.99738"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';fill:#777777;fill-opacity:1;stroke-width:1.02117">En travaux</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:4.72691;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
-       d="m 1512.3308,615.40441 h 152.0835"
+       style="fill:none;stroke:#000000;stroke-width:4.04469;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend)"
+       d="M 1051.9166,306.88161 H 1182.05"
        id="path978" />
     <text
        xml:space="preserve"
-       style="font-size:24.6622px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:1.02759"
-       x="1511.4368"
-       y="602.48389"
+       style="font-size:21.1026px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.879279"
+       x="1052.9753"
+       y="295.8259"
        id="text1452"><tspan
          sodipodi:role="line"
          id="tspan1450"
-         x="1511.4368"
-         y="602.48389"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6622px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:1.02759">Vers Ivry</tspan></text>
+         x="1052.9753"
+         y="295.8259"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.879279">d'Ivry</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:4.72691;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
-       d="M 273.54592,625.52541 H 121.46235"
+       style="fill:none;stroke:#000000;stroke-width:4.04469;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Mend-2)"
+       d="M 289.19988,306.423 H 159.06648"
        id="path978-6" />
     <text
        xml:space="preserve"
-       style="font-size:24.6622px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:1.02759"
-       x="274.06958"
-       y="579.59723"
+       style="font-size:21.1026px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.879279"
+       x="289.64792"
+       y="267.12363"
        id="text1452-5"><tspan
          sodipodi:role="line"
          id="tspan1450-8"
-         x="274.06958"
-         y="579.59723"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6622px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:1.02759" /><tspan
+         x="289.64792"
+         y="267.12363"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.879279" /><tspan
          sodipodi:role="line"
-         x="274.06958"
-         y="613.14441"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6622px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:1.02759"
+         x="289.64792"
+         y="295.8288"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.879279"
          id="tspan1541">d'Italie</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24.6622px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:1.02759"
-       x="275.89285"
-       y="588.22339"
+       style="font-size:21.1026px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.879279"
+       x="291.20807"
+       y="274.50479"
        id="text1452-5-2"><tspan
          sodipodi:role="line"
-         x="275.89285"
-         y="588.22339"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6622px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:1.02759"
+         x="291.20807"
+         y="274.50479"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.879279"
          id="tspan1541-4">Vers Porte</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.1026px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.879279"
+       x="1156.5033"
+       y="276.78571"
+       id="text1452-5-2-3"><tspan
+         sodipodi:role="line"
+         x="1156.5033"
+         y="276.78571"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.879279"
+         id="tspan1541-4-3">Vers Porte</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:21.1026px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.879279"
+       x="733.84442"
+       y="290.46402"
+       id="text1452-5-2-3-9"><tspan
+         sodipodi:role="line"
+         x="733.84442"
+         y="290.46402"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.1026px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;stroke-width:0.879279"
+         id="tspan1541-4-3-2">Peripherique</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.5082px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+       x="783.85687"
+       y="362.0159"
+       id="text1452-5-2-3-9-7"><tspan
+         sodipodi:role="line"
+         x="783.85687"
+         y="362.0159"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.5082px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+         id="tspan1541-4-3-2-6">Rue Voltaire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.5082px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+       x="779.3941"
+       y="689.67163"
+       id="text1452-5-2-3-9-7-8"><tspan
+         sodipodi:role="line"
+         x="779.3941"
+         y="689.67163"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.5082px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+         id="tspan1541-4-3-2-6-8">Rue Pasteur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.5082px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+       x="841.76038"
+       y="1168.83"
+       id="text1452-5-2-3-9-7-8-4"><tspan
+         sodipodi:role="line"
+         x="841.76038"
+         y="1168.83"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.5082px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+         id="tspan1541-4-3-2-6-8-1">Rue Roger Salengro</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.5082px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+       x="997.30011"
+       y="-1171.017"
+       id="text1452-5-2-3-9-7-8-4-5"
+       transform="rotate(90)"><tspan
+         sodipodi:role="line"
+         x="997.30011"
+         y="-1171.017"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.5082px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:end;text-anchor:end;fill:#777777;fill-opacity:1;stroke-width:1.02117"
+         id="tspan1541-4-3-2-6-8-1-9">Rue Enile Zola</tspan></text>
   </g>
 </svg>
