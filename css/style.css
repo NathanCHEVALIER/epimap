@@ -149,9 +149,9 @@ body{
     flex-direction: column !important;
     justify-content: flex-start !important;
     align-items: flex-end !important;
-    height: calc(100% - 160px);
+    height: calc(100% - 60px);
     overflow-y: auto;
-    padding-bottom: 160px;
+    padding-bottom: 60px;
 }
 #left-menu > ul > li > a{
     text-transform: uppercase;
@@ -189,6 +189,19 @@ body{
     transform: translate(270px);
 }
 
+#infooter {
+    font-size: 0.8em !important;
+    color: #777 !important;
+    font-weight: 500;
+    padding: 10px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+#infooter a{
+    color: #777 !important;
+}
+
 /***
 * Container
 ***/
@@ -214,12 +227,15 @@ body{
 
 footer {
     background-color: rgb(223, 189, 0);
+    font-size: 0.8em;
     padding: 10px;
     position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100vw;
     z-index: 3000;
+    text-align: center;
+    line-height: 12px;
 }
 
 /***

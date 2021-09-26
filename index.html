@@ -40,27 +40,29 @@
             <ul>
                 <li><a href="./maps/map-kb-overview.svg" class="menu-itm-campus">Kremlin-Bicêtre</a>
                     <ul>
-                        <li><a href="" class="menu-itm-building">Voltaire</a>
+                        <li><a href="null" class="menu-itm-building">Voltaire</a>
                             <ul>
                                 <li><a href="./maps/map-kb-voltaire-f-1.svg" class="menu-itm-stage">Voltaire -1</a></li>
                                 <li><a href="./maps/map-kb-voltaire-f0.svg" class="menu-itm-stage">Voltaire RDC</a></li>
                                 <li><a href="./maps/map-kb-voltaire-f1.svg" class="menu-itm-stage">Voltaire 1</a></li>
                                 <li><a href="./maps/map-kb-voltaire-f2.svg" class="menu-itm-stage">Voltaire 2</a></li>
-                                <li><a href="" class="menu-itm-stage">Voltaire 3</a></li>
-                                <li><a href="" class="menu-itm-stage">Voltaire 4</a></li>
-                                <li><a href="" class="menu-itm-stage">Voltaire 5</a></li>
+                                <li><a href="./maps/map-kb-voltaire-f3.svg" class="menu-itm-stage">Voltaire 3</a></li>
+                                <li><a href="./maps/map-kb-voltaire-f4.svg" class="menu-itm-stage">Voltaire 4</a></li>
+                                <li><a href="./maps/map-kb-voltaire-f5.svg" class="menu-itm-stage">Voltaire 5</a></li>
+                                <li><a href="./maps/map-kb-voltaire-f6.svg" class="menu-itm-stage">Voltaire 6</a></li>
                             </ul>
                         </li>
-                        <li><a href="" class="menu-itm-building">Pasteur</a>
+                        <li><a href="null" class="menu-itm-building">Pasteur</a>
                             <ul>
                                 <li><a href="./maps/map-kb-pasteur-f-1.svg" class="menu-itm-stage">Pasteur -1</a></li>
                                 <li><a href="./maps/map-kb-pasteur-f0.svg" class="menu-itm-stage">Pasteur RDC</a></li>
                                 <li><a href="./maps/map-kb-pasteur-f1.svg" class="menu-itm-stage">Pasteur 1</a></li>
                             </ul>
                         </li>
-                        <li><a href="" class="menu-itm-building">Paritalie</a>
+                        <li><a href="null" class="menu-itm-building">Paritalie</a>
                             <ul>
                                 <li><a href="./maps/map-kb-pasteur-f2.svg" class="menu-itm-stage">Paritalie 2</a></li>
+                                <li><a href="./maps/map-kb-pasteur-f2.svg" class="menu-itm-stage">Paritalie 3</a></li>
                                 <li><a href="./maps/map-kb-pasteur-f5.svg" class="menu-itm-stage">Paritalie 5</a></li>
                             </ul>
                         </li>
@@ -68,7 +70,7 @@
                 </li>
                 <li><a href="./maps/map-vj-overview.svg" class="menu-itm-campus">Villejuif</a>
                     <ul>
-                        <li><a href="" class="menu-itm-building">VA</a>
+                        <li><a href="null" class="menu-itm-building">VA</a>
                             <ul>
                                 <li><a href="./maps/map-vj-va-1.svg" class="menu-itm-stage">VA -1</a></li>
                                 <li><a href="./maps/map-vj-va0.svg" class="menu-itm-stage">VA RDC</a></li>
@@ -77,7 +79,7 @@
                                 <li><a href="./maps/map-vj-va3.svg" class="menu-itm-stage">VA 3</a></li>
                             </ul>
                         </li>
-                        <li><a href="" class="menu-itm-building">VB</a>
+                        <li><a href="null" class="menu-itm-building">VB</a>
                             <ul>
                                 <li><a href="" class="menu-itm-stage">VB 0</a></li>
                                 <li><a href="" class="menu-itm-stage">VB 1</a></li>
@@ -85,7 +87,21 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
+                <li><a href="./maps/map-vj-overview.svg" class="menu-itm-campus">Province</a>
+                    <ul>
+                        <li><a href="" class="menu-itm-building">Lyon</a></li>
+                        <li><a href="" class="menu-itm-building">Rennes</a></li>
+                        <li><a href="" class="menu-itm-building">Strasbourg</a></li>
+                        <li><a href="" class="menu-itm-building">Toulouse</a></li>
+                    </ul>
+                </li>
+                <div id="infooter" >
+                    Under development, feel free to make suggestions.
+                    Epimap is not affiliated with EPITA or IONIS Education Group.<br /><br />
+                    Contact: nathan.chevalier@epita.fr<br />
+                    <a href="https://github.com/NathanCHEVALIER/epimap" >Participe on GitHub</a>
+                </div>
+            </ul>            
         </nav>
 
         <section id="container" >
@@ -93,7 +109,7 @@
         </section>
 
         <footer >
-            En cours de développement: N'hésitez pas à faire des retours pour améliorations (nathan.chevalier)
+            Toutes les cartes ne sont pas encore à jour.
         </footer>
 
 
@@ -126,11 +142,23 @@
         for ( var i = 0, len = elements.length; i < len; i++) {
             elements[i].addEventListener('click', function(e) {
                 var link = e.target.getAttribute("href");
-                if (link == "" ){
+                if (link == "null" ){
+                    e.preventDefault();
+                    return false;
+                }
+                if (link == "https://github.com/NathanCHEVALIER/epimap" ){
+                    window.open("https://github.com/NathanCHEVALIER/epimap", "_blank");
+                }
+                else if (link == "" ){
                     alert("This map does not exist yet !")
                 }
+                else {
+                    map_ifr.setAttribute("src", link);
+                    btn.classList.remove("menu-open");
+                    menu.classList.remove("menu-open");
+                    container.classList.remove("menu-open");
+                }
 
-                map_ifr.setAttribute("src", link);
                 e.preventDefault();
                 return false;
             });
