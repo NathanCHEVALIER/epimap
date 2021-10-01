@@ -20,6 +20,26 @@ btn.addEventListener('click', function() {
     }
 });
 
+const documentTitle = document.title;
+const filename = document.getElementById("filename");
+
+const getIframeDocument = function(ifr) {
+    const elt = (map_ifr.contentWindow || map_ifr.contentDocument);
+    return elt.document ? elt.document : elt;
+};
+
+const mapIframeLoaded = function() {
+    const map_ifr_document = getIframeDocument(map_ifr);
+    const map_name = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
+    filename.innerHTML = map_name;
+    document.title = `${documentTitle} – ${map_name}`;
+};
+
+const map_ifr_document = getIframeDocument(map_ifr);
+if (map_ifr_document.readyState === "complete")
+    setTimeout(mapIframeLoaded, 100);
+map_ifr.addEventListener('load', mapIframeLoaded);
+
 const elements = document.querySelectorAll('#left-menu a');
 const len = elements.length;
 for (let i = 0; i < len; ++i) {
