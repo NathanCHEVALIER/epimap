@@ -1,5 +1,5 @@
 /***
-* 
+*
 ***/
 
 *{
@@ -30,7 +30,7 @@ body{
     src: url("/img/fonts/Atkinson-Hyperlegible-BoldItalic-102.otf") format("opentype");
 }*/
 
-#main-header{
+#main-header {
     position: fixed;
     top: 0px;
     left: 0px;
@@ -41,11 +41,16 @@ body{
     width: 100vw;
     padding: 0px;
     background: rgb(71,0,186);
-    background: linear-gradient(159deg, rgba(71,0,186,1) 68%, rgba(16,0,145,1) 100%); 
+    background: linear-gradient(159deg, rgba(71,0,186,1) 68%, rgba(16,0,145,1) 100%);
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
     z-index: 1002;
 }
-#main-header > a{
+#main-header #title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-header #logo {
     display: flex;
     position: relative;
     top: 1px;
@@ -60,11 +65,17 @@ body{
     line-height: 60px;
     margin-left: 20px;
 }
-#main-header > a > img{
+#main-header #logo > img{
     max-height: 54px;
 }
 #main-header > a:nth-of-type(2){
     justify-content: flex-end;
+}
+#main-header #filename {
+    margin-top: .7em;
+    margin-left: 20px;
+    color: #fff;
+    font-size: 1.3em;
 }
 #main-header > #search{
     width: 60px;
@@ -113,7 +124,7 @@ body{
 	transform: rotate(45deg);
 }
 #btn-menu.menu-open > div:nth-of-type(2){
-	display: none;	
+	display: none;
 }
 #btn-menu.menu-open > div:nth-of-type(3){
 	top: 28px;
