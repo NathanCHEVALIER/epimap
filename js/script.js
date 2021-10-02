@@ -1,3 +1,6 @@
+let maps = null;
+fetch("./js/data.map.json").then(response => { return response.json(); }).then(data => { maps = data; });
+
 const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
@@ -31,10 +34,11 @@ const getIframeDocument = function(ifr) {
 const mapIframeLoaded = function() {
     const map_ifr_document = getIframeDocument(map_ifr);
     const map_name = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
-    filename.innerHTML = map_name;
-    document.title = `${documentTitle} – ${map_name}`;
+    map_dname = maps[map_name]['d_name'];
+    filename.innerHTML = map_dname;
+    document.title = `${documentTitle} – ${map_dname}`;
     window.history.pushState({
-        additionalInformation: map_name},
+        additionalInformation: map_dname},
         document.title,
         'https://epimap.fr/' + map_name);
 };
