@@ -1,42 +1,47 @@
-let maps = null;
+/*** Document infos */
+const documentTitle = document.title;
+const filename = document.getElementById("filename");
+//const foldmode = "devtest/";
 
-fetch("./js/data.map.json").then(
-    response => { return response.json(); 
-}).then(
-    data => { maps = data; 
-});
-
+/*** DOM elements */
 const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
 const map_ifr = document.getElementById("map-ifr");
 
+/*** JSON Data about Maps loading */
 
-btn.classList.add("menu-open");
-menu.classList.add("menu-open");
-container.classList.add("menu-open");
+const initData = async function()
+{
+    const res = await fetch("./js/data.map.json");
+    const json = await res.json();
+    maps = json;
 
-btn.addEventListener('click', function() {
-    if (btn.classList.contains("menu-open")) {
-        btn.classList.remove("menu-open");
-        menu.classList.remove("menu-open");
-        container.classList.remove("menu-open");
-    }
-    else {
-        btn.classList.add("menu-open");
-        menu.classList.add("menu-open");
-        container.classList.add("menu-open");
-    }
-});
+    const map_ifr_document = getIframeDocument(map_ifr);
+    if (map_ifr_document.readyState === "complete")
+        setTimeout(mapIframeLoaded, 100);
+    map_ifr.addEventListener('load', mapIframeLoaded);
 
-const documentTitle = document.title;
-const filename = document.getElementById("filename");
+    getURLMap();
+};
 
-const getCurrentURL = function()
+let maps = null;
+initData();
+
+/*** Maps Handler */
+
+const getURLMap = function()
 {
     let path = window.location.href.split('/').pop();
-    alert(path);
-}
+
+    if (path.length == 0)
+        path = "map-kb-overview";
+
+    map_ifr.setAttribute("src", "./maps/" + path + ".svg");
+    btn.classList.remove("menu-open");
+    menu.classList.remove("menu-open");
+    container.classList.remove("menu-open");
+};
 
 const getIframeDocument = function(ifr) {
     const elt = (map_ifr.contentWindow || map_ifr.contentDocument);
@@ -55,10 +60,23 @@ const mapIframeLoaded = function() {
         'https://epimap.fr/' + map_name);
 };
 
-const map_ifr_document = getIframeDocument(map_ifr);
-if (map_ifr_document.readyState === "complete")
-    setTimeout(mapIframeLoaded, 100);
-map_ifr.addEventListener('load', mapIframeLoaded);
+/*** Menu actions and transition */
+btn.classList.add("menu-open");
+menu.classList.add("menu-open");
+container.classList.add("menu-open");
+
+btn.addEventListener('click', function() {
+    if (btn.classList.contains("menu-open")) {
+        btn.classList.remove("menu-open");
+        menu.classList.remove("menu-open");
+        container.classList.remove("menu-open");
+    }
+    else {
+        btn.classList.add("menu-open");
+        menu.classList.add("menu-open");
+        container.classList.add("menu-open");
+    }
+});
 
 const elements = document.querySelectorAll('#left-menu a');
 const len = elements.length;
