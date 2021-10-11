@@ -1,0 +1,28 @@
+
+######### Ne pas modifier / Don't touch #########
+
+## Redirections https epimap.fr
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} !on
+RewriteCond %{HTTP_HOST} ^(?:www\.)?epimap\.fr(?:.*)$ [nc]
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [redirect=301,L]
+
+######### End #########
+
+RewriteEngine on
+DirectoryIndex index.html
+
+## Redirect only maps, not other files (css and js)
+RewriteRule ^map-[a-z0-9-]+[\/]?$ devtest/index.html [L]
+
+##ErrorDocument 404 /maintenance/maintenance.html
+
+<FilesMatch "\\.(css)$">
+Header set Cache-Control "max-age=1, public"
+</FilesMatch>
+
+<FilesMatch "\\.(js)$">
+Header set Cache-Control "max-age=1, public"
+</FilesMatch>

@@ -1,10 +1,16 @@
 let maps = null;
-fetch("./js/data.map.json").then(response => { return response.json(); }).then(data => { maps = data; });
+
+fetch("./js/data.map.json").then(
+    response => { return response.json(); 
+}).then(
+    data => { maps = data; 
+});
 
 const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
 const map_ifr = document.getElementById("map-ifr");
+
 
 btn.classList.add("menu-open");
 menu.classList.add("menu-open");
@@ -25,6 +31,12 @@ btn.addEventListener('click', function() {
 
 const documentTitle = document.title;
 const filename = document.getElementById("filename");
+
+const getCurrentURL = function()
+{
+    let path = window.location.href.split('/').pop();
+    alert(path);
+}
 
 const getIframeDocument = function(ifr) {
     const elt = (map_ifr.contentWindow || map_ifr.contentDocument);
