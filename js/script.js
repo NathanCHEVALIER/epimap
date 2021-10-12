@@ -23,6 +23,7 @@ const initData = async function()
     map_ifr.addEventListener('load', mapIframeLoaded);
 
     getURLMap();
+    search("SM");
 };
 
 let maps = null;
@@ -57,7 +58,7 @@ const mapIframeLoaded = function() {
     window.history.pushState({
         additionalInformation: map_dname},
         document.title,
-        'https://epimap.fr/' + map_name);
+        'https://epimap.fr/devtest/' + map_name);
 };
 
 /*** Menu actions and transition */
@@ -103,4 +104,55 @@ for (let i = 0; i < len; ++i) {
 
         return false;
     });
+}
+
+/*** Dev in progress */
+
+const search = function(str)
+{
+    console.log(str);
+    const nbmaps = Object.keys(maps).length;
+
+    for (let i = 0; i < nbmaps; ++i)
+    {
+            searchTextInMap(Object.keys(maps)[i], str);
+    }
+};
+
+const searchTextInMap = function(map, str) {
+    var request = new XMLHttpRequest();
+    request.open("GET", 'maps/' + map + '.svg');
+    request.setRequestHeader("Content-Type", "image/svg+xml");
+    request.addEventListener("load", function(event) {
+        var response = event.target.responseText;
+        var doc = new DOMParser();
+        var svg = doc.parseFromString(response, "image/svg+xml");
+        const labels = svg.querySelectorAll('text > tspan');
+
+        for (let i = 0; i < labels.length; ++i)
+        {
+            const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
+            
+            if (labels[i].textContent.length > 0 && d <= 2)
+                console.log("| --- Found: " + labels[i].textContent + " in " + map);
+        }
+    });
+    request.send();
+};
+
+const editDist = function(str1, str2, m, n)
+{
+    if (m == 0)
+        return n;
+ 
+    if (n == 0)
+        return m;
+ 
+    if (str1[m - 1] == str2[n - 1])
+        return editDist(str1, str2, m - 1, n - 1);
+ 
+    return 1 + Math.min(
+        editDist(str1, str2, m, n - 1),
+        editDist(str1, str2, m - 1, n),
+        editDist(str1, str2, m - 1, n - 1));
 }
