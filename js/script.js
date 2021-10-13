@@ -1,6 +1,6 @@
 /*** Document infos */
 const documentTitle = document.title;
-const filename = document.getElementById("filename");
+const mapnavname = document.querySelector("#map-nav > .map-name");
 //const foldmode = "devtest/";
 
 /*** DOM elements */
@@ -51,14 +51,15 @@ const getIframeDocument = function(ifr) {
 
 const mapIframeLoaded = function() {
     const map_ifr_document = getIframeDocument(map_ifr);
-    const map_name = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
-    map_dname = maps[map_name]['d_name'];
-    filename.innerHTML = map_dname;
+    const map_id = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
+    map_dname = maps[map_id]['d_name'];
+    mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
+    mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
     document.title = `${documentTitle} – ${map_dname}`;
     window.history.pushState({
         additionalInformation: map_dname},
         document.title,
-        'https://epimap.fr/devtest/' + map_name);
+        'https://epimap.fr/devtest/' + map_id);
 };
 
 /*** Menu actions and transition */
@@ -105,6 +106,19 @@ for (let i = 0; i < len; ++i) {
         return false;
     });
 }
+
+mapnavname.querySelector("a:nth-of-type(1)").addEventListener('click', function(e) {
+    e.preventDefault();
+
+    var link = e.target.getAttribute("href");
+    if (link === "null" || link === "")
+        return false;
+    else {
+        map_ifr.setAttribute("src", link);
+    }
+
+    return false;
+});
 
 /*** Dev in progress */
 

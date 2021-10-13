@@ -1,5 +1,5 @@
 /***
-*
+*   General
 ***/
 
 *{
@@ -12,24 +12,6 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
-/*
-@font-face {
-    font-family: Atkinson;
-    src: url("/img/fonts/Atkinson-Hyperlegible-Regular-102.otf") format("opentype");
-}
-
-@font-face {
-    font-family: Atkinson;
-    font-weight: bold;
-    src: url("/img/fonts/Atkinson-Hyperlegible-Bold-102.otf") format("opentype");
-}
-@font-face {
-    font-family: Atkinson;
-    font-weight: bold;
-    font-style: italic;
-    src: url("/img/fonts/Atkinson-Hyperlegible-BoldItalic-102.otf") format("opentype");
-}*/
-
 #main-header {
     position: fixed;
     top: 0px;
@@ -40,7 +22,7 @@ body{
     height: 84px;
     width: 100vw;
     padding: 0px;
-    background: rgb(71,0,186);
+    background: rgb(71,0,186);/* #4700ba */
     background: linear-gradient(159deg, rgba(71,0,186,1) 68%, rgba(16,0,145,1) 100%);
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
     z-index: 1002;
@@ -70,12 +52,6 @@ body{
 }
 #main-header > a:nth-of-type(2){
     justify-content: flex-end;
-}
-#main-header #filename {
-    margin-top: .7em;
-    margin-left: 20px;
-    color: #fff;
-    font-size: 1.3em;
 }
 #main-header > #search{
     width: 60px;
@@ -231,6 +207,48 @@ body{
     height: 100%;
     border: none;
 }
+
+/***
+* Map name nav (bottom right)
+***/
+
+#map-nav {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    display: flex;
+    background-color: #4700ba;
+    padding: 9px 13px;
+    font-family: 'Atkinson', sans-serif;    
+    color: #fff;
+    transition: 0.1s all ease-in-out;
+}
+#map-nav > .map-icon {
+    background-image: url('../img/icon-mappoint.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-right: 7px;
+}
+#map-nav a {
+    color: #ffffff;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+#map-nav span {
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    top: -1px;
+}
+/*
+#map-nav a:hover {
+    color: tomato;
+}*/
 
 /***
 * Footer
