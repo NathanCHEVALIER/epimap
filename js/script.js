@@ -7,6 +7,7 @@ const mapnavname = document.querySelector("#map-nav > .map-name");
 const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
+const cache = document.getElementById("cache");
 const map_ifr = document.getElementById("map-ifr");
 
 /*** JSON Data about Maps loading */
@@ -67,17 +68,27 @@ btn.classList.add("menu-open");
 menu.classList.add("menu-open");
 container.classList.add("menu-open");
 
-btn.addEventListener('click', function() {
+const toggleMenu = function() {
     if (btn.classList.contains("menu-open")) {
         btn.classList.remove("menu-open");
         menu.classList.remove("menu-open");
         container.classList.remove("menu-open");
+        cache.classList.remove("menu-open");
     }
     else {
         btn.classList.add("menu-open");
         menu.classList.add("menu-open");
         container.classList.add("menu-open");
+        cache.classList.add("menu-open");
     }
+};
+
+btn.addEventListener('click', function(){
+    toggleMenu();
+});
+
+cache.addEventListener('click', function(){
+    toggleMenu();
 });
 
 const elements = document.querySelectorAll('#left-menu a');
@@ -101,6 +112,7 @@ for (let i = 0; i < len; ++i) {
             btn.classList.remove("menu-open");
             menu.classList.remove("menu-open");
             container.classList.remove("menu-open");
+            cache.classList.remove("menu-open");
         }
 
         return false;

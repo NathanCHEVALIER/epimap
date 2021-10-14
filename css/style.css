@@ -117,8 +117,8 @@ body{
     background-color: #f7f7f7;
     padding-top: 84px;
     height: calc(100vh - 84px);
-    left: -270px;
-    width: 270px;
+    left: -290px;
+    width: 290px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
     transition: all ease-in-out 0.4s;
 }
@@ -171,10 +171,37 @@ body{
     cursor: pointer;
     border-right: 4px solid rgb(71,0,186);
 }
-
 #left-menu.menu-open{
-    transform: translate(270px);
+    transform: translate(290px);
 }
+#cache
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    visibility: hidden;
+    transition: visibility step-start 0s;
+}
+#cache.menu-open{
+    visibility: visible;
+    transition: visibility step-end 0.4s;
+}
+#cache > div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    transition: all ease-in-out 0.4s;
+}
+#cache.menu-open > div{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+/***
+*   Footer
+***/
 
 #infooter {
     font-size: 0.8em !important;
