@@ -181,23 +181,32 @@ body{
     height: 100vh;
     z-index: 100;
     visibility: hidden;
-    transition: visibility step-start 0s;
+    transition-property: all;
+    transition-duration: 0ms;
+    transition-delay: 0ms;
+    transition-timing-function: step-start;
 }
 #cache.menu-open{
     visibility: visible;
-    transition: visibility step-end 0.4s;
+    transition-property: all;
+    transition-duration: 0ms;
+    transition-delay: 400ms;
+    transition-timing-function: step-end;
 }
 #cache > div{
     display: flex;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0);
-    transition: all ease-in-out 0.4s;
+    transition-property: all;
+    transition-duration: 350ms;
+    transition-delay: 20ms;
+    transition-timing-function: ease-in-out;
 }
 #cache.menu-open > div{
+    visibility: visible;
     background-color: rgba(0,0,0,0.6);
 }
-
 
 /***
 *   Footer
