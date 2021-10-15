@@ -9,6 +9,7 @@ const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
 const cache = document.getElementById("cache");
 const map_ifr = document.getElementById("map-ifr");
+const searchBtn = document.querySelector("#search > button");
 
 /*** JSON Data about Maps loading */
 
@@ -24,7 +25,6 @@ const initData = async function()
     map_ifr.addEventListener('load', mapIframeLoaded);
 
     getURLMap();
-    search("SM");
 };
 
 let maps = null;
@@ -141,7 +141,7 @@ const search = function(str)
 
     for (let i = 0; i < nbmaps; ++i)
     {
-            searchTextInMap(Object.keys(maps)[i], str);
+        searchTextInMap(Object.keys(maps)[i], str);
     }
 };
 
@@ -182,3 +182,8 @@ const editDist = function(str1, str2, m, n)
         editDist(str1, str2, m - 1, n),
         editDist(str1, str2, m - 1, n - 1));
 }
+
+searchBtn = addEventListener('click', function() {
+    const val = document.querySelector("#search > input").value;
+    search(val);
+});

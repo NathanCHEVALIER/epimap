@@ -52,7 +52,7 @@ body{
 #main-header > a:nth-of-type(2){
     justify-content: flex-end;
 }
-#main-header > #search{
+#main-header > #settings{
     width: 60px;
     height: 60px;
     margin-right: 20px;
@@ -119,6 +119,35 @@ body{
     width: 290px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
     transition: all ease-in-out 0.4s;
+}
+#left-menu #search{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-menu #search input{
+    background: #dadada;
+    height: 32px;
+    line-height: 30px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    border: none;
+    width: auto;
+    flex: 1;
+    padding: 4px 36px 2px 10px;
+    border-radius: 3px;
+}
+#left-menu #search button{
+    background:tan;
+    height: 28px;
+    width: 28px;
+    position: relative;
+    left: -16px;
+    top: 10px;
+    border: none;
 }
 #left-menu ul{
     list-style: none;
