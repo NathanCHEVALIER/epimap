@@ -45,7 +45,6 @@ body{
     font-size: 2em;
     height: 60px;
     line-height: 60px;
-    margin-left: 20px;
 }
 #main-header #logo > img{
     max-height: 54px;
@@ -56,8 +55,7 @@ body{
 #main-header > #search{
     width: 60px;
     height: 60px;
-    margin-right: 25px;
-    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /***
@@ -309,15 +307,17 @@ footer {
 
 @media all and (max-width: 700px) {
     #main-header{
-        justify-content: center;
+        justify-content: space-between;
+        height: 72px;
     }
-    #main-header > a:nth-of-type(1){
-        justify-content: center;
+    #main-header #logo > img{
+        max-height: 48px;
     }
-    #main-header > a:nth-of-type(2){
-        display: none;
+    #btn-menu{
+        margin-left: 12px;
     }
-    #main-header .plain-button{
-        display: none;
+    #left-menu{
+        padding-top: 72px;
+        height: calc(100vh - 72px);
     }
 }
