@@ -9,7 +9,7 @@ const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
 const cache = document.getElementById("cache");
 const map_ifr = document.getElementById("map-ifr");
-const searchBtn = document.querySelector("#search > button");
+const searchBtn = document.querySelector("#search > div > button");
 
 /*** JSON Data about Maps loading */
 
@@ -134,36 +134,52 @@ mapnavname.querySelector("a:nth-of-type(1)").addEventListener('click', function(
 
 /*** Dev in progress */
 
+var results;
+
 const search = function(str)
 {
-    console.log(str);
     const nbmaps = Object.keys(maps).length;
+    results = [];
+    
+    if (str === "")
+        return;
 
     for (let i = 0; i < nbmaps; ++i)
     {
         searchTextInMap(Object.keys(maps)[i], str);
     }
+
+    console.log(results);
 };
 
 const searchTextInMap = function(map, str) {
-    var request = new XMLHttpRequest();
+    let request = new XMLHttpRequest();
     request.open("GET", 'maps/' + map + '.svg');
     request.setRequestHeader("Content-Type", "image/svg+xml");
     request.addEventListener("load", function(event) {
-        var response = event.target.responseText;
-        var doc = new DOMParser();
-        var svg = doc.parseFromString(response, "image/svg+xml");
+        let response = event.target.responseText;
+        let doc = new DOMParser();
+        let svg = doc.parseFromString(response, "image/svg+xml");
         const labels = svg.querySelectorAll('text > tspan');
 
         for (let i = 0; i < labels.length; ++i)
         {
-            const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
+            if (labels[i].textContent === "")
+                continue;
             
-            if (labels[i].textContent.length > 0 && d <= 2)
-                console.log("| --- Found: " + labels[i].textContent + " in " + map);
+            const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
+            if (labels[i].textContent.length > 0 && d <= (0.4 * str.length))
+            {
+                results.push({
+                    key: labels[i].textContent,
+                    value: 0.3 * str.length
+                });
+            }
         }
     });
     request.send();
+
+    return results;
 };
 
 const editDist = function(str1, str2, m, n)
@@ -181,9 +197,9 @@ const editDist = function(str1, str2, m, n)
         editDist(str1, str2, m, n - 1),
         editDist(str1, str2, m - 1, n),
         editDist(str1, str2, m - 1, n - 1));
-}
+};
 
-searchBtn = addEventListener('click', function() {
-    const val = document.querySelector("#search > input").value;
+searchBtn.addEventListener('click', function() {
+    const val = document.querySelector("#search > div > input").value;
     search(val);
 });
