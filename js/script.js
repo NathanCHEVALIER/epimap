@@ -166,6 +166,17 @@ const searchTextInMap = function(map, str) {
         {
             if (labels[i].textContent === "")
                 continue;
+
+            const subdist = isSubString(labels[i].textContent, str);
+            if (subdist >= 0)
+            {
+                results.push({
+                    key: labels[i].textContent,
+                    value: 0.1 * subdist,
+                    map: map,
+                });
+                continue;
+            }
             
             const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
             if (labels[i].textContent.length > 0 && d <= (0.4 * str.length))
@@ -197,6 +208,19 @@ const editDist = function(str1, str2, m, n)
         editDist(str1, str2, m, n - 1),
         editDist(str1, str2, m - 1, n),
         editDist(str1, str2, m - 1, n - 1));
+};
+
+const isSubString = function(str1, str2)
+{
+    const len = str2.length;
+
+    for (let i = 0; i <= str1.length - len; i++)
+    {
+        if (str1.substring(i, i + len) === str2)
+            return str1.length - len;
+    }
+
+    return -1;
 };
 
 searchBtn.addEventListener('click', function() {
