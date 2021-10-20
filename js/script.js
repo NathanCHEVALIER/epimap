@@ -170,7 +170,7 @@ const searchTextInMap = function(map, str) {
             const subdist = isSubString(labels[i].textContent, str);
             if (subdist >= 0)
             {
-                results.push({
+                insertInPlace({
                     key: labels[i].textContent,
                     value: 0.1 * subdist,
                     map: map,
@@ -181,9 +181,10 @@ const searchTextInMap = function(map, str) {
             const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
             if (labels[i].textContent.length > 0 && d <= (0.4 * str.length))
             {
-                results.push({
+                insertInPlace({
                     key: labels[i].textContent,
-                    value: 0.3 * str.length
+                    value: 0.3 * str.length,
+                    map: map
                 });
             }
         }
@@ -222,6 +223,20 @@ const isSubString = function(str1, str2)
 
     return -1;
 };
+
+const insertInPlace = function(obj)
+{
+    for (let i = 0; i < results.length; i++)
+    {
+        if (obj['value'] < results[i]['value'])
+        {
+            results.splice(i, 0, obj);
+            return;
+        }
+    }
+
+    results.push(obj);
+}
 
 searchBtn.addEventListener('click', function() {
     const val = document.querySelector("#search > div > input").value;
