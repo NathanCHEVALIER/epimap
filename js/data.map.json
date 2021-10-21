@@ -45,18 +45,18 @@
         "d_name": "Villejuif"
     },
     "map-vj-va-1": {
-        "d_name": "Villejuif: VA - Sous-sol"
+        "d_name": "VA - Sous-sol"
     },
     "map-vj-va0": {
-        "d_name": "Villejuif: VA - Rez de chaussée"
+        "d_name": "VA - Rez de chaussée"
     },
     "map-vj-va1": {
-        "d_name": "Villejuif: VA - 1er étage"
+        "d_name": "VA - 1er étage"
     },
     "map-vj-va2": {
-        "d_name": "Villejuif: VA - 2eme étage"
+        "d_name": "VA - 2eme étage"
     },
     "map-vj-va3": {
-        "d_name": "Villejuif: VA - 3eme étage"
+        "d_name": "VA - 3eme étage"
     }
 }
