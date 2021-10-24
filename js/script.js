@@ -10,6 +10,7 @@ const container = document.getElementById("container");
 const cache = document.getElementById("cache");
 const map_ifr = document.getElementById("map-ifr");
 const searchBtn = document.querySelector("#search > div > button");
+const searchTemplate = document.getElementById("search-result-template");
 
 /*** JSON Data about Maps loading */
 
@@ -150,6 +151,12 @@ const search = function(str)
     }
 
     console.log(results);
+
+    for (let i = 0; i < 5; i++)
+    {
+        searchRender("Room", "Building");
+            //results[i][key], results[i][map]);
+    }
 };
 
 const searchTextInMap = function(map, str) {
@@ -236,9 +243,20 @@ const insertInPlace = function(obj)
     }
 
     results.push(obj);
-}
+};
 
 searchBtn.addEventListener('click', function() {
     const val = document.querySelector("#search > div > input").value;
     search(val);
 });
+
+const searchRender = function(roomName, map)
+{
+    let dupBlock = searchTemplate.cloneNode([true]);
+
+    dupBlock.children[0].innerHTML = roomName;
+    dupBlock.children[1].innerHTML = map;
+
+    searchTemplate.after(dupBlock);
+
+};
