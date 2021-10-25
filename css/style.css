@@ -280,6 +280,10 @@ body{
     font-size: 12px;
     color: #777777;
 }
+#search-result-template
+{
+    display: none !important;
+}
 
 /***
 *   Footer

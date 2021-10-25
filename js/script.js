@@ -149,14 +149,6 @@ const search = function(str)
     {
         searchTextInMap(Object.keys(maps)[i], str);
     }
-
-    console.log(results);
-
-    for (let i = 0; i < 5; i++)
-    {
-        searchRender("Room", "Building");
-            //results[i][key], results[i][map]);
-    }
 };
 
 const searchTextInMap = function(map, str) {
@@ -197,8 +189,6 @@ const searchTextInMap = function(map, str) {
         }
     });
     request.send();
-
-    return results;
 };
 
 const editDist = function(str1, str2, m, n)
@@ -248,15 +238,27 @@ const insertInPlace = function(obj)
 searchBtn.addEventListener('click', function() {
     const val = document.querySelector("#search > div > input").value;
     search(val);
+    setTimeout(searchRender, 200);
 });
 
-const searchRender = function(roomName, map)
+const searchRender = function()
 {
-    let dupBlock = searchTemplate.cloneNode([true]);
+    console.log(results);
+    const container = searchTemplate.parentNode;
 
-    dupBlock.children[0].innerHTML = roomName;
-    dupBlock.children[1].innerHTML = map;
+    while (container.lastChild !== searchTemplate) {
+        container.removeChild(container.lastChild);
+    }
 
-    searchTemplate.after(dupBlock);
+    for (let i = 0; i < results.length; i++)
+    {
+        let dupBlock = searchTemplate.cloneNode([true]);
 
+        dupBlock.children[0].innerHTML = results[i]['key'];
+        dupBlock.children[1].innerHTML = results[i]['map'];
+        dupBlock.removeAttribute('id');
+        dupBlock.style.display = "block";
+
+        container.append(dupBlock);
+    }
 };
