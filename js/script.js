@@ -241,6 +241,15 @@ searchBtn.addEventListener('click', function() {
     search(document.querySelector("#search > div > input").value);
 });
 
+document.querySelector("#search > div > input").addEventListener("keydown", function(e) {
+    if (e.keyCode === 13 && 
+        document.querySelector("#search > div > input") === document.activeElement) 
+    {
+        e.preventDefault();
+        search(document.querySelector("#search > div > input").value);
+    }
+});
+
 const searchRender = function()
 {
     console.log(results);
