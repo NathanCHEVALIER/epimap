@@ -150,7 +150,7 @@ const search = function(str)
         searchTextInMap(Object.keys(maps)[i], str);
     }
     
-    setTimeout(searchRender, 200);
+    setTimeout(searchRender, 100);
 };
 
 const searchTextInMap = function(map, str) {
@@ -179,7 +179,7 @@ const searchTextInMap = function(map, str) {
                 continue;
             }
             
-            const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
+            /*const d = editDist(labels[i].textContent, str, labels[i].textContent.length, str.length);
             if (labels[i].textContent.length > 0 && d <= (0.4 * str.length))
             {
                 insertInPlace({
@@ -187,7 +187,7 @@ const searchTextInMap = function(map, str) {
                     value: 0.3 * str.length,
                     map: map
                 });
-            }
+            }*/
         }
     });
     request.send();
