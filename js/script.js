@@ -149,6 +149,8 @@ const search = function(str)
     {
         searchTextInMap(Object.keys(maps)[i], str);
     }
+    
+    setTimeout(searchRender, 200);
 };
 
 const searchTextInMap = function(map, str) {
@@ -236,9 +238,7 @@ const insertInPlace = function(obj)
 };
 
 searchBtn.addEventListener('click', function() {
-    const val = document.querySelector("#search > div > input").value;
-    search(val);
-    setTimeout(searchRender, 200);
+    search(document.querySelector("#search > div > input").value);
 });
 
 const searchRender = function()
@@ -257,7 +257,16 @@ const searchRender = function()
         dupBlock.children[0].innerHTML = results[i]['key'];
         dupBlock.children[1].innerHTML = results[i]['map'];
         dupBlock.removeAttribute('id');
+        dupBlock.setAttribute("href", results[i]['map'])
         dupBlock.style.display = "block";
+
+        dupBlock.addEventListener('click', function() {
+            map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
+            btn.classList.remove("menu-open");
+            menu.classList.remove("menu-open");
+            container.classList.remove("menu-open");
+            cache.classList.remove("menu-open");
+        });
 
         container.append(dupBlock);
     }
