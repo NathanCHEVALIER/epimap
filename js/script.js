@@ -38,7 +38,7 @@ const getURLMap = function()
     let path = window.location.href.split('/').pop();
 
     if (path.length == 0)
-        path = "map-kb-overview";
+        path = "kremlin-bicetre";
 
     map_ifr.setAttribute("src", "./maps/" + path + ".svg");
     btn.classList.remove("menu-open");
@@ -61,7 +61,7 @@ const mapIframeLoaded = function() {
     window.history.pushState({
         additionalInformation: map_dname},
         document.title,
-        'https://epimap.fr/devtest/' + map_id);
+        'https://epimap.fr/' + map_id);
 };
 
 /*** Menu actions and transition */
@@ -145,7 +145,7 @@ const search = function(str)
     if (str === "")
         return;
 
-    for (let i = 0; i < nbmaps; ++i)
+    for (let i = /*nbmaps*/10 - 1; i >= 0; --i)
     {
         searchTextInMap(Object.keys(maps)[i], str);
     }
@@ -213,6 +213,8 @@ const editDist = function(str1, str2, m, n)
 const isSubString = function(str1, str2)
 {
     const len = str2.length;
+    str1 = str1.toUpperCase();
+    str2 = str2.toUpperCase();
 
     for (let i = 0; i <= str1.length - len; i++)
     {
@@ -264,7 +266,7 @@ const searchRender = function()
         let dupBlock = searchTemplate.cloneNode([true]);
 
         dupBlock.children[0].innerHTML = results[i]['key'];
-        dupBlock.children[1].innerHTML = results[i]['map'];
+        dupBlock.children[1].innerHTML = map_dname = maps[results[i]['map']]['d_name'];
         dupBlock.removeAttribute('id');
         dupBlock.setAttribute("href", results[i]['map'])
         dupBlock.style.display = "block";

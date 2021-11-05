@@ -1,5 +1,32 @@
 {
-	"map-kb-overview": {
+	"kremlin-bicetre": {
+		"d_name": "Kremlin-Bicêtre"
+    },
+    "kb-voltaire-f-1": {
+		"d_name": "Voltaire - Sous-sol"
+	},
+	"kb-voltaire-f0": {
+		"d_name": "Voltaire - Rez de chaussée"
+    },
+    "kb-voltaire-f1": {
+		"d_name": "Voltaire - 1er étage"
+    },
+    "kb-voltaire-f2": {
+		"d_name": "Voltaire - 2eme étage"
+    },
+    "kb-voltaire-f3": {
+		"d_name": "Voltaire - 3eme étage"
+    },
+    "kb-voltaire-f4": {
+		"d_name": "Voltaire - 4eme étage"
+    },
+    "kb-voltaire-f5": {
+		"d_name": "Voltaire - 5eme étage"
+    },
+    "kb-voltaire-f6": {
+		"d_name": "Voltaire - 6eme étage"
+    },
+    "map-kb-overview": {
 		"d_name": "Kremlin-Bicêtre"
     },
     "map-kb-voltaire-f-1": {
