@@ -42,8 +42,8 @@
      id="namedview152"
      showgrid="false"
      inkscape:zoom="0.44563298"
-     inkscape:cx="1078.1646"
-     inkscape:cy="405.29805"
+     inkscape:cx="939.54504"
+     inkscape:cy="481.77052"
      inkscape:window-x="1042"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -60,42 +60,35 @@
     <g
        id="map-kb-voltaire-f-1"
        transform="translate(3.000000, 3.000000)">
+      <text
+         id="Heritage"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-rule:nonzero"
+         x="379.30869"
+         y="600.58575"><tspan
+           x="379.53421"
+           y="632.08649"
+           id="tspan10"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Heritage</tspan></text>
+      <path
+         style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 923.21063,312.84287 v 527.51315 h -82.82147 v -101.5518 h -57.9494 V 636.45904"
+         id="path1097"
+         sodipodi:nodetypes="cccccc" />
       <g
-         id="a3357"
-         transform="translate(391.65068,628.63576)"
+         id="text3953"
+         transform="translate(616.83873,880.83403)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
          font-size="32px"
          font-weight="normal">
         <text
-           id="Heritage"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"><tspan
-             x="0.22552"
-             y="31.5007"
-             id="tspan10"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Heritage</tspan></text>
-        <path
-           style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 531.55995,-315.79289 v 527.51315 h -82.82147 v -101.5518 h -57.9494 V 7.82328"
-           id="path1097"
-           sodipodi:nodetypes="cccccc" />
-      </g>
-      <g
-         id="text3953"
-         transform="translate(593.276740, 876.346030)"
-         fill="#000000"
-         fill-rule="nonzero"
-         font-family="Helvetica"
-         font-size="32"
-         font-weight="normal">
-        <text
            id="EpiMac"
-           style="-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-family:'Atkinson Hyperlegible';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;"><tspan
-             x="0.99107"
-             y="31.2193"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"><tspan
+             x="0.99106997"
+             y="31.219299"
              id="tspan14"
-             style="-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-family:'Atkinson Hyperlegible';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;">EpiMac</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">EpiMac</tspan></text>
       </g>
       <g
          id="a3367"
@@ -107,11 +100,11 @@
          font-weight="normal" />
       <g
          id="a3343"
-         transform="translate(1491.285670, 1167.281027)"
+         transform="translate(1475.2857,1157.7728)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
-         font-size="32"
+         font-size="32px"
          font-weight="normal">
         <g
            id="text3973"
@@ -126,7 +119,7 @@
       </g>
       <g
          id="a3343-copy"
-         transform="translate(1538.8176,1105.0012)"
+         transform="translate(1532.0856,1101.6352)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
@@ -167,15 +160,15 @@
       </g>
       <g
          id="a3343-copy-3"
-         transform="translate(2065.285670, 1155.281027)"
+         transform="translate(2049.2857,1155.281)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
-         font-size="32"
+         font-size="32px"
          font-weight="normal">
         <g
            id="g46"
-           transform="translate(0.226440, 0.926800)">
+           transform="translate(0.22644,0.9268)">
           <text
              id="Synergie-Epiqueer"
              x="-10.097996"
@@ -188,56 +181,58 @@
       </g>
       <g
          id="a3361"
-         transform="translate(1137.285670, 611.126730)"
+         transform="translate(1137.2857,626.83472)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
-         font-size="32"
+         font-size="32px"
          font-weight="normal">
         <text
-           id="CRI"><tspan
-             x="0.52605999"
+           id="CRI"
+           x="-48"><tspan
+             x="-47.473938"
              y="31.70117"
              id="tspan49"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">CRI</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Evolutek</tspan></text>
       </g>
       <text
          id="Bocal"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"
-         x="431.39676"
-         y="66.22789"><tspan
-           x="570.92285"
-           y="272.92905"
+         x="292.26883"
+         y="95.399872"><tspan
+           x="431.79492"
+           y="302.10104"
            id="tspan63"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Bocal</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Local Technique Bocal</tspan></text>
       <a
          xlink:href="kb-voltaire-f0.svg"
+         transform="translate(-6.3469879,17.454217)"
          id="a1108">
         <g
            id="a3742"
-           transform="translate(145.285670, 657.126730)"
+           transform="translate(145.28567,657.12673)"
            fill="#000000"
            fill-rule="nonzero"
            font-weight="normal">
           <g
              id="g4168"
-             transform="translate(0.670067, 0.491331)">
+             transform="translate(0.670067,0.491331)">
             <g
                id="text4160"
-               transform="translate(87.128270, 37.353820) rotate(-90.000000) translate(-87.128270, -37.353820) translate(50.628270, -5.646180)"
-               font-family="LucidaGrande, Lucida Grande"
-               font-size="72">
+               transform="rotate(-90,58.991045,14.862775)"
+               font-family="LucidaGrande, 'Lucida Grande'"
+               font-size="72px">
               <text
                  id="tspan4162"><tspan
                    x="0.14618"
-                   y="70.12827"
+                   y="70.128273"
                    id="tspan89">→</tspan></text>
             </g>
             <g
                id="text4164"
-               transform="translate(0.445310, 92.814030)"
+               transform="translate(0.44531,92.81403)"
                font-family="Helvetica"
-               font-size="32">
+               font-size="32px">
               <text
                  id="tspan4166"
                  style="font-size:26.6667px"
@@ -262,7 +257,7 @@
            font-weight="normal">
           <g
              id="g4168-5"
-             transform="translate(0.461700, 0.491331)">
+             transform="translate(-5.8852879,16.358801)">
             <g
                id="text4160-9"
                transform="rotate(-90,55.003047,18.850773)"
@@ -299,7 +294,7 @@
          style="stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none" />
       <g
          id="a3069"
-         transform="translate(1072.8772,1134.2112)"
+         transform="translate(1092.8772,1142.2112)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
@@ -316,30 +311,28 @@
       </g>
       <g
          id="g121"
-         transform="translate(972.03808,1163.3665)"
+         transform="translate(949.59809,1136.4385)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
          font-size="32px"
          font-weight="normal">
         <text
-           id="text119"><tspan
-             sodipodi:role="line"
-             id="tspan1012"
-             x="1.3023725"
-             y="31.392099"><tspan
-               x="1.3023725"
-               y="31.392099"
-               id="tspan117"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">CRI</tspan></tspan><tspan
+           id="text119"
+           x="-8"
+           y="17.466278"><tspan
              sodipodi:role="line"
              id="tspan1014"
-             x="1.3023725"
-             y="71.392097">?</tspan></text>
+             x="-6.6976275"
+             y="48.858376"><tspan
+   x="-6.6976275"
+   y="48.858376"
+   id="tspan117"
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">CRI</tspan>?</tspan></text>
       </g>
       <g
          id="a4234"
-         transform="translate(737.21564,1146.7117)"
+         transform="translate(751.21564,1136.7117)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
@@ -355,13 +348,13 @@
       <text
          xml:space="preserve"
          style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-         x="593.90381"
-         y="1221.1014"
+         x="598.7818"
+         y="1183.76"
          id="text973"><tspan
            sodipodi:role="line"
            id="tspan971"
-           x="593.90381"
-           y="1221.1014"
+           x="598.7818"
+           y="1183.76"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-opacity:1">CIA</tspan></text>
       <text
          xml:space="preserve"
@@ -375,28 +368,28 @@
            y="1190.8075">A</tspan></text>
       <text
          id="EpiMac-EPTV-9"
-         x="747.34637"
-         y="1187.3472"
+         x="763.34637"
+         y="1171.3472"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="748.06628"
-           y="1218.7394"
+           x="764.06628"
+           y="1202.7394"
            id="tspan123-5"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">EPTV</tspan></text>
       <text
          id="EpiMac-EPTV-9-8"
-         x="1066.0856"
-         y="1167.7828"
+         x="1082.0856"
+         y="1169.7828"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="1066.8055"
-           y="1199.175"
+           x="1082.8055"
+           y="1201.175"
            id="tspan123-5-8"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Ephemere</tspan></text>
       <text
          id="EpiMac-EPTV-9-1"
-         x="2057.0918"
+         x="2041.0918"
          y="1189.9425"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="2057.8118"
+           x="2041.8118"
            y="1221.3347"
            id="tspan123-5-88"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Epiqueer</tspan></text>
@@ -414,13 +407,13 @@
       <text
          xml:space="preserve"
          style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-         x="300.4899"
-         y="1199.8125"
+         x="310.58789"
+         y="1185.296"
          id="text973-0"><tspan
            sodipodi:role="line"
            id="tspan971-1"
-           x="300.4899"
-           y="1199.8125"
+           x="310.58789"
+           y="1185.296"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-opacity:1">Staffcom</tspan></text>
       <a
          xlink:href="kb-voltaire-f0.svg"
@@ -552,9 +545,10 @@
          d="m 1175.6605,850.84166 h 102.102 V 255.0599 h -10.659"
          id="path1050" />
       <path
-         style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-         d="M 1175.6605,850.84166 H 1040.4596 V 255.6209 h 187.9349"
-         id="path943" />
+         style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1105.6605,850.84166 h -65.2009 V 255.6209 h 187.9349"
+         id="path943"
+         sodipodi:nodetypes="cccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 1042.1426,455.33682 h 14.025"
@@ -761,60 +755,6 @@
          d="m 779.66295,170.61967 v -14.513"
          id="path1117-8-4"
          sodipodi:nodetypes="cc" />
-      <a
-         xlink:href="file:///C:/Users/natha/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/nathan/epimap/epimap/maps/kb-voltaire-f0.svg"
-         transform="matrix(0.5016506,0,0,0.5016506,958.83272,6.2493818)"
-         id="a1151-1">
-        <g
-           id="g1779-3-1"
-           transform="matrix(3.0014789,0,0,3.0014789,728.36662,-486.08521)">
-          <path
-             style="fill:none;stroke:#222222;stroke-width:1.32292;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="M 112.23556,265.75024 H 74.410987 v -43.41545 c 0,-1.19361 0.855848,-2.59162 2.491396,-2.59162 h 32.993547 c 1.42546,0 2.34844,1.37273 2.34817,2.58204 z"
-             id="path1676-1-5"
-             sodipodi:nodetypes="ccssssc" />
-          <rect
-             style="fill:#ffffff;fill-opacity:1;stroke:#222222;stroke-width:2.02193;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="rect1588-0-8-3-1-6"
-             width="30.570887"
-             height="32.83218"
-             x="77.985649"
-             y="232.2682"
-             rx="0" />
-          <path
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.99954;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 94.996974,223.79938 3.681174,4.41738 3.744282,-4.39635 z"
-             id="path1605-1-3-5-4"
-             sodipodi:nodetypes="cccc" />
-          <path
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.99954;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 83.745434,228.2378 3.681121,-4.41739 3.744306,4.39635 z"
-             id="path1605-2-4-8-5-8"
-             sodipodi:nodetypes="cccc" />
-          <path
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.394862;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 83.240688,255.69457 v 9.53963 h 5.683885 v -9.55625 l 2.258855,-0.65783 0.03326,-7.07028 c 0.009,-1.91199 -2.349713,-3.55266 -5.200546,-3.55659 -2.50788,-0.003 -5.065183,1.71401 -5.065183,3.68067 v 6.72318 z"
-             id="path1011-82-7-4-3"
-             sodipodi:nodetypes="cccccssscc" />
-          <circle
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.394862;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path1013-7-0-3-5"
-             cx="86.223907"
-             cy="240.83638"
-             r="2.5383921" />
-          <path
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.394862;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-             d="m 96.902821,255.59519 v 9.53963 h 5.683909 v -9.55625 l 2.25888,-0.65783 0.0332,-7.07028 c 0.009,-1.91199 -2.34971,-3.55266 -5.200516,-3.55659 -2.507906,-0.003 -5.06521,1.71402 -5.06521,3.68067 v 6.72319 z"
-             id="path1011-8-3-8-7-2"
-             sodipodi:nodetypes="cccccssscc" />
-          <circle
-             style="fill:#222222;fill-opacity:1;stroke:#222222;stroke-width:0.394862;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-             id="path1013-5-5-5-5-0"
-             cx="99.886093"
-             cy="240.73703"
-             r="2.5383921" />
-        </g>
-      </a>
       <path
          style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 1119.8411,255.3404 v -11.537"
@@ -986,6 +926,10 @@
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 1267.1035,255.0599 -38.709,0.561"
          id="path1338" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 1105.6605,850.84166 h 70"
+         id="path1038" />
     </g>
   </g>
 </svg>
