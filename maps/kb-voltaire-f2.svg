@@ -151,16 +151,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.9899495"
-     inkscape:cx="1453.6797"
-     inkscape:cy="1012.3239"
+     inkscape:zoom="0.24748738"
+     inkscape:cx="1832.1889"
+     inkscape:cy="978.79214"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
-     inkscape:window-x="1042"
-     inkscape:window-y="-8"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -186,8 +186,8 @@
      transform="translate(621.21599,68.648135)">
     <a
        xlink:href="kb-voltaire-f1.svg"
-       id="a1251"
-       transform="translate(0.53571428,103.92857)">
+       transform="translate(0.53571428,103.92857)"
+       id="a1251">
       <g
          id="g1040"
          transform="translate(131.42857,4.2857143)">
@@ -272,8 +272,8 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
     <a
        xlink:href="kb-voltaire-f1.svg"
-       id="a1243"
-       transform="translate(-5.7142857,130.35714)">
+       transform="translate(-5.7142857,130.35714)"
+       id="a1243">
       <g
          id="g1040-0"
          transform="translate(-810.00006,-27.142851)">
@@ -448,8 +448,8 @@
     </a>
     <a
        xlink:href="kb-voltaire-f3.svg"
-       transform="translate(364.44297,344.48758)"
-       id="a1820-2">
+       id="a1820-2"
+       transform="translate(364.44297,344.48758)">
       <g
          id="g1779-6"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -502,8 +502,8 @@
     </a>
     <a
        xlink:href="kb-voltaire-f1.svg"
-       id="a1820-2-1"
-       transform="translate(-671.07032,339.25147)">
+       transform="translate(-671.07032,339.25147)"
+       id="a1820-2-1">
       <g
          id="g1779-6-3"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -643,5 +643,29 @@
          x="1654.7065"
          y="1150.9728"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic'">Toilettes</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill"
+       id="rect955"
+       width="398.57141"
+       height="150"
+       x="1165.9269"
+       y="1441.3518"
+       ry="2.8571401" />
+    <text
+       xml:space="preserve"
+       style="font-size:60.2756px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:1.5069"
+       x="1338.6794"
+       y="1510.9862"
+       id="text959"><tspan
+         sodipodi:role="line"
+         x="1338.6794"
+         y="1510.9862"
+         id="tspan961"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:1.5069">Vestiaire</tspan><tspan
+         sodipodi:role="line"
+         x="1338.6794"
+         y="1568.8669"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:1.5069"
+         id="tspan965">JPO</tspan></text>
   </g>
 </svg>
