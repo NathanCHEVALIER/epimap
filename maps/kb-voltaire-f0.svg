@@ -384,9 +384,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710682"
-     inkscape:cx="1181.2386"
-     inkscape:cy="717.32375"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="669.55158"
+     inkscape:cy="1131.6079"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -394,10 +394,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="3200"
-     inkscape:window-height="1721"
-     inkscape:window-x="1304"
-     inkscape:window-y="144"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="1042"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0" />
   <metadata
@@ -1342,17 +1342,7 @@
          x="45.692398"
          y="1382.9603"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1378" /><tspan
-         sodipodi:role="line"
-         x="45.692398"
-         y="1408.5608"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1380">Vie</tspan><tspan
-         sodipodi:role="line"
-         x="45.692398"
-         y="1434.1614"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1382">associative</tspan></text>
+         id="tspan1382" /></text>
     <a
        xlink:href="kb-voltaire-f1.svg"
        id="a2081-7-7"
@@ -1515,7 +1505,7 @@
       </g>
     </a>
     <a
-       xlink:href="kb-pasteur-f0.svg"
+       xlink:href="map-kb-pasteur-f0.svg"
        id="a2035">
       <g
          id="g2033">
@@ -1580,5 +1570,21 @@
         </g>
       </g>
     </a>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
+       x="46.84441"
+       y="1399.4302"
+       id="text4011-5-7-6-2-9"><tspan
+         sodipodi:role="line"
+         x="46.84441"
+         y="1399.4302"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
+         id="tspan1380-5">Vie</tspan><tspan
+         sodipodi:role="line"
+         x="46.84441"
+         y="1425.0308"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
+         id="tspan1382-1">associative</tspan></text>
   </g>
 </svg>
