@@ -368,9 +368,9 @@ body{
 ***/
 
 footer {
-    background-color: rgb(223, 189, 0);
+    background-color: rgba(223, 189, 0, 1);
     font-size: 0.8em;
-    padding: 10px;
+    padding: 8px;
     position: fixed;
     bottom: 0px;
     left: 0px;
