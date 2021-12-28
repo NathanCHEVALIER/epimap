@@ -1,53 +1,94 @@
 {
 	"kremlin-bicetre": {
-		"d_name": "Kremlin-Bicêtre"
+		"d_name": "Kremlin-Bicêtre",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f-1": {
-		"d_name": "Voltaire - Sous-sol"
+		"d_name": "Voltaire - Sous-sol",
+        "last_update": "Sep. 2021"
 	},
 	"kb-voltaire-f0": {
-		"d_name": "Voltaire - Rez de Chaussée"
+		"d_name": "Voltaire - Rez de Chaussée",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f1": {
-		"d_name": "Voltaire - 1er étage"
+		"d_name": "Voltaire - 1er étage",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f2": {
-		"d_name": "Voltaire - 2eme étage"
+		"d_name": "Voltaire - 2eme étage",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f3": {
-		"d_name": "Voltaire - 3eme étage"
+		"d_name": "Voltaire - 3eme étage",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f4": {
-		"d_name": "Voltaire - 4eme étage"
+		"d_name": "Voltaire - 4eme étage",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f5": {
-		"d_name": "Voltaire - 5eme étage"
+		"d_name": "Voltaire - 5eme étage",
+        "last_update": "Sep. 2021"
     },
     "kb-voltaire-f6": {
-		"d_name": "Voltaire - 6eme étage"
+		"d_name": "Voltaire - 6eme étage",
+        "last_update": "Sep. 2021"
     },
     "kb-pasteur-f-2": {
-		"d_name": "Pasteur - Under"
+		"d_name": "Pasteur - Under",
+        "last_update": "2013"
     },
     "kb-pasteur-f0": {
-		"d_name": "Pasteur - Cours & Rez de Chaussée"
+		"d_name": "Pasteur - Cours & Rez de Chaussée",
+        "last_update": "2013"
+    },
+    "kb-paritalie-f0": {
+        "d_name": "Paritalie - Rez de Chaussée",
+        "last_update": "28 Dec. 2021"
+    },
+    "kb-paritalie-f1": {
+        "d_name": "Paritalie - 1er étage",
+        "last_update": "28 Dec. 2021"
+    },
+    "kb-paritalie-f2": {
+        "d_name": "Paritalie - 2eme étage",
+        "last_update": "28 Dec. 2021"
+    },
+    "kb-paritalie-f3": {
+        "d_name": "Paritalie - 3eme étage",
+        "last_update": "28 Dec. 2021"
+    },
+    "kb-paritalie-f4": {
+        "d_name": "Paritalie - 4eme étage",
+        "last_update": "28 Dec. 2021"
+    },
+    "kb-paritalie-f5": {
+        "d_name": "Paritalie - 5eme étage",
+        "last_update": "28 Dec. 2021"
     },
     "map-vj-overview": {
-        "d_name": "Villejuif"
+        "d_name": "Villejuif",
+        "last_update": "2013"
     },
     "map-vj-va-1": {
-        "d_name": "VA - Sous-sol"
+        "d_name": "VA - Sous-sol",
+        "last_update": "2013"
     },
     "map-vj-va0": {
-        "d_name": "VA - Rez de chaussée"
+        "d_name": "VA - Rez de chaussée",
+        "last_update": "2013"
     },
     "map-vj-va1": {
-        "d_name": "VA - 1er étage"
+        "d_name": "VA - 1er étage",
+        "last_update": "2013"
     },
     "map-vj-va2": {
-        "d_name": "VA - 2eme étage"
+        "d_name": "VA - 2eme étage",
+        "last_update": "2013"
     },
     "map-vj-va3": {
-        "d_name": "VA - 3eme étage"
+        "d_name": "VA - 3eme étage",
+        "last_update": "2013"
     }
 }
