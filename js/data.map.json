@@ -29,6 +29,24 @@
     "map-kb-overview": {
 		"d_name": "Kremlin-Bicêtre"
     },
+    "kb-paritalie-f0": {
+        "d_name": "Paritalie - Rez de chaussée"
+    },
+    "kb-paritalie-f1": {
+        "d_name": "Paritalie - 1er étage"
+    },
+    "kb-paritalie-f2": {
+        "d_name": "Paritalie - 2eme étage"
+    },
+    "kb-paritalie-f3": {
+        "d_name": "Paritalie - 3eme étage"
+    },
+    "kb-paritalie-f4": {
+        "d_name": "Paritalie - 4eme étage"
+    },
+    "kb-paritalie-f5": {
+        "d_name": "Paritalie - 5eme étage"
+    },
     "map-kb-voltaire-f-1": {
 		"d_name": "Voltaire - Sous-sol"
 	},
