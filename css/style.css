@@ -119,9 +119,11 @@ body{
     width: 290px;
     box-shadow: 1px 1px 4px rgba(0,0,0,.2);
     transition: all ease-in-out 0.4s;
+    overflow-x: hidden;
 }
 #left-menu ul{
     list-style: none;
+    overflow-x: hidden;
 }
 #left-menu ul > li > a{
     display: block;
@@ -311,7 +313,7 @@ body{
     top: 95px;
     left: 10px;
     width: calc(100vw - 20px);
-    height: calc(100vh - 125px);
+    height: calc(100vh - 105px);
     transition: all ease-in-out 0.4s;
     border: none;
 }
@@ -328,15 +330,22 @@ body{
 #map-nav {
     position: fixed;
     right: 20px;
-    bottom: 50px;
+    bottom: 25px;
     display: flex;
-    background-color: #4700ba;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#map-nav > div:nth-of-type(1){
+    display: flex;
+    background-color: #3500ba;
     padding: 9px 13px;
     font-family: 'Atkinson', sans-serif;    
-    color: #fff;
-    transition: 0.1s all ease-in-out;
+    color: #ffffff;
+    min-width: 150px;
+    transition: 0.1s all ease-in-out; 
+    box-shadow: 0 2px 4px rgba(0,0,0,.4);    
 }
-#map-nav > .map-icon {
+#map-nav > div:nth-of-type(1) > .map-icon {
     background-image: url('../img/icon-mappoint.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -346,17 +355,31 @@ body{
     border-radius: 20px;
     margin-right: 7px;
 }
-#map-nav a {
+#map-nav > div:nth-of-type(1) a {
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     cursor: pointer;
+    position: relative;
+    top: 1px;
 }
-#map-nav span {
+#map-nav > div:nth-of-type(1) span {
     color: #ffffff;
     font-weight: 700;
-    position: relative;
-    top: -1px;
+}
+#map-nav > div:nth-of-type(2){
+    background-color: #cccccc;
+    padding: 1px 10px 5px 10px;
+    line-height: 18px;
+    height: 18px;
+    font-family: 'Atkinson', sans-serif;  
+    transition: 0.1s all ease-in-out;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+#map-nav > div:nth-of-type(2) span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #5c5c5c;
 }
 /*
 #map-nav a:hover {
