@@ -1,6 +1,7 @@
 /*** Document infos */
 const documentTitle = document.title;
-const mapnavname = document.querySelector("#map-nav > .map-name");
+const mapnavname = document.querySelector("#map-nav .map-name");
+const mapnavdate = document.querySelector("#map-nav > div:nth-of-type(2) > span");
 //const foldmode = "devtest/";
 
 /*** DOM elements */
@@ -54,9 +55,11 @@ const getIframeDocument = function(ifr) {
 const mapIframeLoaded = function() {
     const map_ifr_document = getIframeDocument(map_ifr);
     const map_id = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
+
     map_dname = maps[map_id]['d_name'];
     mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
     mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
+    mapnavdate.innerHTML = "Last Update: " + maps[map_id]['last_update'];
     document.title = `${documentTitle} – ${map_dname}`;
     window.history.pushState({
         additionalInformation: map_dname},
