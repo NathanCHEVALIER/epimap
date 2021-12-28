@@ -6,7 +6,7 @@
 		"d_name": "Voltaire - Sous-sol"
 	},
 	"kb-voltaire-f0": {
-		"d_name": "Voltaire - Rez de chaussée"
+		"d_name": "Voltaire - Rez de Chaussée"
     },
     "kb-voltaire-f1": {
 		"d_name": "Voltaire - 1er étage"
@@ -26,65 +26,11 @@
     "kb-voltaire-f6": {
 		"d_name": "Voltaire - 6eme étage"
     },
-    "map-kb-overview": {
-		"d_name": "Kremlin-Bicêtre"
+    "kb-pasteur-f-2": {
+		"d_name": "Pasteur - Under"
     },
-    "kb-paritalie-f0": {
-        "d_name": "Paritalie - Rez de chaussée"
-    },
-    "kb-paritalie-f1": {
-        "d_name": "Paritalie - 1er étage"
-    },
-    "kb-paritalie-f2": {
-        "d_name": "Paritalie - 2eme étage"
-    },
-    "kb-paritalie-f3": {
-        "d_name": "Paritalie - 3eme étage"
-    },
-    "kb-paritalie-f4": {
-        "d_name": "Paritalie - 4eme étage"
-    },
-    "kb-paritalie-f5": {
-        "d_name": "Paritalie - 5eme étage"
-    },
-    "map-kb-voltaire-f-1": {
-		"d_name": "Voltaire - Sous-sol"
-	},
-	"map-kb-voltaire-f0": {
-		"d_name": "Voltaire - Rez de chaussée"
-    },
-    "map-kb-voltaire-f1": {
-		"d_name": "Voltaire - 1er étage"
-    },
-    "map-kb-voltaire-f2": {
-		"d_name": "Voltaire - 2eme étage"
-    },
-    "map-kb-voltaire-f3": {
-		"d_name": "Voltaire - 3eme étage"
-    },
-    "map-kb-voltaire-f4": {
-		"d_name": "Voltaire - 4eme étage"
-    },
-    "map-kb-voltaire-f5": {
-		"d_name": "Voltaire - 5eme étage"
-    },
-    "map-kb-voltaire-f6": {
-		"d_name": "Voltaire - 6eme étage"
-    },
-    "map-kb-pasteur-f-1": {
-        "d_name": "Pasteur - Sous-sol"
-    },
-    "map-kb-pasteur-f0": {
-        "d_name": "Pasteur - Rez de chaussée"
-    },
-    "map-kb-pasteur-f1": {
-        "d_name": "Pasteur - 1er étage"
-    },
-    "map-kb-pasteur-f2": {
-        "d_name": "Pasteur - 2eme étage"
-    },
-    "map-kb-pasteur-f5": {
-        "d_name": "Pasteur - 5eme étage"
+    "kb-pasteur-f0": {
+		"d_name": "Pasteur - Cours & Rez de Chaussée"
     },
     "map-vj-overview": {
         "d_name": "Villejuif"
