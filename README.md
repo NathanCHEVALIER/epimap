@@ -1,5 +1,8 @@
 # epimap
+https://epimap.fr
+
 Web application for Epita campus maps
+Based on a previous work of Ivan Colona (map.epita.eu) https://github.com/gconfs/epimap
 
 ## Contributing
 Here is the process to update maps properly.
@@ -13,5 +16,5 @@ Here is the process to update maps properly.
 
 ### December 2021
 - Paritalie maps added (Missing names)
-- Last Update in Right Bottom Navbar
+- Last Update added in Right Bottom Navbar
 - Clean Up in KB maps
