@@ -35,12 +35,24 @@
 		"d_name": "Voltaire - 6eme étage",
         "last_update": "Sep. 2021"
     },
-    "kb-pasteur-f-2": {
-		"d_name": "Pasteur - Under",
-        "last_update": "2013"
+    "kb-pasteur-f2": {
+		"d_name": "Pasteur - 2ème étage (KB3)",
+        "last_update": "7 Feb. 2022"
+    },
+    "kb-pasteur-f1": {
+		"d_name": "Pasteur - Premier étage",
+        "last_update": "7 Feb. 2022"
     },
     "kb-pasteur-f0": {
-		"d_name": "Pasteur - Cours & Rez de Chaussée",
+		"d_name": "Pasteur - Cour & Rez de Chaussée",
+        "last_update": "7 Feb. 2022"
+    },
+    "kb-pasteur-f-1": {
+		"d_name": "Pasteur -Intersol",
+        "last_update": "7 Feb. 2022"
+    },
+    "kb-pasteur-f-2": {
+		"d_name": "Pasteur - Under",
         "last_update": "2013"
     },
     "kb-paritalie-f0": {
