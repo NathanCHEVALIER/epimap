@@ -345,7 +345,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7071068"
      inkscape:cx="1193.1639"
-     inkscape:cy="1569.3697"
+     inkscape:cy="1399.6641"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -395,33 +395,30 @@
        transform="rotate(-90,805.82866,-278.00364)" />
     <a
        xlink:href="map-kb-pasteur-f-1.svg"
-       transform="translate(-1936.1152,59.112698)"
-       id="a3276">
-      <path
-         sodipodi:nodetypes="ccccccccccc"
-         inkscape:connector-curvature="0"
-         d="m 1417.8068,498.58641 v -3.1641 l 13.8164,-13.8164 4.2187,4.2188 -8.1914,8.1914 h 42.8555 v 5.9765 h -42.8555 l 8.1914,8.1914 -4.2187,4.2188 -13.8164,-13.8164"
-         style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-         id="path3613" />
-    </a>
-    <a
-       xlink:href="map-kb-pasteur-f-1.svg"
        id="a3263" />
     <a
-       xlink:href="kb-pasteur-f-1.svg"
-       transform="translate(-1936.1152,59.112698)"
-       id="a3272">
-      <text
-         id="text3189"
-         y="508.93405"
-         x="1495.6235"
-         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="508.93405"
-           x="1495.6235"
-           id="tspan3191"
-           sodipodi:role="line"
-           style="font-size:32px;line-height:1.25;font-family:sans-serif">Under</tspan></text>
+       xlink:href="kb-pasteur-f-2.svg"
+       id="a1010">
+      <g
+         id="g1008">
+        <path
+           sodipodi:nodetypes="ccccccccccc"
+           inkscape:connector-curvature="0"
+           d="m -518.3084,557.69911 v -3.1641 l 13.8164,-13.8164 4.2187,4.2188 -8.1914,8.1914 h 42.8555 v 5.9765 h -42.8555 l 8.1914,8.1914 -4.2187,4.2188 -13.8164,-13.8164"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+           id="path3613" />
+        <text
+           id="text3189"
+           y="568.04675"
+           x="-440.49167"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+           xml:space="preserve"><tspan
+             y="568.04675"
+             x="-440.49167"
+             id="tspan3191"
+             sodipodi:role="line"
+             style="font-size:32px;line-height:1.25;font-family:sans-serif">Under</tspan></text>
+      </g>
     </a>
     <g
        id="g4581"
@@ -453,10 +450,10 @@
        id="path1220"
        sodipodi:nodetypes="cccc" />
     <a
-       xlink:href="kb-pasteur-f1.svg"
-       id="a1197"
+       xlink:href="kb-pasteur-f0.svg"
+       transform="matrix(0.57569372,0,0,0.57569372,-304.8742,-331.24094)"
        style="display:inline"
-       transform="matrix(0.57569372,0,0,0.57569372,-304.8742,-331.24094)">
+       id="a1197">
       <g
          id="g1195">
         <rect
@@ -490,8 +487,8 @@
     </a>
     <a
        xlink:href="kb-pasteur-f-2.svg"
-       id="a2089"
-       transform="matrix(-0.57420955,0,0,0.57420955,747.77073,86.002328)">
+       transform="matrix(-0.57420955,0,0,0.57420955,747.77073,86.002328)"
+       id="a2089">
       <g
          id="g2024"
          transform="matrix(0.13667396,0,0,0.13667396,17.897895,-153.88295)">
@@ -526,8 +523,8 @@
     </a>
     <a
        xlink:href="kb-pasteur-f-1.svg"
-       transform="matrix(0.59057057,0,0,0.59057057,-1022.8532,610.85048)"
-       id="a1820-2-2">
+       id="a1820-2-2"
+       transform="matrix(0.59057057,0,0,0.59057057,-1022.8532,610.85048)">
       <g
          id="g1779-6-2"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
