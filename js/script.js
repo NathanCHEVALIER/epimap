@@ -57,8 +57,8 @@ const getIframeDocument = function(ifr) {
 const mapIframeLoaded = function() {
     const map_ifr_document = getIframeDocument(map_ifr);
     const map_id = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
+    ColorizeMap(map_ifr_document.querySelector('svg'));
 
-    //ColorizeMap();
     map_dname = maps[map_id]['d_name'];
     mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
     mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
@@ -72,8 +72,6 @@ const mapIframeLoaded = function() {
         document.title,
         'https://epimap.fr/' + map_id
     );
-
-    //ColorizeMap();
 };
 
 /*** Menu actions and transition */
