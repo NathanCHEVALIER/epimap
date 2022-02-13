@@ -9,7 +9,7 @@ const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
 const container = document.getElementById("container");
 const cache = document.getElementById("cache");
-const map_ifr = document.getElementById("map-ifr");
+//const map_ifr = document.getElementById("map-ifr");
 const searchBtn = document.querySelector("#search > div > button");
 const searchTemplate = document.getElementById("search-result-template");
 
@@ -47,24 +47,33 @@ const getURLMap = function()
     container.classList.remove("menu-open");
 };
 
+/* Already defined in darkmode
 const getIframeDocument = function(ifr) {
     const elt = (map_ifr.contentWindow || map_ifr.contentDocument);
     return elt.document ? elt.document : elt;
 };
+*/
 
 const mapIframeLoaded = function() {
     const map_ifr_document = getIframeDocument(map_ifr);
     const map_id = map_ifr_document.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
 
+    //ColorizeMap();
     map_dname = maps[map_id]['d_name'];
     mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
     mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
     mapnavdate.innerHTML = "Last Update: " + maps[map_id]['last_update'];
     document.title = `${documentTitle} – ${map_dname}`;
-    window.history.pushState({
-        additionalInformation: map_dname},
+
+    window.history.pushState(
+        {
+            additionalInformation: map_dname
+        },
         document.title,
-        'https://epimap.fr/' + map_id);
+        'https://epimap.fr/' + map_id
+    );
+
+    //ColorizeMap();
 };
 
 /*** Menu actions and transition */
