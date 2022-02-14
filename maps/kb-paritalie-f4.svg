@@ -310,8 +310,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.3506524"
-     inkscape:cx="1155.4351"
-     inkscape:cy="158.61557"
+     inkscape:cx="755.68792"
+     inkscape:cy="1151.2478"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -319,10 +319,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2100"
-     inkscape:window-height="1234"
-     inkscape:window-x="164"
-     inkscape:window-y="-9"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="1491"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:pagecheckerboard="true"
@@ -666,8 +666,8 @@
        id="path1269-69-1-1-6" />
     <a
        xlink:href="kb-paritalie-f3.svg"
-       id="a2089"
-       transform="matrix(0.57420955,0,0,0.57420955,871.86708,96.223472)">
+       transform="matrix(0.57420955,0,0,0.57420955,871.86708,96.223472)"
+       id="a2089">
       <g
          id="g2024"
          transform="matrix(0.13667396,0,0,0.13667396,17.897895,-153.88295)">
@@ -702,8 +702,8 @@
     </a>
     <a
        xlink:href="kb-paritalie-f5.svg"
-       transform="matrix(0.44926645,0,0,0.44926645,273.43355,614.71729)"
-       id="a1820-2">
+       id="a1820-2"
+       transform="matrix(0.44926645,0,0,0.44926645,273.43355,614.71729)">
       <g
          id="g1779-6"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -756,8 +756,8 @@
     </a>
     <a
        xlink:href="kb-paritalie-f5.svg"
-       transform="matrix(0.44926645,0,0,0.44926645,324.55713,614.71729)"
-       id="a1820-2-2">
+       id="a1820-2-2"
+       transform="matrix(0.44926645,0,0,0.44926645,324.55713,614.71729)">
       <g
          id="g1779-6-2"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -810,8 +810,8 @@
     </a>
     <a
        xlink:href="kb-paritalie-f5.svg"
-       transform="matrix(0.44926645,0,0,0.44926645,373.80698,614.71729)"
-       id="a1820-2-6">
+       id="a1820-2-6"
+       transform="matrix(0.44926645,0,0,0.44926645,373.80698,614.71729)">
       <g
          id="g1779-6-6"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -864,8 +864,8 @@
     </a>
     <a
        xlink:href="kb-paritalie-f3.svg"
-       transform="matrix(0.57420955,0,0,0.57420955,806.91679,593.67946)"
-       id="a2089-6">
+       id="a2089-6"
+       transform="matrix(0.57420955,0,0,0.57420955,806.91679,593.67946)">
       <g
          id="g2024-1"
          transform="matrix(0.13667396,0,0,0.13667396,17.897895,-153.88295)">
@@ -900,8 +900,8 @@
     </a>
     <a
        xlink:href="kb-paritalie-f3.svg"
-       id="a2089-6-4"
-       transform="matrix(0.36919933,0,0,0.36919933,1377.2182,1051.7265)">
+       transform="matrix(0.36919933,0,0,0.36919933,1377.2182,1051.7265)"
+       id="a2089-6-4">
       <g
          id="g2024-1-92"
          transform="matrix(0.13667396,0,0,0.13667396,17.897895,-153.88295)">
@@ -1194,28 +1194,6 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 599.9882,783.74997 17.86738,-17.86738"
        id="path1350" />
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="563.00842"
-       y="528.56604"
-       id="text1813-5-2-9-9-7-5"><tspan
-         sodipodi:role="line"
-         x="563.00842"
-         y="528.56604"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1193-0-4-4-0-5">CRI</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="419.66965"
-       y="923.53064"
-       id="text1813-5-2-9-9-7-5-8"><tspan
-         sodipodi:role="line"
-         x="419.66965"
-         y="923.53064"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1193-0-4-4-0-5-3">3ie</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 988.07146,561.1122 v -24"
