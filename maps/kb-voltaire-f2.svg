@@ -151,16 +151,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.24748738"
-     inkscape:cx="1832.1889"
-     inkscape:cy="978.79214"
+     inkscape:zoom="0.70000002"
+     inkscape:cx="1514.1545"
+     inkscape:cy="1306.5955"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
      inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-y="1491"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -186,8 +186,8 @@
      transform="translate(621.21599,68.648135)">
     <a
        xlink:href="kb-voltaire-f1.svg"
-       transform="translate(0.53571428,103.92857)"
-       id="a1251">
+       id="a1251"
+       transform="translate(0.53571428,103.92857)">
       <g
          id="g1040"
          transform="translate(131.42857,4.2857143)">
@@ -261,9 +261,9 @@
        id="path4198"
        transform="translate(-621.21599,-68.648135)"
        style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1420.2745,507.29736 V 234.97026 M 763.3588,1057.4389 v 25.3571 h 32.5 v 11.5384 m 0,31.7415 v 16.0058 H 766.216 v 139.2857 h 30.7143 v 12.409 m -339.3617,-214.9482 23.9782,0.2368 m 70.3819,0 h 11.4534 M 2073.366,535.35041 h 337.8377 M 923.3588,530.29601 H 560.5017 M 1994.7683,153.0572 v 21.5289 m 0,77.5502 v -3.1641 m -140.8737,89.53811 h 218.0872 m -340.1057,-89.5381 h 23.5505 m 66.4076,0 h 249.9582 v 175.2614 H 1732.3812 M 2079.3686,153.3097 h -128.7945 v -27.5341 m 0,-65.3912 V 26.0305 m -952.3938,120.337 v 20.7142 m 0,84.28571 v -2.1428 m 268.75,0 h -25.5357 m -64.1072,0 H 923.3588 v 171.7857 h 343.5715 M 911.5731,146.0103 h 133.2143 v -24.2857 m 0,-65 V 23.1532 m 836.5913,1254.6593 h 90.4086 v -126.2691 m -859.857,125.8955 h -90.7143 v -128.5715 m -83.5715,-90.7142 v 224.9999 l -33.57995,0.1154 -0.009,-225.6686 m 0.7144,274.0951 0.1045,7.7648 32.5162,-0.028 0.2417,23.1696 174.78175,0.017 -0.2667,-304.0086 H 877.03433 m -63.38709,0 H 563.63445 v 303.0457 h 205.061 v -22.2233 l 28.2593,0.013 -0.025,-14.7149 M 1266.7366,149.0171 v 18.6946 m 0,62.93841 v 276.7954 M 1732.6441,149.5823 v 30.4464 m 0,51.875 v 276.6072 m -465.7039,575.4142 h -32.1923 m -100.9489,0 h -21.1469 m 620.4967,-0.061 h 27.6861 m 99.5573,0 h 20.986 m -148.6912,0 V 508.0772 h -465.7342 v 575.7869 z m 320.9222,-18.1827 v 219.2031 l 33.335,-0.018 v -220.1949 m 108.0863,230.5537 v -12.3608 h 31.3148 v -139.4011 h -32.3249 v -14.1421 m 0,-32.3249 v -12.1218 h 37.3756 v -20.203 m -562.3944,297.9468 h 212.2143 m -943.6986,72.621 v 81.3961 m 0,90.2489 V 1712.179 M 769.7874,1453.154 v 259.2858 M 617.5515,1452.4435 h 88.2858 m 41.8187,0 h 35.1501 m 46.0567,0 h 323.4534 m -535.1435,257.7152 v -272.2361 m 0,-61.3668 v -14.8997 m 1609.7732,-0.7577 v 14.893 m 0,56.3215 v 21.2145 m 0.1458,259.1124 V 1453.154 h -31.8261 m -54.6833,0 h -329.6522 m 276.4515,-112.5 h -30.4518 v 21.7858 h -175.7143 v -298.5714 h 234.558 m 63.2358,0 h 245.0633 v 297.1428 l -197.1428,-0.045 v -20.3125 l -31.9031,-0.1054 v -12.7144 m -138.0125,34.7057 v 15.0768 m 0,62.2196 v 271.8908 M 2539.493,153.3113 v 930.5535 h 452.5484 v 628.3149 H 3 V 1078.814 H 457.5686 V 146.2402 H 912.1373 V 23.0016 h 354.5635 v 126.2691 h 465.6804 V 26.0321 h 347.0491 l -0.018,127.201 z M 1141.9303,336.7262 H 922.95015"
+       d="M 1420.2745,507.29736 V 234.97026 M 763.3588,1057.4389 v 25.3571 h 32.5 v 11.5384 m 0,31.7415 v 16.0058 H 766.216 v 139.2857 h 30.7143 v 12.409 m -339.3617,-214.9482 23.9782,0.2368 m 70.3819,0 h 11.4534 M 2073.366,535.35041 h 337.8377 M 923.3588,530.29601 H 560.5017 M 1994.7683,153.0572 v 21.5289 m 0,77.5502 v -3.1641 m -140.8737,89.53811 h 218.0872 m -340.1057,-89.5381 h 23.5505 m 66.4076,0 h 249.9582 v 175.2614 H 1732.3812 M 2079.3686,153.3097 h -128.7945 v -27.5341 m 0,-65.3912 V 26.0305 m -952.3938,120.337 v 20.7142 m 0,84.28571 v -2.1428 m 268.75,0 h -25.5357 m -64.1072,0 H 923.3588 v 171.7857 h 343.5715 M 911.5731,146.0103 h 133.2143 v -24.2857 m 0,-65 V 23.1532 m 836.5913,1254.6593 h 90.4086 v -126.2691 m -859.857,125.8955 h -90.7143 v -128.5715 m -83.5715,-90.7142 v 224.9999 l -33.57995,0.1154 -0.009,-225.6686 m 0.7144,274.0951 0.1045,7.7648 32.5162,-0.028 0.2417,23.1696 174.78175,0.017 -0.2667,-304.0086 H 877.03433 m -63.38709,0 H 563.63445 v 303.0457 h 205.061 v -22.2233 l 28.2593,0.013 -0.025,-14.7149 M 1266.7366,149.0171 v 18.6946 m 0,62.93841 v 276.7954 M 1732.6441,149.5823 v 30.4464 m 0,51.875 v 276.6072 m -465.7039,575.4142 h -32.1923 m -100.9489,0 h -21.1469 m 620.4967,-0.061 h 27.6861 m 99.5573,0 h 20.986 m -148.6912,0 V 508.0772 h -465.7342 v 575.7869 z m 320.9222,-18.1827 v 219.2031 l 33.335,-0.018 v -220.1949 m 108.0863,230.5537 v -12.3608 h 31.3148 v -139.4011 h -32.3249 v -14.1421 m 0,-32.3249 v -12.1218 h 37.3756 v -20.203 m -562.3944,297.9468 h 212.2143 m -943.6986,72.621 v 81.3961 m 0,90.2489 V 1712.179 M 769.7874,1453.154 v 259.2858 M 617.5515,1452.4435 h 88.2858 m 41.8187,0 h 35.1501 m 46.0567,0 h 323.4534 m -535.1435,257.7152 v -272.2361 m 0,-61.3668 v -14.8997 m 1609.7732,-0.7577 v 14.893 m 0,56.3215 v 21.2145 m 0.1458,259.1124 V 1453.154 h -31.8261 m -54.6833,0 h -329.6522 m 276.4515,-112.5 h -30.4518 v 21.7858 h -175.7143 v -298.5714 h 234.558 m 63.2358,0 h 245.0633 v 297.1428 l -197.1428,-0.045 v -20.3125 l -31.9031,-0.1054 v -12.7144 m -138.0125,34.7057 v 15.0768 m 0,62.2196 v 39.0273 m 0,187.8884 v 44.9751 M 2539.493,153.3113 v 930.5535 h 452.5484 v 628.3149 H 3 V 1078.814 H 457.5686 V 146.2402 H 912.1373 V 23.0016 h 354.5635 v 126.2691 h 465.6804 V 26.0321 h 347.0491 l -0.018,127.201 z M 1141.9303,336.7262 H 922.95015"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
     <path
        id="path3107"
        transform="translate(-621.21599,-68.648144)"
@@ -272,8 +272,8 @@
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
     <a
        xlink:href="kb-voltaire-f1.svg"
-       transform="translate(-5.7142857,130.35714)"
-       id="a1243">
+       id="a1243"
+       transform="translate(-5.7142857,130.35714)">
       <g
          id="g1040-0"
          transform="translate(-810.00006,-27.142851)">
@@ -448,8 +448,8 @@
     </a>
     <a
        xlink:href="kb-voltaire-f3.svg"
-       id="a1820-2"
-       transform="translate(364.44297,344.48758)">
+       transform="translate(364.44297,344.48758)"
+       id="a1820-2">
       <g
          id="g1779-6"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -502,8 +502,8 @@
     </a>
     <a
        xlink:href="kb-voltaire-f1.svg"
-       transform="translate(-671.07032,339.25147)"
-       id="a1820-2-1">
+       id="a1820-2-1"
+       transform="translate(-671.07032,339.25147)">
       <g
          id="g1779-6-3"
          transform="matrix(2.2428489,0,0,2.2428489,820.27577,-867.37429)">
@@ -586,10 +586,6 @@
        id="path1077" />
     <path
        style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 809.05591,1593.4107 v 47.9822"
-       id="path1079" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 809.66511,1441.0249 h 15.1523"
        id="path1081" />
     <path
@@ -643,29 +639,51 @@
          x="1654.7065"
          y="1150.9728"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic'">Toilettes</tspan></text>
-    <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill"
-       id="rect955"
-       width="398.57141"
-       height="150"
-       x="1165.9269"
-       y="1441.3518"
-       ry="2.8571401" />
     <text
        xml:space="preserve"
-       style="font-size:60.2756px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:1.5069"
-       x="1338.6794"
-       y="1510.9862"
-       id="text959"><tspan
+       style="font-size:39.8872px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.997188"
+       x="765.76514"
+       y="1545.0404"
+       id="text959-7"><tspan
          sodipodi:role="line"
-         x="1338.6794"
-         y="1510.9862"
-         id="tspan961"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:1.5069">Vestiaire</tspan><tspan
+         x="765.76514"
+         y="1545.0404"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.997188"
+         id="tspan965-7">Labo Assistants</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:39.8872px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.997188"
+       x="1366.4448"
+       y="1543.6583"
+       id="text959-7-4"><tspan
          sodipodi:role="line"
-         x="1338.6794"
-         y="1568.8669"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:1.5069"
-         id="tspan965">JPO</tspan></text>
+         x="1366.4448"
+         y="1543.6583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.997188"
+         id="tspan965-7-8">LabSI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:39.8872px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.997188"
+       x="1011.3289"
+       y="1176.3884"
+       id="text959-7-4-6"><tspan
+         sodipodi:role="line"
+         x="1011.3289"
+         y="1176.3884"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.997188"
+         id="tspan965-7-8-0">CRI</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 645.71431,180.57648 19.92793,-0.0195 m 45.99844,-0.0163 399.01942,-0.21661"
+       id="path1018"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 665.64221,180.55697 45.9985,-0.0163"
+       id="path1020" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 767.35541,1291.3519 V 1014.209"
+       id="path1022" />
   </g>
 </svg>
