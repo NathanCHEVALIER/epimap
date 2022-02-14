@@ -69,14 +69,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.0000001"
      inkscape:cx="665.87232"
-     inkscape:cy="113.52386"
+     inkscape:cy="753.69049"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3200"
-     inkscape:window-height="1721"
-     inkscape:window-x="1304"
-     inkscape:window-y="144"
+     inkscape:window-width="2400"
+     inkscape:window-height="1421"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -220,18 +220,18 @@
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:0%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.6675"
        x="540.91162"
-       y="866.23431"
+       y="854.23431"
        id="text3947"><tspan
          sodipodi:role="line"
          x="540.91162"
-         y="866.23431"
+         y="854.23431"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32.6776px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke-width:1.6675"
          id="tspan3957">Bâtiment X</tspan></text>
     <a
        xlink:href="kb-voltaire-f2.svg"
-       id="a4065"
+       style="fill:#ffffff;fill-opacity:1"
        transform="matrix(1.3121939,0,0,1.3121939,175.14295,76.493624)"
-       style="fill:#ffffff;fill-opacity:1">
+       id="a4065">
       <text
          id="text3997"
          y="376.56039"
@@ -248,9 +248,9 @@
     </a>
     <a
        xlink:href="kb-voltaire-f1.svg"
-       transform="matrix(1.3121939,0,0,1.3121939,173.67688,74.493624)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4070"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.3121939,0,0,1.3121939,173.67688,74.493624)">
       <text
          id="text3997-8"
          y="394.892"
@@ -267,9 +267,9 @@
     </a>
     <a
        xlink:href="kb-voltaire-f0.svg"
-       transform="matrix(1.3121939,0,0,1.3121939,167.53173,71.074909)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4075"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.3121939,0,0,1.3121939,167.53173,71.074909)">
       <text
          id="text3997-4"
          y="415.53036"
@@ -284,25 +284,25 @@
     </a>
     <a
        xlink:href="kb-voltaire-f-1.svg"
-       transform="matrix(1.3121939,0,0,1.3121939,162.59332,64.75586)"
+       style="fill:#ffffff;fill-opacity:1"
        id="a4079"
-       style="fill:#ffffff;fill-opacity:1">
+       transform="matrix(1.3121939,0,0,1.3121939,162.59332,64.75586)">
       <text
          id="text3997-5"
          y="435.10086"
-         x="396.0069"
+         x="383.81354"
          style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';fill:#ffffff;fill-opacity:1"
            y="435.10086"
-           x="396.0069"
+           x="383.81354"
            id="tspan3999-3"
-           sodipodi:role="line">Under</tspan></text>
+           sodipodi:role="line">Sous-Sol</tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f0.svg"
-       id="a4138"
-       transform="matrix(1.6675,0,0,1.6675,12.393391,-102.52457)">
+       xlink:href="kb-pasteur-f0.svg"
+       transform="matrix(1.6675,0,0,1.6675,12.393391,-102.52457)"
+       id="a4138">
       <text
          id="text4092-3"
          y="633.66809"
@@ -316,9 +316,9 @@
            sodipodi:role="line">RDC</tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f-1.svg"
-       id="a4142"
-       transform="matrix(1.6675,0,0,1.6675,12.903956,-152.87246)">
+       xlink:href="kb-pasteur-f-2.svg"
+       transform="matrix(1.6675,0,0,1.6675,12.903956,-152.87246)"
+       id="a4142">
       <text
          id="text4092-5"
          y="680.05176"
@@ -332,10 +332,10 @@
            sodipodi:role="line">Under</tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f0.svg"
-       id="a4251"
-       transform="matrix(1.6675,0,0,1.6675,-3.365943,-113.96099)"
-       style="fill:#ffffff;fill-opacity:1">
+       xlink:href="kb-paritalie-f0.svg"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,-1.365943,-107.96099)"
+       id="a4251">
       <text
          id="text4200"
          y="667.38428"
@@ -362,9 +362,9 @@
          y="504.83777"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:144.621px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:3.61553">KB</tspan></text>
     <a
-       xlink:href="map-kb-pasteur-f1.svg"
-       transform="matrix(1.6675,0,0,1.6675,-13.411125,-133.85502)"
-       id="a4138-9">
+       xlink:href="kb-pasteur-f1.svg"
+       id="a4138-9"
+       transform="matrix(1.6675,0,0,1.6675,-13.411125,-133.85502)">
       <text
          id="text4092-3-6"
          y="633.66809"
@@ -380,10 +380,10 @@
    id="tspan4234">er</tspan> étage</tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f2.svg"
-       id="a4259"
-       transform="matrix(1.6675,0,0,1.6675,9.044051,-117.49423)"
-       style="fill:#ffffff;fill-opacity:1">
+       xlink:href="kb-paritalie-f2.svg"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,9.044051,-105.49423)"
+       id="a4259">
       <text
          id="text4200-2"
          y="630.82306"
@@ -401,10 +401,10 @@
    id="tspan4223">ème</tspan> étage</tspan></tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f5.svg"
-       id="a4263"
-       transform="matrix(1.6675,0,0,1.6675,8.533476,-120.84564)"
-       style="fill:#ffffff;fill-opacity:1">
+       xlink:href="kb-paritalie-f5.svg"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,8.533476,-134.84564)"
+       id="a4263">
       <text
          id="text4200-6"
          y="613.60071"
@@ -422,10 +422,10 @@
    id="tspan4221">ème</tspan> étage</tspan></tspan></text>
     </a>
     <a
-       xlink:href="map-kb-pasteur-f1.svg"
-       id="a4255"
-       transform="matrix(1.6675,0,0,1.6675,3.69456,-114.87365)"
-       style="fill:#ffffff;fill-opacity:1">
+       xlink:href="kb-paritalie-f1.svg"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(1.6675,0,0,1.6675,3.69456,-106.87365)"
+       id="a4255">
       <text
          id="text4200-1"
          y="648.04547"
@@ -579,9 +579,9 @@
          id="tspan1541-4-3-2-6-8-1-9">Rue Enile Zola</tspan></text>
     <a
        xlink:href="kb-voltaire-f3.svg"
-       style="fill:#ffffff;fill-opacity:1"
+       id="a4065-6"
        transform="matrix(1.3121939,0,0,1.3121939,175.44575,54.35715)"
-       id="a4065-6">
+       style="fill:#ffffff;fill-opacity:1">
       <text
          id="text3997-50"
          y="376.56039"
@@ -598,9 +598,9 @@
     </a>
     <a
        xlink:href="kb-voltaire-f4.svg"
-       style="fill:#ffffff;fill-opacity:1"
+       id="a4065-9"
        transform="matrix(1.3121939,0,0,1.3121939,175.29435,33.925386)"
-       id="a4065-9">
+       style="fill:#ffffff;fill-opacity:1">
       <text
          id="text3997-2"
          y="376.56039"
@@ -617,9 +617,9 @@
     </a>
     <a
        xlink:href="kb-voltaire-f5.svg"
-       style="fill:#ffffff;fill-opacity:1"
+       id="a4065-6-9"
        transform="matrix(1.3121939,0,0,1.3121939,175.59715,11.788916)"
-       id="a4065-6-9">
+       style="fill:#ffffff;fill-opacity:1">
       <text
          id="text3997-50-9"
          y="376.56039"
@@ -636,9 +636,9 @@
     </a>
     <a
        xlink:href="kb-voltaire-f6.svg"
-       style="fill:#ffffff;fill-opacity:1"
+       id="a4065-6-9-4"
        transform="matrix(1.3121939,0,0,1.3121939,175.94575,-9.1428463)"
-       id="a4065-6-9-4">
+       style="fill:#ffffff;fill-opacity:1">
       <text
          id="text3997-50-9-7"
          y="376.56039"
@@ -652,6 +652,27 @@
            sodipodi:role="line">6<tspan
    id="tspan4001-0-2-4"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65.0009%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';baseline-shift:super;fill:#ffffff;fill-opacity:1">ème</tspan> étage</tspan></text>
+    </a>
+    <a
+       xlink:href="kb-paritalie-f3.svg"
+       id="a4259-6"
+       transform="matrix(1.6675,0,0,1.6675,6.307696,-132.56376)"
+       style="fill:#ffffff;fill-opacity:1">
+      <text
+         id="text4200-2-1"
+         y="630.22339"
+         x="280.50388"
+         style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           y="630.22339"
+           x="280.50388"
+           id="tspan4202-1-6"
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';fill:#ffffff;fill-opacity:1"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';fill:#ffffff;fill-opacity:1"
+             id="tspan4239-2">3<tspan
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';baseline-shift:super;fill:#ffffff;fill-opacity:1"
+   id="tspan4223-1">ème</tspan> étage</tspan></tspan></text>
     </a>
   </g>
 </svg>
