@@ -52,11 +52,6 @@ body{
 #main-header > a:nth-of-type(2){
     justify-content: flex-end;
 }
-#main-header > #settings{
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-}
 
 /***
 * Menu button

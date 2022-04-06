@@ -13,7 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
     <link rel="icon" type="/image/png" href="/img/favicon.png" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="/css/onoffswitch.css" />
+    <link rel="stylesheet" href="/css/settings.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 </head>
 <body class="darkmode">
 
@@ -31,7 +33,7 @@
             </a>
         </div>
 
-        <div id="settings">
+        <div id="btn-settings">
         </div>
     </header>
 
@@ -130,6 +132,20 @@
             </div>
         </ul>
     </nav>
+
+    <section id="settings">
+        <h3>Settings</h3>
+        <div class="setting">
+            <div class="onoffswitch">
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0">
+                <label class="onoffswitch-label" for="myonoffswitch">
+                    <span class="onoffswitch-inner"></span>
+                    <span class="onoffswitch-switch"></span>
+                </label>
+            </div>
+            <span>Dark Mode</span>
+        </div>
+    </section>
 
     <section id="cache" >
         <div></div>

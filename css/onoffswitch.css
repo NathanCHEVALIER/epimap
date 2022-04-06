@@ -9,7 +9,7 @@
 }
 .onoffswitch-label {
     display: block; overflow: hidden; cursor: pointer;
-    border: 2px solid #EEEEEE; border-radius: 50px;
+    border: 2px solid #ddd; border-radius: 50px;
 }
 .onoffswitch-inner {
     display: block; width: 200%; margin-left: -100%;
@@ -23,12 +23,12 @@
 .onoffswitch-inner:before {
     content: "";
     padding-left: 10px;
-    background-color: #EEEEEE; color: #FFFFFF;
+    background-color: #ddd; color: #FFFFFF;
 }
 .onoffswitch-inner:after {
     content: "";
     padding-right: 10px;
-    background-color: #EEEEEE; color: #999999;
+    background-color: #ddd; color: #999999;
     text-align: right;
 }
 .onoffswitch-switch {
@@ -36,7 +36,7 @@
     background: #4D4D4D;
     position: absolute; top: 0; bottom: 0;
     right: 27px;
-    border: 2px solid #EEEEEE; border-radius: 50px;
+    border: 2px solid #ddd; border-radius: 50px;
     transition: all 0.3s ease-in 0s; 
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -44,5 +44,5 @@
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
-    background-color: #27A1CA; 
+    background-color: #4700ba; 
 }
