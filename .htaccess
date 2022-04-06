@@ -16,7 +16,7 @@ DirectoryIndex index.html
 
 ## Redirect only maps, not other files (css and js)
 RewriteRule ^map-[a-z0-9-]+[\/]?$ index.html [L]
-RewriteRule ^devtest/map-[a-z0-9-]+[\/]?$ devtest/index.html [L]
+RewriteRule ^[a-z0-9-]+[\/]?$ index.html [L]
 
 ##ErrorDocument 404 /maintenance/maintenance.html
 
