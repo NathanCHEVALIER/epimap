@@ -1,18 +1,41 @@
 const loadMap = function(url) {
     httpRequest(url, 'image/svg+xml', false).then( function(body) {
-        injectMap(body);
-        // TODO: Transform inject Map in Promise
-        mapLoaded();
+        injectMap(body).then( function() {
+            const mapId = url.split('/').pop().replace(/\.[^.]*$/, '');
+            const mapName = maps[mapId]['d_name'];
+            
+            document.title = "Epimap: " + mapName;
+            document.querySelector("#map-nav > div > div > a").innerHTML = mapName;
+            document.querySelector("#map-nav > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
+
+            window.history.pushState({
+                    additionalInformation: mapName
+                },
+                document.title,
+                'https://epimap.fr/' + mapId
+            );
+        }).catch( function(e) {
+            console.log("Map Loading Error: " + e);
+        });
     }).catch( function(body){
         console.log("Error Response: " + body);
     });
 };
 
 const injectMap = function(data) {
-    container.innerHTML = data.responseText;
-    
-    document.querySelectorAll("#container a").forEach( function(path) {
-        path.addEventListener("click", e => onClickMapLink(e, path));
+    return new Promise((resolve, reject) => {
+        try {
+            container.innerHTML = data.responseText;
+            
+            document.querySelectorAll("#container a").forEach( function(path) {
+                path.addEventListener("click", e => onClickMapLink(e, path));
+            });
+        }
+        catch(e) {
+            return reject(e);
+        }
+
+        return resolve();
     });
 }
 
@@ -49,23 +72,6 @@ const initMap = function()
     btn.classList.remove("menu-open");
     menu.classList.remove("menu-open");
     container.classList.remove("menu-open");
-};
-
-const mapLoaded = function() {
-    const map_id = container.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
-    const map_dname = maps[map_id]['d_name'];
-    document.title = documentTitle + ": " + map_dname;
-
-    mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
-    mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
-    mapnavdate.innerHTML = "Last Update: " + maps[map_id]['last_update'];
-
-    window.history.pushState({
-            additionalInformation: map_dname
-        },
-        document.title,
-        'https://epimap.fr/' + map_id
-    );
 };
 
 initMap();

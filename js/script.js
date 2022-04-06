@@ -1,8 +1,4 @@
 // DEPRECATED: should be updated
-const documentTitle = document.title;
-
-const mapnavname = document.querySelector("#map-nav .map-name");
-const mapnavdate = document.querySelector("#map-nav > div:nth-of-type(2) > span");
 
 const btn = document.getElementById("btn-menu");
 const menu = document.getElementById("left-menu");
@@ -68,17 +64,3 @@ for (let i = 0; i < len; ++i) {
         return false;
     });
 }
-
-mapnavname.querySelector("a:nth-of-type(1)").addEventListener('click', function(e) {
-    e.preventDefault();
-
-    var link = e.target.getAttribute("href");
-    if (link === "null" || link === "")
-        return false;
-    else {
-        map_ifr.setAttribute("src", link);
-    }
-
-    return false;
-});
-
