@@ -139,7 +139,8 @@ const searchRender = function()
         dupBlock.style.display = "block";
 
         dupBlock.addEventListener('click', function() {
-            map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
+            //map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
+            loadMap("/maps/" + results[i]['map'] + ".svg");
             btn.classList.remove("menu-open");
             menu.classList.remove("menu-open");
             container.classList.remove("menu-open");

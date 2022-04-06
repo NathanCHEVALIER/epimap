@@ -1,7 +1,7 @@
-const httpRequest = function(url, type) {
+const httpRequest = function(url, type, policy) {
     return new Promise((resolve, reject) => {
         let request = new XMLHttpRequest();
-        request.open('GET', url, true);
+        request.open('GET', url, policy);
         request.setRequestHeader('Content-Type', type);
         request.onload = event => {
             if (request.status < 200)

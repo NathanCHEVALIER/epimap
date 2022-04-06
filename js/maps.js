@@ -1,6 +1,8 @@
 const loadMap = function(url) {
-    httpRequest(url, 'image/svg+xml').then( function(body) {
+    httpRequest(url, 'image/svg+xml', false).then( function(body) {
         injectMap(body);
+        // TODO: Transform inject Map in Promise
+        mapLoaded();
     }).catch( function(body){
         console.log("Error Response: " + body);
     });
@@ -30,10 +32,14 @@ const onClickMapLink = function(e, path) {
     return false;
 };
 
-//loadMap("/maps/kremlin-bicetre.svg");
-
 const initMap = function()
 {
+    httpRequest("/js/data.map.json", 'application/json', false).then( function(body) {
+        maps = JSON.parse(body.responseText);
+    }).catch( function(body){
+        alert("Error while loading maps data" + body);
+    });
+
     let path = window.location.href.split('/').pop();
 
     if (path.length == 0)
@@ -45,15 +51,14 @@ const initMap = function()
     container.classList.remove("menu-open");
 };
 
-/*
-const mapIframeLoaded = function() {
+const mapLoaded = function() {
     const map_id = container.querySelector('svg').getAttribute('sodipodi:docname').replace(/\.[^.]*$/, '');
+    const map_dname = maps[map_id]['d_name'];
+    document.title = documentTitle + ": " + map_dname;
 
-    map_dname = maps[map_id]['d_name'];
     mapnavname.querySelector("a:nth-of-type(1)").setAttribute("href", "./maps/" + map_id + ".svg");
     mapnavname.querySelector("a:nth-of-type(1)").innerHTML = map_dname;
     mapnavdate.innerHTML = "Last Update: " + maps[map_id]['last_update'];
-    document.title = documentTitle + ": " + map_dname;
 
     window.history.pushState({
             additionalInformation: map_dname
@@ -62,4 +67,5 @@ const mapIframeLoaded = function() {
         'https://epimap.fr/' + map_id
     );
 };
-*/
+
+initMap();

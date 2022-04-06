@@ -10,19 +10,7 @@ const cache = document.getElementById("cache");
 const searchBtn = document.querySelector("#search > div > button");
 const searchTemplate = document.getElementById("search-result-template");
 
-/*** JSON Data about Maps loading */
-
-const initData = async function()
-{
-    const res = await fetch("./js/data.map.json");
-    const json = await res.json();
-    maps = json;
-
-    initMap();
-};
-
 let maps = null;
-initData();
 
 /*** Menu actions and transition */
 btn.classList.add("menu-open");
