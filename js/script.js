@@ -1,3 +1,4 @@
+// DEPRECATED: should be updated
 const documentTitle = document.title;
 
 const mapnavname = document.querySelector("#map-nav .map-name");

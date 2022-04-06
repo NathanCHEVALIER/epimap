@@ -1,4 +1,4 @@
-// DEPRECATED: should be reworked
+// DEPRECATED: should be updated
 
 /*** Dev in progress */
 
