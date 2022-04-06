@@ -69,9 +69,6 @@ const initMap = function()
         path = "kremlin-bicetre";
 
     loadMap("/maps/" + path + ".svg");
-    btn.classList.remove("menu-open");
-    menu.classList.remove("menu-open");
-    container.classList.remove("menu-open");
 };
 
 initMap();
