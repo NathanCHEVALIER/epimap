@@ -9,6 +9,7 @@ const searchTemplate = document.getElementById("search-result-template");
 
 const settings = document.querySelector("#settings");
 const settingBtn = document.querySelector("#btn-settings");
+const darkmodeBtn = document.querySelector("#settings .onoffswitch:nth-of-type(1)");
 
 let maps = null;
 
@@ -36,6 +37,14 @@ settingBtn.addEventListener('click', e => {
         settings.classList.remove("open");
     else
         settings.classList.add("open");
+})
+
+darkmodeBtn.addEventListener('change', e => {
+    console.log("ttu");
+    if (document.querySelector("body").classList.contains("darkmode"))
+        document.querySelector("body").classList.remove("darkmode");
+    else
+        document.querySelector("body").classList.add("darkmode");
 })
 
 document.querySelectorAll('#left-menu a').forEach( function(path) {
