@@ -24,7 +24,7 @@ body{
     padding: 0px;
     background: rgb(71,0,186);/* #4700ba */
     background: linear-gradient(159deg, rgba(71,0,186,1) 68%, rgba(16,0,145,1) 100%);
-    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+    box-shadow: #00000026 0 2px 8px;
     z-index: 1002;
 }
 #main-header #title {

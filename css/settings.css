@@ -14,7 +14,7 @@
 }
 
 #settings {
-    background-color: #eeeeee;
+    background-color: #fafafa;
     width: 350px;
     min-height: 50px;
     position: fixed;
@@ -22,26 +22,42 @@
     right: 20px;
     z-index: 200;
     padding: 34px 14px;
-    border: 1px solid #cccccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,.2);
-    display: flex;
+    box-shadow: #00000026 0 2px 8px;
+    display: none;
     flex-direction: column;
+}
+
+#settings.open {
+    display: flex;
 }
 
 #settings > h3 {
     padding: 6px 5px;
-    color: #777777;
+    color: #333;
 }
 
 #settings > .setting {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     margin-top: 12px;
 }
 
 #settings > .setting > span{
-    font-size: 17px;
+    font-size: 16px;
     margin-right: 24px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 12px;
+}
+
+#settings > h3:nth-of-type(2) {
+    margin-top: 36px;
+}
+
+#settings > .legende > span{
+    font-size: 12px;
+    margin-right: 24px;
+    color: #777;
+    font-weight: 600;
 }

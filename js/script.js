@@ -7,10 +7,13 @@ const menuOverlay = document.getElementById("cache");
 const searchBtn = document.querySelector("#search > div > button");
 const searchTemplate = document.getElementById("search-result-template");
 
+const settings = document.querySelector("#settings");
+const settingBtn = document.querySelector("#btn-settings");
+
 let maps = null;
 
 const toggleMenu = function() {
-    console.log("toggle");
+    settings.classList.remove("open");
     if (menuButton.classList.contains("menu-open")) {
         menuButton.classList.remove("menu-open");
         menu.classList.remove("menu-open");
@@ -27,6 +30,13 @@ const toggleMenu = function() {
 
 menuButton.addEventListener('click', toggleMenu);
 menuOverlay.addEventListener('click', toggleMenu);
+
+settingBtn.addEventListener('click', e => {
+    if (settings.classList.contains("open"))
+        settings.classList.remove("open");
+    else
+        settings.classList.add("open");
+})
 
 document.querySelectorAll('#left-menu a').forEach( function(path) {
     path.addEventListener('click', function(e) {
