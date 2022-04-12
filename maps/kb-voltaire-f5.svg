@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg869"
    width="100%"
    height="100%"
    viewBox="0 0 3182.8555 1516.3783"
    sodipodi:docname="kb-voltaire-f5.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata875">
     <rdf:RDF>
@@ -66,22 +66,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
+     inkscape:window-width="1862"
+     inkscape:window-height="1016"
      id="namedview871"
      showgrid="false"
-     inkscape:zoom="0.50000001"
-     inkscape:cx="1441.2164"
-     inkscape:cy="958.64283"
-     inkscape:window-x="1042"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.3535534"
+     inkscape:cx="1368.9587"
+     inkscape:cy="612.35446"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg869"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <path
      id="path997"
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -96,13 +97,13 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:30.6264px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.957074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="1122.6506"
-     y="219.54831"
+     x="1112.0782"
+     y="198.19463"
      id="text1232"><tspan
        sodipodi:role="line"
        id="tspan1230"
-       x="1122.6506"
-       y="219.54831"
+       x="1112.0782"
+       y="198.19463"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6264px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.957074px">Toilettes</tspan></text>
   <path
      id="path4289-9"
@@ -119,14 +120,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2557.6848"
+     x="2481.6848"
      y="1050.1243"
      id="text1594"><tspan
        sodipodi:role="line"
        id="tspan1592"
-       x="2557.6848"
+       x="2481.6848"
        y="1050.1243"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">KB501</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">KB 501 B</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -168,34 +169,34 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:30.6264px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.957074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="1910.0549"
-     y="354.78049"
+     x="1874.1831"
+     y="287.14334"
      id="text1232-4"><tspan
        sodipodi:role="line"
        id="tspan1230-1"
-       x="1910.0549"
-       y="354.78049"
+       x="1874.1831"
+       y="287.14334"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6264px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.957074px">Toilettes</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:30.6264px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.957074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="1417.0549"
+     x="1411.0549"
      y="271.78049"
      id="text1232-7"><tspan
        sodipodi:role="line"
        id="tspan1230-4"
-       x="1417.0549"
+       x="1411.0549"
        y="271.78049"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6264px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.957074px">Bureau</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:30.6264px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.957074px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="1593.0549"
+     x="1581.0549"
      y="271.78049"
      id="text1232-5"><tspan
        sodipodi:role="line"
        id="tspan1230-6"
-       x="1593.0549"
+       x="1581.0549"
        y="271.78049"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6264px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.957074px">Bureau</tspan></text>
   <text
@@ -524,14 +525,14 @@
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="2544.864"
+     x="2470.864"
      y="450.03201"
      id="text1594-0"><tspan
        sodipodi:role="line"
        id="tspan1592-6"
-       x="2544.864"
+       x="2470.864"
        y="450.03201"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">KB501</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:48px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">KB 501 A</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 2350,717.20517 h 114"
