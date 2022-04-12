@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="100%"
    height="100%"
    viewBox="0 0 1900.0001 1900"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="kb-pasteur-f-1.svg">
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="kb-pasteur-f-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -220,7 +219,7 @@
        lpeversion="0" />
     <linearGradient
        id="linearGradient4227"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
@@ -343,22 +342,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7071068"
-     inkscape:cx="1193.1639"
-     inkscape:cy="1399.6641"
+     inkscape:zoom="0.50000001"
+     inkscape:cx="763.99998"
+     inkscape:cy="1376"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1050"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="396"
-     inkscape:window-y="1791"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -396,30 +396,6 @@
     <a
        xlink:href="map-kb-pasteur-f-1.svg"
        id="a3263" />
-    <a
-       xlink:href="kb-pasteur-f-2.svg"
-       id="a1010">
-      <g
-         id="g1008">
-        <path
-           sodipodi:nodetypes="ccccccccccc"
-           inkscape:connector-curvature="0"
-           d="m -518.3084,557.69911 v -3.1641 l 13.8164,-13.8164 4.2187,4.2188 -8.1914,8.1914 h 42.8555 v 5.9765 h -42.8555 l 8.1914,8.1914 -4.2187,4.2188 -13.8164,-13.8164"
-           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
-           id="path3613" />
-        <text
-           id="text3189"
-           y="568.04675"
-           x="-440.49167"
-           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve"><tspan
-             y="568.04675"
-             x="-440.49167"
-             id="tspan3191"
-             sodipodi:role="line"
-             style="font-size:32px;line-height:1.25;font-family:sans-serif">Under</tspan></text>
-      </g>
-    </a>
     <g
        id="g4581"
        transform="translate(-1663.1152,31.112698)">
@@ -433,7 +409,7 @@
        sodipodi:nodetypes="cccccccccccccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -87.759227,369.6375 v 12.75 H -272.07767 m -57.27565,0 h -60.9059 m -50.5,0 h -20.63486 m -38,0 h -385.03805 l -25.92886,-25.45584"
+       d="m -87.759227,367.6375 v 14.75 H -272.07767 m -57.27565,0 h -60.9059 m -50.5,0 h -20.63486 m -38,0 h -385.03805 l -25.92886,-25.45584"
        id="path1208"
        sodipodi:nodetypes="cccccccccc" />
     <path
@@ -858,5 +834,73 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 788.88563,104.5248 v -35"
        id="path1185" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+       x="-32.810188"
+       y="-277.40659"
+       id="text5325-12"><tspan
+         sodipodi:role="line"
+         id="tspan5327-4"
+         x="-32.810188"
+         y="-277.40659"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Labo Majeures</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+       x="4.7848511"
+       y="-229.74237"
+       id="text5325-12-3"><tspan
+         sodipodi:role="line"
+         x="4.7848511"
+         y="-229.74237"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+         id="tspan14511">SRS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+       x="94.457802"
+       y="-229.27332"
+       id="text5325-12-3-7"><tspan
+         sodipodi:role="line"
+         x="94.457802"
+         y="-229.27332"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+         id="tspan14511-5">TCOM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+       x="31.956692"
+       y="-187.92752"
+       id="text5325-12-3-7-3"><tspan
+         sodipodi:role="line"
+         x="31.956692"
+         y="-187.92752"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+         id="tspan14511-5-5">GISTRE</tspan></text>
+    <a
+       id="a20718"
+       xlink:href="kb-pasteur-f-2.svg">
+      <g
+         id="g20716">
+        <path
+           sodipodi:nodetypes="ccccccccccc"
+           inkscape:connector-curvature="0"
+           d="m -518.3084,557.69911 v -3.1641 l 13.8164,-13.8164 4.2187,4.2188 -8.1914,8.1914 h 42.8555 v 5.9765 h -42.8555 l 8.1914,8.1914 -4.2187,4.2188 -13.8164,-13.8164"
+           style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+           id="path3613" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:15.4047px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28373"
+           x="-448.14993"
+           y="566.40265"
+           id="text3029"><tspan
+             sodipodi:role="line"
+             id="tspan3031"
+             x="-448.14993"
+             y="566.40265"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.8094px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:1.28373">Under</tspan></text>
+      </g>
+    </a>
   </g>
 </svg>
