@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="100%"
    height="100%"
    viewBox="0 0 2222 1317"
    version="1.1"
    id="svg150"
    sodipodi:docname="kb-voltaire-f-1.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata156">
     <rdf:RDF>
@@ -37,18 +37,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1377"
+     inkscape:window-width="1862"
+     inkscape:window-height="1016"
      id="namedview152"
      showgrid="false"
-     inkscape:zoom="0.44563298"
-     inkscape:cx="939.54504"
-     inkscape:cy="481.77052"
-     inkscape:window-x="1042"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.55488518"
+     inkscape:cx="1108.3374"
+     inkscape:cy="732.58399"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="map-kb-voltaire-f-1"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <title
      id="title2">map-kb-voltaire-f-1</title>
   <g
@@ -63,12 +64,21 @@
       <text
          id="Heritage"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-rule:nonzero"
-         x="379.30869"
-         y="600.58575"><tspan
-           x="379.53421"
-           y="632.08649"
+         x="365.86261"
+         y="620.5575"><tspan
+           x="366.08813"
+           y="652.05823"
            id="tspan10"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Heritage</tspan></text>
+      <text
+         id="Heritage-3"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-rule:nonzero"
+         x="392.67303"
+         y="582.87653"><tspan
+           x="392.89856"
+           y="614.37726"
+           id="tspan10-6"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Foyer</tspan></text>
       <path
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:none;fill-rule:nonzero;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 923.21063,312.84287 v 527.51315 h -82.82147 v -101.5518 h -57.9494 V 636.45904"
@@ -84,9 +94,11 @@
          font-weight="normal">
         <text
            id="EpiMac"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"><tspan
-             x="0.99106997"
-             y="31.219299"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"
+           x="-10"
+           y="2"><tspan
+             x="-9.0089302"
+             y="33.219299"
              id="tspan14"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">EpiMac</tspan></text>
       </g>
@@ -110,11 +122,13 @@
            id="text3973"
            transform="translate(-142.8285,-4.4026979)">
           <text
-             id="tspan3975"><tspan
-               x="0.22644"
-               y="31.9268"
+             id="tspan3975"
+             x="-4.0847306"
+             y="9.9745989"><tspan
+               x="-3.8582907"
+               y="41.901398"
                id="tspan24"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Cycom</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Cycom</tspan></text>
         </g>
       </g>
       <g
@@ -127,17 +141,7 @@
          font-weight="normal">
         <g
            id="g32"
-           transform="translate(0.22644,0.9268)">
-          <text
-             id="WC"
-             x="6.1020923"
-             y="0.97464818"
-             style="font-size:36.0352px;stroke-width:1.1261"><tspan
-               x="6.3570862"
-               y="36.927376"
-               id="tspan29"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:1.1261">WC</tspan></text>
-        </g>
+           transform="translate(0.22644,0.9268)" />
       </g>
       <g
          id="a3343-copy-2"
@@ -151,16 +155,18 @@
            id="g38"
            transform="translate(0.22644,0.9268)">
           <text
-             id="Prologin"><tspan
-               x="0.22644"
-               y="31.9268"
+             id="Prologin"
+             x="-8"
+             y="2"><tspan
+               x="-7.77356"
+               y="33.9268"
                id="tspan35"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Prologin</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Prologin</tspan></text>
         </g>
       </g>
       <g
          id="a3343-copy-3"
-         transform="translate(2049.2857,1155.281)"
+         transform="translate(2049.2857,1149.281)"
          fill="#000000"
          fill-rule="nonzero"
          font-family="Helvetica"
@@ -171,12 +177,12 @@
            transform="translate(0.22644,0.9268)">
           <text
              id="Synergie-Epiqueer"
-             x="-10.097996"
+             x="-188.09799"
              y="-1.1219995"><tspan
-               x="-8.0199938"
+               x="-186.01999"
                y="30.8048"
                id="tspan41"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Synergie</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Synergie</tspan></text>
         </g>
       </g>
       <g
@@ -189,21 +195,12 @@
          font-weight="normal">
         <text
            id="CRI"
-           x="-48"><tspan
-             x="-47.473938"
+           x="-58"><tspan
+             x="-57.473938"
              y="31.70117"
              id="tspan49"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Evolutek</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Evolutek</tspan></text>
       </g>
-      <text
-         id="Bocal"
-         style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"
-         x="292.26883"
-         y="95.399872"><tspan
-           x="431.79492"
-           y="302.10104"
-           id="tspan63"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Local Technique Bocal</tspan></text>
       <a
          xlink:href="kb-voltaire-f0.svg"
          transform="translate(-6.3469879,17.454217)"
@@ -236,9 +233,9 @@
               <text
                  id="tspan4166"
                  style="font-size:26.6667px"
-                 x="24.68399"
+                 x="10.68399"
                  y="-19.073992"><tspan
-                   x="25.129299"
+                   x="11.129299"
                    y="12.740037"
                    id="tspan93"
                    style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic'">Rue Voltaire</tspan></text>
@@ -271,7 +268,7 @@
             </g>
             <g
                id="text4164-7"
-               transform="translate(13.909305,73.594034)"
+               transform="translate(3.909305,73.594034)"
                font-family="Helvetica"
                font-size="32px">
               <text
@@ -286,7 +283,7 @@
         </g>
       </a>
       <path
-         d="M 2057.3889,839.59684 V 512.66169 M 0.0028363,848.33415 V 762.88617 H 131.09775 V 522.7224 m 1275.96915,-216.73686 -0.13,40.49916 -47.9398,-0.0313 -0.4971,618.89262 h 178.3571 m 320.3958,-139.86817 v 139.39187 l -258.1991,0.4763 m 36.6916,85.64288 v 257.6525 m 357,-204.6525 v 205.6525 m -491.3808,-257.8706 v 257.8909 m -224.5863,-257.8909 v 257.8909 m 939.7932,-257.3153 h -223.4703 l -0.058,9.1466 m -297.9715,-9.993 h -121.9286 m -40.5506,0 H 1426.5 m 617.9981,-212.16457 170.8539,1.0394 V 1310.6617 H 0 V 839.34643 l 66.26608,-0.011 m 270.43032,-7.077 -0.2678,-831.3396 h 1520.7143 v 838.457 h 19.6951 M 105.486,1175.8175 v 132.8351 M 54.5342,1066.7211 v 38.2754 m 0,35.9257 v 35.4004 m 144.33,-63.6802 h -82.2463 v 16.9404 m 0,33.9054 v 12.3293 H 95.53099 m -33.16814,0 H 2.0875 M 135.953,994.315 h 7.57614 M 134.9428,839.86063 V 1066.7211 H 1.6027 M 1176.5714,1051.5 h 209.9407 M 199.1429,1308.7749 V 994.3464 h -9.43948"
+         d="M 2057.3889,839.59684 V 512.66169 M 0.0028363,848.33415 V 762.88617 H 131.09775 V 522.7224 m 1275.96915,-216.73686 -0.13,40.49916 -47.9398,-0.0313 -0.4971,618.89262 h 178.3571 m 320.3958,-139.86817 v 139.39187 l -258.1991,0.4763 m 36.6916,85.64288 v 257.6525 m 357,-204.6525 v 9.6525 m -491.3808,-61.8706 v 257.8909 m -224.5863,-257.8909 v 257.8909 m 939.7932,-257.3153 h -223.4703 l -0.058,9.1466 m -297.9715,-9.993 h -121.9286 m -40.5506,0 H 1426.5 m 617.9981,-212.16457 170.8539,1.0394 V 1310.6617 H 0 V 839.34643 l 66.26608,-0.011 m 270.43032,-7.077 -0.2678,-831.3396 h 1520.7143 v 838.457 h 19.6951 M 105.486,1175.8175 v 132.8351 M 54.5342,1066.7211 v 38.2754 m 0,35.9257 v 35.4004 m 144.33,-63.6802 h -82.2463 v 16.9404 m 0,33.9054 v 12.3293 H 95.53099 m -33.16814,0 H 2.0875 M 135.953,994.315 h 7.57614 M 134.9428,839.86063 V 1066.7211 H 1.6027 M 1176.5714,1051.5 h 209.9407 M 199.1429,1308.7749 V 994.3464 h -9.43948"
          id="path4143"
          stroke="#000000"
          stroke-width="6"
@@ -299,16 +296,7 @@
          fill-rule="nonzero"
          font-family="Helvetica"
          font-size="32px"
-         font-weight="normal">
-        <text
-           id="Gconfs-Ephemere"
-           x="-13.463995"
-           y="-1.1219995"><tspan
-             x="10.705564"
-             y="30.2701"
-             id="tspan111"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Gconfs</tspan></text>
-      </g>
+         font-weight="normal" />
       <g
          id="g121"
          transform="translate(949.59809,1136.4385)"
@@ -316,20 +304,7 @@
          fill-rule="nonzero"
          font-family="Helvetica"
          font-size="32px"
-         font-weight="normal">
-        <text
-           id="text119"
-           x="-8"
-           y="17.466278"><tspan
-             sodipodi:role="line"
-             id="tspan1014"
-             x="-6.6976275"
-             y="48.858376"><tspan
-   x="-6.6976275"
-   y="48.858376"
-   id="tspan117"
-   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">CRI</tspan>?</tspan></text>
-      </g>
+         font-weight="normal" />
       <g
          id="a4234"
          transform="translate(751.21564,1136.7117)"
@@ -337,25 +312,23 @@
          fill-rule="nonzero"
          font-family="Helvetica"
          font-size="32px"
-         font-weight="normal">
-        <text
-           id="EpiMac-EPTV"><tspan
-             x="0.71988869"
-             y="31.3922"
-             id="tspan123"
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">EpiMac</tspan></text>
-      </g>
+         font-weight="normal" />
       <text
          xml:space="preserve"
          style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-         x="598.7818"
-         y="1183.76"
+         x="629.49133"
+         y="1180.4675"
          id="text973"><tspan
            sodipodi:role="line"
            id="tspan971"
-           x="598.7818"
-           y="1183.76"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-opacity:1">CIA</tspan></text>
+           x="629.49133"
+           y="1180.4675"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1">CIA</tspan><tspan
+           sodipodi:role="line"
+           x="629.49133"
+           y="1220.4675"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1"
+           id="tspan24097">(Evolutek)</tspan></text>
       <text
          xml:space="preserve"
          style="font-size:40px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
@@ -368,31 +341,31 @@
            y="1190.8075">A</tspan></text>
       <text
          id="EpiMac-EPTV-9"
-         x="763.34637"
-         y="1171.3472"
+         x="759.34637"
+         y="1163.3472"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="764.06628"
-           y="1202.7394"
+           x="760.06628"
+           y="1194.7394"
            id="tspan123-5"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">EPTV</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">EPTV</tspan></text>
       <text
          id="EpiMac-EPTV-9-8"
-         x="1082.0856"
-         y="1169.7828"
+         x="1066.0856"
+         y="1161.7828"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="1082.8055"
-           y="1201.175"
+           x="1066.8055"
+           y="1193.175"
            id="tspan123-5-8"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Ephemere</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Ephemere</tspan></text>
       <text
          id="EpiMac-EPTV-9-1"
-         x="2041.0918"
-         y="1189.9425"
+         x="1863.4701"
+         y="1184.1187"
          style="font-weight:normal;font-size:32px;font-family:Helvetica;fill:#000000;fill-rule:nonzero"><tspan
-           x="2041.8118"
-           y="1221.3347"
+           x="1864.1901"
+           y="1215.5109"
            id="tspan123-5-88"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold'">Epiqueer</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Epiqueer</tspan></text>
       <text
          xml:space="preserve"
          style="font-weight:normal;font-size:32px;line-height:0.95;font-family:Bahagia;-inkscape-font-specification:Bahagia;fill:#000000;fill-rule:nonzero"
@@ -407,14 +380,14 @@
       <text
          xml:space="preserve"
          style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-         x="310.58789"
-         y="1185.296"
+         x="304.58789"
+         y="1191.296"
          id="text973-0"><tspan
            sodipodi:role="line"
            id="tspan971-1"
-           x="310.58789"
-           y="1185.296"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-opacity:1">Staffcom</tspan></text>
+           x="304.58789"
+           y="1191.296"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';fill:#000000;fill-opacity:1">Réserve</tspan></text>
       <a
          xlink:href="kb-voltaire-f0.svg"
          transform="matrix(0.5016506,0,0,0.5016506,227.87173,5.468313)"
@@ -767,8 +740,9 @@
          sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 1908.916,1051.5 h 26.5802 v 61.3286 h 164.373"
-         id="path1260" />
+         d="m 1908.916,1051.5 h 26.5802 v 61.3286 h 192.373"
+         id="path1260"
+         sodipodi:nodetypes="cccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 1876.838,839.37583 167.6601,-0.0404"
@@ -930,6 +904,14 @@
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 1105.6605,850.84166 h 70"
          id="path1038" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 2037.2684,1113.4842 v 198.6095"
+         id="path54370" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         d="m 2127.8692,1112.8286 v 201.6933"
+         id="path54372" />
     </g>
   </g>
 </svg>
