@@ -5,7 +5,7 @@
    viewBox="0 0 2129.9285 1392.8558"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
    sodipodi:docname="kb-voltaire-f0.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -384,9 +384,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="1395.4999"
-     inkscape:cy="1275.7499"
+     inkscape:zoom="0.50000003"
+     inkscape:cx="1059.9999"
+     inkscape:cy="698.99996"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -396,8 +396,8 @@
      fit-margin-bottom="0"
      inkscape:window-width="1862"
      inkscape:window-height="1016"
-     inkscape:window-x="350"
-     inkscape:window-y="1467"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:pagecheckerboard="0" />
@@ -1080,12 +1080,12 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-       x="582.22882"
-       y="907.02289"
+       x="562.22882"
+       y="707.02289"
        id="text5325-6-9-0"><tspan
          sodipodi:role="line"
-         x="582.22882"
-         y="907.02289"
+         x="562.22882"
+         y="707.02289"
          id="tspan5371-0"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Accueil</tspan></text>
     <text
@@ -1323,27 +1323,6 @@
          y="1117.0714"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
          id="tspan2175-4-6">mixtes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
-       x="45.692398"
-       y="1331.4708"
-       id="text4011-5-7-6-2"><tspan
-         sodipodi:role="line"
-         x="45.692398"
-         y="1331.4708"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan2175-4-6-4">Philippe</tspan><tspan
-         sodipodi:role="line"
-         x="45.692402"
-         y="1357.2156"
-         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1376">Murat</tspan><tspan
-         sodipodi:role="line"
-         x="45.692398"
-         y="1382.9603"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1382" /></text>
     <a
        xlink:href="kb-voltaire-f1.svg"
        id="a2081-7-7"
@@ -1469,7 +1448,7 @@
       </g>
     </a>
     <a
-       xlink:href="file:///C:/Users/natha/AppData/Local/Packages/CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc/LocalState/rootfs/home/nathan/epimap/epimap/maps/kb-voltaire-f-1.svg"
+       xlink:href="kb-voltaire-f-1.svg"
        style="display:inline"
        transform="translate(1796.2355,7.6987983)"
        id="a1956-0">
@@ -1571,21 +1550,5 @@
         </g>
       </g>
     </a>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
-       x="46.84441"
-       y="1399.4302"
-       id="text4011-5-7-6-2-9"><tspan
-         sodipodi:role="line"
-         x="46.84441"
-         y="1399.4302"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1380-5">Vie</tspan><tspan
-         sodipodi:role="line"
-         x="46.84441"
-         y="1425.0308"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1382-1">associative</tspan></text>
   </g>
 </svg>
