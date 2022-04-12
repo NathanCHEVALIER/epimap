@@ -26,7 +26,7 @@ const initColorMode = function() {
     setColorMode(getColorMode());
 };
 
-darkmodeBtn.addEventListener('change', e => {
+darkModeBtn.addEventListener('change', e => {
     if (document.querySelector("body").classList.contains("darkmode"))
         document.querySelector("body").classList.remove("darkmode");
     else

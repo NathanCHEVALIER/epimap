@@ -21,8 +21,33 @@ body.darkmode > #left-menu > ul > li > ul > li > ul > li > a{
 
 body.darkmode > #left-menu > ul > li > ul > li > ul > li:hover{
     background-color: #444444;
+    border-right: 4px solid #091c32;
 }
 
+body.darkmode #search > div:nth-of-type(1) > input{
+    background: #565656;
+    color: #efefef;
+}
+
+body.darkmode #search > div:nth-of-type(2) > div{
+    background-color: #565656;
+}
+
+body.darkmode #search > div:nth-of-type(2) > div:hover{
+    background-color: #606060;
+}
+
+body.darkmode #search > div:nth-of-type(2) > div > h4{
+    color: #efefef;
+}
+
+body.darkmode #search > div:nth-of-type(2) > div > span{
+    color: #cccccc;
+}
+
+body.darkmode #map-nav > div:nth-of-type(1) {
+    background-color: #091c32;
+}
 
 /*** SVG Maps ***/
 
