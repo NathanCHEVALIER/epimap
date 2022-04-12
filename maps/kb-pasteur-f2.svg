@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="100%"
    height="100%"
    viewBox="0 0 1900.0001 1900"
    id="svg2"
    version="1.1"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
-   sodipodi:docname="kb-pasteur-f2.svg">
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="kb-pasteur-f2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs4">
     <inkscape:path-effect
@@ -220,7 +219,7 @@
        lpeversion="0" />
     <linearGradient
        id="linearGradient4227"
-       osb:paint="solid">
+       inkscape:swatch="solid">
       <stop
          style="stop-color:#000000;stop-opacity:1;"
          offset="0"
@@ -343,22 +342,23 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="928.81108"
-     inkscape:cy="1364.0612"
+     inkscape:zoom="1"
+     inkscape:cx="1003"
+     inkscape:cy="1680"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="3200"
-     inkscape:window-height="1721"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -490,19 +490,23 @@
          sodipodi:nodetypes="cccccccccccccccccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -17.3053,1140.9645 -77.295217,-100.7693 -14.282263,10.9552 -99.80394,-130.11376 m -20.87255,-27.21142 -55.30152,-72.09624 m -19.79666,-25.80877 -47.555,-61.99715 m -20.96519,-27.33218 -53.71105,-70.02276 -119.01885,91.29356 11.25954,14.67899 -31.34162,24.04064"
+         d="m 4.9115509,1123.923 -51.7468549,-67.4621 m -18.610981,-24.263 -6.937381,-9.0442 -36.499114,27.9967 -99.80394,-130.11376 m -20.87255,-27.21142 -55.30152,-72.09624 m -19.79666,-25.80877 -47.555,-61.99715 m -20.96519,-27.33218 -53.71105,-70.02276 -119.01885,91.29356 11.25954,14.67899 -31.34162,24.04064"
          id="path1027"
-         sodipodi:nodetypes="ccccccccccccc" />
+         sodipodi:nodetypes="ccccccccccccccc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -46.848116,1164.8856 -41.386416,-53.9552 5.750179,-4.4107 m 19.777377,-15.1702 5.020614,-3.8511"
+         d="m -32.196172,1151.1257 -76.686578,-99.9758"
          id="path1029"
-         sodipodi:nodetypes="ccccc" />
+         sodipodi:nodetypes="cc" />
       <path
          style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m -148.05824,896.56539 -16.48447,12.64443 m -27.77248,21.30292 -5.33424,4.09164"
          id="path1031"
          sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m -65.44625,1032.1978 18.610985,24.2631"
+         id="path2625" />
     </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
@@ -562,7 +566,7 @@
        id="path1059" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 220.60593,470.3523 v 32.1725"
+       d="m 212.30594,394.90631 v 32.1725"
        id="path1061" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -576,5 +580,70 @@
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m -239.19719,482.5248 h -34.44688"
        id="path1067" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-522.37665"
+       y="322.71515"
+       id="text5638-36"><tspan
+         sodipodi:role="line"
+         id="tspan5636-7"
+         x="-522.37665"
+         y="322.71515"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.247669px">Salle de réunion</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 213.07983,437.0837 v -10.19727 m 0,-31.39178 V 383.0217"
+       id="path1804"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-190.13811"
+       y="306.58594"
+       id="text5638-5"><tspan
+         sodipodi:role="line"
+         id="tspan5636-62"
+         x="-190.13811"
+         y="306.58594"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.247669px">Equipes SEAL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.6667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184568px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-125.2902"
+       y="325.5199"
+       id="text5638-3-9"><tspan
+         sodipodi:role="line"
+         id="tspan5636-6-1"
+         x="-125.2902"
+         y="325.5199"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.184568px">Laurent Beaudouin</tspan><tspan
+         sodipodi:role="line"
+         x="-125.2902"
+         y="343.85327"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.184568px"
+         id="tspan7123">Loïca Avanthey</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="45.003525"
+       y="306.42337"
+       id="text5638-5-2"><tspan
+         sodipodi:role="line"
+         id="tspan5636-62-7"
+         x="45.003525"
+         y="306.42337"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.247669px">Equipes SEAL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.6667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184568px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="109.85143"
+       y="325.35733"
+       id="text5638-3-9-0"><tspan
+         sodipodi:role="line"
+         x="109.85143"
+         y="325.35733"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.184568px"
+         id="tspan7123-3">Etudiant</tspan></text>
   </g>
 </svg>
