@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg869"
    width="100%"
    height="100%"
    viewBox="0 0 4200.2534 1864.2855"
    sodipodi:docname="kb-voltaire-f6.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata875">
     <rdf:RDF>
@@ -38,22 +38,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-width="1862"
+     inkscape:window-height="1016"
      id="namedview871"
      showgrid="false"
-     inkscape:zoom="0.96600881"
-     inkscape:cx="3105.1756"
-     inkscape:cy="1640.7636"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:zoom="0.2415022"
+     inkscape:cx="1606.6106"
+     inkscape:cy="1211.1691"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg869"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:document-rotation="0" />
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0" />
   <text
      xml:space="preserve"
      style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -361,6 +362,33 @@
        y="1259.4796"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.9586px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.87414px"
        id="tspan1086">Department  (IPD)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:32px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="1120.106"
+     y="337.88568"
+     id="text1117-3"><tspan
+       sodipodi:role="line"
+       x="1120.106"
+       y="337.88568"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
+       id="tspan869-5">Mr. Rabih Haddad</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:34.9655px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.87414px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="1117.0405"
+     y="228.05615"
+     id="text1080-01-3-6"><tspan
+       sodipodi:role="line"
+       x="1117.0405"
+       y="228.05615"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.9586px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.87414px"
+       id="tspan1086-9">IPD</tspan><tspan
+       sodipodi:role="line"
+       x="1117.0405"
+       y="273.57959"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.9586px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.87414px"
+       id="tspan1838">Director</tspan></text>
   <path
      style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      d="m 1238.9958,1084.06 h -141.6973 m -97.30762,0 H 503.60769 m -106.13825,0 -395.3990655,0"
