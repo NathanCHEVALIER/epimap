@@ -52,11 +52,31 @@
 }
 
 #settings > h3:nth-of-type(2) {
-    margin-top: 36px;
+    margin-top: 30px;
+    margin-bottom: 4px;
 }
-
+#settings > .legende {
+    min-height: 30px;
+    line-height: 30px;
+    padding-left: 40px;
+    margin-top: 6px;
+    margin-left: 8px;
+    background-image: url("/img/icon-stairs.svg");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#settings > .lgd-stairs {
+    background-image: url("/img/icon-stairs.svg");
+}
+#settings > .lgd-elevator {
+    background-image: url("/img/icon-elevator.svg");
+}
+#settings > .lgd-disabled {
+    background-image: url("/img/icon-disabled.svg");
+}
 #settings > .legende > span{
-    font-size: 12px;
+    font-size: 13px;
     margin-right: 24px;
     color: #777;
     font-weight: 600;
