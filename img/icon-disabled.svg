@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg1203"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="icon-disabled.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1205"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="4.2532751"
+     inkscape:cx="50.901951"
+     inkscape:cy="37.97074"
+     inkscape:window-width="1862"
+     inkscape:window-height="1016"
+     inkscape:window-x="58"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1200" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       data-name="layer2"
+       fill="none"
+       stroke="#202020"
+       stroke-linecap="butt"
+       stroke-miterlimit="10"
+       stroke-width="0.695965"
+       d="M 3.7522369,2.5326929 H 6.8840837 L 9.3199658,12.276207"
+       stroke-linejoin="miter"
+       id="path6" />
+    <path
+       data-name="layer2"
+       d="M 6.8840837,2.5326929 H 7.6148534 A 1.7399129,1.7399129 0 0 1 9.3029087,3.8505085 L 9.6060053,5.0632266 A 1.0439477,1.0439477 0 0 1 8.5919904,6.3605076 H 7.8410375 M 19.724648,22.019721 h 2.81865 M 12.56629,13.320154 h 6.845171 m -5.268808,1.739913 h 5.268808 M 8.6239992,9.492347 h 6.6116728 a 4.1757907,4.1757907 0 0 1 4.175789,4.175786 v 6.965571 m 0,-2.441799 h -4.523775"
+       fill="none"
+       stroke="#202020"
+       stroke-linecap="butt"
+       stroke-miterlimit="10"
+       stroke-width="0.695965"
+       stroke-linejoin="miter"
+       id="path8" />
+    <circle
+       data-name="layer1"
+       cx="9.3199549"
+       cy="17.843937"
+       r="5.5677214"
+       fill="none"
+       stroke="#202020"
+       stroke-linecap="butt"
+       stroke-miterlimit="10"
+       stroke-width="0.695965"
+       stroke-linejoin="miter"
+       id="circle10" />
+    <circle
+       data-name="layer1"
+       cx="9.2330751"
+       cy="17.909988"
+       r="4.0309529"
+       fill="none"
+       stroke="#202020"
+       stroke-linecap="butt"
+       stroke-miterlimit="10"
+       stroke-width="0.910349"
+       stroke-linejoin="miter"
+       id="circle12"
+       style="stroke-width:2.82583;stroke-miterlimit:10;stroke-dasharray:none" />
+    <circle
+       data-name="layer1"
+       cx="18.019535"
+       cy="21.671734"
+       r="1.7399129"
+       fill="none"
+       stroke="#202020"
+       stroke-linecap="butt"
+       stroke-miterlimit="10"
+       stroke-width="0.695965"
+       stroke-linejoin="miter"
+       id="circle14" />
+  </g>
+</svg>
