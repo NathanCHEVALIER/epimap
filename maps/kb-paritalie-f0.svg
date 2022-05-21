@@ -5,7 +5,7 @@
    viewBox="0 0 1800 1235"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    sodipodi:docname="kb-paritalie-f0.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -310,8 +310,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1889145"
-     inkscape:cx="848.67331"
-     inkscape:cy="704.84463"
+     inkscape:cx="1195.2079"
+     inkscape:cy="548.81995"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -319,10 +319,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:document-rotation="0"
      inkscape:pagecheckerboard="true"
@@ -1776,62 +1776,65 @@
              id="tspan1525-0">Pasteur</tspan></text>
       </g>
     </a>
-    <path
-       data-name="layer2"
-       fill="none"
-       stroke="#202020"
-       stroke-linecap="butt"
-       stroke-miterlimit="10"
-       stroke-width="0.910349"
-       d="m 412.77725,438.77446 h 4.09657 l 3.18622,12.74487"
-       stroke-linejoin="miter"
-       id="path6" />
-    <path
-       data-name="layer2"
-       d="m 416.87382,438.77446 h 0.95587 a 2.2758691,2.2758691 0 0 1 2.20804,1.72375 l 0.39646,1.58628 a 1.3655215,1.3655215 0 0 1 -1.32637,1.69689 h -0.98227 m 15.54419,20.48282 h 3.6869 m -13.05029,-11.37935 h 8.95373 m -6.89179,2.27587 h 6.89179 m -14.11039,-7.28278 h 8.64831 a 5.4620858,5.4620858 0 0 1 5.46208,5.46208 v 9.11122 m 0,-3.19396 h -5.91726"
-       fill="none"
-       stroke="#202020"
-       stroke-linecap="butt"
-       stroke-miterlimit="10"
-       stroke-width="0.910349"
-       stroke-linejoin="miter"
-       id="path8" />
-    <circle
-       data-name="layer1"
-       cx="420.06003"
-       cy="458.80212"
-       r="7.2827811"
-       fill="none"
-       stroke="#202020"
-       stroke-linecap="butt"
-       stroke-miterlimit="10"
-       stroke-width="0.910349"
-       stroke-linejoin="miter"
-       id="circle10" />
-    <circle
-       data-name="layer1"
-       cx="419.94638"
-       cy="458.88852"
-       r="5.2726331"
-       fill="none"
-       stroke="#202020"
-       stroke-linecap="butt"
-       stroke-miterlimit="10"
-       stroke-width="0.910349"
-       stroke-linejoin="miter"
-       id="circle12"
-       style="stroke-width:3.69628;stroke-miterlimit:10;stroke-dasharray:none" />
-    <circle
-       data-name="layer1"
-       cx="431.43939"
-       cy="463.80902"
-       r="2.2758691"
-       fill="none"
-       stroke="#202020"
-       stroke-linecap="butt"
-       stroke-miterlimit="10"
-       stroke-width="0.910349"
-       stroke-linejoin="miter"
-       id="circle14" />
+    <g
+       id="g1231">
+      <path
+         data-name="layer2"
+         fill="none"
+         stroke="#202020"
+         stroke-linecap="butt"
+         stroke-miterlimit="10"
+         stroke-width="0.910349"
+         d="m 412.77725,438.77446 h 4.09657 l 3.18622,12.74487"
+         stroke-linejoin="miter"
+         id="path6" />
+      <path
+         data-name="layer2"
+         d="m 416.87382,438.77446 h 0.95587 a 2.2758691,2.2758691 0 0 1 2.20804,1.72375 l 0.39646,1.58628 a 1.3655215,1.3655215 0 0 1 -1.32637,1.69689 h -0.98227 m 15.54419,20.48282 h 3.6869 m -13.05029,-11.37935 h 8.95373 m -6.89179,2.27587 h 6.89179 m -14.11039,-7.28278 h 8.64831 a 5.4620858,5.4620858 0 0 1 5.46208,5.46208 v 9.11122 m 0,-3.19396 h -5.91726"
+         fill="none"
+         stroke="#202020"
+         stroke-linecap="butt"
+         stroke-miterlimit="10"
+         stroke-width="0.910349"
+         stroke-linejoin="miter"
+         id="path8" />
+      <circle
+         data-name="layer1"
+         cx="420.06003"
+         cy="458.80212"
+         r="7.2827811"
+         fill="none"
+         stroke="#202020"
+         stroke-linecap="butt"
+         stroke-miterlimit="10"
+         stroke-width="0.910349"
+         stroke-linejoin="miter"
+         id="circle10" />
+      <circle
+         data-name="layer1"
+         cx="419.94638"
+         cy="458.88852"
+         r="5.2726331"
+         fill="none"
+         stroke="#202020"
+         stroke-linecap="butt"
+         stroke-miterlimit="10"
+         stroke-width="0.910349"
+         stroke-linejoin="miter"
+         id="circle12"
+         style="stroke-width:3.69628;stroke-miterlimit:10;stroke-dasharray:none" />
+      <circle
+         data-name="layer1"
+         cx="431.43939"
+         cy="463.80902"
+         r="2.2758691"
+         fill="none"
+         stroke="#202020"
+         stroke-linecap="butt"
+         stroke-miterlimit="10"
+         stroke-width="0.910349"
+         stroke-linejoin="miter"
+         id="circle14" />
+    </g>
   </g>
 </svg>
