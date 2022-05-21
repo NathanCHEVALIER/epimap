@@ -4,7 +4,8 @@ jobs:
   Maps-Format-Checking:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
+      - name: init job info
+        run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
       - name: checkout repo content
         uses: actions/checkout@v2
       - name: setup python
@@ -14,5 +15,4 @@ jobs:
       - name: execute py script$
         run: |
               python tests/maps-format.py
-      - name: export index
       - run: echo "Job status is ${{ job.status }}."
