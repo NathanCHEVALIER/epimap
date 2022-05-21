@@ -1,0 +1,19 @@
+name: Deploy website on release
+on:
+  release:
+    types: [published]
+jobs:
+  web-deploy:
+    needs: [Maps-Format-Checking]
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp.epimap.fr
+        username: epima1712318
+        password: ${{ secrets.ftp_password }}
