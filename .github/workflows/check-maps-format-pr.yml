@@ -1,0 +1,8 @@
+name: Maps Format checking PR
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  Maps-Format-Checking-PR:
+    needs: [Maps-Format-Checking]
+    runs-on: ubuntu-latest
