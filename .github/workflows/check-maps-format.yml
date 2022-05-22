@@ -1,5 +1,10 @@
-name: Maps Format checking
-on: [push]
+name: Check and Deploy
+on: 
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    types: [opened, reopened]
 jobs:
   Maps-Format-Checking:
     runs-on: ubuntu-latest
@@ -16,3 +21,27 @@ jobs:
         run: |
               python tests/maps-format.py
       - run: echo "Job status is ${{ job.status }}."
+
+on:
+  release:
+    types: [published]
+jobs:
+  pre-web-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: init job info
+        run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
+
+  web-deploy:
+    needs: [Maps-Format-Checking]
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp.epimap.fr
+        username: epima1712318
+        password: ${{ secrets.ftp_password }}
