@@ -12,7 +12,9 @@ const loadMap = function(url) {
                     additionalInformation: mapName
                 },
                 document.title,
-                'https://epimap.fr/' + mapId
+                /*
+                'https://www.epimap.fr/' + */
+                mapId
             );
         }).catch( function(e) {
             console.log("Map Loading Error: " + e);
