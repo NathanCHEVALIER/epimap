@@ -10,7 +10,6 @@ jobs:
         run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
 
   web-deploy:
-    needs: [Maps-Format-Checking]
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
