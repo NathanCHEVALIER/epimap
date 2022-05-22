@@ -102,5 +102,37 @@
     "map-vj-va3": {
         "d_name": "VA - 3eme étage",
         "last_update": "Mai. 2022"
+    },
+    "villejuif": {
+        "d_name": "Villejuif",
+        "last_update": "May 2022"
+    },
+    "vj-va-f-1": {
+        "d_name": "VA - Sous-sol",
+        "last_update": "May 2022"
+    },
+    "vj-va-f0": {
+        "d_name": "VA - Rez de chaussée",
+        "last_update": "May 2022"
+    },
+    "vj-va-f1": {
+        "d_name": "VA - 1er étage",
+        "last_update": "May 2022"
+    },
+    "vj-va-f2": {
+        "d_name": "VA - 2eme étage",
+        "last_update": "May 2022"
+    },
+    "vj-va-f3": {
+        "d_name": "VA - 3eme étage",
+        "last_update": "May 2022"
+    },
+    "vj-vjc-f0": {
+        "d_name": "VJC - Rez de chaussée (Bas)",
+        "last_update": "May 2022"
+    },
+    "vj-vjc-f0-haut": {
+        "d_name": "VJC - Rez de chaussée (Haut)",
+        "last_update": "May 2022"
     }
 }
