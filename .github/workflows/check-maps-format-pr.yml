@@ -6,3 +6,6 @@ jobs:
   Maps-Format-Checking-PR:
     needs: [Maps-Format-Checking]
     runs-on: ubuntu-latest
+    steps:
+      - name: init job info
+        run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
