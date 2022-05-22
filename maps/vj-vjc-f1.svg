@@ -26,7 +26,7 @@
      showgrid="false"
      units="px"
      inkscape:zoom="2"
-     inkscape:cx="760.5"
+     inkscape:cx="160.5"
      inkscape:cy="203.75"
      inkscape:window-width="1920"
      inkscape:window-height="1001"
@@ -45,12 +45,12 @@
     <text
        xml:space="preserve"
        style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
-       x="737.02161"
-       y="195.63126"
+       x="851.02161"
+       y="257.13126"
        id="text1813-5-2-2-4-9-7-8-0"><tspan
          sodipodi:role="line"
-         x="737.02161"
-         y="195.63126"
+         x="851.02161"
+         y="257.13126"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
          id="tspan1247-0-4-2-2-7">Hall</tspan></text>
     <path
@@ -249,7 +249,7 @@
     </g>
     <a
        id="a16176-9"
-       xlink:href="vj-vjc-f1.svg"
+       xlink:href="vj-vjc-f2.svg"
        transform="matrix(-1,0,0,1,917.80699,-117.22358)">
       <path
          id="rect1968-4-8-4-3-6"
@@ -258,7 +258,7 @@
     </a>
     <a
        id="a26760"
-       xlink:href="vj-vjc-f1.svg"
+       xlink:href="vj-vjc-f2.svg"
        transform="matrix(0.94397932,0,0,0.94397932,33.421438,9.696636)"
        style="fill:#111111;fill-opacity:1">
       <path
@@ -268,7 +268,7 @@
     </a>
     <a
        id="a5575"
-       xlink:href="vj-vjc-f0.svg"
+       xlink:href="vj-vjc-f0h.svg"
        transform="translate(-0.67417481,0.08838835)">
       <path
          id="rect1968-4-8-1-4-1"
@@ -412,5 +412,16 @@
        style="fill:none;stroke:#000000;stroke-width:1.59999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 33.499999,209 H 89.999998"
        id="path16224" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.52227px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.20382"
+       x="520.15985"
+       y="205.79584"
+       id="text1809-2"><tspan
+         sodipodi:role="line"
+         id="tspan1807-5"
+         x="520.15985"
+         y="205.79584"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.52227px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.20382">Toilettes</tspan></text>
   </g>
 </svg>
