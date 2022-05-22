@@ -19,5 +19,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.epimap.fr
-        username: epima1712318
+        username: epima1723318
         password: ${{ secrets.ftp_password }}
