@@ -127,13 +127,25 @@
         "d_name": "VA - 3eme étage",
         "last_update": "May 2022"
     },
-    "vj-vjc-f0": {
+    "vj-vjc-f0b": {
         "d_name": "VJC - Rez de chaussée (Bas)",
         "last_update": "May 2022"
     },
-    "vj-vjc-f0-haut": {
+    "vj-vjc-f0h": {
         "d_name": "VJC - Rez de chaussée (Haut)",
         "last_update": "May 2022"
+    },
+    "vj-vjc-f1": {
+        "d_name": "VJC - 1er étage",
+        "last_update": "Jun. 2022"
+    },
+    "vj-vjc-f2": {
+        "d_name": "VJC - 2eme étage",
+        "last_update": "Jun. 2022"
+    },
+    "vj-vjc-f3": {
+        "d_name": "VJC - 3eme étage",
+        "last_update": "Jun. 2022"
     },
     "finale-prologin": {
         "d_name": "Finale Prologin",
