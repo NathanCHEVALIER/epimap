@@ -10,27 +10,20 @@ Maps are based on a previous work of Ivan Colona (map.epita.eu) https://github.c
 
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
+## Documentation
+
+You can find the doc [here](./docs/README.md). This documentation is in progress and therefore contains partial information. If you have any questions or suggestions, please contact maintainers.
+
 ## Contributing
 
-### Epimap 
+### Run Epimap 
 
-1. Go to your local epimap directory (after cloning it)
-2. Start a local http server (python 3 needed)
-```sh
-$ python3 -m http.server
-```
-3. Checkout [http://0.0.0.0:8000]().
+Here is the process to run Epimap on your machine: [Run Epimap locally](./docs/how-to.md#run-epimap-locally)
 
-### SVG Maps
+### Add/Update SVG Maps
 
-Here is the process to update maps properly:
-
-1. Open SVG in Inkscape (or AdoBe Illustrator) 
-2. Update the map (tutorial: )
-3. Save file, close your editing software and open the file in your favorite text editor
-4. Check for width and height properties in svg header: values should be "100%"
-
-This last point is mandatory to pass CD workflow action and then be merged and deployed
+Updating maps is easy! However, please read carefully the documentation and pay attention to the guidelines.
+More on [maps contributing](./docs/map-contributing.md)
 
 ## Last Updates:
 
