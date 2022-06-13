@@ -51,7 +51,7 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
             alert("This map does not exist yet !");
         }
         else if (link != null){
-            loadMap(link);
+            loadMap("maps/" + link);
             toggleMenu();
         }
 
