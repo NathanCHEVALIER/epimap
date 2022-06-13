@@ -26,14 +26,14 @@
      showgrid="false"
      units="px"
      inkscape:zoom="2.8284271"
-     inkscape:cx="400.75277"
+     inkscape:cx="930.19898"
      inkscape:cy="208.06617"
-     inkscape:window-width="3200"
-     inkscape:window-height="1721"
-     inkscape:window-x="-355"
-     inkscape:window-y="-1809"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3755"
      width="3600px"
      showguides="false" />
   <defs
@@ -138,33 +138,6 @@
          style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 929.64142,153.06635 H 896.43737"
          id="path8776-1" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M 929.77138,158.00472 H 896.50235"
-         id="path8778-7" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 2.11667;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 907.80629,162.87811 H 896.30742"
-         id="path8780-10"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 2.11667;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 920.51563,167.55657 H 895.58332"
-         id="path8782-7"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833, 2.11667;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 930.05303,172.43364 H 896.69694"
-         id="path8784-7"
-         sodipodi:nodetypes="cc" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 907.80629,162.87811 h 21.81496"
-         id="path14059-5" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 918.92813,167.55657 h 10.78501"
-         id="path14061-9" />
     </g>
     <g
        id="g3755-4"
@@ -236,15 +209,6 @@
          d="M 88.178143,286.80657 H 98.963158"
          id="path14061-3" />
     </g>
-    <a
-       id="a16176-9"
-       xlink:href=""
-       transform="matrix(-1,0,0,1,917.80699,-117.22358)">
-      <path
-         id="rect1968-4-8-4-3-6"
-         style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:1.11227;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         d="m 60.231385,217.00422 c 1.160259,0 2.094268,0.93471 2.094268,2.09498 v 15.56112 c 0,1.16027 -0.934009,2.09427 -2.094268,2.09427 H 43.879818 c -1.160266,0 -2.094268,-0.934 -2.094268,-2.09427 V 219.0992 c 0,-1.16027 0.934002,-2.09498 2.094268,-2.09498 z m -13.621865,3.02639 -1.42096,0.0161 0.04769,3.87292 3.10423,0.0393 0.0526,3.23959 h 3.196809 v 3.23118 h 3.181382 l 0.0077,3.19681 3.798581,0.0477 0.01893,-1.42096 -2.399361,-0.0316 -0.0077,-3.21294 h -3.178578 v -3.23118 h -3.220657 l -0.0526,-3.22346 -3.096517,-0.0393 z m 9.693531,0.14307 h -3.215044 v 3.21575 a 0.51514613,0.51514613 0 0 0 0.516903,0.5141 0.51514613,0.51514613 0 0 0 0.514099,-0.5141 v -1.44972 l 3.517332,3.5517 a 0.51514613,0.51514613 0 0 0 0.729417,0.003 0.51514613,0.51514613 0 0 0 0.0028,-0.72661 L 54.8393,221.20488 h 1.463743 a 0.51514613,0.51514613 0 0 0 0.516907,-0.5141 0.51514613,0.51514613 0 0 0 -0.516907,-0.51691 z" />
-    </a>
     <a
        id="a26760"
        xlink:href="vj-vjc-f0b.svg"
