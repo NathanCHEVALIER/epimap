@@ -15,10 +15,11 @@ RewriteEngine on
 DirectoryIndex index.html
 
 ## Redirect only maps, not other files (css and js)
-RewriteRule ^map-[a-z0-9-]+[\/]?$ index.html [L]
-RewriteRule ^[a-z0-9-]+[\/]?$ index.html [L]
 
-##ErrorDocument 404 /maintenance/maintenance.html
+RewriteRule ^map-[a-z0-9-]+(.svg)?[\/]?$ index.html [L]
+RewriteRule ^[a-z0-9-]+(.svg)?[\/]?$ index.html [L]
+
+## ErrorDocument 404 /maintenance/maintenance.html
 
 <FilesMatch "\\.(svg)$">
 Header set Cache-Control "max-age=86400, public"

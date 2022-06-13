@@ -65,7 +65,8 @@ const initMap = function()
         alert("Error while loading maps data" + body);
     });
 
-    let path = window.location.href.split('/').pop();
+    let path = window.location.href.split('/').reverse()[0];
+    path = path.split('.svg')[0];
 
     if (path.length == 0)
         path = "kremlin-bicetre";
