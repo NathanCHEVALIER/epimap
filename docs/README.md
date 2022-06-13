@@ -8,19 +8,21 @@ This documentation is in progress and therefore contains partial information. If
 
 ### FAQ User
 
-WIP
+- ...WIP...
 
 ### FAQ Dev
 
 - About technical choices
-WIP
+- ...WIP...
 
 ### How to :
-- [Run Epimap locally](How-To.md#How-To/Run-Epimap-Locally)
-- [Get Epimap font](How-To.md#How-To/Get-Epimap-Locally)
+- [Run Epimap locally](how-to.md#run-epimap-locally)
+- [Get Epimap font](how-to.md#get-epimap-font)
 
 ### Map Contributing
-- List and Status of Maps
-- Edit Maps
-- Map style conventions
-- Maps assumed choices
+- [List and Status of Maps](map-list.md)
+- [Edit Maps](map-contributing.md#edit-maps)
+- [Map style conventions](map-contributing.md#map-style-conventions)
+- [Maps assumed choices](map-contributing.md#maps-assumed-choices)
+
+## Releases:
