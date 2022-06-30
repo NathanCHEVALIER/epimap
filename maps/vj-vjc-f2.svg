@@ -26,8 +26,8 @@
      showgrid="false"
      units="px"
      inkscape:zoom="2.8284271"
-     inkscape:cx="850.64946"
-     inkscape:cy="207.18229"
+     inkscape:cx="678.1154"
+     inkscape:cy="45.608387"
      inkscape:window-width="1920"
      inkscape:window-height="1043"
      inkscape:window-x="0"
@@ -523,15 +523,20 @@
          id="tspan1247-0-4-2-2-7-2">C205</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
-       x="596.39899"
+       style="font-size:7.71774px;line-height:0.85;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="626.22046"
        y="104.53722"
        id="text1813-5-2-2-4-9-7-8-0-6-9"><tspan
          sodipodi:role="line"
-         x="596.39899"
+         x="626.22046"
          y="104.53722"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:start;text-anchor:start;stroke-width:0.192945"
-         id="tspan1247-0-4-2-2-7-2-12">Cycle ingénieur</tspan></text>
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.192945"
+         id="tspan1247-0-4-2-2-7-2-12">Cycle ingénieur</tspan><tspan
+         sodipodi:role="line"
+         x="626.22046"
+         y="111.0973"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.192945"
+         id="tspan14497">SupBiotech</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.71774px;line-height:1.05;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
@@ -547,7 +552,12 @@
          x="538.20288"
          y="112.13871"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.192945"
-         id="tspan9351">Apprentissage</tspan></text>
+         id="tspan9351">Apprentissage</tspan><tspan
+         sodipodi:role="line"
+         x="538.20288"
+         y="120.24233"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.192945"
+         id="tspan14499">SupBiotech</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
