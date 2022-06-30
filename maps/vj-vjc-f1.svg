@@ -7,7 +7,7 @@
    viewBox="0 0 952.49997 423.33334"
    version="1.1"
    id="svg5"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:version="1.2 (56b05e47e7, 2022-06-09, custom)"
    sodipodi:docname="vj-vjc-f1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -26,16 +26,18 @@
      showgrid="false"
      units="px"
      inkscape:zoom="2"
-     inkscape:cx="160.5"
-     inkscape:cy="203.75"
+     inkscape:cx="449.5"
+     inkscape:cy="226.5"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      width="3600px"
-     showguides="false" />
+     showguides="false"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <defs
      id="defs2" />
   <g
@@ -45,14 +47,14 @@
     <text
        xml:space="preserve"
        style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
-       x="851.02161"
-       y="257.13126"
+       x="843.27795"
+       y="254.00485"
        id="text1813-5-2-2-4-9-7-8-0"><tspan
          sodipodi:role="line"
-         x="851.02161"
-         y="257.13126"
+         x="843.27795"
+         y="254.00485"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
-         id="tspan1247-0-4-2-2-7">Hall</tspan></text>
+         id="tspan1247-0-4-2-2-7">C105</tspan></text>
     <path
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:3.31081;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 905.23782,88.921213 v 6.328785 h 33 l 0.19487,202.140652 -33.19487,-0.007 m 0,-1.65625 v 35.99117 H 123.31257 V 298.14535 H 33.908619 V 90.453932 H 123.6207"
@@ -335,11 +337,11 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 937.49998,184.5 h -122.25 m -24.74999,0 h -66.5 m -23.25,0 h -27 m -21.25,0 h -4 v -26 h -19.25 m -23,0 h -70.75 m -15.25,0 h -9.75"
+       d="m 937.49998,184.5 h -122.25 m -24.74999,0 h -46.5 m -23.25,0 h -47 m -21.25,0 h -4 v -26 h -19.25 m -23,0 h -70.75 m -15.25,0 h -9.75"
        id="path9610"
        sodipodi:nodetypes="cccccccccccccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#000000;stroke-width:1.59874013;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 510.49999,332.49999 v -7.5 m 0,-15.75 V 106.5 l -55.48705,3.93272 m -25.53121,1.80955 -65.20595,4.62156 m -25.54885,1.81081 -63.49995,4.50064 m -27.02372,1.91534 -62.77133,4.449 M 160.98387,131.27241 122.5,134"
        id="path9612"
        sodipodi:nodetypes="ccccccccccccc" />
@@ -423,5 +425,109 @@
          x="520.15985"
          y="205.79584"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.52227px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.20382">Toilettes</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="792.27917"
+       y="101.30936"
+       id="text1813-5-2-2-4-9-7-8-0-3"><tspan
+         sodipodi:role="line"
+         x="792.27917"
+         y="101.30936"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805">C106</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="706.18518"
+       y="100.63703"
+       id="text1813-5-2-2-4-9-7-8-0-3-7"><tspan
+         sodipodi:role="line"
+         x="706.18518"
+         y="100.63703"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3">C107</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="684.05127"
+       y="110.54797"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-3"><tspan
+         sodipodi:role="line"
+         x="684.05127"
+         y="110.54797"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-7">Projets innovants</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="568.79956"
+       y="291.62915"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-3-56"><tspan
+         sodipodi:role="line"
+         x="568.79956"
+         y="291.62915"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-7-2">Labo innovant</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="774.79956"
+       y="110.37916"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-3-5"><tspan
+         sodipodi:role="line"
+         x="774.79956"
+         y="110.37916"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-7-3">Cycle ingénieur</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="721.76062"
+       y="254.52173"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-5"><tspan
+         sodipodi:role="line"
+         x="721.76062"
+         y="254.52173"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-2">C104</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="583.39117"
+       y="283.13702"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-9"><tspan
+         sodipodi:role="line"
+         x="583.39117"
+         y="283.13702"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-27">C103</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="393.47076"
+       y="227.81609"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-9-0"><tspan
+         sodipodi:role="line"
+         x="393.47076"
+         y="227.81609"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-27-3">C102</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.58740154;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="m 494.11596,59.063811 v 7.061645 m 0,23.350082 v 17.902412"
+       id="path3580"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:7.71774px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.192945"
+       x="199.56161"
+       y="227.49156"
+       id="text1813-5-2-2-4-9-7-8-0-3-7-9-0-6"><tspan
+         sodipodi:role="line"
+         x="199.56161"
+         y="227.49156"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.192945"
+         id="tspan2805-3-27-3-0">C101</tspan></text>
   </g>
 </svg>
