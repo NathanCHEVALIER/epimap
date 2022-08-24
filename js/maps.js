@@ -1,4 +1,12 @@
-const loadMap = function(url) {
+/**
+ * Loads a map from the given url
+ *
+ * Depending on `updateState`, saves the loaded map in the history
+ *
+ * @param {string} url
+ * @param {"push"|"replace"|false} updateState
+ */
+const loadMap = function(url, updateState = 'push') {
     httpRequest(url, 'image/svg+xml', false).then( function(body) {
         injectMap(body).then( function() {
             const mapId = url.split('/').pop().replace(/\.[^.]*$/, '');
@@ -8,14 +16,21 @@ const loadMap = function(url) {
             document.querySelector("#map-nav > div > div > a").innerHTML = mapName;
             document.querySelector("#map-nav > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
 
-            window.history.pushState({
-                    additionalInformation: mapName
-                },
-                document.title,
-                /*
-                'https://www.epimap.fr/' + */
-                mapId
-            );
+            if (updateState)
+            {
+                // Saves the loaded map in the history
+                // If 'replace', replaces the current history entry instead of pushing a new one
+                (updateState === 'replace' ? window.history.replaceState : window.history.pushState)
+                    .apply(window.history, [{
+                            mapUrl: url,
+                            additionalInformation: mapName
+                        },
+                        document.title,
+                        /*
+                        'https://www.epimap.fr/' + */
+                        mapId
+                    ]);
+            }
         }).catch( function(e) {
             console.log("Map Loading Error: " + e);
         });
@@ -71,7 +86,17 @@ const initMap = function()
     if (path.length == 0)
         path = "kremlin-bicetre";
 
-    loadMap("/maps/" + path + ".svg");
+    loadMap("/maps/" + path + ".svg", 'replace');
 };
 
 initMap();
+
+/**
+ * Listener for history changes
+ * Loads the map corresponding to the given url in the history
+ *
+ * @param {PopStateEvent} event
+ */
+window.onpopstate = function(event) {
+    loadMap(event.state.mapUrl, false);
+};
