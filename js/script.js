@@ -48,7 +48,7 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
             window.open("https://github.com/NathanCHEVALIER/epimap", "_blank");
         }
         else if (link === "") {
-            alert("This map does not exist yet !");
+            displayError("This map does not exist yet !");
         }
         else if (link != null){
             loadMap("maps/" + link);
@@ -79,6 +79,7 @@ const displayLog = function(message, type="info")
 
 const displayError = function(message) {
     displayLog(message, "error");
+    console.log(message);
 }
 
 const displayWarning = function(message) {

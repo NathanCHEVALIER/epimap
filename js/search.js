@@ -6,6 +6,7 @@ var results;
 
 const search = function(str)
 {
+    displayWarning("Search engine is deprecated. Please consider contributing!");
     const nbmaps = Object.keys(maps).length;
     results = [];
     
