@@ -48,7 +48,7 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
             window.open("https://github.com/NathanCHEVALIER/epimap", "_blank");
         }
         else if (link === "") {
-            alert("This map does not exist yet !");
+            displayError("This map does not exist yet !");
         }
         else if (link != null){
             loadMap("maps/" + link);
@@ -58,3 +58,34 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
         return false;
     });
 });
+
+const displayLog = function(message, type="info")
+{
+    const template = document.querySelector("footer > div.log-box:nth-of-type(1)");
+    const container = document.querySelector("footer");
+
+    let newNode = template.cloneNode(true);
+    newNode.prepend(message);
+    newNode.classList.add(type);
+    newNode.style.display = "flex";
+
+    console.log(newNode);
+    newNode.querySelector("div").addEventListener('click', function() {
+        newNode.remove();
+    });
+
+    container.append(newNode);
+};
+
+const displayError = function(message) {
+    displayLog(message, "error");
+    console.log(message);
+}
+
+const displayWarning = function(message) {
+    displayLog(message, "warning");
+}
+
+const displayInfo = function(message) {
+    displayLog(message, "info");
+}

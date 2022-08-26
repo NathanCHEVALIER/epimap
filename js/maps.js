@@ -6,6 +6,7 @@
  * @param {string} url
  * @param {"push"|"replace"|false} updateState
  */
+
 const loadMap = function(url, updateState = 'push') {
     httpRequest(url, 'image/svg+xml', false).then( function(body) {
         injectMap(body).then( function() {
@@ -32,10 +33,10 @@ const loadMap = function(url, updateState = 'push') {
                     ]);
             }
         }).catch( function(e) {
-            console.log("Map Loading Error: " + e);
+            displayError("Map Loading Error: " + e);
         });
     }).catch( function(body){
-        console.log("Error Response: " + body);
+        displayError("Error Response: " + body);
     });
 };
 
@@ -65,7 +66,7 @@ const onClickMapLink = function(e, path) {
     
     // TODO: Trigger Error output for user
     if (pathRef == null)
-        alert("This link is not legit !");
+        displayError("Invalid map link");
     else
         loadMap("/maps/" + pathRef);
 
@@ -77,7 +78,7 @@ const initMap = function()
     httpRequest("/js/data.map.json", 'application/json', false).then( function(body) {
         maps = JSON.parse(body.responseText);
     }).catch( function(body){
-        alert("Error while loading maps data" + body);
+        displayError("Map Loading Error: " + body);
     });
 
     let path = window.location.href.split('/').reverse()[0];
