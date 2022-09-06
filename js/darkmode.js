@@ -4,16 +4,25 @@ const darkModeBtn = document.querySelector("#settings .onoffswitch:nth-of-type(1
 
 const getColorMode = function()
 {
+    const cookieValue = document.cookie
+        .split('; ')
+        .find((row) => row.startsWith('theme='))
+        ?.split('=')[1];
+
     let matched = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
-    if (matched)
+    if (cookieValue === 'false') {
+        console.log("Set Light Mode (Cookie previous user choice)");
+        return false;
+    }
+    else if (cookieValue === 'true' || matched)
     {
-        console.log("System default currently in dark mode");
+        console.log("Set Dark Mode (System and/or browser default)");
         return true;
     }
     else
     {
-        console.log("System default currently in light mode");
+        console.log("Set Light Mode (System and/or browser default)");
         return false;
     }
 };
@@ -27,10 +36,7 @@ const initColorMode = function() {
 };
 
 darkModeBtn.addEventListener('change', e => {
-    if (document.querySelector("body").classList.contains("darkmode"))
-        document.querySelector("body").classList.remove("darkmode");
-    else
-        document.querySelector("body").classList.add("darkmode");
+    setColorMode(!document.querySelector("body").classList.contains("darkmode"));
 })
 
 const setColorMode = function(mode) {
@@ -40,8 +46,11 @@ const setColorMode = function(mode) {
     colorModeSwitch.checked = mode;
     body.className = "";
 
+    body.classList.remove("darkmode");
     if (mode)
         body.classList.add("darkmode");
+    
+    document.cookie = "theme=" + mode + "; SameSite=None; Secure";
 };
 
 initColorMode();
