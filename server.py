@@ -27,5 +27,5 @@ handler = HttpRequestHandler
 PORT = 8000
 my_server = socketserver.TCPServer(("", PORT), handler)
 
-print("Epimap server running and serving on 0.0.0.0 port", PORT, "(http://0.0.0.0:", PORT, ")")
+print("Epimap server running and serving on 0.0.0.0 port " + str(PORT) + " (http://0.0.0.0:" + str(PORT) + ")")
 my_server.serve_forever()
