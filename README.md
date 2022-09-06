@@ -27,6 +27,8 @@ More on [maps contributing](./docs/map-contributing.md)
 
 ## Last Updates:
 
+More information about [relases](./docs/releases)
+
 ### May, 2022
 - Workflow added (CD // GH actions: tests and checks, autodeploy)
 

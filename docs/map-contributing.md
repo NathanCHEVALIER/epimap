@@ -13,7 +13,7 @@ This last point is mandatory to pass CD workflow action and then be merged and d
 
 <br />
 
-## Map Style Conventions:
+## Map Style Guidelines:
 
 ### Generic:
 
