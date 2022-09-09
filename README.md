@@ -27,16 +27,4 @@ More on [maps contributing](./docs/map-contributing.md)
 
 ## Last Updates:
 
-More information about [relases](./docs/releases)
-
-### May, 2022
-- Workflow added (CD // GH actions: tests and checks, autodeploy)
-
-### April, 2022
-- Pasteur maps major updated
-- Dark mode and key map added
-
-### December 2021
-- Paritalie maps added (Missing names)
-- Last Update added in Right Bottom Navbar
-- Clean Up in KB maps
+More information about [releases](./docs/releases)
