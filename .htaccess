@@ -26,9 +26,13 @@ Header set Cache-Control "max-age=86400, public"
 </FilesMatch>
 
 <FilesMatch "\\.(css)$">
-Header set Cache-Control "max-age=1, public"
+Header set Cache-Control "max-age=3600, public"
 </FilesMatch>
 
 <FilesMatch "\\.(js)$">
-Header set Cache-Control "max-age=1, public"
+Header set Cache-Control "max-age=3600, public"
+</FilesMatch>
+
+<FilesMatch "\\.(ttf)$">
+Header set Cache-Control "max-age=86400, public"
 </FilesMatch>

@@ -17,6 +17,8 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
             pass
         elif re.search(".css", self.path) != None:
             pass
+        elif re.search(".ttf", self.path) != None:
+            pass
         else:
             self.path = 'index.html'
 
