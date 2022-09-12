@@ -9,11 +9,11 @@
 	},
 	"kb-voltaire-f0": {
 		"d_name": "Voltaire - Rez de Chaussée",
-        "last_update": "Apr. 2022"
+        "last_update": "Sep. 2022"
     },
     "kb-voltaire-f1": {
 		"d_name": "Voltaire - 1er étage",
-        "last_update": "Apr. 2022"
+        "last_update": "Sep. 2022"
     },
     "kb-voltaire-f2": {
 		"d_name": "Voltaire - 2eme étage",
@@ -69,7 +69,7 @@
     },
     "kb-paritalie-f3": {
         "d_name": "Paritalie - 3eme étage",
-        "last_update": "28 Dec. 2021"
+        "last_update": "Aug. 2022"
     },
     "kb-paritalie-f4": {
         "d_name": "Paritalie - 4eme étage",
@@ -83,49 +83,29 @@
         "d_name": "Villejuif",
         "last_update": "2013"
     },
-    "map-vj-va-1": {
-        "d_name": "VA - Sous-sol",
-        "last_update": "Mai. 2022"
-    },
-    "map-vj-va0": {
-        "d_name": "VA - Rez de chaussée",
-        "last_update": "2013"
-    },
-    "map-vj-va1": {
-        "d_name": "VA - 1er étage",
-        "last_update": "Mai. 2022"
-    },
-    "map-vj-va2": {
-        "d_name": "VA - 2eme étage",
-        "last_update": "Mai. 2022"
-    },
-    "map-vj-va3": {
-        "d_name": "VA - 3eme étage",
-        "last_update": "Mai. 2022"
-    },
     "villejuif": {
         "d_name": "Villejuif",
         "last_update": "May 2022"
     },
     "vj-va-f-1": {
         "d_name": "VA - Sous-sol",
-        "last_update": "May 2022"
+        "last_update": "Sep 2022"
     },
     "vj-va-f0": {
         "d_name": "VA - Rez de chaussée",
-        "last_update": "May 2022"
+        "last_update": "Sep 2022"
     },
     "vj-va-f1": {
         "d_name": "VA - 1er étage",
-        "last_update": "May 2022"
+        "last_update": "Sep 2022"
     },
     "vj-va-f2": {
         "d_name": "VA - 2eme étage",
-        "last_update": "May 2022"
+        "last_update": "Sep 2022"
     },
     "vj-va-f3": {
         "d_name": "VA - 3eme étage",
-        "last_update": "May 2022"
+        "last_update": "Sep 2022"
     },
     "vj-vjc-f0b": {
         "d_name": "VJC - Rez de chaussée (Bas)",
