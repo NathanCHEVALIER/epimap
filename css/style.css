@@ -411,7 +411,7 @@ footer {
     bottom: 100px;
     right: 20px;
     width: 280px;
-    z-index: 3000;
+    z-index: 300;
 }
 footer > .log-box {
     box-shadow: 0 2px 4px rgba(0,0,0,.4); 
