@@ -64,11 +64,11 @@ body.darkmode rect {
 }
 
 body.darkmode tspan {
-    fill: #efefef !important;
+    fill: #efefef;
 }
 
 body.darkmode text {
-    fill: #efefef !important;
+    fill: #efefef;
 }
 
 /*** Animation ***/

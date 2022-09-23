@@ -69,7 +69,6 @@ const displayLog = function(message, type="info")
     newNode.classList.add(type);
     newNode.style.display = "flex";
 
-    console.log(newNode);
     newNode.querySelector("div").addEventListener('click', function() {
         newNode.remove();
     });

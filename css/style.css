@@ -472,3 +472,10 @@ footer > .log-box > div:hover {
         height: calc(100vh - 72px);
     }
 }
+
+.roomInfo {
+    cursor: pointer;
+}
+.roomInfo:hover > text {
+    text-decoration: underline;
+}
