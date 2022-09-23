@@ -5,7 +5,7 @@
    viewBox="0 0 2129.9285 1392.8558"
    id="svg2"
    version="1.1"
-   inkscape:version="1.2.1 (2ed6d7ae0b, 2022-08-22, custom)"
+   inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
    sodipodi:docname="kb-voltaire-f0.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -384,21 +384,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.0000001"
-     inkscape:cx="1409.9999"
-     inkscape:cy="844.74995"
+     inkscape:zoom="0.50000003"
+     inkscape:cx="967.99994"
+     inkscape:cy="769.99995"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="a2658"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1854"
-     inkscape:window-height="1016"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1452"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      inkscape:document-rotation="0"
      inkscape:pagecheckerboard="0"
      inkscape:showpageshadow="0"
@@ -1054,33 +1054,43 @@
          x="1098.8809"
          y="685.03009"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Amphi 3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-       x="562.22882"
-       y="707.02289"
-       id="text5325-6-9-0"><tspan
-         sodipodi:role="line"
+    <a
+       id="a3214"
+       xlink:role="julie.ounoughi">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
          x="562.22882"
          y="707.02289"
-         id="tspan5371-0"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Accueil</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-       x="664.36548"
-       y="1341.0541"
-       id="text5325-6-9-0-0-7"><tspan
-         sodipodi:role="line"
+         id="text5325-6-9-0"><tspan
+           sodipodi:role="line"
+           x="562.22882"
+           y="707.02289"
+           id="tspan5371-0"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Accueil</tspan></text>
+    </a>
+    <a
+       id="a2658"
+       xlink:type="ADM, scola"
+       target=""
+       xlink:role="florent.boullet, tomy.abdallah, elody.tachet">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
          x="664.36548"
          y="1341.0541"
-         id="tspan5371-0-3-6"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Scolarité</tspan><tspan
-         sodipodi:role="line"
-         x="664.36548"
-         y="1382.9921"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-         id="tspan660">cycle ingénieur</tspan></text>
+         id="text5325-6-9-0-0-7"><tspan
+           sodipodi:role="line"
+           x="664.36548"
+           y="1341.0541"
+           id="tspan5371-0-3-6"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Scolarité</tspan><tspan
+           sodipodi:role="line"
+           x="664.36548"
+           y="1382.9921"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+           id="tspan660">cycle ingénieur</tspan></text>
+    </a>
     <g
        style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Sans;-inkscape-font-specification:Sans"
        id="text5325-6-9-0-0-9-7-4-1" />
@@ -1377,22 +1387,26 @@
         </g>
       </g>
     </a>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
-       x="46.192383"
-       y="1362.4708"
-       id="text4011-5-7-8"><tspan
-         sodipodi:role="line"
-         x="46.192387"
-         y="1362.4708"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1500">Christian</tspan><tspan
-         sodipodi:role="line"
+    <a
+       id="a3496"
+       xlink:role="christian.chabrerie">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
          x="46.192383"
-         y="1387.7063"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan993">Chabrerie</tspan></text>
+         y="1362.4708"
+         id="text4011-5-7-8"><tspan
+           sodipodi:role="line"
+           x="46.192387"
+           y="1362.4708"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
+           id="tspan1500">Christian</tspan><tspan
+           sodipodi:role="line"
+           x="46.192383"
+           y="1387.7063"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
+           id="tspan993">Chabrerie</tspan></text>
+    </a>
     <a
        xlink:href="kb-voltaire-f-1.svg"
        transform="translate(-1.9999999,3.9999998)"
