@@ -16,38 +16,38 @@
 </head>
 <body class="darkmode">
 
-    <header id="main-header">
-
-        <div id="btn-menu" class="">
+    <header>
+        <div id="btn-menu">
             <div></div>
             <div></div>
             <div></div>
         </div>
-
-        <div id="title">
-            <a href="/" id="logo">
-                <img src="img/logo-epimap.svg" alt="Epimap" />
-            </a>
-        </div>
-
-        <div id="btn-settings">
-        </div>
+        <input type="text" name="search" placeholder="Rechercher une salle, une personne..." />
+        <button></button>
     </header>
 
-    <nav id="left-menu">
+    <div id="btn-settings">
+    </div>
+
+    <nav id="info-menu" class="menu-open">
+        <div></div>
+        <div>
+            <h4>Service Développement & Admissions</h4>
+            <span>C'est le lieu de réception dès l'arrivée, vous pouvez y trouver beaucoup d'info</span>
+
+            <div>
+                <h5>Julie Ounoughi</h5>
+                <span>La gardienne</span>
+            </div>
+            <div>
+                <h5>Julie Ounoughi</h5>
+                <span>La gardienne</span>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="nav-menu" >
         <ul>
-            <li id="search">
-                <div>
-                    <input type="text" name="search" placeholder="Rechercher un lieu, une salle..." />
-                    <button></button>
-                </div>
-                <div>
-                    <div id="search-result-template" >
-                        <h4></h4>
-                        <span></span>
-                    </div>
-                </div>
-            </li>
             <li><a href="./kremlin-bicetre.svg" class="menu-itm-campus">Kremlin-Bicêtre</a>
                 <ul>
                     <li><a href="null" class="menu-itm-building">Voltaire</a>
@@ -179,16 +179,16 @@
             </div>
             <span>Mode Sombre</span>
         </div>
-        <!--<div class="setting">
+        <div class="setting">
             <div class="onoffswitch">
-                <input type="checkbox" name="onoffswitch-preferences" class="onoffswitch-checkbox" id="myonoffswitch-preferences" tabindex="0">
-                <label class="onoffswitch-label" for="myonoffswitch-preferences">
+                <input type="checkbox" name="enrichedSwitch" class="onoffswitch-checkbox" id="enrichedSwitch" tabindex="0">
+                <label class="onoffswitch-label" for="enrichedSwitch">
                     <span class="onoffswitch-inner"></span>
                     <span class="onoffswitch-switch"></span>
                 </label>
             </div>
-            <span>Sauvegarder mes préférences</span>
-        </div>-->
+            <span>Enrichir l'affichage</span>
+        </div>
         <h3>Légende</h3>
         <div class="legende" style="background-image: url('/img/icon-stairs.svg')" >
             <span>Escaliers</span>
@@ -208,7 +208,7 @@
     <section id="container" class="darkmap" contenturl="./kremlin-bicetre.svg">
     </section>
 
-    <div id="map-nav" >
+    <section id="map-label" >
         <div>
             <div class="map-icon"></div>
             <div class="map-name">
@@ -221,7 +221,7 @@
         <div>
             <span>Last Update: 31 Jan. 2000</span>
         </div>
-    </div>
+    </section>
 
     <footer>
         <div class="log-box" style="display: none">

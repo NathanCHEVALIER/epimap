@@ -152,10 +152,51 @@ header > button {
     box-shadow: 3px 1px 6px rgba(0,0,0,.2);
     transition: all ease-in-out 0.4s;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #info-menu.menu-open{
     transform: translate(445px);
 }
+
+#info-menu > div:nth-of-type(1) {
+    background-color: rgb(175, 198, 238);
+    width: calc(100% - 44px);
+    border-radius: 22px;
+    height: 240px;
+}
+#info-menu > div:nth-of-type(2) {
+    width: calc(100% - 60px);
+    margin-top: 24px;
+}
+#info-menu > div > h4 {
+    color: #fefefe;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+#info-menu > div > span {
+    color: #cccccc;
+    font-style: italic;
+}
+#info-menu > div > div:nth-of-type(1) {
+    margin-top: 32px;
+}
+#info-menu > div > div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 0px;
+}
+#info-menu > div > div > h5 {
+    color: #fefefe;
+    font-size: 17px;
+}
+#info-menu > div > div > span {
+    color: #cccccc;
+    font-size: 15px;
+}
+
 
 
 /***
@@ -386,26 +427,26 @@ header > button {
 * Map name nav (bottom right)
 ***/
 
-#map-nav {
+#map-label {
     position: fixed;
     right: 20px;
     bottom: 25px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    background-color: rgb(5, 7, 124);
 }
-#map-nav > div:nth-of-type(1){
+#map-label > div:nth-of-type(1){
     display: flex;
-    padding: 14px 17px;
-    font-family: 'Atkinson', sans-serif;    
+    padding: 14px 30px 14px 26px;
+    font-family: 'Atkinson', sans-serif;   
+    background-color: rgb(1, 32, 124); 
     color: #ffffff;
     min-width: 150px;
-    border-radius: 3px;
+    border-radius: 50px;
     transition: 0.1s all ease-in-out; 
     box-shadow: 0 2px 4px rgba(0,0,0,.4);    
 }
-#map-nav > div:nth-of-type(1) > .map-icon {
+#map-label > div:nth-of-type(1) > .map-icon {
     background-image: url('../img/icon-mappoint.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -415,7 +456,7 @@ header > button {
     border-radius: 20px;
     margin-right: 7px;
 }
-#map-nav > div:nth-of-type(1) a {
+#map-label > div:nth-of-type(1) a {
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
@@ -423,11 +464,11 @@ header > button {
     position: relative;
     top: 1px;
 }
-#map-nav > div:nth-of-type(1) span {
+#map-label > div:nth-of-type(1) span {
     color: #ffffff;
     font-weight: 700;
 }
-#map-nav > div:nth-of-type(2){
+#map-label > div:nth-of-type(2){
     display: none;
     background-color: #cccccc;
     padding: 1px 10px 5px 10px;
@@ -437,13 +478,13 @@ header > button {
     transition: 0.1s all ease-in-out;
     box-shadow: 0 2px 4px rgba(0,0,0,.2);
 }
-#map-nav > div:nth-of-type(2) span{
+#map-label > div:nth-of-type(2) span{
     font-size: 12px;
     font-weight: 500;
     color: #5c5c5c;
 }
 /*
-#map-nav a:hover {
+#map-label a:hover {
     color: tomato;
 }*/
 

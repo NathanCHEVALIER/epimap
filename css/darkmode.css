@@ -7,19 +7,23 @@ body.darkmode > #main-header {
     background-color: #091c32;
 }
 
-body.darkmode > #left-menu {
+body.darkmode > #info-menu {
     background-color: #3a3a3a;
 }
 
-body.darkmode > #left-menu ul > li > a{
+body.darkmode > #nav-menu {
+    background-color: #3a3a3a;
+}
+
+body.darkmode > #nav-menu ul > li > a{
     color: #efefef !important;
 }
 
-body.darkmode > #left-menu > ul > li > ul > li > ul > li > a{
+body.darkmode > #nav-menu > ul > li > ul > li > ul > li > a{
     color: #cccccc !important;
 }
 
-body.darkmode > #left-menu > ul > li > ul > li > ul > li:hover{
+body.darkmode > #nav-menu > ul > li > ul > li > ul > li:hover{
     background-color: #444444;
     border-right: 4px solid #091c32;
 }
@@ -45,8 +49,12 @@ body.darkmode #search > div:nth-of-type(2) > div > span{
     color: #cccccc;
 }
 
-body.darkmode #map-nav > div:nth-of-type(1) {
+body.darkmode #map-label > div:nth-of-type(1) {
     background-color: #091c32;
+}
+
+body.darkmode #btn-settings {
+    background-color: #091c32 !important;
 }
 
 /*** SVG Maps ***/
@@ -83,4 +91,8 @@ body {
 
 path, circle, rect, tspan, text {
     animation: 700ms stroke fill ease-in-out;
+}
+
+tspan:hover {
+    text-decoration: none;
 }

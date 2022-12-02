@@ -1,12 +1,18 @@
 #btn-settings{
-    width: 60px;
-    height: 60px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 160px;
+    height: 46px;
     margin-right: 20px;
-    background-image: url("/img/icon-settings.svg");
-    background-size: 48px auto;
+    background-color: rgb(1, 32, 124); 
+    background-image: url("/img/logo-epimap.svg");
+    background-size: auto 30px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    border-radius: 60px;
+    box-shadow: #00000030 0 2px 5px;
 }
 #settings {
     background-color: #fafafa;
