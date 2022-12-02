@@ -16,8 +16,8 @@ const loadMap = function(url, updateState = 'push') {
             const mapName = maps[mapId]['d_name'];
             
             document.title = "Epimap: " + mapName;
-            document.querySelector("#map-nav > div > div > a").innerHTML = mapName;
-            document.querySelector("#map-nav > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
+            document.querySelector("#map-label > div > div > a").innerHTML = mapName;
+            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
 
             if (updateState)
             {
@@ -47,9 +47,9 @@ const injectMap = function(data) {
         try {
             container.innerHTML = data.responseText;
             
-            document.querySelectorAll("#container a").forEach( function(path) {
-                path.addEventListener("click", e => onClickMapLink(e, path));
-                displayRoomInfo(path);
+            document.querySelectorAll("#container a").forEach( function(elt) {
+                elt.addEventListener("click", e => onClickMapLink(e, elt));
+                displayRoomInfo(elt);
             });
         }
         catch(e) {
@@ -115,7 +115,7 @@ const createPeoplePath = (parent) => {
     const box = parent.querySelector('text');
 
     newNode.setAttribute("d", userIconPath);
-    const height = parseInt(box.style.fontSize) / 93.2;
+    const height = 0.25;//parseInt(svgBox.height) / 930.2;
     newNode.setAttribute("transform", "translate(" + box.getAttribute('x') + ", " + box.getAttribute('y') + ") scale(" + height + ")");
     newNode.style.fill = "#777777";
 
@@ -130,12 +130,13 @@ const displayRoomInfo = (path) => {
         console.log('people: ' + peoples + ', tag: ' + tags);
         path.classList.add('roomInfo');
 
-        path.appendChild(createPeoplePath(path));
+        //path.appendChild(createPeoplePath(path));
     }
 }
 
 const onCLickRoomInfo = (e, elt) => {
     const peoples = elt.getAttribute("xlink:role");
 
-    alert(peoples);
+    document.getElementById("info-menu").classList.add("menu-open");
+    document.getElementById("btn-menu").classList.add("menu-back");
 }

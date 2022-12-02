@@ -108,15 +108,15 @@ const insertInPlace = function(obj)
 };
 
 searchBtn.addEventListener('click', function() {
-    search(document.querySelector("#search > div > input").value);
+    search(document.querySelector('header > input[name="search"]').value);
 });
 
-document.querySelector("#search > div > input").addEventListener("keydown", function(e) {
+document.querySelector('header > input[name="search"]').addEventListener("keydown", function(e) {
     if (e.keyCode === 13 && 
-        document.querySelector("#search > div > input") === document.activeElement) 
+        document.querySelector('header > input[name="search"]') === document.activeElement) 
     {
         e.preventDefault();
-        search(document.querySelector("#search > div > input").value);
+        search(document.querySelector('header > input[name="search"]').value);
     }
 });
 

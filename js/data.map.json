@@ -9,7 +9,16 @@
 	},
 	"kb-voltaire-f0": {
 		"d_name": "Voltaire - Rez de Chaussée",
-        "last_update": "Sep. 2022"
+        "last_update": "Sep. 2022",
+        "rooms": {
+            "accueil": {
+                "name": "Accueil",
+                "description": "Réception des colis et décrochage de téléphone",
+                "tenant": "epita",
+                "image": "",
+                "peoples": ["julie.ounoughi", ""]
+            }
+        }
     },
     "kb-voltaire-f1": {
 		"d_name": "Voltaire - 1er étage",

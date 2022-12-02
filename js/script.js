@@ -1,10 +1,11 @@
 const container = document.getElementById("container");
 
-const menu = document.getElementById("left-menu");
+const navMenu = document.getElementById("nav-menu");
+const infoMenu = document.getElementById("info-menu")
 const menuButton = document.getElementById("btn-menu");
 const menuOverlay = document.getElementById("cache");
 
-const searchBtn = document.querySelector("#search > div > button");
+const searchBtn = document.querySelector("header > button");
 const searchTemplate = document.getElementById("search-result-template");
 
 const settings = document.querySelector("#settings");
@@ -14,15 +15,20 @@ let maps = null;
 
 const toggleMenu = function() {
     settings.classList.remove("open");
-    if (menuButton.classList.contains("menu-open")) {
+
+    if (menuButton.classList.contains("menu-back")) {
+        menuButton.classList.remove("menu-back");
+        infoMenu.classList.remove("menu-open");
+    }
+    else if (menuButton.classList.contains("menu-open")) {
         menuButton.classList.remove("menu-open");
-        menu.classList.remove("menu-open");
+        navMenu.classList.remove("menu-open");
         container.classList.remove("menu-open");
         menuOverlay.classList.remove("menu-open");
     }
     else {
         menuButton.classList.add("menu-open");
-        menu.classList.add("menu-open");
+        navMenu.classList.add("menu-open");
         container.classList.add("menu-open");
         menuOverlay.classList.add("menu-open");
     }
