@@ -559,8 +559,12 @@ footer > .log-box > div:hover {
     }
 }
 
-.roomInfo {
+.roomLinkWrapper {
     cursor: pointer;
+}
+
+.roomLinkWrapper > text > tspan{
+    fill: #2f236b !important;
 }
 /*
 .roomInfo:hover > text {

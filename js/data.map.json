@@ -16,7 +16,16 @@
                 "description": "Réception des colis et décrochage de téléphone",
                 "tenant": "epita",
                 "image": "",
-                "peoples": ["julie.ounoughi", ""]
+                "peoples": ["julie.ounoughi", ""],
+                "tags": ["accueil", "adm"]
+            },
+            "amphi-3": {
+                "name": "Amphi 3",
+                "description": "Amphi un peu pourri",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
             }
         }
     },

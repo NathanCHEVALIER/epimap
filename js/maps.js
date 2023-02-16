@@ -49,7 +49,8 @@ const injectMap = function(data) {
             
             document.querySelectorAll("#container a").forEach( function(elt) {
                 elt.addEventListener("click", e => onClickMapLink(e, elt));
-                displayRoomInfo(elt);
+                if (isRoomLinkWrapper(elt))
+                    elt.classList.add('roomLinkWrapper');
             });
         }
         catch(e) {
@@ -62,7 +63,7 @@ const injectMap = function(data) {
 
 const onClickMapLink = function(e, path) {
     e.preventDefault();
-    if (path.classList.contains('roomInfo')) {
+    if (isRoomLinkWrapper(path)) {
         onCLickRoomInfo(e, path);
         return false;
     }
@@ -108,34 +109,13 @@ window.onpopstate = function(event) {
     loadMap(event.state.mapUrl, false);
 };
 
-const createPeoplePath = (parent) => {
-    let newNode = document.createElementNS("http://www.w3.org/2000/svg", 'path');
-    
-    const svgBox = document.querySelector('#container > svg').getBoundingClientRect();
-    const box = parent.querySelector('text');
-
-    newNode.setAttribute("d", userIconPath);
-    const height = 0.25;//parseInt(svgBox.height) / 930.2;
-    newNode.setAttribute("transform", "translate(" + box.getAttribute('x') + ", " + box.getAttribute('y') + ") scale(" + height + ")");
-    newNode.style.fill = "#777777";
-
-    return newNode;
-}
-
-const displayRoomInfo = (path) => {
-    let peoples = path.getAttribute("xlink:role");
-    let tags = path.getAttribute("xlink:type");
-
-    if (peoples != undefined || tags != undefined) {
-        console.log('people: ' + peoples + ', tag: ' + tags);
-        path.classList.add('roomInfo');
-
-        //path.appendChild(createPeoplePath(path));
-    }
+const isRoomLinkWrapper = (elt) => {
+    return elt.getAttribute("xlink:href") != undefined && elt.getAttribute("xlink:type") === 'room';
 }
 
 const onCLickRoomInfo = (e, elt) => {
-    const peoples = elt.getAttribute("xlink:role");
+    const room = elt.getAttribute("xlink:href");
+    console.log(room);
 
     document.getElementById("info-menu").classList.add("menu-open");
     document.getElementById("btn-menu").classList.add("menu-back");
