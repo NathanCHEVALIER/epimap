@@ -1032,6 +1032,10 @@
          x="-307.37906"
          y="1135.3704"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Amphi 2B</tspan></text>
+    <a
+       id="a888"
+       xlink:href="amphi-1"
+       xlink:type="room">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
@@ -1043,6 +1047,7 @@
          y="684.0257"
          id="tspan5371"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Amphi 1</tspan></text>
+    </a>
     <a
        id="a888"
        xlink:href="amphi-3"

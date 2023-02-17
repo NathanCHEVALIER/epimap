@@ -16,7 +16,7 @@
                 "description": "Réception des colis et décrochage de téléphone",
                 "tenant": "epita",
                 "image": "",
-                "peoples": ["julie.ounoughi", ""],
+                "peoples": ["julie.ounoughi"],
                 "tags": ["accueil", "adm"]
             },
             "amphi-3": {
@@ -24,6 +24,22 @@
                 "description": "Amphi un peu pourri",
                 "tenant": "epita",
                 "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
+            },
+            "scolarite-ing": {
+                "name": "Scolarité Cycle Ingénieur",
+                "description": "Aka. Le SPA",
+                "tenant": "epita",
+                "image": "",
+                "peoples": ["florent.boullet"],
+                "tags": ["adm"]
+            },
+            "amphi-1": {
+                "name": "Amphi 1",
+                "description": "Amphi level 1",
+                "tenant": "epita",
+                "image": "https://pbs.twimg.com/media/FnGJyk3XoAM_Yia?format=jpg&name=small",
                 "peoples": [],
                 "tags": ["amphi"]
             }
