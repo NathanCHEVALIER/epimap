@@ -162,6 +162,8 @@ header > button {
 
 #info-menu > div:nth-of-type(1) {
     background-color: rgb(175, 198, 238);
+    background-size: cover;
+    background-position: center center;
     width: calc(100% - 44px);
     border-radius: 22px;
     height: 240px;
@@ -179,20 +181,32 @@ header > button {
     color: #cccccc;
     font-style: italic;
 }
-#info-menu > div > div:nth-of-type(1) {
-    margin-top: 32px;
-}
-#info-menu > div > div {
+#info-menu > div:nth-of-type(2) > div {
     display: flex;
-    flex-direction: column;
     margin-top: 16px;
     margin-left: 0px;
+    align-items: center;
 }
-#info-menu > div > div > h5 {
+#info-menu > div:nth-of-type(2) > div:nth-of-type(1) {
+    margin-top: 32px;
+}
+#info-menu > div:nth-of-type(2) > div > div:nth-of-type(1) {
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: tomato;
+    border-radius: 40px;
+    margin-right: 16px;
+}
+#info-menu > div:nth-of-type(2) > div > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+#info-menu > div:nth-of-type(2) > div > div > h5 {
     color: #fefefe;
     font-size: 17px;
 }
-#info-menu > div > div > span {
+#info-menu > div:nth-of-type(2) > div > div > span {
     color: #cccccc;
     font-size: 15px;
 }
@@ -565,6 +579,7 @@ footer > .log-box > div:hover {
 
 .roomLinkWrapper > text > tspan{
     fill: #2f236b !important;
+    fill: red !important;
 }
 /*
 .roomInfo:hover > text {

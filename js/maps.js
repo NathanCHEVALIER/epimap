@@ -9,6 +9,11 @@ const userIconPath = 'M 104.77707 65.75516 A 77.134933 77.134933 0 0 0 27.64224 
  * @param {"push"|"replace"|false} updateState
  */
 
+const getCurrentMapId = () => {
+    let path = window.location.href.split('/').reverse()[0];
+    return path.split('.svg')[0];
+}
+
 const loadMap = function(url, updateState = 'push') {
     httpRequest(url, 'image/svg+xml', false).then( function(body) {
         injectMap(body).then( function() {
@@ -88,8 +93,7 @@ const initMap = function()
         displayError("Map Loading Error: " + body);
     });
 
-    let path = window.location.href.split('/').reverse()[0];
-    path = path.split('.svg')[0];
+    let path = getCurrentMapId();
 
     if (path.length == 0)
         path = "kremlin-bicetre";
@@ -115,8 +119,25 @@ const isRoomLinkWrapper = (elt) => {
 
 const onCLickRoomInfo = (e, elt) => {
     const room = elt.getAttribute("xlink:href");
-    console.log(room);
+    displayInfoMenu(maps[getCurrentMapId()].rooms[room]);
 
-    document.getElementById("info-menu").classList.add("menu-open");
+    infoMenu.classList.add("menu-open");
     document.getElementById("btn-menu").classList.add("menu-back");
+}
+
+const displayInfoMenu = (roomInfos) => {
+    infoMenu.querySelector('div:nth-of-type(2) > h4').textContent = roomInfos.name;
+    infoMenu.querySelector('div:nth-of-type(2) > span').textContent = roomInfos.description;
+    infoMenu.querySelector('div:nth-of-type(1)').setAttribute('style', 'background-image: url(' + roomInfos.image + ')');
+
+    infoMenu.querySelectorAll('div:nth-of-type(2) > div').forEach(elt => {
+        elt.remove();
+    })
+
+    roomInfos.peoples.forEach( people => {
+        infoMenu.querySelector('div:nth-of-type(2)').insertAdjacentHTML('beforeend', 
+            '<div><div style="background-image: url('
+            + 'https://cri.epita.fr/photos/user/' + people +
+            ')" ></div><div><h5>' + people + '</h5><span>NaD</span></div></div>');
+    });
 }
