@@ -56,6 +56,9 @@ const injectMap = function(data) {
                 elt.addEventListener("click", e => onClickMapLink(e, elt));
                 if (isRoomLinkWrapper(elt))
                     elt.classList.add('roomLinkWrapper');
+
+                if (elt.getAttribute('xlink:type') === 'icon')
+                    elt.querySelector('path').classList.add('icon');
             });
         }
         catch(e) {

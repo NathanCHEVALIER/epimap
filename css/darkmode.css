@@ -79,6 +79,11 @@ body.darkmode text {
     fill: #efefef;
 }
 
+body.darkmode .icon {
+    fill: #efefef !important;
+    stroke-width: 0px !important;
+}
+
 /*** Animation ***/
 
 body {

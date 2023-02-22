@@ -402,26 +402,8 @@ header > button {
 }
 
 /***
-*   Footer
-***/
-
-#infooter {
-    font-size: 0.8em !important;
-    color: #777 !important;
-    font-weight: 500;
-    padding: 10px;
-    padding-top: 60px;
-    padding-bottom: 0px;
-    text-align: center;
-}
-#infooter a{
-    color: #777 !important;
-}
-
-/***
 * Container
 ***/
-
 #container{
     position: absolute;
     top: 95px;
@@ -497,10 +479,6 @@ header > button {
     font-weight: 500;
     color: #5c5c5c;
 }
-/*
-#map-label a:hover {
-    color: tomato;
-}*/
 
 /***
 * Footer
@@ -551,6 +529,17 @@ footer > .log-box > div {
 footer > .log-box > div:hover {
     background-color: rgba(100, 100, 100, 0.4);
 }
+/**
+ * Mapa
+  */
+.roomLinkWrapper {
+    cursor: pointer;
+}
+
+.roomLinkWrapper > text > tspan{
+    fill: #2f236b !important;
+    fill: red !important;
+}
 
 /***
 * Responsive mobile
@@ -572,16 +561,3 @@ footer > .log-box > div:hover {
         height: calc(100vh - 72px);
     }
 }
-
-.roomLinkWrapper {
-    cursor: pointer;
-}
-
-.roomLinkWrapper > text > tspan{
-    fill: #2f236b !important;
-    fill: red !important;
-}
-/*
-.roomInfo:hover > text {
-    text-decoration: underline;
-}*/
