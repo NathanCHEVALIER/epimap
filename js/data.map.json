@@ -1,14 +1,14 @@
 {
 	"kremlin-bicetre": {
-		"d_name": "Kremlin-Bicêtre",
+		"name": "Kremlin-Bicêtre",
         "last_update": "Sep. 2021"
     },
     "kb-voltaire-f-1": {
-		"d_name": "Voltaire - Sous-sol",
+		"name": "Voltaire - Sous-sol",
         "last_update": "Apr. 2022"
 	},
 	"kb-voltaire-f0": {
-		"d_name": "Voltaire - Rez de Chaussée",
+		"name": "Voltaire - Rez de Chaussée",
         "last_update": "Sep. 2022",
         "rooms": {
             "accueil": {
@@ -46,131 +46,131 @@
         }
     },
     "kb-voltaire-f1": {
-		"d_name": "Voltaire - 1er étage",
+		"name": "Voltaire - 1er étage",
         "last_update": "Sep. 2022"
     },
     "kb-voltaire-f2": {
-		"d_name": "Voltaire - 2eme étage",
+		"name": "Voltaire - 2eme étage",
         "last_update": "Apr. 2022"
     },
     "kb-voltaire-f3": {
-		"d_name": "Voltaire - 3eme étage",
+		"name": "Voltaire - 3eme étage",
         "last_update": "Apr. 2022"
     },
     "kb-voltaire-f4": {
-		"d_name": "Voltaire - 4eme étage",
+		"name": "Voltaire - 4eme étage",
         "last_update": "Apr. 2022"
     },
     "kb-voltaire-f5": {
-		"d_name": "Voltaire - 5eme étage",
+		"name": "Voltaire - 5eme étage",
         "last_update": "Apr. 2022"
     },
     "kb-voltaire-f6": {
-		"d_name": "Voltaire - 6eme étage",
+		"name": "Voltaire - 6eme étage",
         "last_update": "Apr. 2022"
     },
     "kb-pasteur-f2": {
-		"d_name": "Pasteur - 2ème étage (KB3)",
+		"name": "Pasteur - 2ème étage (KB3)",
         "last_update": "Apr. 2022"
     },
     "kb-pasteur-f1": {
-		"d_name": "Pasteur - Premier étage",
+		"name": "Pasteur - Premier étage",
         "last_update": "Apr. 2022"
     },
     "kb-pasteur-f0": {
-		"d_name": "Pasteur - Cour & Rez de Chaussée",
+		"name": "Pasteur - Cour & Rez de Chaussée",
         "last_update": "Apr. 2022"
     },
     "kb-pasteur-f-1": {
-		"d_name": "Pasteur -Intersol",
+		"name": "Pasteur -Intersol",
         "last_update": "Apr. 2022"
     },
     "kb-pasteur-f-2": {
-		"d_name": "Pasteur - Under",
+		"name": "Pasteur - Under",
         "last_update": "2021"
     },
     "kb-paritalie-f0": {
-        "d_name": "Paritalie - Rez de Chaussée",
+        "name": "Paritalie - Rez de Chaussée",
         "last_update": "Apr. 2022"
     },
     "kb-paritalie-f1": {
-        "d_name": "Paritalie - 1er étage",
+        "name": "Paritalie - 1er étage",
         "last_update": "28 Dec. 2021"
     },
     "kb-paritalie-f2": {
-        "d_name": "Paritalie - 2eme étage",
+        "name": "Paritalie - 2eme étage",
         "last_update": "28 Dec. 2021"
     },
     "kb-paritalie-f3": {
-        "d_name": "Paritalie - 3eme étage",
+        "name": "Paritalie - 3eme étage",
         "last_update": "Aug. 2022"
     },
     "kb-paritalie-f4": {
-        "d_name": "Paritalie - 4eme étage",
+        "name": "Paritalie - 4eme étage",
         "last_update": "28 Dec. 2021"
     },
     "kb-paritalie-f5": {
-        "d_name": "Paritalie - 5eme étage",
+        "name": "Paritalie - 5eme étage",
         "last_update": "28 Dec. 2021"
     },
     "map-vj-overview": {
-        "d_name": "Villejuif",
+        "name": "Villejuif",
         "last_update": "2013"
     },
     "villejuif": {
-        "d_name": "Villejuif",
+        "name": "Villejuif",
         "last_update": "May 2022"
     },
     "vj-va-f-1": {
-        "d_name": "VA - Sous-sol",
+        "name": "VA - Sous-sol",
         "last_update": "Sep 2022"
     },
     "vj-va-f0": {
-        "d_name": "VA - Rez de chaussée",
+        "name": "VA - Rez de chaussée",
         "last_update": "Sep 2022"
     },
     "vj-va-f1": {
-        "d_name": "VA - 1er étage",
+        "name": "VA - 1er étage",
         "last_update": "Sep 2022"
     },
     "vj-va-f2": {
-        "d_name": "VA - 2eme étage",
+        "name": "VA - 2eme étage",
         "last_update": "Sep 2022"
     },
     "vj-va-f3": {
-        "d_name": "VA - 3eme étage",
+        "name": "VA - 3eme étage",
         "last_update": "Sep 2022"
     },
     "vj-vjc-f0b": {
-        "d_name": "VJC - Rez de chaussée (Bas)",
+        "name": "VJC - Rez de chaussée (Bas)",
         "last_update": "May 2022"
     },
     "vj-vjc-f0h": {
-        "d_name": "VJC - Rez de chaussée (Haut)",
+        "name": "VJC - Rez de chaussée (Haut)",
         "last_update": "May 2022"
     },
     "vj-vjc-f1": {
-        "d_name": "VJC - 1er étage",
+        "name": "VJC - 1er étage",
         "last_update": "Jun. 2022"
     },
     "vj-vjc-f2": {
-        "d_name": "VJC - 2eme étage",
+        "name": "VJC - 2eme étage",
         "last_update": "Jun. 2022"
     },
     "vj-vjc-f3": {
-        "d_name": "VJC - 3eme étage",
+        "name": "VJC - 3eme étage",
         "last_update": "Jun. 2022"
     },
     "finale-prologin": {
-        "d_name": "Finale Prologin",
+        "name": "Finale Prologin",
         "last_update": "May 2022"
     },
     "prolo": {
-        "d_name": "Finale Prologin",
+        "name": "Finale Prologin",
         "last_update": "May 2022"
     },
     "we2023": {
-        "d_name": "Camping WE 2023",
+        "name": "Camping WE 2023",
         "last_update": "Jun. 2022"
     }
 }
