@@ -1,5 +1,3 @@
-const userIconPath = 'M 104.77707 65.75516 A 77.134933 77.134933 0 0 0 27.64224 142.88999 A 77.134933 77.134933 0 0 0 104.77707 220.02481 A 77.134933 77.134933 0 0 0 181.91189 142.88999 A 77.134933 77.134933 0 0 0 104.77707 65.75516 z M 107.41101 89.865833 C 110.72823 89.865833 113.5217 91.000599 115.79138 93.270276 C 118.06106 95.539952 119.19583 98.333426 119.19583 101.65064 C 119.19583 104.88057 118.06106 107.67404 115.79138 110.03101 C 113.5217 112.30069 110.72823 113.43545 107.41101 113.43545 C 104.18109 113.43545 101.38762 112.30069 99.030648 110.03101 C 96.760971 107.67404 95.626204 104.88057 95.626204 101.65064 C 95.626204 98.333426 96.760971 95.539952 99.030648 93.270276 C 101.38762 91.000599 104.18109 89.865833 107.41101 89.865833 z M 85.019617 124.17278 L 117.36235 124.17278 L 117.36235 189.12076 L 97.328426 189.12076 L 97.328426 139.36255 L 85.019617 139.36255 L 85.019617 124.17278 z';
-
 /**
  * Loads a map from the given url
  *
@@ -15,7 +13,7 @@ const getCurrentMapId = () => {
 }
 
 const loadMap = function(url, updateState = 'push') {
-    httpRequest(url, 'image/svg+xml', false).then( function(body) {
+    httpRequest(url, 'image/svg+xml').then( function(body) {
         injectMap(body).then( function() {
             const mapId = url.split('/').pop().replace(/\.[^.]*$/, '');
             const mapName = maps[mapId]['d_name'];
@@ -50,7 +48,7 @@ const loadMap = function(url, updateState = 'push') {
 const injectMap = function(data) {
     return new Promise((resolve, reject) => {
         try {
-            container.innerHTML = data.responseText;
+            container.innerHTML = data;
             
             document.querySelectorAll("#container a").forEach( function(elt) {
                 elt.addEventListener("click", e => onClickMapLink(e, elt));
@@ -90,8 +88,8 @@ const onClickMapLink = function(e, path) {
 
 const initMap = function()
 {
-    httpRequest("/js/data.map.json", 'application/json', false).then( function(body) {
-        maps = JSON.parse(body.responseText);
+    httpRequest("/js/data.map.json", 'application/json').then( function(body) {
+        maps = body;
     }).catch( function(body){
         displayError("Map Loading Error: " + body);
     });
