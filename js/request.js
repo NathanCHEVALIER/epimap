@@ -1,3 +1,9 @@
+/**
+ * HTTP Request Wrapper using fetch
+ * @param {string} url 
+ * @param {string} type 
+ * @returns {Promise} Body Data as JSON or XML Text, Error in case of reject
+ */
 const httpRequest = function(url, type) {
     return new Promise ((resolve, reject) => {
         fetch(url, {

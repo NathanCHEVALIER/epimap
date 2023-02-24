@@ -1,55 +1,65 @@
 /**
- * Loads a map from the given url
- *
- * Depending on `updateState`, saves the loaded map in the history
- *
- * @param {string} url
- * @param {"push"|"replace"|false} updateState
+ * Handle Map management (loading, events...)
  */
 
-const getCurrentMapId = () => {
-    let path = window.location.href.split('/').reverse()[0];
+/**
+ * Sanitize url to get mapId only
+ * @param {string} url 
+ * @returns {string} mapId
+ */
+const getMapId = (url) => {
+    let path = url.split('/').reverse()[0];
     return path.split('.svg')[0];
 }
 
-const loadMap = function(url, updateState = 'push') {
-    httpRequest(url, 'image/svg+xml').then( function(body) {
-        injectMap(body).then( function() {
-            const mapId = url.split('/').pop().replace(/\.[^.]*$/, '');
-            const mapName = maps[mapId]['d_name'];
-            
-            document.title = "Epimap: " + mapName;
-            document.querySelector("#map-label > div > div > a").innerHTML = mapName;
-            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
-
-            if (updateState)
-            {
+/**
+ * Loads a map from the given mapId
+ * Depending on `updateState, saves the loaded map in the history
+ * @param {string} mapId
+ * @param {"push"|"replace"|false} updateState
+ */
+const loadMap = function(mapId, updateState = 'push') {
+    // Request to get XML document
+    httpRequest('/maps/' + mapId + '.svg', 'image/svg+xml').then( function(body) {
+        // Inject XML content into the container
+        injectMap(mapId, body).then( function() {
+            // Change page document information 
+            document.title = "Epimap: " + maps[mapId].name;
+            if (updateState) {
                 // Saves the loaded map in the history
                 // If 'replace', replaces the current history entry instead of pushing a new one
                 (updateState === 'replace' ? window.history.replaceState : window.history.pushState)
                     .apply(window.history, [{
-                            mapUrl: url,
-                            additionalInformation: mapName
+                            mapUrl: mapId,
+                            additionalInformation: maps[mapId].name
                         },
                         document.title,
-                        /*
-                        'https://www.epimap.fr/' + */
                         mapId
                     ]);
             }
-        }).catch( function(e) {
-            displayError("Map Loading Error: " + e);
+        }).catch( function(error) {
+            displayError("Map Loading Error: " + error);
         });
-    }).catch( function(body){
-        displayError("Error Response: " + body);
+    }).catch( function(error){
+        displayError("Response Error: " + error);
     });
 };
 
-const injectMap = function(data) {
+/** 
+ * Inject Map as XML (SVG) into DOM container
+ * @param {string} mapId
+ * @param {string} data as XML text
+ * @returns new Promise 
+ */
+const injectMap = function(mapId, data) {
     return new Promise((resolve, reject) => {
         try {
+            // Set Map Infos
             container.innerHTML = data;
+            document.querySelector("#map-label > div > div > a").innerHTML = maps[mapId].name;
+            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
             
+            // Add Event Listener for links in new map DOM elements
             document.querySelectorAll("#container a").forEach( function(elt) {
                 elt.addEventListener("click", e => onClickMapLink(e, elt));
                 if (isRoomLinkWrapper(elt))
@@ -58,15 +68,20 @@ const injectMap = function(data) {
                 if (elt.getAttribute('xlink:type') === 'icon')
                     elt.querySelector('path').classList.add('icon');
             });
-        }
-        catch(e) {
-            return reject(e);
-        }
 
-        return resolve();
+            return resolve();
+        }
+        catch(error) {
+            return reject(error);
+        }
     });
 }
 
+/**
+ * Handle Map Links Events
+ * @param {Event} e
+ * @param {string} path 
+ */
 const onClickMapLink = function(e, path) {
     e.preventDefault();
     if (isRoomLinkWrapper(path)) {
@@ -81,51 +96,64 @@ const onClickMapLink = function(e, path) {
     if (pathRef == null)
         displayError("Invalid map link");
     else
-        loadMap("/maps/" + pathRef);
+        loadMap(getMapId(pathRef));
 
     return false;
 };
 
-const initMap = function()
-{
+/**
+ * Init Map: load map data and set default map
+ */
+const initMap = function() {
     httpRequest("/js/data.map.json", 'application/json').then( function(body) {
         maps = body;
     }).catch( function(body){
         displayError("Map Loading Error: " + body);
     });
 
-    let path = getCurrentMapId();
-
+    let path = getMapId(window.location.href);
     if (path.length == 0)
         path = "kremlin-bicetre";
 
-    loadMap("/maps/" + path + ".svg", 'replace');
+    loadMap(path, 'replace');
 };
 
 initMap();
 
 /**
- * Listener for history changes
- * Loads the map corresponding to the given url in the history
- *
+ * Listener for history changes: loads the map corresponding to the history
  * @param {PopStateEvent} event
  */
 window.onpopstate = function(event) {
     loadMap(event.state.mapUrl, false);
 };
 
+/**
+ * Check if DOM Object Element contains a room link
+ * @param {Object} elt 
+ * @returns true if object is a room link, false otherwise
+ */
 const isRoomLinkWrapper = (elt) => {
     return elt.getAttribute("xlink:href") != undefined && elt.getAttribute("xlink:type") === 'room';
 }
 
+/**
+ * Click on room link Event listener
+ * @param {Event} e 
+ * @param {Object} elt 
+ */
 const onCLickRoomInfo = (e, elt) => {
     const room = elt.getAttribute("xlink:href");
-    displayInfoMenu(maps[getCurrentMapId()].rooms[room]);
+    displayInfoMenu(maps[getMapId(window.location.href)].rooms[room]);
 
     infoMenu.classList.add("menu-open");
     document.getElementById("btn-menu").classList.add("menu-back");
 }
 
+/**
+ * Set room infos on UI (Menu RoomInfo)
+ * @param {Array} roomInfos 
+ */
 const displayInfoMenu = (roomInfos) => {
     infoMenu.querySelector('div:nth-of-type(2) > h4').textContent = roomInfos.name;
     infoMenu.querySelector('div:nth-of-type(2) > span').textContent = roomInfos.description;
@@ -142,3 +170,6 @@ const displayInfoMenu = (roomInfos) => {
             ')" ></div><div><h5>' + people + '</h5><span>NaD</span></div></div>');
     });
 }
+
+
+

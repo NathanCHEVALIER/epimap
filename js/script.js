@@ -1,3 +1,8 @@
+/**
+ * Handle UI basics
+ * Contains DOM element selectors and Event listeners
+ */
+
 const container = document.getElementById("container");
 
 const navMenu = document.getElementById("nav-menu");
@@ -13,6 +18,9 @@ const settingBtn = document.querySelector("#btn-settings");
 
 let maps = null;
 
+/**
+ * Left Menu (Nav menu and Info menu) Event listener
+ */
 const toggleMenu = function() {
     settings.classList.remove("open");
 
@@ -37,6 +45,9 @@ const toggleMenu = function() {
 menuButton.addEventListener('click', toggleMenu);
 menuOverlay.addEventListener('click', toggleMenu);
 
+/**
+ * Settings Menu Event listener
+ */
 settingBtn.addEventListener('click', e => {
     if (settings.classList.contains("open"))
         settings.classList.remove("open");
@@ -44,11 +55,14 @@ settingBtn.addEventListener('click', e => {
         settings.classList.add("open");
 })
 
+/**
+ * Left menu (Nav menu only) links action replacement
+ */
 document.querySelectorAll('#left-menu a').forEach( function(path) {
     path.addEventListener('click', function(e) {
         e.preventDefault();
 
-        var link = e.target.getAttribute("href");
+        const link = e.target.getAttribute("href");
 
         if (link === "https://github.com/NathanCHEVALIER/epimap") {
             window.open("https://github.com/NathanCHEVALIER/epimap", "_blank");
@@ -57,7 +71,7 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
             displayError("This map does not exist yet !");
         }
         else if (link != null){
-            loadMap("maps/" + link);
+            loadMap(link);
             toggleMenu();
         }
 
@@ -65,6 +79,11 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
     });
 });
 
+/**
+ * Display Logs for UI
+ * @param {*} message 
+ * @param {*} type 
+ */
 const displayLog = function(message, type="info")
 {
     const template = document.querySelector("footer > div.log-box:nth-of-type(1)");
@@ -82,15 +101,27 @@ const displayLog = function(message, type="info")
     container.append(newNode);
 };
 
+/**
+ * displayLog wrapper for Errors
+ * @param {*} message 
+ */
 const displayError = function(message) {
     displayLog(message, "error");
     console.log(message);
 }
 
+/**
+ * displayLog wrapper for Warnings
+ * @param {*} message 
+ */
 const displayWarning = function(message) {
     displayLog(message, "warning");
 }
 
+/**
+ * displayLog wrapper for Infos
+ * @param {*} message 
+ */
 const displayInfo = function(message) {
     displayLog(message, "info");
 }
