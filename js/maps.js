@@ -155,6 +155,11 @@ const onCLickRoomInfo = (e, elt) => {
  * @param {Array} roomInfos 
  */
 const displayInfoMenu = (roomInfos) => {
+    if (roomInfos === undefined) {
+        displayError("Undefined Room Infos. Please consider contributing on GitHub!");
+        return false;
+    }
+
     infoMenu.querySelector('div:nth-of-type(2) > h4').textContent = roomInfos.name;
     infoMenu.querySelector('div:nth-of-type(2) > span').textContent = roomInfos.description;
     infoMenu.querySelector('div:nth-of-type(1)').setAttribute('style', 'background-image: url(' + roomInfos.image + ')');
