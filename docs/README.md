@@ -8,7 +8,7 @@ This documentation is in progress and therefore contains partial information. If
 ## FAQ User:
 
 How to change color mode preferences ?
-> Got to menu and change switch state. Not that Epimap is supposed to auto-detect your browser and/or os color mode preferences. Additional plugins like DarkReader can interfers.
+> Go to settings menu and change switch state. Not that Epimap is supposed to auto-detect your browser and/or os color mode preferences. Additional plugins like DarkReader can interfers.
 
 ## How to:
 

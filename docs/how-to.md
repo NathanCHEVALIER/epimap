@@ -2,11 +2,11 @@
 
 ## Run Epimap on your machine ?
 
-Requirements: You must have Python 3 on your machine (see)
+**Requirements:** You must have Python 3 on your machine.
 
 1. Clone Epimap repository
 ``` sh
-$ git clone git
+$ git clone git@github.com:NathanCHEVALIER/epimap.git
 ```
 
 2. Go to your local epimap directory
@@ -19,7 +19,7 @@ $ cd path/to/epimap
 $ python3 server.py
 ```
 
-3. Checkout [http://0.0.0.0:8000]().
+3. Checkout [http://0.0.0.0:8000](http://0.0.0.0:8000).
 
 <br /><br />
 

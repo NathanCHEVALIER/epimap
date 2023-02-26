@@ -4,9 +4,7 @@ Maps are the foundation of Epimap. Having up-to-date maps and data is crucial to
 
 > Some of the details on the maps do not correspond faithfully to reality in order to simplify map readiness.
 
-A generic guide about contributions on GitHub [here]()
-
-<br />
+A generic guide about contributions on GitHub can be found [here](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
 
 ## Editing:
 
@@ -14,8 +12,6 @@ A generic guide about contributions on GitHub [here]()
 
 + Local repository cloned on your machine
 + SVG Editor Software: We recommend using [Inkscape](https://inkscape.org/) (Open Source) 
-
-<br />
 
 ### 1. Open a map:
 
@@ -36,23 +32,19 @@ Then right-click > Open in Inkscape on file
 
 + **Others/GUI:**
 
-Open Inkscape, then 'File > Open', then select your SVG file.
-
-<br />
+Open Inkscape, then 'File > Open' and select the file you want to edit.
 
 ### 2. Update:
-
-
 
 You should refer to this tutorial:
 
 Please pay attention to style guidelines [below](#style-guidelines)
 
-<br />
-
 ### 3. Embed Data:
 
 Maps contains embedded data on room names and icons. They are used to offer navigation trough maps and display relevant informations on the UI.
+
+![](./src/tuto-embedded-data.gif)
 
 #### Room Names:
 
@@ -69,8 +61,6 @@ Maps contains embedded data on room names and icons. They are used to offer navi
 2. Fill Href input with the target mapId (with or without .svg extension). See [map list](map-list.md) for mapIds
 
 3. Set 'icon' into Type input and leave blank other inputs
-
-<br />
 
 ### 4. Check :
 
@@ -118,6 +108,8 @@ Each map (identified thanks to mapId) have a collection of rooms
 
 `tags`: One word tags used to enhance search (ie. "sm" for cisco)
 
+A list containing the status of the data update is available [here](map-list.md)
+
 <br />
 
 ## Style Guidelines:
@@ -147,7 +139,7 @@ The only one colour is pure black (#000000) and there is no background.
 
 ## Test Maps:
 
-> In progress
+> In progress: don't take into account this section
 
 ### Maps Data:
 
