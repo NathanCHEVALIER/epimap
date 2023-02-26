@@ -399,11 +399,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.51771572"
-     inkscape:cx="1244.8917"
-     inkscape:cy="819.94805"
+     inkscape:zoom="0.50994635"
+     inkscape:cx="968.72936"
+     inkscape:cy="1201.1067"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="g2033-3"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -1073,7 +1073,8 @@
        id="a3214"
        xlink:role=""
        xlink:href="accueil"
-       xlink:type="room">
+       xlink:type="room"
+       transform="translate(12,-24)">
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
@@ -1317,6 +1318,38 @@
              id="tspan2175-8">Cour Pasteur</tspan></text>
       </g>
     </a>
+    <a
+       xlink:href="kb-paritalie-f0.svg"
+       id="a2035-9"
+       style="display:inline"
+       transform="translate(-918.17602,-9.466853)">
+      <g
+         id="g2033-3">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#333333;stroke-opacity:1"
+           x="1455.1541"
+           y="-1070.3926"
+           id="text3375-6"
+           transform="rotate(90)"><tspan
+             sodipodi:role="line"
+             id="tspan3377-0"
+             x="1455.1541"
+             y="-1070.3926"
+             style="font-size:72px;line-height:1.25;font-family:sans-serif;stroke:#333333;stroke-opacity:1">→</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:29.3333px;line-height:29.9px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
+           x="1092.5043"
+           y="1554.1256"
+           id="text4011-5-8-6"><tspan
+             sodipodi:role="line"
+             x="1092.5043"
+             y="1554.1256"
+             style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
+             id="tspan2175-8-2">Paritalie</tspan></text>
+      </g>
+    </a>
     <path
        style="fill:#37ffff;fill-opacity:0.993141;stroke:#000000"
        d="m 797.58589,1271.5306 h 67.4785"
@@ -1381,22 +1414,14 @@
          class="icon-stairs"
          d="m 412.02733,64.604861 c -3.97674,0 -7.17773,3.20098 -7.17773,7.177734 v 53.335935 c 0,3.97676 3.20099,7.17969 7.17773,7.17969 h 3.78907 V 83.450564 h 47.08984 v 48.847656 h 5.16602 c 3.97674,0 7.17773,-3.20293 7.17773,-7.17969 V 71.782595 c 0,-3.976754 -3.20099,-7.177734 -7.17773,-7.177734 z m 29.99219,5.800781 11.4375,0.0332 -5.76758,6.771484 z m -11.66015,0.0332 5.76757,6.771484 -11.43945,0.0332 z m 19.1914,22.146484 a 3.9099728,3.9099728 0 0 0 -3.91015,3.910157 3.9099728,3.9099728 0 0 0 3.91015,3.910154 3.9099728,3.9099728 0 0 0 3.91016,-3.910154 3.9099728,3.9099728 0 0 0 -3.91016,-3.910157 z m -21.04492,0.152344 a 3.9099728,3.9099728 0 0 0 -3.91016,3.910156 3.9099728,3.9099728 0 0 0 3.91016,3.910161 3.9099728,3.9099728 0 0 0 3.91016,-3.910161 3.9099728,3.9099728 0 0 0 -3.91016,-3.910156 z m 20.72461,9.236327 c -3.86297,-0.005 -7.80274,2.64067 -7.80274,5.66992 v 10.35547 l 3.52735,1.38281 v 12.91602 h 8.75586 v -12.94141 l 3.47851,-1.01367 0.0508,-10.89062 c 0.0137,-2.9451 -3.61861,-5.47247 -8.00976,-5.47852 z m -21.04492,0.15234 c -3.86298,-0.005 -7.80274,2.64064 -7.80274,5.66993 v 10.35547 l 3.52735,1.38281 v 12.76367 h 8.75586 v -12.78906 l 3.47851,-1.01367 0.0508,-10.89063 c 0.0137,-2.9451 -3.61861,-5.47246 -8.00976,-5.47852 z" />
     </a>
-    <a
-       id="a7790-7"
-       xlink:href="kb-voltaire-f1.svg"
-       transform="translate(559.89345,131.29742)"
-       style="display:inline"
-       xlink:type="icon">
-      <path
-         id="rect1968-4-8-75-3-0-5"
-         style="fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.81228;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         class="icon-stairs"
-         d="m 412.02733,64.604861 c -3.97674,0 -7.17773,3.20098 -7.17773,7.177734 v 53.335935 c 0,3.97676 3.20099,7.17969 7.17773,7.17969 h 3.78907 V 83.450564 h 47.08984 v 48.847656 h 5.16602 c 3.97674,0 7.17773,-3.20293 7.17773,-7.17969 V 71.782595 c 0,-3.976754 -3.20099,-7.177734 -7.17773,-7.177734 z m 29.99219,5.800781 11.4375,0.0332 -5.76758,6.771484 z m -11.66015,0.0332 5.76757,6.771484 -11.43945,0.0332 z m 19.1914,22.146484 a 3.9099728,3.9099728 0 0 0 -3.91015,3.910157 3.9099728,3.9099728 0 0 0 3.91015,3.910157 3.9099728,3.9099728 0 0 0 3.91016,-3.910157 3.9099728,3.9099728 0 0 0 -3.91016,-3.910157 z m -21.04492,0.152344 a 3.9099728,3.9099728 0 0 0 -3.91016,3.910156 3.9099728,3.9099728 0 0 0 3.91016,3.910164 3.9099728,3.9099728 0 0 0 3.91016,-3.910164 3.9099728,3.9099728 0 0 0 -3.91016,-3.910156 z m 20.72461,9.23633 c -3.86297,-0.005 -7.80274,2.64067 -7.80274,5.66992 v 10.35547 l 3.52735,1.38281 v 12.91602 h 8.75586 v -12.94141 l 3.47851,-1.01367 0.0508,-10.89062 c 0.0137,-2.9451 -3.61861,-5.47247 -8.00976,-5.47852 z m -21.04492,0.15234 c -3.86298,-0.005 -7.80274,2.64064 -7.80274,5.66993 v 10.35547 l 3.52735,1.38281 v 12.76367 h 8.75586 v -12.78906 l 3.47851,-1.01367 0.0508,-10.89063 c 0.0137,-2.9451 -3.61861,-5.47246 -8.00976,-5.47852 z" />
-    </a>
     <path
        style="fill:none;fill-opacity:1;stroke:#333333;stroke-width:10;stroke-dasharray:none;stroke-opacity:1"
        d="m 496.67939,278.58487 -25.9483,-5e-4 V 185.65084 H 222.23356 v 86.87312 h -327.28942 l -0.12271,716.80251 -325.14641,0.40583 v 474.7716 l 548.58982,-0.7875 v -35.3048 l 26.69205,-0.2732 m 59.599,5e-4 29.80073,0.2217 -0.001,36.1433 h 115.15739 l 0.2015,-12.3886 567.50428,0.2668 v 24.3046 h 111.11681 l 0.077,-44.7906 29.7223,0.2834 m 59.599,0 31.3623,-5e-4 -0.4688,43.4897 h 544.3886 l -0.6585,-482.2356 -326.3014,0.0568 -0.3295,-714.90507 -316.3433,-0.3394 -0.8446,-96.63524 H 802.06149 v 96.97464 l -26.20124,5e-4 m -52.4016,0 -26.20056,-5e-4 -1.1364,-30.30457 -26.32564,-0.40854 m -73.1237,-0.005 -22.40026,0.16054 0.2525,30.55711 -25.94864,5e-4"
        id="path11013"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+    <path
+       style="fill:none;stroke-width:6;stroke:#000000;stroke-opacity:1;stroke-dasharray:none"
+       d="M 965.27769,290.04543 V 181.61069"
+       id="path1478" />
   </g>
 </svg>
