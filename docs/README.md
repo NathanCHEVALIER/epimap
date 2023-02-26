@@ -4,28 +4,22 @@
 
 This documentation is in progress and therefore contains partial information. If you have any questions or suggestions, please contact maintainers.
 
-## Table of Contents:
 
-### FAQ User
+## FAQ User:
 
-- ...WIP...
+How to change color mode preferences ?
+> Got to menu and change switch state. Not that Epimap is supposed to auto-detect your browser and/or os color mode preferences. Additional plugins like DarkReader can interfers.
 
-### FAQ Dev
+## How to:
 
-- About technical choices
-- ...WIP...
+- [Run Epimap locally](how-to.md#run-epimap-on-your-machine)
+- [Edit Maps](map-contributing.md)
+- [Install Epimap font](how-to.md#use-epimap-font)
 
-### How to :
-- [Run Epimap locally](how-to.md#run-epimap-locally)
-- [Get Epimap font](how-to.md#get-epimap-font)
+A complete list of maps [here](map-list.md).
 
-### Map Contributing
-- [List and Status of Maps](map-list.md)
-- [Edit Maps](map-contributing.md#edit-maps)
-- [Map style guidelines](map-contributing.md#map-style-guidelines)
-- [Maps assumed choices](map-contributing.md#maps-assumed-choices)
+## Major Releases:
 
-## Releases:
-
-- [September 2022](releases/2022-09.md)
-- [June 2022](releases/2022-06.md)
+- [v2.23.2.1 - February 2023]()
+- [v1.22.9.1 - September 2022](releases/2022-09.md)
+- [v0.6.5 - June 2022](releases/2022-06.md)
