@@ -9,7 +9,7 @@
 	},
 	"kb-voltaire-f0": {
 		"name": "Voltaire - Rez de Chaussée",
-        "last_update": "Sep. 2022",
+        "last_update": "Feb. 2023",
         "rooms": {
             "accueil": {
                 "name": "Accueil",
@@ -19,21 +19,21 @@
                 "peoples": ["julie.ounoughi"],
                 "tags": ["accueil", "adm"]
             },
-            "amphi-3": {
-                "name": "Amphi 3",
-                "description": "Amphi un peu pourri",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["amphi"]
-            },
             "scolarite-ing": {
                 "name": "Scolarité Cycle Ingénieur",
                 "description": "Aka. Le SPA",
                 "tenant": "epita",
                 "image": "",
                 "peoples": ["florent.boullet"],
-                "tags": ["adm"]
+                "tags": ["adm", "scola"]
+            },
+            "amphi-0": {
+                "name": "Amphi 0",
+                "description": "Amphithéâtre plat numérique",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
             },
             "amphi-1": {
                 "name": "Amphi 1",
@@ -42,12 +42,86 @@
                 "image": "https://pbs.twimg.com/media/FnGJyk3XoAM_Yia?format=jpg&name=small",
                 "peoples": [],
                 "tags": ["amphi"]
+            },
+            "amphi-2": {
+                "name": "Amphi 2",
+                "description": "Amphithéâtre divisible avec cloison insonorisée",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
+            },
+            "amphi-3": {
+                "name": "Amphi 3",
+                "description": "Amphithéâtre bien fourni en prises électriques",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
+            },
+            "bureau": {
+                "name": "Bureau",
+                "description": "Chargé de Mission",
+                "tenant": "epita",
+                "image": "",
+                "peoples": ["christian.chabrerie"],
+                "tags": ["bureau"]
             }
         }
     },
     "kb-voltaire-f1": {
 		"name": "Voltaire - 1er étage",
-        "last_update": "Sep. 2022"
+        "last_update": "Feb. 2022",
+        "rooms": {
+            "cisco": {
+                "name": "Cisco",
+                "description": "Meilleure Salle Machine de l'Epita, musique qualitative",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            },
+            "midlab": {
+                "name": "MidLab",
+                "description": "Tous les jours F*** MidLab",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            },
+            "labsr": {
+                "name": "Lab SR",
+                "description": "Lab SR ?",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            },
+            "sm14": {
+                "name": "SM 14",
+                "description": "La salle machine des prépas",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            },
+            "sm15": {
+                "name": "SM 15",
+                "description": "aka. SM couloir",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            },
+            "lab-mac": {
+                "name": "Lab Mac",
+                "description": "Salle utilisée seulement les jours de JPO",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["sm"]
+            }
+        }
     },
     "kb-voltaire-f2": {
 		"name": "Voltaire - 2eme étage",
@@ -55,7 +129,25 @@
     },
     "kb-voltaire-f3": {
 		"name": "Voltaire - 3eme étage",
-        "last_update": "Apr. 2022"
+        "last_update": "Apr. 2022",
+        "rooms": {
+            "terasse": {
+                "name": "Terasse",
+                "description": "The place to be",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": []
+            },
+            "amphi-401": {
+                "name": "Amphi 401",
+                "description": "Pas mal, sauf les prises HDMI",
+                "tenant": "epita",
+                "image": "",
+                "peoples": [],
+                "tags": ["amphi"]
+            }
+        }
     },
     "kb-voltaire-f4": {
 		"name": "Voltaire - 4eme étage",
