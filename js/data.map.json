@@ -1,268 +1,349 @@
 {
-	"kremlin-bicetre": {
-		"name": "Kremlin-Bicêtre",
-        "last_update": "Sep. 2021"
-    },
-    "kb-voltaire-f-1": {
-		"name": "Voltaire - Sous-sol",
-        "last_update": "Apr. 2022"
-	},
-	"kb-voltaire-f0": {
-		"name": "Voltaire - Rez de Chaussée",
-        "last_update": "Feb. 2023",
-        "rooms": {
-            "accueil": {
-                "name": "Accueil",
-                "description": "Réception des colis et décrochage de téléphone",
-                "tenant": "epita",
-                "image": "",
-                "peoples": ["julie.ounoughi"],
-                "tags": ["accueil", "adm"]
+    "kb": {
+        "name": "Kremlin-Bicêtre",
+        "last_update": "Sep. 2021",
+        "buildings": {
+            "voltaire": {
+                "name": "Voltaire",
+                "last_update": "",
+                "floors": {
+                    "kb-voltaire-f-1": {
+                        "name": "Voltaire - Sous-sol",
+                        "last_update": "Apr. 2022",
+                        "floor": "-1"
+                    },
+                    "kb-voltaire-f0": {
+                        "name": "Voltaire - Rez de Chaussée",
+                        "last_update": "Feb. 2023",
+                        "floor": "0",
+                        "rooms": {
+                            "accueil": {
+                                "name": "Accueil",
+                                "description": "Réception des colis et décrochage de téléphone",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["julie.ounoughi"],
+                                "tags": ["accueil", "adm"]
+                            },
+                            "scolarite-ing": {
+                                "name": "Scolarité Cycle Ingénieur",
+                                "description": "Aka. Le SPA",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["florent.boullet"],
+                                "tags": ["adm", "scola"]
+                            },
+                            "amphi-0": {
+                                "name": "Amphi 0",
+                                "description": "Amphithéâtre plat numérique",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            },
+                            "amphi-1": {
+                                "name": "Amphi 1",
+                                "description": "Amphi level 1",
+                                "tenant": "epita",
+                                "image": "https://pbs.twimg.com/media/FnGJyk3XoAM_Yia?format=jpg&name=small",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            },
+                            "amphi-2": {
+                                "name": "Amphi 2",
+                                "description": "Amphithéâtre divisible avec cloison insonorisée",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            },
+                            "amphi-3": {
+                                "name": "Amphi 3",
+                                "description": "Amphithéâtre bien fourni en prises électriques",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            },
+                            "bureau": {
+                                "name": "Bureau",
+                                "description": "Chargé de Mission",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["christian.chabrerie"],
+                                "tags": ["bureau"]
+                            }
+                        }
+                    },
+                    "kb-voltaire-f1": {
+                        "name": "Voltaire - 1er étage",
+                        "last_update": "Feb. 2022",
+                        "floor": "1",
+                        "rooms": {
+                            "cisco": {
+                                "name": "Cisco",
+                                "description": "Meilleure Salle Machine de l'Epita, musique qualitative",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            },
+                            "midlab": {
+                                "name": "MidLab",
+                                "description": "Tous les jours F*** MidLab",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            },
+                            "labsr": {
+                                "name": "Lab SR",
+                                "description": "Lab SR ?",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            },
+                            "sm14": {
+                                "name": "SM 14",
+                                "description": "La salle machine des prépas",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            },
+                            "sm15": {
+                                "name": "SM 15",
+                                "description": "aka. SM couloir",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            },
+                            "lab-mac": {
+                                "name": "Lab Mac",
+                                "description": "Salle utilisée seulement les jours de JPO",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["sm"]
+                            }
+                        }
+                    },
+                    "kb-voltaire-f2": {
+                        "name": "Voltaire - 2eme étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "2"
+                    },
+                    "kb-voltaire-f3": {
+                        "name": "Voltaire - 3eme étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "3",
+                        "rooms": {
+                            "terasse": {
+                                "name": "Terasse",
+                                "description": "The place to be",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "amphi-401": {
+                                "name": "Amphi 401",
+                                "description": "Pas mal, sauf les prises HDMI",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            }
+                        }
+                    },
+                    "kb-voltaire-f4": {
+                        "name": "Voltaire - 4eme étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "4"
+                    },
+                    "kb-voltaire-f5": {
+                        "name": "Voltaire - 5eme étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "5"
+                    },
+                    "kb-voltaire-f6": {
+                        "name": "Voltaire - 6eme étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "6"
+                    }
+                }
             },
-            "scolarite-ing": {
-                "name": "Scolarité Cycle Ingénieur",
-                "description": "Aka. Le SPA",
-                "tenant": "epita",
-                "image": "",
-                "peoples": ["florent.boullet"],
-                "tags": ["adm", "scola"]
+            "pasteur": {
+                "id": "",
+                "name": "Pasteur",
+                "last_update": "",
+                "floors": {
+                    "kb-pasteur-f2": {
+                        "name": "Pasteur - 2ème étage (KB3)",
+                        "last_update": "Apr. 2022",
+                        "floor": "2"
+                    },
+                    "kb-pasteur-f1": {
+                        "name": "Pasteur - Premier étage",
+                        "last_update": "Apr. 2022",
+                        "floor": "1"
+                    },
+                    "kb-pasteur-f0": {
+                        "name": "Pasteur - Cour & Rez de Chaussée",
+                        "last_update": "Apr. 2022",
+                        "floor": "0"
+                    },
+                    "kb-pasteur-f-1": {
+                        "name": "Pasteur -Intersol",
+                        "last_update": "Apr. 2022",
+                        "floor": "-1"
+                    },
+                    "kb-pasteur-f-2": {
+                        "name": "Pasteur - Under",
+                        "last_update": "2021",
+                        "floor": "-2"
+                    }
+                }
             },
-            "amphi-0": {
-                "name": "Amphi 0",
-                "description": "Amphithéâtre plat numérique",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["amphi"]
-            },
-            "amphi-1": {
-                "name": "Amphi 1",
-                "description": "Amphi level 1",
-                "tenant": "epita",
-                "image": "https://pbs.twimg.com/media/FnGJyk3XoAM_Yia?format=jpg&name=small",
-                "peoples": [],
-                "tags": ["amphi"]
-            },
-            "amphi-2": {
-                "name": "Amphi 2",
-                "description": "Amphithéâtre divisible avec cloison insonorisée",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["amphi"]
-            },
-            "amphi-3": {
-                "name": "Amphi 3",
-                "description": "Amphithéâtre bien fourni en prises électriques",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["amphi"]
-            },
-            "bureau": {
-                "name": "Bureau",
-                "description": "Chargé de Mission",
-                "tenant": "epita",
-                "image": "",
-                "peoples": ["christian.chabrerie"],
-                "tags": ["bureau"]
+            "paritalie": {
+                "id": "",
+                "name": "Paritalie",
+                "last_update": "",
+                "floors": {
+                    "kb-paritalie-f0": {
+                        "name": "Paritalie - Rez de Chaussée",
+                        "last_update": "Apr. 2022",
+                        "floor": "0"
+                    },
+                    "kb-paritalie-f1": {
+                        "name": "Paritalie - 1er étage",
+                        "last_update": "28 Dec. 2021",
+                        "floor": "1"
+                    },
+                    "kb-paritalie-f2": {
+                        "name": "Paritalie - 2eme étage",
+                        "last_update": "28 Dec. 2021",
+                        "floor": "2"
+                    },
+                    "kb-paritalie-f3": {
+                        "name": "Paritalie - 3eme étage",
+                        "last_update": "Aug. 2022",
+                        "floor": "3"
+                    },
+                    "kb-paritalie-f4": {
+                        "name": "Paritalie - 4eme étage",
+                        "last_update": "28 Dec. 2021",
+                        "floor": "4"
+                    },
+                    "kb-paritalie-f5": {
+                        "name": "Paritalie - 5eme étage",
+                        "last_update": "28 Dec. 2021",
+                        "floor": "5"
+                    }
+                }
             }
         }
     },
-    "kb-voltaire-f1": {
-		"name": "Voltaire - 1er étage",
-        "last_update": "Feb. 2022",
-        "rooms": {
-            "cisco": {
-                "name": "Cisco",
-                "description": "Meilleure Salle Machine de l'Epita, musique qualitative",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            },
-            "midlab": {
-                "name": "MidLab",
-                "description": "Tous les jours F*** MidLab",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            },
-            "labsr": {
-                "name": "Lab SR",
-                "description": "Lab SR ?",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            },
-            "sm14": {
-                "name": "SM 14",
-                "description": "La salle machine des prépas",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            },
-            "sm15": {
-                "name": "SM 15",
-                "description": "aka. SM couloir",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            },
-            "lab-mac": {
-                "name": "Lab Mac",
-                "description": "Salle utilisée seulement les jours de JPO",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["sm"]
-            }
-        }
-    },
-    "kb-voltaire-f2": {
-		"name": "Voltaire - 2eme étage",
-        "last_update": "Apr. 2022"
-    },
-    "kb-voltaire-f3": {
-		"name": "Voltaire - 3eme étage",
-        "last_update": "Apr. 2022",
-        "rooms": {
-            "terasse": {
-                "name": "Terasse",
-                "description": "The place to be",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": []
-            },
-            "amphi-401": {
-                "name": "Amphi 401",
-                "description": "Pas mal, sauf les prises HDMI",
-                "tenant": "epita",
-                "image": "",
-                "peoples": [],
-                "tags": ["amphi"]
-            }
-        }
-    },
-    "kb-voltaire-f4": {
-		"name": "Voltaire - 4eme étage",
-        "last_update": "Apr. 2022"
-    },
-    "kb-voltaire-f5": {
-		"name": "Voltaire - 5eme étage",
-        "last_update": "Apr. 2022"
-    },
-    "kb-voltaire-f6": {
-		"name": "Voltaire - 6eme étage",
-        "last_update": "Apr. 2022"
-    },
-    "kb-pasteur-f2": {
-		"name": "Pasteur - 2ème étage (KB3)",
-        "last_update": "Apr. 2022"
-    },
-    "kb-pasteur-f1": {
-		"name": "Pasteur - Premier étage",
-        "last_update": "Apr. 2022"
-    },
-    "kb-pasteur-f0": {
-		"name": "Pasteur - Cour & Rez de Chaussée",
-        "last_update": "Apr. 2022"
-    },
-    "kb-pasteur-f-1": {
-		"name": "Pasteur -Intersol",
-        "last_update": "Apr. 2022"
-    },
-    "kb-pasteur-f-2": {
-		"name": "Pasteur - Under",
-        "last_update": "2021"
-    },
-    "kb-paritalie-f0": {
-        "name": "Paritalie - Rez de Chaussée",
-        "last_update": "Apr. 2022"
-    },
-    "kb-paritalie-f1": {
-        "name": "Paritalie - 1er étage",
-        "last_update": "28 Dec. 2021"
-    },
-    "kb-paritalie-f2": {
-        "name": "Paritalie - 2eme étage",
-        "last_update": "28 Dec. 2021"
-    },
-    "kb-paritalie-f3": {
-        "name": "Paritalie - 3eme étage",
-        "last_update": "Aug. 2022"
-    },
-    "kb-paritalie-f4": {
-        "name": "Paritalie - 4eme étage",
-        "last_update": "28 Dec. 2021"
-    },
-    "kb-paritalie-f5": {
-        "name": "Paritalie - 5eme étage",
-        "last_update": "28 Dec. 2021"
-    },
-    "map-vj-overview": {
+    "vj": {
+        "id": "villejuif",
         "name": "Villejuif",
-        "last_update": "2013"
+        "last_update": "May 2022",
+        "buildings": {
+            "va": {
+                "id": "",
+                "name": "VA",
+                "last_update": "",
+                "floors": {
+                    "vj-va-f-1": {
+                        "name": "VA - Sous-sol",
+                        "last_update": "Sep 2022",
+                        "floor": "-1"
+                    },
+                    "vj-va-f0": {
+                        "name": "VA - Rez de chaussée",
+                        "last_update": "Sep 2022",
+                        "floor": "0"
+                    },
+                    "vj-va-f1": {
+                        "name": "VA - 1er étage",
+                        "last_update": "Sep 2022",
+                        "floor": "1"
+                    },
+                    "vj-va-f2": {
+                        "name": "VA - 2eme étage",
+                        "last_update": "Sep 2022",
+                        "floor": "2"
+                    },
+                    "vj-va-f3": {
+                        "name": "VA - 3eme étage",
+                        "last_update": "Sep 2022",
+                        "floor": "3"
+                    }
+                }
+            },
+            "vjc": {
+                "id": "",
+                "name": "VA",
+                "last_update": "",
+                "floors": {            
+                    "vj-vjc-f0b": {
+                        "name": "VJC - Rez de chaussée (Bas)",
+                        "last_update": "May 2022",
+                        "floor": "0b"
+                    },
+                    "vj-vjc-f0h": {
+                        "name": "VJC - Rez de chaussée (Haut)",
+                        "last_update": "May 2022",
+                        "floor": "0h"
+                    },
+                    "vj-vjc-f1": {
+                        "name": "VJC - 1er étage",
+                        "last_update": "Jun. 2022",
+                        "floor": "1"
+                    },
+                    "vj-vjc-f2": {
+                        "name": "VJC - 2eme étage",
+                        "last_update": "Jun. 2022",
+                        "floor": "2"
+                    },
+                    "vj-vjc-f3": {
+                        "name": "VJC - 3eme étage",
+                        "last_update": "Jun. 2022",
+                        "floor": "3"
+                    }
+                }
+            }
+        }
     },
-    "villejuif": {
-        "name": "Villejuif",
-        "last_update": "May 2022"
-    },
-    "vj-va-f-1": {
-        "name": "VA - Sous-sol",
-        "last_update": "Sep 2022"
-    },
-    "vj-va-f0": {
-        "name": "VA - Rez de chaussée",
-        "last_update": "Sep 2022"
-    },
-    "vj-va-f1": {
-        "name": "VA - 1er étage",
-        "last_update": "Sep 2022"
-    },
-    "vj-va-f2": {
-        "name": "VA - 2eme étage",
-        "last_update": "Sep 2022"
-    },
-    "vj-va-f3": {
-        "name": "VA - 3eme étage",
-        "last_update": "Sep 2022"
-    },
-    "vj-vjc-f0b": {
-        "name": "VJC - Rez de chaussée (Bas)",
-        "last_update": "May 2022"
-    },
-    "vj-vjc-f0h": {
-        "name": "VJC - Rez de chaussée (Haut)",
-        "last_update": "May 2022"
-    },
-    "vj-vjc-f1": {
-        "name": "VJC - 1er étage",
-        "last_update": "Jun. 2022"
-    },
-    "vj-vjc-f2": {
-        "name": "VJC - 2eme étage",
-        "last_update": "Jun. 2022"
-    },
-    "vj-vjc-f3": {
-        "name": "VJC - 3eme étage",
-        "last_update": "Jun. 2022"
-    },
-    "finale-prologin": {
-        "name": "Finale Prologin",
-        "last_update": "May 2022"
-    },
-    "prolo": {
-        "name": "Finale Prologin",
-        "last_update": "May 2022"
-    },
-    "we2023": {
-        "name": "Camping WE 2023",
-        "last_update": "Jun. 2022"
+    "others": {
+        "id": "others",
+        "name": "Others maps",
+        "last_update": "May 2022",
+        "buildings": {
+            "prologin": {
+                "id": "",
+                "name": "Prologin",
+                "last_update": "",
+                "floors": {
+                    "2022": {
+                        "name": "Finale Prologin",
+                        "last_update": "May 2022"
+                    }
+                }
+            },
+            "wei": {
+                "id": "",
+                "name": "WEI",
+                "last_update": "",
+                "floors": {
+                    "2023": {
+                        "name": "Camping WE 2023",
+                        "last_update": "Jun. 2022"
+                    }
+                }
+            }
+        }
     }
 }
