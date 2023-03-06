@@ -10,19 +10,73 @@ const urlRegex = /^\/[a-z]{2}(\/[a-z]+(\/-?[0-9]{1}(\/[-a-z0-9]+)?)?)?(\/)?$/g;
  * @returns {string} mapId
  */
 const getMapId = (url) => {
-    url = (new URL(url)).pathname;
+    try {    
+        url = (new URL(url)).pathname;
 
-    // For /campus/building/floor/room format
-    if (url.match(urlRegex) != null) {
-        path = url.split('/');
+        // For /campus/building/floor/room format
+        if (url.match(urlRegex) != null) {
+            path = url.split('/');
+            if (path[2] === undefined)
+                return path[1]
+            else if (path[3] === undefined)
+                return path[2]
+            else
+                return path[1] + '-' + path[2] + '-f' + path[3];
+        }
 
-        return path[1] + '-' + path[2] + '-f' + path[3];
+        // For /campus-building-ffloor format (still the mapId format)
+        path = url.split('/').reverse()[0];
+        return path.split('.svg')[0];
     }
+    catch (e) {
+        return url.split('.svg')[0];
+    }
+}
 
-    // For /campus-building-ffloor format 
-    // (v1 but not deprecated, because still the mapId format)
-    path = url.split('/').reverse()[0];
-    return path.split('.svg')[0];
+/**
+ * 
+ * @param {*} mapId 
+ * @returns 
+ */
+const getMapObject = (mapId) => {
+    for (let i = 0; i < Object.keys(maps).length; i++) {
+        let campus = Object.keys(maps)[i];
+        if (mapId.localeCompare(campus) == 0) {
+            return {
+                "id": campus,
+                "url": campus,
+                "building": undefined,
+                "campus": campus,
+                "data": maps[campus]
+            }
+        }
+
+        for (let c = 0; c < Object.keys(maps[campus].buildings).length; c++) {
+            let building = Object.keys(maps[campus].buildings)[c];
+            if (building == mapId) {
+                return {
+                    "id": maps[campus].buildings[building].id,
+                    "url": campus + '/' + building,
+                    "building": building,
+                    "campus": campus,
+                    "data": maps[campus].buildings[building]
+                }
+            }
+
+            for (let k = 0; k < Object.keys(maps[campus].buildings[building].floors).length; k++) {
+                let map = Object.keys(maps[campus].buildings[building].floors)[k];
+                if (mapId.localeCompare(map) == 0) {
+                    return {
+                        "id": map,
+                        "url": campus + '/' + building + '/' + maps[campus].buildings[building].floors[map].floor,
+                        "building": building,
+                        "campus": campus,
+                        "data": maps[campus].buildings[building].floors[map]
+                    }
+                }
+            };
+        };
+    };
 }
 
 /**
@@ -32,22 +86,28 @@ const getMapId = (url) => {
  * @param {"push"|"replace"|false} updateState
  */
 const loadMap = function(mapId, updateState = 'push') {
+    const map = getMapObject(mapId);
+    if (map === null) {
+        displayError("Error: This maps does not exist !");
+        return;
+    }
+
     // Request to get XML document
-    httpRequest('/maps/' + mapId + '.svg', 'image/svg+xml').then( function(body) {
+    httpRequest('/maps/' + map.id + '.svg', 'image/svg+xml').then( function(body) {
         // Inject XML content into the container
-        injectMap(mapId, body).then( function() {
+        injectMap(map, body).then( function() {
             // Change page document information 
-            document.title = "Epimap: " + maps[mapId].name;
+            document.title = "Epimap: " + map.data.name;
             if (updateState) {
                 // Saves the loaded map in the history
                 // If 'replace', replaces the current history entry instead of pushing a new one
                 (updateState === 'replace' ? window.history.replaceState : window.history.pushState)
                     .apply(window.history, [{
-                            mapUrl: mapId,
-                            additionalInformation: maps[mapId].name
+                            mapUrl: map.id,
+                            additionalInformation: map.data.name
                         },
                         document.title,
-                        mapId
+                        '/' + map.url
                     ]);
             }
         }).catch( function(error) {
@@ -60,17 +120,17 @@ const loadMap = function(mapId, updateState = 'push') {
 
 /** 
  * Inject Map as XML (SVG) into DOM container
- * @param {string} mapId
+ * @param {Object} map
  * @param {string} data as XML text
  * @returns new Promise 
  */
-const injectMap = function(mapId, data) {
+const injectMap = function(map, data) {
     return new Promise((resolve, reject) => {
         try {
             // Set Map Infos
             container.innerHTML = data;
-            document.querySelector("#map-label > div > div > a").innerHTML = maps[mapId].name;
-            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + maps[mapId]['last_update'];
+            document.querySelector("#map-label > div > div > a").innerHTML = map.data.name;
+            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + map.data.last_update;
             
             // Add Event Listener for links in new map DOM elements
             document.querySelectorAll("#container a").forEach( function(elt) {
@@ -120,15 +180,16 @@ const onClickMapLink = function(e, path) {
 const initMap = function() {
     httpRequest("/js/data.map.json", 'application/json').then( function(body) {
         maps = body;
-    }).catch( function(body){
+        
+        let path = getMapId(window.location.href);
+        if (path.length == 0)
+            path = "kb";
+    
+        loadMap(path, 'replace');
+    })
+    .catch( function(body){
         displayError("Map Loading Error: " + body);
     });
-
-    let path = getMapId(window.location.href);
-    if (path.length == 0)
-        path = "kremlin-bicetre";
-
-    loadMap(path, 'replace');
 };
 
 initMap();
@@ -157,7 +218,7 @@ const isRoomLinkWrapper = (elt) => {
  */
 const onCLickRoomInfo = (e, elt) => {
     const room = elt.getAttribute("xlink:href");
-    displayInfoMenu(maps[getMapId(window.location.href)].rooms[room]);
+    displayInfoMenu(getMapObject(getMapId(window.location.href)).data.rooms[room]);
 
     infoMenu.classList.add("menu-open");
     document.getElementById("btn-menu").classList.add("menu-back");
