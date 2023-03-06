@@ -2,13 +2,26 @@
  * Handle Map management (loading, events...)
  */
 
+const urlRegex = /^\/[a-z]{2}(\/[a-z]+(\/-?[0-9]{1}(\/[-a-z0-9]+)?)?)?(\/)?$/g;
+
 /**
- * Sanitize url to get mapId only
+ * Sanitize and convert url to get mapId only from the 2 formats
  * @param {string} url 
  * @returns {string} mapId
  */
 const getMapId = (url) => {
-    let path = url.split('/').reverse()[0];
+    url = (new URL(url)).pathname;
+
+    // For /campus/building/floor/room format
+    if (url.match(urlRegex) != null) {
+        path = url.split('/');
+
+        return path[1] + '-' + path[2] + '-f' + path[3];
+    }
+
+    // For /campus-building-ffloor format 
+    // (v1 but not deprecated, because still the mapId format)
+    path = url.split('/').reverse()[0];
     return path.split('.svg')[0];
 }
 

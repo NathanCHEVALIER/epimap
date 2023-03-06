@@ -13,7 +13,15 @@ const search = function(str)
     if (str === "")
         return;
 
-    for (let i = /*nbmaps - 1*/17; i >= 0; --i)
+    maps.forEach(campus => {
+        campus.forEach(building => {
+            building.forEach(floor => {
+                
+            })
+        });
+    });
+    
+        for (let i = /*nbmaps - 1*/17; i >= 0; --i)
     {
         searchTextInMap(Object.keys(maps)[i], str);
     }
@@ -123,6 +131,8 @@ document.querySelector('header > input[name="search"]').addEventListener("keydow
 const searchRender = function()
 {
     console.log(results);
+
+    /*
     const container = searchTemplate.parentNode;
 
     while (container.lastChild !== searchTemplate) {
@@ -149,5 +159,5 @@ const searchRender = function()
         });
 
         container.append(dupBlock);
-    }
+    }*/
 };
