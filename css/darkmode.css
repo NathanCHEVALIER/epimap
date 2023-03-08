@@ -11,6 +11,13 @@ body.darkmode > #info-menu {
     background-color: #3a3a3a;
 }
 
+body.darkmode > #info-menu > div:nth-of-type(1) > div > h4 {
+    color: #fefefe;
+}
+body.darkmode > #info-menu > div:nth-of-type(1) > div > span {
+    color: #cccccc;
+}
+
 body.darkmode > #nav-menu {
     background-color: #3a3a3a;
 }
@@ -33,19 +40,19 @@ body.darkmode #search > div:nth-of-type(1) > input{
     color: #efefef;
 }
 
-body.darkmode #search > div:nth-of-type(2) > div{
+body.darkmode .search-result {
     background-color: #565656;
 }
 
-body.darkmode #search > div:nth-of-type(2) > div:hover{
+body.darkmode .search-result:hover{
     background-color: #606060;
 }
 
-body.darkmode #search > div:nth-of-type(2) > div > h4{
-    color: #efefef;
+body.darkmode .search-result > h4{
+    color: #efefef !important;
 }
 
-body.darkmode #search > div:nth-of-type(2) > div > span{
+body.darkmode .search-result > span{
     color: #cccccc;
 }
 

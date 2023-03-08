@@ -1,55 +1,74 @@
 const searchInput = document.querySelector('header > input[name="search"]');
-
-/*** Dev in progress */
-
 let results;
 
+/**
+ * Search Handler: returns a set of value corresponding to input value
+ * @param {string} str 
+ * @returns 
+ */
 const search = function(str)
 {
-    displayWarning("Search engine is deprecated. Please consider contributing!");
+    displayWarning("Dataset is incomplete, results could be incomplete. Please consider contributing !");
     results = [];
     
     if (str === "")
         return;
 
-    Object.keys(maps).forEach(campus => {
-        Object.keys(maps[campus].buildings).forEach(building => {
-            Object.keys(maps[campus].buildings[building].floors).forEach(floor => {
-                Object.keys(maps[campus].buildings[building].floors[floor].rooms).forEach(room => {
-                    const roomObj = maps[campus].buildings[building].floors[floor].rooms[room];
-    
-                    const subdist = gradeSet(roomObj.tags.concat(roomObj.name).concat(roomObj.peoples), str);
-                    if (subdist >= 0)
-                    {
-                        insertInPlace({
-                            key: roomObj.name,
-                            value: 0.1 * subdist,
-                            map: floor,
-                        });
-                    }
-            
-                });
+    console.log(str);
+
+    for (let i = 0; i < maps.length; i++) {
+        if ((grade = gradeSet(maps[i].tags.concat(maps[i].name), str.split(' '))) >= 0) {
+            insertInPlace({
+                'title': maps[i].name,
+                'label': getLabel(maps[i]),
+                'url': maps[i].url,
+                'grade': grade,
             });
+        }
+        
+        if ((grade = gradeSet(maps[i].peoples, str.split(' '))) >= 0) {
+            insertInPlace({
+                'title': maps[i].name,
+                'label': maps[i].peoples.join(', '),
+                'url': maps[i].url,
+                'grade': grade,
+            });
+        }
+    }
+    
+    searchRender();
+};
+
+/**
+ * 
+ * @param {*} set 
+ * @param {*} keywords 
+ * @returns 
+ */
+const gradeSet = (set, keywords) => {
+    let grade = 0;
+
+    keywords.forEach( keyword => {
+        keyword = keyword.toLowerCase();
+        set.forEach( elt => {
+            elt = elt.toLowerCase();
+    
+            if (elt.includes(keyword))
+                grade += 1;
+            else if (keyword.includes(elt))
+                grade += 1;
         });
     });
     
-    setTimeout(searchRender, 100);
-};
-
-const gradeSet = (set, ref) => {
-    let grade = 0;
-    ref = ref.toLowerCase();
-
-    set.forEach( elt => {
-        elt = elt.toLowerCase();
-
-        if (elt.includes(ref))
-            grade += 1;
-    });
-
     return grade == 0 ? -1 : grade;
 }
 
+/**
+ * 
+ * @param {*} str1 
+ * @param {*} str2 
+ * @returns 
+ */
 const isSubString = (str1, str2) => {
     str1 = str1.toLowerCase();
     str2 = str2.toLowerCase();
@@ -61,9 +80,14 @@ const isSubString = (str1, str2) => {
     return -1;
 };
 
+/**
+ * 
+ * @param {*} obj 
+ * @returns 
+ */
 const insertInPlace = (obj) => {
     for (let i = 0; i < results.length; i++) {
-        if (obj['value'] < results[i]['value']) {
+        if (obj.grade < results[i].grade) {
             results.splice(i, 0, obj);
             return;
         }
@@ -72,6 +96,18 @@ const insertInPlace = (obj) => {
     results.push(obj);
 };
 
+const getLabel = (mapObj) => {
+    if (mapObj.type === 'campus')
+        return mapObj.campus;
+    else if (mapObj.type === 'building')
+        return mapObj.campus;
+    else if (mapObj.type === 'floor')
+        return mapObj.campus + ' > ' + mapObj.building;
+    else
+        return mapObj.campus + ' > ' + mapObj.building + ' > ' + mapObj.floor;
+}
+
+/** Events Listener for start search process */
 searchBtn.addEventListener('click', function() {
     search(searchInput.value);
 });
@@ -83,40 +119,62 @@ searchInput.addEventListener("keydown", function(e) {
     }
 });
 
+/**
+ * Event Handler
+ * @param {} elt 
+ */
+const searchResultClickHandler = (elt) => {
+    loadMap(getMapId(elt.getAttribute('href')));
+    menuButton.classList.remove("menu-back");
+    infoMenu.classList.remove("menu-open");
+}
+
+/**
+ * Injects search results in UI
+ */
 const searchRender = function()
 {
     infoMenu.classList.add("menu-open");
+    navMenu.classList.remove("menu-open");
     infoMenu.querySelector('div:nth-of-type(1)').style.display = 'none';
-    document.getElementById("btn-menu").classList.add("menu-back");
+    menuButton.classList.add("menu-back");
+    menuButton.classList.remove("menu-open");
+    
+    const searchContainer = document.querySelector("#info-menu > div:nth-of-type(2)");
+    searchContainer.innerHTML = '';
 
-    console.log(results);
-
-
-    const container = searchTemplate.parentNode;
-    while (container.lastChild !== searchTemplate) {
-        container.removeChild(container.lastChild);
+    if (results.length === 0) {
+        searchContainer.insertAdjacentHTML('beforeend', 'Pas de résultats');
     }
 
     for (let i = 0; i < results.length; i++)
     {
-        let dupBlock = searchTemplate.cloneNode([true]);
+        searchContainer.insertAdjacentHTML('beforeend', 
+            '<div class="search-result" href="/' + results[i].url + '" onclick="searchResultClickHandler(this)" > \
+                <h4>' + results[i].title + '</h4> \
+                <span>' + results[i].label + '</span> \
+            </div>'
+        );
 
-        dupBlock.children[0].innerHTML = results[i]['key'];
-        dupBlock.children[1].innerHTML = 'Lol';//aps[results[i]['map']]['d_name'];
+/*
+        dupBlock.children[0].innerHTML = results[i].title;
+        dupBlock.children[1].innerHTML = results[i].label;
         dupBlock.removeAttribute('id');
-        dupBlock.setAttribute("href", results[i]['map'])
+        dupBlock.setAttribute("href", results[i].url)
         dupBlock.style.display = "block";
-
-        dupBlock.addEventListener('click', function() {
-            alert('not comptible for the moment');
-            //map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
-            /*loadMap("/maps/" + results[i]['map'] + ".svg");
-            btn.classList.remove("menu-open");
-            menu.classList.remove("menu-open");
-            container.classList.remove("menu-open");
-            cache.classList.remove("menu-open");*/
+*/
+        /*document.querySelectorAll(".search-result").forEach(elt => {
+                .addEventListener('click', function() {
+                //alert('not comptible for the moment');
+                //map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
+                loadMap(getMapId(results[i].url));
+                btn.classList.remove("menu-open");
+                menu.classList.remove("menu-open");
+                container.classList.remove("menu-open");
+                cache.classList.remove("menu-open");
+            });
         });
 
-        container.append(dupBlock);
+        container.append(dupBlock);*/
     }
 };

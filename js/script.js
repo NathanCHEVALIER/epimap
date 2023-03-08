@@ -11,7 +11,6 @@ const menuButton = document.getElementById("btn-menu");
 const menuOverlay = document.getElementById("cache");
 
 const searchBtn = document.querySelector("header > button");
-const searchTemplate = document.getElementById("search-result-template");
 
 const settings = document.querySelector("#settings");
 const settingBtn = document.querySelector("#btn-settings");
