@@ -1,10 +1,31 @@
 import cheerio from 'cheerio';
-import { 
-    getPage,
-} from './utils.js'
+import fs from 'fs';
 
-process.env.SERVER_URL = 'http://0.0.0.0:8000';
 
+
+const dirPath = '../maps/';
+
+fs.readFile('../js/min.map.json', 'utf8', (err, data) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
+
+    data = JSON.parse(data);
+    data.forEach( elt => {
+        if (elt.svg) {
+            fs.exists('../maps/' + elt.id + '.svg', function (exist) {  
+                if (!exist) {
+                    console.log('WARNING: Missing SVG file for "' + elt.id + '" map');  
+                }  
+            });
+        }
+    });
+});
+
+// check every menu link, link in maps and rooms in map
+
+/*
 const extractDataFromMap = async (url) => {
     return new Promise( (resolve) => {
         getPage(url).then( (response) => {
@@ -52,11 +73,29 @@ const extractData = async () => {
         resolve(data);
     });
 }
-
-const r = await extractData();
+*/
+/*const r = await extractData();
 console.log(r);
+*/
+fs.readFile(dirPath + 'kb-voltaire-f0.svg', 'utf8', (err, data) => {
+    if (err) {
+        console.error(err);
+        return;
+    }
 
+    let $ = cheerio.load(data);
+    let links = $('a').toArray();
+
+    links.forEach( (link) => {
+        const tags =  $(link).attr("type");
+        
+        if (tags != undefined)
+            console.log($(link).attr('href') + ' - ' + tags);
+    });
+});
+
+/*
 Object.keys(r).forEach( (elt) => {
     console.log(elt + ': ');
     console.log(r[elt]);
-})
+})*/
