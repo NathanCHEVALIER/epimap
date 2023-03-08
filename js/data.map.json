@@ -10,7 +10,8 @@
                     "kb-voltaire-f-1": {
                         "name": "Voltaire - Sous-sol",
                         "last_update": "Apr. 2022",
-                        "floor": "-1"
+                        "floor": "-1",
+                        "rooms": {}
                     },
                     "kb-voltaire-f0": {
                         "name": "Voltaire - Rez de Chaussée",
@@ -133,7 +134,8 @@
                     "kb-voltaire-f2": {
                         "name": "Voltaire - 2eme étage",
                         "last_update": "Apr. 2022",
-                        "floor": "2"
+                        "floor": "2",
+                        "rooms": {}
                     },
                     "kb-voltaire-f3": {
                         "name": "Voltaire - 3eme étage",
@@ -161,17 +163,20 @@
                     "kb-voltaire-f4": {
                         "name": "Voltaire - 4eme étage",
                         "last_update": "Apr. 2022",
-                        "floor": "4"
+                        "floor": "4",
+                        "rooms": {}
                     },
                     "kb-voltaire-f5": {
                         "name": "Voltaire - 5eme étage",
                         "last_update": "Apr. 2022",
-                        "floor": "5"
+                        "floor": "5",
+                        "rooms": {}
                     },
                     "kb-voltaire-f6": {
                         "name": "Voltaire - 6eme étage",
                         "last_update": "Apr. 2022",
-                        "floor": "6"
+                        "floor": "6",
+                        "rooms": {}
                     }
                 }
             },
@@ -183,27 +188,32 @@
                     "kb-pasteur-f2": {
                         "name": "Pasteur - 2ème étage (KB3)",
                         "last_update": "Apr. 2022",
-                        "floor": "2"
+                        "floor": "2",
+                        "rooms": {}
                     },
                     "kb-pasteur-f1": {
                         "name": "Pasteur - Premier étage",
                         "last_update": "Apr. 2022",
-                        "floor": "1"
+                        "floor": "1",
+                        "rooms": {}
                     },
                     "kb-pasteur-f0": {
                         "name": "Pasteur - Cour & Rez de Chaussée",
                         "last_update": "Apr. 2022",
-                        "floor": "0"
+                        "floor": "0",
+                        "rooms": {}
                     },
                     "kb-pasteur-f-1": {
                         "name": "Pasteur -Intersol",
                         "last_update": "Apr. 2022",
-                        "floor": "-1"
+                        "floor": "-1",
+                        "rooms": {}
                     },
                     "kb-pasteur-f-2": {
                         "name": "Pasteur - Under",
                         "last_update": "2021",
-                        "floor": "-2"
+                        "floor": "-2",
+                        "rooms": {}
                     }
                 }
             },
@@ -215,32 +225,38 @@
                     "kb-paritalie-f0": {
                         "name": "Paritalie - Rez de Chaussée",
                         "last_update": "Apr. 2022",
-                        "floor": "0"
+                        "floor": "0",
+                        "rooms": {}
                     },
                     "kb-paritalie-f1": {
                         "name": "Paritalie - 1er étage",
                         "last_update": "28 Dec. 2021",
-                        "floor": "1"
+                        "floor": "1",
+                        "rooms": {}
                     },
                     "kb-paritalie-f2": {
                         "name": "Paritalie - 2eme étage",
                         "last_update": "28 Dec. 2021",
-                        "floor": "2"
+                        "floor": "2",
+                        "rooms": {}
                     },
                     "kb-paritalie-f3": {
                         "name": "Paritalie - 3eme étage",
                         "last_update": "Aug. 2022",
-                        "floor": "3"
+                        "floor": "3",
+                        "rooms": {}
                     },
                     "kb-paritalie-f4": {
                         "name": "Paritalie - 4eme étage",
                         "last_update": "28 Dec. 2021",
-                        "floor": "4"
+                        "floor": "4",
+                        "rooms": {}
                     },
                     "kb-paritalie-f5": {
                         "name": "Paritalie - 5eme étage",
                         "last_update": "28 Dec. 2021",
-                        "floor": "5"
+                        "floor": "5",
+                        "rooms": {}
                     }
                 }
             }
@@ -259,27 +275,32 @@
                     "vj-va-f-1": {
                         "name": "VA - Sous-sol",
                         "last_update": "Sep 2022",
-                        "floor": "-1"
+                        "floor": "-1",
+                        "rooms": {}
                     },
                     "vj-va-f0": {
                         "name": "VA - Rez de chaussée",
                         "last_update": "Sep 2022",
-                        "floor": "0"
+                        "floor": "0",
+                        "rooms": {}
                     },
                     "vj-va-f1": {
                         "name": "VA - 1er étage",
                         "last_update": "Sep 2022",
-                        "floor": "1"
+                        "floor": "1",
+                        "rooms": {}
                     },
                     "vj-va-f2": {
                         "name": "VA - 2eme étage",
                         "last_update": "Sep 2022",
-                        "floor": "2"
+                        "floor": "2",
+                        "rooms": {}
                     },
                     "vj-va-f3": {
                         "name": "VA - 3eme étage",
                         "last_update": "Sep 2022",
-                        "floor": "3"
+                        "floor": "3",
+                        "rooms": {}
                     }
                 }
             },
@@ -291,27 +312,32 @@
                     "vj-vjc-f0b": {
                         "name": "VJC - Rez de chaussée (Bas)",
                         "last_update": "May 2022",
-                        "floor": "0b"
+                        "floor": "0b",
+                        "rooms": {}
                     },
                     "vj-vjc-f0h": {
                         "name": "VJC - Rez de chaussée (Haut)",
                         "last_update": "May 2022",
-                        "floor": "0h"
+                        "floor": "0h",
+                        "rooms": {}
                     },
                     "vj-vjc-f1": {
                         "name": "VJC - 1er étage",
                         "last_update": "Jun. 2022",
-                        "floor": "1"
+                        "floor": "1",
+                        "rooms": {}
                     },
                     "vj-vjc-f2": {
                         "name": "VJC - 2eme étage",
                         "last_update": "Jun. 2022",
-                        "floor": "2"
+                        "floor": "2",
+                        "rooms": {}
                     },
                     "vj-vjc-f3": {
                         "name": "VJC - 3eme étage",
                         "last_update": "Jun. 2022",
-                        "floor": "3"
+                        "floor": "3",
+                        "rooms": {}
                     }
                 }
             }
@@ -329,7 +355,9 @@
                 "floors": {
                     "2022": {
                         "name": "Finale Prologin",
-                        "last_update": "May 2022"
+                        "last_update": "May 2022",
+                        "floor": "2022",
+                        "rooms": {}
                     }
                 }
             },
@@ -340,7 +368,9 @@
                 "floors": {
                     "2023": {
                         "name": "Camping WE 2023",
-                        "last_update": "Jun. 2022"
+                        "last_update": "Jun. 2022",
+                        "floor": 2023,
+                        "rooms": {}
                     }
                 }
             }
