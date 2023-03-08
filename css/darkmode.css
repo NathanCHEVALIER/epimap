@@ -50,7 +50,7 @@ body.darkmode #search > div:nth-of-type(2) > div > span{
 }
 
 body.darkmode #map-label > div:nth-of-type(1) {
-    background-color: #091c32;
+    background-color: #2f236b;
 }
 
 body.darkmode #btn-settings {

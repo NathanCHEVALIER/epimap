@@ -98,6 +98,8 @@ const displayLog = function(message, type="info")
         newNode.remove();
     });
 
+    setTimeout(() => { newNode.remove() }, 8000);
+
     container.append(newNode);
 };
 
