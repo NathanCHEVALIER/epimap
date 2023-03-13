@@ -113,6 +113,7 @@ const displayLog = function(message, type="info")
  */
 const displayError = function(message) {
     displayLog(message, "error");
+    console.trace();
     console.log(message);
 }
 

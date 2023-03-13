@@ -15,6 +15,10 @@ const getMapId = (url) => {
     }
     catch (e) { }
 
+    if (url == "/")
+        return "kb";
+
+
     // For /campus/building/floor/room format
     if (url.match(urlRegex) != null) {
         path = url.split('/');
@@ -43,7 +47,7 @@ const getMapId = (url) => {
  */
 const getMapObject = (mapId) => {
     for (let i = 0; i < maps.length; i++) {
-        if (maps[i].id === mapId)
+        if (maps[i].id == mapId)
             return maps[i];
     }
 
@@ -87,8 +91,8 @@ const loadMap = function(mapId, updateState = 'push') {
         // Inject XML content into the container
         injectMap(map, body).then( function() {
             // Change page document information 
-            if (updateState)
-                setHistory(map, updateState);
+            //if (updateState)
+            //    setHistory(map, updateState);
 
             if (map.type === 'room') {
                 document.querySelectorAll("#container a").forEach( function(elt) {
@@ -115,7 +119,7 @@ const injectMap = function(map, data) {
         try {
             // Set Map Infos
             container.innerHTML = data;
-            document.querySelector("#map-label > div:nth-of-type(2) > div").innerHTML = getMapObject(getMapId(map.campus + '-' + map.building + '-f' + map.floor)).name;
+            document.querySelector("#map-label > div:nth-of-type(2) > div").innerHTML = map.type == "room" ? getMapObject(getMapId(map.campus + '-' + map.building + '-f' + map.floor)).name : map.name;
 
             // Add Event Listener for links in new map DOM elements
             document.querySelectorAll("#container a").forEach( function(elt) {
@@ -163,14 +167,9 @@ const onClickMapLink = function(e, path) {
  * Init Map: load map data and set default map
  */
 const initMap = function() {
-    httpRequest("/js/min.map.json", 'application/json').then( function(body) {
+    httpRequest("/js/min.map.json", 'application/json').then( (body) => {
         maps = body;
-        
-        let path = getMapId(window.location.href);
-        if (path.length == 0)
-            path = "kb";
-    
-        loadMap(path, 'replace');
+        loadMap(getMapId(window.location.href), 'replace');
     })
     .catch( function(body){
         displayError("Map Loading Error: " + body);
@@ -184,7 +183,8 @@ initMap();
  * @param {PopStateEvent} event
  */
 window.onpopstate = function(event) {
-    loadMap(event.state.mapUrl, false);
+    loadMap(getMapId("/" + event.state.mapUrl), false);
+    return false;
 };
 
 /**
