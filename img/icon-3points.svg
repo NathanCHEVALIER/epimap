@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 64 64"
+   aria-labelledby="title"
+   aria-describedby="desc"
+   role="img"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="icon-settings.svg"
+   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="9.3249707"
+     inkscape:cx="22.841895"
+     inkscape:cy="40.750798"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <title
+     id="title2">Setting</title>
+  <desc
+     id="desc4">A line styled icon from Orion Icon Library.</desc>
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Setting</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <circle
+     style="fill:#ffffff;stroke-width:0.83276;stroke-linecap:square"
+     id="path1013-3"
+     cx="32.50808"
+     cy="33.263721"
+     r="4" />
+  <circle
+     style="fill:#ffffff;stroke-width:0.83276;stroke-linecap:square"
+     id="path1013-3-6"
+     cx="32.349785"
+     cy="20.218376"
+     r="4" />
+  <circle
+     style="fill:#ffffff;stroke-width:0.83276;stroke-linecap:square"
+     id="path1013-3-7"
+     cx="32.687969"
+     cy="46.32729"
+     r="4" />
+</svg>

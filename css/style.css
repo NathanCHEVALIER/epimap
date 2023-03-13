@@ -272,7 +272,7 @@ header > button {
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 7px;
-    color: rgb(5, 7, 124) !important;
+    color: #2740d0  !important;
     /*background-color: #d8d8d8;*/
 }
 #nav-menu > ul > li > a:nth-of-type(1) {
@@ -299,12 +299,22 @@ header > button {
 #nav-menu > ul > li > ul > li > ul > li:hover{
     background-color: #e3e3e3;
     cursor: pointer;
-    border-right: 4px solid rgb(71,0,186);
+    border-right: 4px solid #2740d0 ;
 }
 #nav-menu.menu-open{
     transform: translate(445px);
 }
 
+#infooter {
+    font-size: 0.9em !important;
+    color: #777 !important;
+    font-weight: 500;
+    padding: 20px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: calc(100% - 50px);
+}
 
 #cache
 {
@@ -337,7 +347,7 @@ header > button {
 }
 #cache.menu-open > div{
     visibility: visible;
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.4);
 }
 
 /***
@@ -449,56 +459,46 @@ header > button {
     right: 20px;
     bottom: 25px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-#map-label > div:nth-of-type(1){
-    display: flex;
-    padding: 14px 30px 14px 26px;
-    font-family: 'Atkinson', sans-serif;   
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(1, 32, 124); 
-    color: #ffffff;
-    min-width: 150px;
+    background-color: #3a57fd;
+    background-color: #2740d0;
+    z-index: 200;
     border-radius: 50px;
-    transition: 0.1s all ease-in-out; 
-    box-shadow: 0 2px 4px rgba(0,0,0,.4);    
 }
-#map-label > div:nth-of-type(1) > .map-icon {
+#map-label > div:nth-of-type(1) {
+    display: flex;
+    width: 22px;
+    height: 22px;
+    margin-left: 18px;
+    transition: 0.1s all ease-in-out;    
     background-image: url('../img/icon-mappoint.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    margin-right: 7px;
 }
-#map-label > div:nth-of-type(1) a {
-    color: #ffffff;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
+#map-label > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 24px 11px 12px;
     position: relative;
-    top: 1px;
+    top: -2px;
 }
-#map-label > div:nth-of-type(1) span {
-    color: #ffffff;
-    font-weight: 700;
+#map-label > div:nth-of-type(2) > div {
+    height: 16px;
+    color: #fff;
 }
-#map-label > div:nth-of-type(2){
-    display: none;
-    background-color: #cccccc;
-    padding: 1px 10px 5px 10px;
-    line-height: 18px;
-    height: 18px;
-    font-family: 'Atkinson', sans-serif;  
-    transition: 0.1s all ease-in-out;
-    box-shadow: 0 2px 4px rgba(0,0,0,.2);
+#map-label > div:nth-of-type(2) a {
+    text-decoration: none;
+    line-height: 17px;
 }
-#map-label > div:nth-of-type(2) span{
-    font-size: 12px;
-    font-weight: 500;
-    color: #5c5c5c;
+#map-label > div:nth-of-type(2) span {
+    text-decoration: none;
+    line-height: 14px;
+    font-size: 13px;
+    color: #fff;
 }
 
 /***
@@ -507,7 +507,7 @@ header > button {
 
 footer {
     position: fixed;
-    bottom: 100px;
+    bottom: 80px;
     right: 20px;
     width: 280px;
     z-index: 300;
@@ -519,10 +519,15 @@ footer > .log-box {
     text-align: left;
     line-height: 14px;
     margin-top: 8px;
-    border-radius: 2px;
+    border-radius: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    opacity: 1;
+    transition: all ease-in-out 0.4s;
+}
+footer > .log-box.hidden {
+    opacity: 0;
 }
 footer .warning {
     background-color: rgba(223, 189, 0, 1);
@@ -547,6 +552,7 @@ footer > .log-box > div {
     line-height: 18px;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    margin-left: 8px;
 }
 footer > .log-box > div:hover {
     background-color: rgba(100, 100, 100, 0.4);
@@ -564,8 +570,8 @@ footer > .log-box > div:hover {
 }
 
 .roomLinkWrapper.choosen > text > tspan{
-    fill: red !important;
-    stroke: red !important;
+    fill: #2740d0  !important;
+    stroke: #2740d0  !important;
 }
 
 /***

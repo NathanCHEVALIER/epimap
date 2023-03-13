@@ -2,27 +2,28 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    width: 160px;
+    width: 46px;
     height: 46px;
-    margin-right: 20px;
-    background-color: rgb(1, 32, 124); 
-    background-image: url("/img/logo-epimap.svg");
-    background-size: auto 30px;
+    margin-right: 8px;
+    background-color: rgb(234, 234, 234); 
+    background-image: url("/img/icon-settings.svg");
+    background-size: auto 26px;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
     border-radius: 60px;
     box-shadow: #00000030 0 2px 5px;
+    z-index: 200;
 }
 #settings {
     background-color: #fafafa;
     width: 300px;
     min-height: 50px;
     position: fixed;
-    top: 76px;
-    right: 20px;
+    top: 82px;
+    right: 28px;
     z-index: 200;
-    padding: 34px 32px 34px 26px;
+    padding: 24px 30px 34px 22px;
     border-radius: 5px;
     box-shadow: #00000026 0 2px 8px;
     display: none;
@@ -41,7 +42,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 8px;
-    margin-left: 8px;
+    margin-left: 2px;
 }
 #settings > .setting > span{
     font-size: 14px;
@@ -71,12 +72,17 @@
     font-weight: 600;
 }
 
-body.darkmode #settings {
-    background-color: #3a3a3a;
+select {
+    background: transparent;
+    border: none;
+    padding: none;
+    cursor: pointer;
+    font-weight: 700;
 }
-body.darkmode #settings > h3 {
-    color: #efefef;
-}
-body.darkmode #settings span {
-    color: #cacaca;
+
+#settings > span {
+    font-size: 14px;
+    color: #777;
+    margin-left: 5px;
+    margin-top: 30px;
 }
