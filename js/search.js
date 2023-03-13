@@ -1,5 +1,26 @@
+/**
+ * Handle search engine and associated UI
+ */
+
 const searchInput = document.querySelector('header > input[name="search"]');
 let results;
+
+/**
+ * 
+ */
+const parseSearchInput = (str) => {
+    let keywords = str.split(' ');
+    let filter = (a) => { return true };
+
+    keywords.forEach((keyword) => {
+        if (keyword.match(/^in:([a-z]{2})$/) != null) {
+            const campus = keyword.split('in:')[1];
+            filter = (a) => { return a.campus === campus };
+        }
+    })
+
+    return [keywords, filter];
+}
 
 /**
  * Search Handler: returns a set of value corresponding to input value
@@ -8,16 +29,17 @@ let results;
  */
 const search = function(str)
 {
-    displayWarning("Dataset is incomplete, results could be incomplete. Please consider contributing !");
+    displayWarning("Dataset is partially deprecated, results could be incomplete. Please consider contributing !");
     results = [];
     
-    if (str === "")
-        return;
-
-    console.log(str);
+    const [keywords, filter] = parseSearchInput(str);
 
     for (let i = 0; i < maps.length; i++) {
-        if ((grade = gradeSet(maps[i].tags.concat(maps[i].name), str.split(' '))) >= 0) {
+        if ( ! filter(maps[i]))
+            continue;
+
+        // Names and tags
+        if ((grade = gradeSet(maps[i].tags.concat(maps[i].name), keywords)) >= 0) {
             insertInPlace({
                 'title': maps[i].name,
                 'label': getLabel(maps[i]),
@@ -26,7 +48,8 @@ const search = function(str)
             });
         }
         
-        if ((grade = gradeSet(maps[i].peoples, str.split(' '))) >= 0) {
+        // Peoples
+        if ((grade = gradeSet(maps[i].peoples, keywords)) >= 0) {
             insertInPlace({
                 'title': maps[i].name,
                 'label': maps[i].peoples.join(', '),
@@ -107,7 +130,7 @@ const getLabel = (mapObj) => {
         return mapObj.campus + ' > ' + mapObj.building + ' > ' + mapObj.floor;
 }
 
-/** Events Listener for start search process */
+/** Events Listener for search button */
 searchBtn.addEventListener('click', function() {
     search(searchInput.value);
 });
@@ -124,9 +147,13 @@ searchInput.addEventListener("keydown", function(e) {
  * @param {} elt 
  */
 const searchResultClickHandler = (elt) => {
-    loadMap(getMapId(elt.getAttribute('href')));
+    const mapId = getMapId(elt.getAttribute('href'));
+    loadMap(mapId);
     menuButton.classList.remove("menu-back");
     infoMenu.classList.remove("menu-open");
+    container.classList.remove("menu-open");
+    console.log(mapId);
+    displayInfoMenu(getMapObject(mapId));
 }
 
 /**
@@ -155,26 +182,5 @@ const searchRender = function()
                 <span>' + results[i].label + '</span> \
             </div>'
         );
-
-/*
-        dupBlock.children[0].innerHTML = results[i].title;
-        dupBlock.children[1].innerHTML = results[i].label;
-        dupBlock.removeAttribute('id');
-        dupBlock.setAttribute("href", results[i].url)
-        dupBlock.style.display = "block";
-*/
-        /*document.querySelectorAll(".search-result").forEach(elt => {
-                .addEventListener('click', function() {
-                //alert('not comptible for the moment');
-                //map_ifr.setAttribute("src", "./maps/" + results[i]['map'] + ".svg");
-                loadMap(getMapId(results[i].url));
-                btn.classList.remove("menu-open");
-                menu.classList.remove("menu-open");
-                container.classList.remove("menu-open");
-                cache.classList.remove("menu-open");
-            });
-        });
-
-        container.append(dupBlock);*/
     }
 };

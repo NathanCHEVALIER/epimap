@@ -26,6 +26,7 @@ const toggleMenu = function() {
     if (menuButton.classList.contains("menu-back")) {
         menuButton.classList.remove("menu-back");
         infoMenu.classList.remove("menu-open");
+        menuOverlay.classList.remove("menu-open");
     }
     else if (menuButton.classList.contains("menu-open")) {
         menuButton.classList.remove("menu-open");
@@ -57,7 +58,7 @@ settingBtn.addEventListener('click', e => {
 /**
  * Left menu (Nav menu only) links action replacement
  */
-document.querySelectorAll('#left-menu a').forEach( function(path) {
+document.querySelectorAll('#nav-menu a').forEach( function(path) {
     path.addEventListener('click', function(e) {
         e.preventDefault();
 
@@ -70,7 +71,7 @@ document.querySelectorAll('#left-menu a').forEach( function(path) {
             displayError("This map does not exist yet !");
         }
         else if (link != null){
-            loadMap(link);
+            loadMap(getMapId(link));
             toggleMenu();
         }
 
@@ -94,10 +95,14 @@ const displayLog = function(message, type="info")
     newNode.style.display = "flex";
 
     newNode.querySelector("div").addEventListener('click', function() {
-        newNode.remove();
+        newNode.classList.add("hidden");
+        setTimeout(() => { newNode.remove() }, 400);
     });
 
-    setTimeout(() => { newNode.remove() }, 8000);
+    setTimeout(() => {
+        newNode.classList.add("hidden");
+        setTimeout(() => { newNode.remove() }, 400);
+    }, 7000);
 
     container.append(newNode);
 };
@@ -126,3 +131,16 @@ const displayWarning = function(message) {
 const displayInfo = function(message) {
     displayLog(message, "info");
 }
+
+/**
+ * Welcome Messages
+ */
+displayWarning("We are looking for contributers ! Help us to update maps for new Epimap V2 !");
+
+const tips = [
+    "Clicking on the stairs and elevators will change the floor",
+    "Clicking on the names of the rooms will display information about",
+    "Adding in:{campus} among [kb, vj, ly] in the search field will filter the results"
+];
+
+displayInfo("Tips: " + tips[Math.floor(Math.random() * tips.length)]);

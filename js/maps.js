@@ -18,6 +18,9 @@ const getMapId = (url) => {
     // For /campus/building/floor/room format
     if (url.match(urlRegex) != null) {
         path = url.split('/');
+        if (path.at(-1).length == 0)
+            path.pop();
+
         if (path[2] === undefined)
             return path[1];
         else if (path[3] === undefined)
@@ -34,7 +37,7 @@ const getMapId = (url) => {
 }
 
 /**
- * 
+ * Returns Map Object (from dataset) selected by MapId
  * @param {*} mapId 
  * @returns 
  */
@@ -112,9 +115,8 @@ const injectMap = function(map, data) {
         try {
             // Set Map Infos
             container.innerHTML = data;
-            document.querySelector("#map-label > div > div > a").innerHTML = map.name;
-            document.querySelector("#map-label > div > span").innerHTML = "Last Update: " + map.last_update;
-            
+            document.querySelector("#map-label > div:nth-of-type(2) > div").innerHTML = getMapObject(getMapId(map.campus + '-' + map.building + '-f' + map.floor)).name;
+
             // Add Event Listener for links in new map DOM elements
             document.querySelectorAll("#container a").forEach( function(elt) {
                 elt.addEventListener("click", e => onClickMapLink(e, elt));
@@ -216,9 +218,6 @@ const onCLickRoomInfo = (e, elt) => {
     displayInfoMenu(mapObj);
     if (window.location.pathname != ('/' + mapObj.url))
         setHistory(mapObj);
-
-    infoMenu.classList.add("menu-open");
-    document.getElementById("btn-menu").classList.add("menu-back");
 }
 
 /**
@@ -226,19 +225,28 @@ const onCLickRoomInfo = (e, elt) => {
  * @param {Array} roomInfos 
  */
 const displayInfoMenu = (roomInfos) => {
+    // Left menu layers handout
+    infoMenu.classList.add("menu-open");
+    document.getElementById("btn-menu").classList.add("menu-back");
+    infoMenu.querySelector('div:nth-of-type(1)').style.display = 'block';
+
+    // Basic check
     if (roomInfos === undefined) {
         displayError("Undefined Room Infos. Please consider contributing on GitHub!");
         return false;
     }
 
-    infoMenu.querySelector('div:nth-of-type(2) > h4').textContent = roomInfos.name;
-    infoMenu.querySelector('div:nth-of-type(2) > span').textContent = roomInfos.description;
-    infoMenu.querySelector('div:nth-of-type(1)').setAttribute('style', 'background-image: url(' + roomInfos.image + ')');
+    // Insert room data into DOM
+    infoMenu.querySelector('div:nth-of-type(1) > div:nth-of-type(2) h4').textContent = roomInfos.name;
+    infoMenu.querySelector('div:nth-of-type(1) > div:nth-of-type(2) span').textContent = roomInfos.description;
+    infoMenu.querySelector('div:nth-of-type(1) > div:nth-of-type(1)').setAttribute('style', 'background-image: url(' + roomInfos.image + ')');
 
+    // Remove search results elements
     infoMenu.querySelectorAll('div:nth-of-type(2) > div').forEach(elt => {
         elt.remove();
     })
 
+    // Add Peoples
     roomInfos.peoples.forEach( people => {
         infoMenu.querySelector('div:nth-of-type(2)').insertAdjacentHTML('beforeend', 
             '<div><div style="background-image: url('
