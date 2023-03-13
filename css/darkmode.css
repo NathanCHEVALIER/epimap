@@ -1,5 +1,5 @@
 body.darkmode {
-    background-color: #292929;
+    background-color: #0d1230;
     /**color: #fff;**/
 }
 
@@ -8,7 +8,7 @@ body.darkmode > #main-header {
 }
 
 body.darkmode > #info-menu {
-    background-color: #3a3a3a;
+    background-color: #162043;
 }
 
 body.darkmode > #info-menu > div:nth-of-type(1) > div > h4 {
@@ -17,9 +17,12 @@ body.darkmode > #info-menu > div:nth-of-type(1) > div > h4 {
 body.darkmode > #info-menu > div:nth-of-type(1) > div > span {
     color: #cccccc;
 }
+body.darkmode > #info-menu > div:nth-of-type(2) {
+    color: #efefef;
+}
 
 body.darkmode > #nav-menu {
-    background-color: #3a3a3a;
+    background-color: #162043;
 }
 
 body.darkmode > #nav-menu ul > li > a{
@@ -31,21 +34,16 @@ body.darkmode > #nav-menu > ul > li > ul > li > ul > li > a{
 }
 
 body.darkmode > #nav-menu > ul > li > ul > li > ul > li:hover{
-    background-color: #444444;
-    border-right: 4px solid #091c32;
-}
-
-body.darkmode #search > div:nth-of-type(1) > input{
-    background: #565656;
-    color: #efefef;
+    background-color: #1c2b54;
+    border-right: 4px solid #2740d0;
 }
 
 body.darkmode .search-result {
-    background-color: #565656;
+    background-color: #1c2b54;
 }
 
 body.darkmode .search-result:hover{
-    background-color: #606060;
+    background-color: #24345f;
 }
 
 body.darkmode .search-result > h4{
@@ -56,12 +54,20 @@ body.darkmode .search-result > span{
     color: #cccccc;
 }
 
-body.darkmode #map-label > div:nth-of-type(1) {
-    background-color: #2f236b;
+body.darkmode a {
+    color: #efefef;
 }
-
-body.darkmode #btn-settings {
-    background-color: #091c32 !important;
+body.darkmode select {
+    color: #efefef;
+}
+body.darkmode #settings {
+    background-color: #162043;
+}
+body.darkmode #settings > h3 {
+    color: #efefef;
+}
+body.darkmode #settings span {
+    color: #cacaca;
 }
 
 /*** SVG Maps ***/
