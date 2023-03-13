@@ -18,6 +18,7 @@ DirectoryIndex index.html
 
 RewriteRule ^map-[a-z0-9-]+(.svg)?[\/]?$ index.html [L]
 RewriteRule ^[a-z0-9-]+(.svg)?[\/]?$ index.html [L]
+RewriteRule ^\/[a-z]{2}(\/[a-z]+(\/-?[0-9]{1}(\/[-a-z0-9]+)?)?)?(\/)?$ index.html [L]
 
 ## ErrorDocument 404 /maintenance/maintenance.html
 

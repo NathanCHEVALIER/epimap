@@ -18,7 +18,6 @@ const getMapId = (url) => {
     if (url == "/")
         return "kb";
 
-
     // For /campus/building/floor/room format
     if (url.match(urlRegex) != null) {
         path = url.split('/');
@@ -47,7 +46,7 @@ const getMapId = (url) => {
  */
 const getMapObject = (mapId) => {
     for (let i = 0; i < maps.length; i++) {
-        if (maps[i].id == mapId)
+        if (maps[i].id === mapId)
             return maps[i];
     }
 
@@ -91,8 +90,8 @@ const loadMap = function(mapId, updateState = 'push') {
         // Inject XML content into the container
         injectMap(map, body).then( function() {
             // Change page document information 
-            //if (updateState)
-            //    setHistory(map, updateState);
+            if (updateState)
+                setHistory(map, updateState);
 
             if (map.type === 'room') {
                 document.querySelectorAll("#container a").forEach( function(elt) {
