@@ -228,6 +228,7 @@ const displayInfoMenu = (roomInfos) => {
     infoMenu.classList.add("menu-open");
     document.getElementById("btn-menu").classList.add("menu-back");
     infoMenu.querySelector('div:nth-of-type(1)').style.display = 'block';
+    menuOverlay.classList.add("menu-open");
 
     // Basic check
     if (roomInfos === undefined) {
