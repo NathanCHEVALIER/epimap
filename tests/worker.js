@@ -118,7 +118,7 @@ const isInArray = (maps, str) => {
 /**
  * Main Scope
  */
-getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
+getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
     let maps = [];
     let errors = 0;
     let warnings = 0;
@@ -144,7 +144,7 @@ getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
     });
 
     // Add People
-    await getJSON(path.join(__dirname, '../js/data.people.json')).then((peoples) => {
+    await getJSON(path.join(__dirname, '../src/js/data.people.json')).then((peoples) => {
         maps = maps.map( (m) => {
             if (m.peoples.length == 0)
                 return m;
@@ -163,14 +163,14 @@ getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
     });
 
     // Check
-    fs.readdirSync(path.join(__dirname, '../maps/')).forEach(function (file) {
+    fs.readdirSync(path.join(__dirname, '../src/maps/')).forEach(function (file) {
         let locErr = 0;
         if (!isInArray(maps, file.split('.svg')[0])) {
             console.log('Error: Missing DATA for "' + file);
             locErr++;
         }
         else {
-            const data = fs.readFileSync(path.join(__dirname, '../maps/', file), { encoding:'utf8', flag:'r' });
+            const data = fs.readFileSync(path.join(__dirname, '../src/maps/', file), { encoding:'utf8', flag:'r' });
             let $ = cheerio.load(data);
             let svgHeader = $('svg')[0].attribs;
 
@@ -223,7 +223,7 @@ getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
     }
 
     // Write File
-    fs.writeFile(path.join(__dirname, '../js/min.map.json'), JSON.stringify(maps), err => {
+    fs.writeFile(path.join(__dirname, '../src/js/min.map.json'), JSON.stringify(maps), err => {
         if (err) 
             console.log(err);
 
