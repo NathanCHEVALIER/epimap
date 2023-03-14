@@ -22,6 +22,7 @@ class HttpRequestHandler(http.server.SimpleHTTPRequestHandler):
         else:
             self.path = 'index.html'
 
+        self.path = 'src/' + self.path
         return http.server.SimpleHTTPRequestHandler.do_GET(self)
 
 handler = HttpRequestHandler
