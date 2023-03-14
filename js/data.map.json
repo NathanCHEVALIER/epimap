@@ -20,7 +20,7 @@
                         "rooms": {
                             "accueil": {
                                 "name": "Accueil",
-                                "description": "Réception des colis et décrochage de téléphone",
+                                "description": null,
                                 "tenant": "epita",
                                 "image": "",
                                 "peoples": ["julie.ounoughi"],

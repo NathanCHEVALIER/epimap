@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import cheerio from 'cheerio';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -96,7 +97,7 @@ const getJSON = (path) => {
     return new Promise((resolve, reject) => {
         fs.readFile(path, 'utf8', (err, data) => {
             if (err) {
-                console.error(err);
+                console.log(err);
                 reject(null);
             }
         
@@ -150,7 +151,7 @@ getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
 
             m.peoples = m.peoples.map( (people) => {
                 if (peoples[people] === undefined || peoples[people] === null) {
-                    console.error('❌ ERROR: Missing people infos (' + people + ')');
+                    console.log('❌ ERROR: Missing people infos (' + people + ')');
                     errors++;
                 }
 
@@ -163,35 +164,68 @@ getJSON(path.join(__dirname, '../js/data.map.json')).then( async (data) => {
 
     // Check
     fs.readdirSync(path.join(__dirname, '../maps/')).forEach(function (file) {
+        let locErr = 0;
         if (!isInArray(maps, file.split('.svg')[0])) {
-            console.error('❌ ERROR: Missing DATA for "' + file);
-            errors++;
+            console.log('Error: Missing DATA for "' + file);
+            locErr++;
         }
         else {
-            // TODO: Open SVG, check for rooms data and headers properties
+            const data = fs.readFileSync(path.join(__dirname, '../maps/', file), { encoding:'utf8', flag:'r' });
+            let $ = cheerio.load(data);
+            let svgHeader = $('svg')[0].attribs;
+
+            // Check header properties
+            if (svgHeader['width'] != '100%' || svgHeader['height'] != '100%') {
+                console.log('Error: Map format error (width or height differs from 100%) in "' + file.split('.svg')[0]);
+                locErr++;
+            }
+
+            // Check for room existence in data map
+            let links = $('a').toArray().filter( (l) => {
+                return $(l)[0].attribs['type'] === 'room';
+            }).map( (l) => {
+                return $(l)[0].attribs['href'];
+            }).forEach( (l) => {
+                if (!isInArray(maps, file.split('.svg')[0] + '-' + l)) {
+                    console.log('Error: Missing DATA for "' + file.split('.svg')[0] + '-' + l);
+                    locErr++;
+                }
+            });
         }
+
+        errors += locErr;
+        if (locErr == 0)
+            console.log('✔️ ' + file.split('.svg')[0] + ' is valid');
+        else
+            console.log('❌ ' + file.split('.svg')[0] + ' contains errors, see above')
     });
 
     maps.forEach( (elt) => {
         if (elt.svg && !fs.existsSync(path.join(__dirname, '../maps/' + elt.id + '.svg'))) {
             console.log('❌ ERROR: Missing SVG file for "' + elt.id + '" map');
-            warnings++;
+            errors++;
         }
-        // TODO: check for partial room infos (no image, no description...)
+
+        if (elt.type === 'room') {
+            if (elt.name == null || elt.image == null || elt.description == null) {
+                console.log('⚠️ Warning: Missing name, image or description for ' + elt.id);
+                warnings++;
+            }
+        }
     });
 
     // TODO: check for unused room datas (and people ?) -> ⚠️ Warnings
 
     console.log(errors + ' errors, ' + warnings + ' warnings');
     if (errors != 0) {
-        console.error('Cannot Write JSON Datafile');
+        console.log('Cannot Write JSON Datafile');
         return 1;
     }
 
     // Write File
     fs.writeFile(path.join(__dirname, '../js/min.map.json'), JSON.stringify(maps), err => {
         if (err) 
-            console.error(err);
+            console.log(err);
 
         console.log('✔️ Map JSON Datafile is written');
     });

@@ -15,10 +15,10 @@ Please Update this table meanwhile you update a map !
 |----|----|----|----|----|----|----|
 | kremlin-bicetre | KB | Campus KB Overview | 2022-02-14 |  ❌ |  ❌ |  ❌ |
 | kb-voltaire-f-1 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
-| kb-voltaire-f0 | KB | Voltaire: Rez-de-Chaussée | 2023-02-24 | ✅ | ✅ |  ❌ |
-| kb-voltaire-f1 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ❌ |
+| kb-voltaire-f0 | KB | Voltaire: Rez-de-Chaussée | 2023-02-24 | ✅ | ✅ |  ✅ |
+| kb-voltaire-f1 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ✅ |
 | kb-voltaire-f2 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
-| kb-voltaire-f3 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ❌ |
+| kb-voltaire-f3 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ✅ |
 | kb-voltaire-f4 | KB | - | 2022-04-12 |  ✅ |  ❌ |  ❌ |
 | kb-voltaire-f5 | KB | - | 2022-04-12 |  ✅ |  ❌ |  ❌ |
 | kb-voltaire-f6 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
