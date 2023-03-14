@@ -201,7 +201,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
     });
 
     maps.forEach( (elt) => {
-        if (elt.svg && !fs.existsSync(path.join(__dirname, '../maps/' + elt.id + '.svg'))) {
+        if (elt.svg && !fs.existsSync(path.join(__dirname, '../src/maps/' + elt.id + '.svg'))) {
             console.log('❌ ERROR: Missing SVG file for "' + elt.id + '" map');
             errors++;
         }
@@ -219,7 +219,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
     console.log(errors + ' errors, ' + warnings + ' warnings');
     if (errors != 0) {
         console.log('Cannot Write JSON Datafile');
-        return 1;
+        process.exit(1);
     }
 
     // Write File
