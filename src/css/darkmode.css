@@ -1,0 +1,116 @@
+body.darkmode {
+    background-color: #0d1230;
+    /**color: #fff;**/
+}
+
+body.darkmode > #main-header {
+    background-color: #091c32;
+}
+
+body.darkmode > #info-menu {
+    background-color: #162043;
+}
+
+body.darkmode > #info-menu > div:nth-of-type(1) > div > h4 {
+    color: #fefefe;
+}
+body.darkmode > #info-menu > div:nth-of-type(1) > div > span {
+    color: #cccccc;
+}
+body.darkmode > #info-menu > div:nth-of-type(2) {
+    color: #efefef;
+}
+
+body.darkmode > #nav-menu {
+    background-color: #162043;
+}
+
+body.darkmode > #nav-menu ul > li > a{
+    color: #efefef !important;
+}
+
+body.darkmode > #nav-menu > ul > li > ul > li > ul > li > a{
+    color: #cccccc !important;
+}
+
+body.darkmode > #nav-menu > ul > li > ul > li > ul > li:hover{
+    background-color: #1c2b54;
+    border-right: 4px solid #2740d0;
+}
+
+body.darkmode .search-result {
+    background-color: #1c2b54;
+}
+
+body.darkmode .search-result:hover{
+    background-color: #24345f;
+}
+
+body.darkmode .search-result > h4{
+    color: #efefef !important;
+}
+
+body.darkmode .search-result > span{
+    color: #cccccc;
+}
+
+body.darkmode a {
+    color: #efefef;
+}
+body.darkmode select {
+    color: #efefef;
+}
+body.darkmode #settings {
+    background-color: #162043;
+}
+body.darkmode #settings > h3 {
+    color: #efefef;
+}
+body.darkmode #settings span {
+    color: #cacaca;
+}
+
+/*** SVG Maps ***/
+
+body.darkmode path {
+    stroke: #efefef !important;
+}
+
+body.darkmode circle {
+    stroke: #efefef !important;
+}
+
+body.darkmode rect {
+    stroke: #efefef !important;
+}
+
+body.darkmode tspan {
+    fill: #efefef;
+}
+
+body.darkmode text {
+    fill: #efefef;
+}
+
+body.darkmode .icon {
+    fill: #efefef !important;
+    stroke-width: 0px !important;
+}
+
+/*** Animation ***/
+
+body {
+    animation: 700ms color ease-in-out;
+    animation: background-color 700ms ease-in-out;
+    -webkit-transition: background-color 700ms ease-in-out;
+    -ms-transition: background-color 700ms ease-in-out;
+    transition: background-color 700ms ease-in-out;
+}
+
+path, circle, rect, tspan, text {
+    animation: 700ms stroke fill ease-in-out;
+}
+
+tspan:hover {
+    text-decoration: none;
+}
