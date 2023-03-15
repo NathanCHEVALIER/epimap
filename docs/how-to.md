@@ -28,7 +28,7 @@ $ python3 server.py
 Epimap use the Atkinson Hyperlegible font from the Braille Institute. The font comes with the repo for browsing but is not linked to your SVG Editor.
 
 ### 1. Get the .ttf files:
-- in the [fonts](../fonts/) folder!
+- in the [fonts](../src/fonts/) folder!
 - on the [Braille Institute Website](https://brailleinstitute.org/freefont) 
 
 

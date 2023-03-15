@@ -12,6 +12,7 @@ A generic guide about contributions on GitHub can be found [here](https://docs.g
 
 + Local repository cloned on your machine
 + SVG Editor Software: We recommend using [Inkscape](https://inkscape.org/) (Open Source) 
++ Recommended: Node > 18 (to test before push)
 
 ### 1. Open a map:
 
@@ -36,7 +37,7 @@ Open Inkscape, then 'File > Open' and select the file you want to edit.
 
 ### 2. Update:
 
-You should refer to this tutorial:
+You should refer to this tutorial: (Not required)
 
 Please pay attention to style guidelines [below](#style-guidelines)
 
@@ -64,7 +65,7 @@ Maps contains embedded data on room names and icons. They are used to offer navi
 
 ### 4. Check :
 
-Workflows performs checks on map to ensure compatibility. You can also run these scripts to check the size in the headers and the matching of the cards with the data. please refer to [Test Section](#test-maps)
+Workflows performs checks on map to ensure compatibility. You can also run these scripts to check the headers properties and maps/data compatibility. Please refer to [Test Section](#test-maps)
 
 
 <br />
@@ -133,32 +134,25 @@ The only one colour is pure black (#000000) and there is no background.
 
 ### Icons:
 
-- icons are those in [img](../img/) folder
+- icons are those in [img](../src/img/) folder
 
 <br />
 
 ## Test Maps:
 
-> In progress: don't take into account this section
-
-### Maps Data:
-
-
+Require Node and npm
 ``` sh
-$ python3 tests/check.py -d -a
+## Go to test tests folder and install depedencies
+$ cd tests && npm install
+$ node worker.js
 ```
 
-In case of failure:
+Will display a report on maps and data
 
-<br/>
+### In case of failure:
 
-### Size properties:
+#### 'Error: Map format error (width or height differs from 100%) in xxx'
+    1. Open the map file in your favorite text editor
+    2. Check for width and height properties in svg header: values should be "100%"
 
-``` sh
-$ python3 tests/check.py -s -a
-```
-
-In case of failure:
-
-1. Open the map file in your favorite text editor
-2. Check for width and height properties in svg header: values should be "100%"
+#### 'Error: Missing DATA for "xxx"'

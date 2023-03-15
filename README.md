@@ -6,7 +6,7 @@ Epimap is not affiliated with EPITA or IONIS Education Group,
 which means that neither of these organizations and its affiliates have authority over this project.
 For more information on authorizations, please refer to the license.
 
-Maps are based on a previous work of Ivan Colona (map.epita.eu) https://github.com/gconfs/epimap
+Maps are based on a previous work of Ivan « Colona » Delalande (map.epita.eu) https://github.com/gconfs/epimap
 
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/FTP-Deploy-Action)
 
@@ -43,5 +43,7 @@ More on [maps contributing](./docs/map-contributing.md)
 ## Last Updates:
 
 Last Release: 
+
+- V2 - March 2023 Release [(v2.23.3.1)](./docs/releases/2023-03.md)
 
 More information about [previous releases](./docs/releases)
