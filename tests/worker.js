@@ -187,7 +187,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
                 return $(l)[0].attribs['href'];
             }).forEach( (l) => {
                 if (!isInArray(maps, file.split('.svg')[0] + '-' + l)) {
-                    console.log('Error: Missing DATA for "' + file.split('.svg')[0] + '-' + l);
+                    console.log('Error: Missing DATA for "' + file.split('.svg')[0] + '-' + l + '"');
                     locErr++;
                 }
             });
@@ -223,7 +223,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
     }
 
     // Write File
-    fs.writeFile(path.join(__dirname, '../src/js/min.map.json'), JSON.stringify(maps), err => {
+    fs.writeFile(path.join(__dirname, '../src/js/data.min.json'), JSON.stringify(maps), err => {
         if (err) 
             console.log(err);
 

@@ -49,10 +49,10 @@ const search = function(str)
         }
         
         // Peoples
-        if ((grade = gradeSet(maps[i].peoples, keywords)) >= 0) {
+        if ((grade = gradeSet(maps[i].peoples.map(e => e.name), keywords)) >= 0) {
             insertInPlace({
                 'title': maps[i].name,
-                'label': maps[i].peoples.join(', '),
+                'label': maps[i].peoples.map(e => e.name).join(', '),
                 'url': maps[i].url,
                 'grade': grade,
             });

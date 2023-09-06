@@ -166,7 +166,7 @@ const onClickMapLink = function(e, path) {
  * Init Map: load map data and set default map
  */
 const initMap = function() {
-    httpRequest("/js/min.map.json", 'application/json').then( (body) => {
+    httpRequest("/js/data.min.json", 'application/json').then( (body) => {
         maps = body;
         loadMap(getMapId(window.location.href), 'replace');
     })
@@ -248,12 +248,10 @@ const displayInfoMenu = (roomInfos) => {
 
     // Add Peoples
     roomInfos.peoples.forEach( people => {
+        console.log(people);
         infoMenu.querySelector('div:nth-of-type(2)').insertAdjacentHTML('beforeend', 
             '<div><div style="background-image: url('
             + 'https://cri.epita.fr/photos/user/' + people +
-            ')" ></div><div><h5>' + people + '</h5><span>NaD</span></div></div>');
+            ')" ></div><div><h5>' + people.name + '</h5><span>' + people.role + '</span></div></div>');
     });
 }
-
-
-
