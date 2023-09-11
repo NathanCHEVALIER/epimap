@@ -13,11 +13,12 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: 📂 Get latest code
       uses: actions/checkout@v2
-    - name: 📂 Sync files
+    - name: 📤 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.epimap.fr
+        local-dir: ./src/
         username: epima1723318
         password: ${{ secrets.ftp_password }}

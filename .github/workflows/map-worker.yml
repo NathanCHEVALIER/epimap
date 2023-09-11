@@ -1,0 +1,28 @@
+name: Map Worker and Checker
+on: 
+  push:
+    branches:
+      - '**'
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  init-map-worker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: init job info
+        run: echo "The job was triggered by a ${{ github.event_name }} event on branch ${{ github.ref }}"
+  map-worker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📂 Get release code
+        uses: actions/checkout@v2
+      - name: 🔨 Build image (Node.js 16.x)
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+      - name: 📥 Install dependencies
+        run: cd tests && npm install
+      - name: ▶️ Execute worker script
+        run: node tests/worker.js
+      - name: 📝 Status
+        run: echo "Job status is ${{ job.status }}."

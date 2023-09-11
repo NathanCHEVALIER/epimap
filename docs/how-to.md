@@ -1,31 +1,38 @@
 # How To:
 
-## Run Epimap locally:
+## Run Epimap on your machine ?
 
-Here is the process to run Epimap on your machine:
+**Requirements:** You must have Python 3 on your machine.
 
-1. Go to your local epimap directory (after cloning it)
+1. Clone Epimap repository
+``` sh
+$ git clone git@github.com:NathanCHEVALIER/epimap.git
+```
 
-2. Start a local http server (python 3 needed)
+2. Go to your local epimap directory
+``` sh
+$ cd path/to/epimap
+```
+
+3. Start a local http server 
 ```sh
 $ python3 server.py
 ```
 
-3. Checkout [http://0.0.0.0:8000]().
+3. Checkout [http://0.0.0.0:8000](http://0.0.0.0:8000).
 
 <br /><br />
 
-## Get Epimap Font:
+## Use Epimap Font ?
 
-Epimap use the Atkinson Hyperlegible font from the Braille Institute.
+Epimap use the Atkinson Hyperlegible font from the Braille Institute. The font comes with the repo for browsing but is not linked to your SVG Editor.
 
-1. Get the .ttf files:
-- in the [fonts](../fonts/) folder!
+### 1. Get the .ttf files:
+- in the [fonts](../src/fonts/) folder!
 - on the [Braille Institute Website](https://brailleinstitute.org/freefont) 
 
-<br />
 
-2. Install the font on your machine
+### 2. Install the font on your machine
 - On Linux:
     1. Go to the folder containing the Atkinson ttf files
     2. Copy TTF files into local fonts directory:
@@ -37,9 +44,8 @@ Epimap use the Atkinson Hyperlegible font from the Braille Institute.
     $ fc-cache -f -v
     ```
 
-<br />
 
 - On Windows:
     Right click on the .ttf file, then "Install for all users"
 
-3. Restart your SVG editor and enjoy !
+### 3. Restart your SVG editor and enjoy !
