@@ -6,8 +6,8 @@ Please Update this table meanwhile you update a map !
 
 | Total Maps | Existing | Up to date | V2 Compatible |
 | ---- | --- | --- | --- |
-| 31   | 29  | 15  |  3  |
-| 100% | 93% | 48% |  9% |
+| 31   | 29  | 15  |  5  |
+| 100% | 93% | 48% |  15% |
 
 ## Existing maps:
 
@@ -17,9 +17,9 @@ Please Update this table meanwhile you update a map !
 | kb-voltaire-f-1 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
 | kb-voltaire-f0 | KB | Voltaire: Rez-de-Chaussée | 2023-02-24 | ✅ | ✅ |  ✅ |
 | kb-voltaire-f1 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ✅ |
-| kb-voltaire-f2 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
+| kb-voltaire-f2 | KB | - | 2022-04-12 |  ✅ |  ✅ |  ❌ |
 | kb-voltaire-f3 | KB | - | 2023-02-26 |  ✅ |  ✅ |  ✅ |
-| kb-voltaire-f4 | KB | - | 2022-04-12 |  ✅ |  ❌ |  ❌ |
+| kb-voltaire-f4 | KB | - | 2022-04-12 |  ✅ |  ✅ |  ❌ |
 | kb-voltaire-f5 | KB | - | 2022-04-12 |  ✅ |  ❌ |  ❌ |
 | kb-voltaire-f6 | KB | - | 2022-04-12 |  ❌ |  ❌ |  ❌ |
 | kb-pasteur-f-2 | KB | Pasteur: | 2022-04-12 |  ❌ |  ❌ |  ❌ |
