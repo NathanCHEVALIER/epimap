@@ -564,11 +564,6 @@ footer > .log-box > div:hover {
     cursor: pointer;
 }
 
-.roomLinkWrapper > text > tspan{
-    /*fill: #2f236b !important;
-    fill: red !important;*/
-}
-
 .roomLinkWrapper.choosen > text > tspan{
     fill: #2740d0  !important;
     stroke: #2740d0  !important;
