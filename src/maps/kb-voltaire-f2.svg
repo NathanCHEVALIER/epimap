@@ -5,7 +5,7 @@
    viewBox="0 0 2995.0415 1715.4398"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    sodipodi:docname="kb-voltaire-f2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -152,22 +152,24 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70000003"
-     inkscape:cx="1408.5714"
-     inkscape:cy="1674.9999"
+     inkscape:cx="1500.7142"
+     inkscape:cy="1068.5714"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1862"
-     inkscape:window-height="1016"
-     inkscape:window-x="58"
-     inkscape:window-y="27"
+     inkscape:window-width="1916"
+     inkscape:window-height="1035"
+     inkscape:window-x="0"
+     inkscape:window-y="43"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -647,22 +649,22 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:24.6036px;line-height:25.0789px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.838759"
-       x="721.4184"
+       x="723.4184"
        y="271.67593"
        id="text4011-5-7-6-2"><tspan
          sodipodi:role="line"
-         x="721.4184"
+         x="723.4184"
          y="271.67593"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan2175-4-6-4">Philippe</tspan><tspan
+         id="tspan2175-4-6-4">Jonathan</tspan><tspan
          sodipodi:role="line"
-         x="721.4184"
-         y="297.42068"
+         x="723.4184"
+         y="296.75482"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
-         id="tspan1376">Murat</tspan><tspan
+         id="tspan1376">Breot</tspan><tspan
          sodipodi:role="line"
-         x="721.4184"
-         y="323.16544"
+         x="723.4184"
+         y="321.83374"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24.6036px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.838759"
          id="tspan1382" /></text>
     <text
@@ -700,14 +702,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-       x="979.82074"
-       y="1169.7122"
+       x="887.82074"
+       y="1157.7122"
        id="text5325"><tspan
          sodipodi:role="line"
          id="tspan5327"
-         x="979.82074"
-         y="1169.7122"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">CRI</tspan></text>
+         x="887.82074"
+         y="1157.7122"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Forge - Main</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
@@ -782,14 +784,14 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-       x="1321.7113"
-       y="1530.1519"
+       x="1317.7113"
+       y="1524.1519"
        id="text5325-1-1"><tspan
          sodipodi:role="line"
          id="tspan5327-7-9"
-         x="1321.7113"
-         y="1530.1519"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">LabSI</tspan></text>
+         x="1317.7113"
+         y="1524.1519"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Forge</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 376.99827,160.63757 V 180.459"
