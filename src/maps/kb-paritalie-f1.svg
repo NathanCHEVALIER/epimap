@@ -309,9 +309,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.755658"
-     inkscape:cx="1623.7501"
-     inkscape:cy="1158.9353"
+     inkscape:zoom="0.59445725"
+     inkscape:cx="1243.1508"
+     inkscape:cy="725.87221"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1247,9 +1247,9 @@
     </a>
     <a
        id="a4647-7"
-       xlink:href="sm15"
+       xlink:href="ip13"
        xlink:type="room"
-       transform="translate(523.65816,-134.72675)">
+       transform="translate(521.97595,-138.09117)">
       <a
          id="a8875"
          xlink:href="ip13"
@@ -1309,7 +1309,7 @@
        id="path10401" />
     <a
        id="a4647-7-7"
-       xlink:href="sm15"
+       xlink:href="bureau"
        xlink:type="room"
        transform="translate(894.23536,473.71621)">
       <a

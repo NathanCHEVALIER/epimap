@@ -1,14 +1,97 @@
 {
     "julie.ounoughi": {
+        "tenant": "epita",
         "name": "Julie Ounoughi",
         "role": ""
     },
     "florent.boullet": {
+        "tenant": "epita",
         "name": "Florent Boullet",
         "role": ""
     },
     "christian.chabrerie": {
+        "tenant": "epita",
         "name": "Christian Chabrerie",
         "role": "Responsable Majeure SANTE & Chargé de Mission"
+    },
+    "antoine.dumeige": {
+        "tenant": "epita",
+        "name": "Antoine Dumeige",
+        "role": "Responsable Forge"
+    },
+    "nicolas.froger": {
+        "tenant": "epita",
+        "name": "Nicolas Froger",
+        "role": "Permanent Forge"
+    },
+    "noam.bati": {
+        "tenant": "epita",
+        "name": "Noam Bati",
+        "role": "Permanent Forge"
+    },
+    "leo.portemont": {
+        "tenant": "epita",
+        "name": "Léo Portemont",
+        "role": "Permanent Forge"
+    },
+    "francois-xavier.dufour": {
+        "tenant": "epita",
+        "name": "Francois-Xavier Dufour",
+        "role": "Responsable des assistants"
+    },
+    "jonathan.breot": {
+        "tenant": "epita",
+        "name": "Jonathan Breot",
+        "role": "Responsable vie associative"
+    },
+    "stephanie.chatelet": {
+        "tenant": "epita",
+        "name": "Stephanie Chatelet",
+        "role": "Director International Programs"
+    },
+    "marie-julie.dumonteil": {
+        "tenant": "epita",
+        "name": "Marie-Julie Dumonteil",
+        "role": "International Housing and Students Welcome Assistant"
+    },
+    "philippa.dacanay": {
+        "tenant": "epita",
+        "name": "Philippa Dacanay",
+        "role": "International Students Welcome Services Assistant"
+    },
+    "raissa.cabrera": {
+        "tenant": "epita",
+        "name": "Raissa Cabrera",
+        "role": "Academic and Administrative Assistant"
+    },
+    "diane.durey": {
+        "tenant": "epita",
+        "name": "Diane Durey",
+        "role": "French Language Center Coordinator (French by EPITA)"
+    },
+    "catherine.chung": {
+        "tenant": "epita",
+        "name": "Catherine Chung",
+        "role": "International Programs Promotion Officer"
+    },
+    "karine.di-fusco": {
+        "tenant": "epitech",
+        "name": "Karine di Fusco",
+        "role": "Coach Pédagogique"
+    },
+    "natacha.mundala": {
+        "tenant": "epitech",
+        "name": "Natacha Mundala",
+        "role": "Responsable du Développement Régional et des Admissions"
+    },
+    "melissande.riela": {
+        "tenant": "epitech",
+        "name": "Mélissande Riela",
+        "role": "Chargée de Développement Régional"
+    },
+    "ambre-iliana.couvignou": {
+        "tenant": "epitech",
+        "name": "Ambre-Iliana Couvignou",
+        "role": "Chargée de communiation"
     }
 }

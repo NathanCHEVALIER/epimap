@@ -176,7 +176,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
 
             // Check header properties
             if (svgHeader['width'] != '100%' || svgHeader['height'] != '100%') {
-                console.log('Error: Map format error (width or height differs from 100%) in "' + file.split('.svg')[0]);
+                console.log('    Error: Map format error (width or height differs from 100%) in "' + file.split('.svg')[0]);
                 locErr++;
             }
 
@@ -187,7 +187,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
                 return $(l)[0].attribs['href'];
             }).forEach( (l) => {
                 if (!isInArray(maps, file.split('.svg')[0] + '-' + l)) {
-                    console.log('Error: Missing DATA for "' + file.split('.svg')[0] + '-' + l + '"');
+                    console.log('    Error: Missing DATA for "' + file.split('.svg')[0] + '-' + l + '"');
                     locErr++;
                 }
             });
@@ -195,7 +195,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
 
         errors += locErr;
         if (locErr == 0)
-            console.log('✔️ ' + file.split('.svg')[0] + ' is valid');
+            console.log('✅ ' + file.split('.svg')[0] + ' is valid'); //✔️
         else
             console.log('❌ ' + file.split('.svg')[0] + ' contains errors, see above')
     });

@@ -133,9 +133,90 @@
                     },
                     "kb-voltaire-f2": {
                         "name": "Voltaire - 2eme étage",
-                        "last_update": "Apr. 2022",
+                        "last_update": "Sep. 2023",
                         "floor": "2",
-                        "rooms": {}
+                        "rooms": {
+                            "forge": {
+                                "name": "Bureau Forge",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["antoine.dumeige", "nicolas.froger", "noam.bati", "leo.portemont"],
+                                "tags": ["cri", "labsi"]
+                            },
+                            "201": {
+                                "name": "KB 201",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "202": {
+                                "name": "KB 202",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "203": {
+                                "name": "KB 203",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "204": {
+                                "name": "KB 204",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "forge-reunion": {
+                                "name": "Salle de Réunion Forge",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["antoine.dumeige", "nicolas.froger", "noam.bati", "leo.portemont"],
+                                "tags": ["cri", "labsi"]
+                            },
+                            "lab-assistant": {
+                                "name": "Laboratoire des Assistants",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["acu", "yaka"]
+                            },
+                            "bureau": {
+                                "name": "Bureau Respo Assistants",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["francois-xavier.dufour"],
+                                "tags": ["FX"]
+                            },
+                            "vie-asso": {
+                                "name": "Responsable Vie associative",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["jonathan.breot"],
+                                "tags": ["assos"]
+                            },
+                            "epicentre": {
+                                "name": "Epicentre",
+                                "description": "Encore une salle utile",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            }
+                        }
                     },
                     "kb-voltaire-f3": {
                         "name": "Voltaire - 3eme étage",
@@ -164,19 +245,206 @@
                         "name": "Voltaire - 4eme étage",
                         "last_update": "Apr. 2022",
                         "floor": "4",
-                        "rooms": {}
+                        "rooms": {
+                            "amphi-401": {
+                                "name": "Amphi 401",
+                                "description": "Pas mal, sauf les prises HDMI",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["amphi"]
+                            },
+                            "402": {
+                                "name": "KB 402",
+                                "description": "Salle",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "403": {
+                                "name": "KB 403",
+                                "description": "Salle",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "404": {
+                                "name": "KB 404",
+                                "description": "Salle",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "bureau": {
+                                "name": "Bureau 4è",
+                                "description": "",
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            }
+                        }
                     },
                     "kb-voltaire-f5": {
                         "name": "Voltaire - 5eme étage",
                         "last_update": "Apr. 2022",
                         "floor": "5",
-                        "rooms": {}
+                        "rooms": {
+                            "501a": {
+                                "name": "501 A",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "501b": {
+                                "name": "501 B",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "502a": {
+                                "name": "502 A",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "502b": {
+                                "name": "502 B",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "505": {
+                                "name": "Bureau 505",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "506": {
+                                "name": "Bureau 506",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            }
+                        }
                     },
                     "kb-voltaire-f6": {
                         "name": "Voltaire - 6eme étage",
                         "last_update": "Apr. 2022",
                         "floor": "6",
-                        "rooms": {}
+                        "rooms": {
+                            "601": {
+                                "name": "KB 601",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "602": {
+                                "name": "KB 602",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "603": {
+                                "name": "KB 603",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "604": {
+                                "name": "KB 604",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "605": {
+                                "name": "KB 605",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "606": {
+                                "name": "KB 606",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "607": {
+                                "name": "KB 607",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "608": {
+                                "name": "KB 608",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "meeting-room": {
+                                "name": "Meeting Room",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "break-room": {
+                                "name": "Break Room",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ipd", "international"]
+                            },
+                            "ipd-office": {
+                                "name": "International Programs Department",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["marie-julie.dumonteil", "philippa.dacanay", "raissa.cabrera", "diane.durey", "catherine.chung"],
+                                "tags": ["ipd", "international"]
+                            },
+                            "ipd-director-office": {
+                                "name": "IPD Director Office",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["stephanie.chatelet"],
+                                "tags": ["ipd", "international"]
+                            }
+                        }
                     }
                 }
             },
@@ -232,7 +500,32 @@
                         "name": "Paritalie - 1er étage",
                         "last_update": "28 Dec. 2021",
                         "floor": "1",
-                        "rooms": {}
+                        "rooms": {
+                            "service-admissions": {
+                                "name": "Service Admissions",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["natacha.mundala", "melissande.riela", "ambre-iliana.couvignou"],
+                                "tags": ["adm"]
+                            },
+                            "ip13": {
+                                "name": "IP 13",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "bureau": {
+                                "name": "Bureau Coaching",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["karine.di-fusco"],
+                                "tags": ["adm"]
+                            }
+                        }
                     },
                     "kb-paritalie-f2": {
                         "name": "Paritalie - 2eme étage",
