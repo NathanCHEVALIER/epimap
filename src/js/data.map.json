@@ -531,7 +531,160 @@
                         "name": "Paritalie - 2eme étage",
                         "last_update": "28 Dec. 2021",
                         "floor": "2",
-                        "rooms": {}
+                        "rooms": {
+                            "communication-1": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["florence.moreau"],
+                                "tags": ["adm"]
+                            },
+                            "communication-2": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["trang.do", "lilou.lecomte", "pauline.plachez", "claire.leninivin"],
+                                "tags": ["adm"]
+                            },
+                            "communication-3": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["christine.eche", "cindy.darei", "corentin.gorin"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-1": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["melissa.nicolle", "kahina.dahoumane"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-2": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["sandra.abou-nakad", "lina.godefroy", "anaelle.sacco"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-3": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["claire.couery", "majda.el-himdy"],
+                                "tags": ["adm"]
+                            },
+                            "reunion-2": {
+                                "name": "Salle de réunion 2",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["adm"]
+                            },
+                            "valve": {
+                                "name": "Salle Valve",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "valhalla": {
+                                "name": "Salle Valhalla",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "ghibli": {
+                                "name": "Salle Ghibli",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "blizzard": {
+                                "name": "Salle Blizzard",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "pedago": {
+                                "name": "Pédagogie: Communication professionnelle",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["juliette.gibert"],
+                                "tags": ["pedagogie"]
+                            },
+                            "coaching": {
+                                "name": "Bureau Coaching",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["catherine.borie"],
+                                "tags": ["pedagogie"]
+                            },
+                            "anglais": {
+                                "name": "Pédagogie: Anglais",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["guillaume.jaudhuin"],
+                                "tags": ["pedagogie"]
+                            },
+                            "salle-anglais": {
+                                "name": "Salle d'anglais",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "taker": {
+                                "name": "Association taker",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["associations"]
+                            },
+                            "vie-asso": {
+                                "name": "Vie associative",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["sarah.humbert"],
+                                "tags": ["associations"]
+                            },
+                            "relations-internationales": {
+                                "name": "Relations Internationales",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["maria.hutter", "julian.loubrieu", "angelica.nivia", "julien.zuinghedau"],
+                                "tags": ["ri"]
+                            },
+                            "direction-relations-internationales": {
+                                "name": "Relations Internationales",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["nazima.canda"],
+                                "tags": ["ri"]
+                            }
+                        }
                     },
                     "kb-paritalie-f3": {
                         "name": "Paritalie - 3eme étage",

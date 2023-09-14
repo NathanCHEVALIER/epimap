@@ -310,8 +310,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.59445725"
-     inkscape:cx="1243.1508"
-     inkscape:cy="725.87221"
+     inkscape:cx="587.09016"
+     inkscape:cy="628.30422"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -803,6 +803,23 @@
          x="868.83228"
          y="597.65173"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.7774px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.555543">Toilettes</tspan></text>
+    <a
+       id="a6373"
+       xlink:href="bureau"
+       xlink:type="room"
+       transform="matrix(1.1639194,0,0,1.1639194,-161.01077,-164.82879)">
+      <text
+         xml:space="preserve"
+         style="font-size:17.7774px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia;stroke-width:0.555543"
+         x="866.6485"
+         y="831.78687"
+         id="text1809-2-4"><tspan
+           sodipodi:role="line"
+           id="tspan1807-5-4"
+           x="866.6485"
+           y="831.78687"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.7774px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.555543">Bureau</tspan></text>
+    </a>
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 1117.0684,622.37702 v 0 l -4.8166,-4.81661 -13.3596,13.35961 H 977.01116 l -49.5607,49.56071 v 5.74308"
@@ -1246,25 +1263,25 @@
            id="tspan6578">Admissions</tspan></text>
     </a>
     <a
-       id="a4647-7"
+       id="a4647-8"
        xlink:href="ip13"
        xlink:type="room"
-       transform="translate(521.97595,-138.09117)">
+       transform="translate(511.04161,-108.65254)">
       <a
-         id="a8875"
+         id="a2848"
          xlink:href="ip13"
          xlink:type="room">
         <text
            xml:space="preserve"
            style="font-style:normal;font-weight:normal;font-size:24.9556px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.623891"
-           x="-30.254391"
-           y="334.00113"
-           id="text3237-7-2-2"><tspan
+           x="-6.703496"
+           y="312.55298"
+           id="text3237-7-2-9"><tspan
              sodipodi:role="line"
-             x="-30.254391"
-             y="334.00113"
+             x="-6.703496"
+             y="312.55298"
              style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:24.9556px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.623891"
-             id="tspan6578-1">IP13</tspan></text>
+             id="tspan6578-8">IP13</tspan></text>
       </a>
     </a>
     <a
@@ -1308,33 +1325,6 @@
        d="m 638.65407,600.04067 h 71.47985"
        id="path10401" />
     <a
-       id="a4647-7-7"
-       xlink:href="bureau"
-       xlink:type="room"
-       transform="translate(894.23536,473.71621)">
-      <a
-         id="a8875-8"
-         xlink:href="ip13"
-         xlink:type="room">
-        <a
-           id="a12750"
-           xlink:href="bureau"
-           xlink:type="room">
-          <text
-             xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:18.5977px;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.464942"
-             x="-14.295677"
-             y="326.86908"
-             id="text3237-7-2-2-0"><tspan
-               sodipodi:role="line"
-               x="-14.295677"
-               y="326.86908"
-               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.5977px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.464942"
-               id="tspan6578-1-3">Bureau</tspan></text>
-        </a>
-      </a>
-    </a>
-    <a
        id="a3836-6-7"
        xlink:href="kb-paritalie-f0.svg"
        xlink:type="icon"
@@ -1345,5 +1335,10 @@
          class="icon-stairs"
          style="display:inline;fill:#222222;fill-opacity:1;stroke:none;stroke-width:3.81228;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     </a>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 32.204599,-27.83348 49.20455,49.20454 v 127.29585 l -173.057023,173.05702 -1.03071,416.7097 h -99.642856 l 0.79254,-416.7097 V -26.15128 Z"
+       id="path1472"
+       sodipodi:nodetypes="ccccccccc" />
   </g>
 </svg>

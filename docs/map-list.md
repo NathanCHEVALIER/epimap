@@ -29,9 +29,9 @@ Please Update this table meanwhile you update a map !
 | kb-pasteur-f2 | KB | Pasteur: | 2022-04-12 |  ❌ |  ❌ |  ❌ |
 | kb-paritalie-f0 | KB | Paritalie | 2022-10-14 |  ❌ |  ❌ |  ❌ |
 | kb-paritalie-f1 | KB | Paritalie | 2021-12-28 |  ✅ |  ✅ |  ✅ |
-| kb-paritalie-f2 | KB | Paritalie | 2022-09-09 |  ❌ |  ❌ |  ❌ |
+| kb-paritalie-f2 | KB | Paritalie | 2022-09-09 |  ✅ |  ✅ |  ✅ |
 | kb-paritalie-f3 | KB | Paritalie | 2022-09-09 |  ❌ |  ❌ |  ❌ |
-| kb-paritalie-f4 | KB | Paritalie | 2022-02-14 |  ❌ |  ❌ |  ❌ |
+| kb-paritalie-f4 | KB | Paritalie | 2022-02-14 |  ✅ |  ✅ |  ❌ |
 | kb-paritalie-f5 | KB | Paritalie | 2021-12-28 |  ❌ |  ❌ |  ❌ |
 | vj-va-f0 | VJ | Villejuif:  | 2022-09-06 |  ✅ |  ❌ |  ❌ |
 | vj-va-f1 | VJ | Villejuif:  | 2022-09-06 |  ✅ |  ❌ |  ❌ |
