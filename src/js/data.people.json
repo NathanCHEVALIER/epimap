@@ -92,6 +92,142 @@
     "ambre-iliana.couvignou": {
         "tenant": "epitech",
         "name": "Ambre-Iliana Couvignou",
-        "role": "Chargée de communiation"
+        "role": "Chargée de communication"
+    },
+
+    "florence.moreau": {
+        "tenant": "epita",
+        "name": "Florence Moreau",
+        "role": "Directrice Communication"
+    },
+    "trang.do": {
+        "tenant": "epita",
+        "name": "Trang Do",
+        "role": "Responsable Communication Externe et Concours CPGE"
+    },
+    "lilou.lecomte": {
+        "tenant": "epita",
+        "name": "Lilou Lecomte",
+        "role": "Alternante Chargée de Communication Externe et Concours CPGE"
+    },
+    "pauline.plachez": {
+        "tenant": "epita",
+        "name": "Pauline Plachez",
+        "role": "Chargé de Communication"
+    },
+    "claire.leninivin": {
+        "tenant": "epita",
+        "name": "Claire Le Ninivin",
+        "role": "Chargé de Communication"
+    },
+    "christine.eche": {
+        "tenant": "epita",
+        "name": "Christine Eche",
+        "role": "Responsable Communication Concours Advance"
+    },
+    "cindy.darei": {
+        "tenant": "epita",
+        "name": "Cindy Darei",
+        "role": "Chargée de Communication Concours Advance"
+    },
+    "corentin.gorin": {
+        "tenant": "epita",
+        "name": "Corentin Gorin",
+        "role": "Responsable Relations Presse, Communication Interne et Internationale"
+    },
+    "melissa.nicolle": {
+        "tenant": "epita",
+        "name": "Mélissa Nicolle",
+        "role": "Chargée de Développement"
+    },
+    "kahina.dahoumane": {
+        "tenant": "epita",
+        "name": "Kahina Dahoumane",
+        "role": "Advance"
+    },
+    "sandra.abou-nakad": {
+        "tenant": "epita",
+        "name": "Sandra Abou-Nakad",
+        "role": "Directrice du Développement & du Concours CPGE"
+    },
+    "lina.godefroy": {
+        "tenant": "epita",
+        "name": "Lina Godefroy",
+        "role": "Chargée de Communication et évènements associatifs, Responsable SAlons et Conférences"
+    },
+    "anaelle.sacco": {
+        "tenant": "epit",
+        "name": "Anaëlle Sacco",
+        "role": "Responsable Marketing"
+    },
+    "claire.couery": {
+        "tenant": "epita",
+        "name": "Claire Couery",
+        "role": "Adjointe à la Direction du Développement"
+    },
+    "majda.el-himdy": {
+        "tenant": "epita",
+        "name": "Majda El Himdy",
+        "role": "Chargée de Développement Commercial"
+    },
+    "juliette.gibert": {
+        "tenant": "epitech",
+        "name": "Juliette Gibert",
+        "role": "Responsable module Communication Professionnelle"
+    },
+    "catherine.borie": {
+        "tenant": "epitech",
+        "name": "Catherine Borie",
+        "role": "Coach Pédagogique"
+    },
+    "guillaume.jaudhuin": {
+        "tenant": "epitech",
+        "name": "Guillaume Jaudhuin",
+        "role": "Responsable du Département d'anglais"
+    },
+    "sarah.humbert": {
+        "tenant": "epitech",
+        "name": "Sarah Humbert",
+        "role": "Responsable vie assocative Epitech"
+    },
+    "maria.hutter": {
+        "tenant": "epita",
+        "name": "Maria Hutter",
+        "role": "Chargée de mobilité étudiante, Coordinatrice ERASMUS+"
+    },
+    "julian.loubrieu": {
+        "tenant": "epita",
+        "name": "Julian LOUBRIEU",
+        "role": "Assistant Administratif des Relations Internationales"
+    },
+    "angelica.nivia": {
+        "tenant": "epita",
+        "name": "Angelica Nivia",
+        "role": "Assistante Administratif des Relations Internationales"
+    },
+    "julien.zuinghedau": {
+        "tenant": "epita",
+        "name": "Julien Zuinghedau",
+        "role": "Chargé de mobilité étudiante zone Afrique, Asie & Moyen-Orient"
+    },
+    "nazima.canda": {
+        "tenant": "epita",
+        "name": "Nazima Canda",
+        "role": "Directrice des Relations Internationales"
+    },
+    "isabelle.stains": {
+        "tenant": "epita",
+        "name": "Isabelle Stains",
+        "role": "Assistante Administrative et pédagogique Formation Expert & Bachelor Cybersécurité"
+    },
+    "valerie.tuy": {
+        "tenant": "epita",
+        "name": "Valérie Tuy",
+        "role": "Assistante Administrative et pédagogique Formation Ingénieur"
+    },
+    "claire.leroux": {
+        "tenant": "epita",
+        "name": "Claire Leroux",
+        "role": "Directrice de l'OFA"
     }
 }
