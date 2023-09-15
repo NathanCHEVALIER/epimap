@@ -66,7 +66,7 @@ const setColorMode = function(mode) {
         body.classList.add("darkmode");
     
     // Set cookie for next session
-    document.cookie = "theme=" + mode + "; SameSite=None; Secure";
+    document.cookie = "theme=" + mode + "; path=/; SameSite=None; Secure";
 };
 
 /**
