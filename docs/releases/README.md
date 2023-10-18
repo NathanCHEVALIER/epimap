@@ -1,5 +1,6 @@
 # Releases
 
+- [September 2023 - Epimap v2 (2023-09.1)](./2022-09.md)
 - [September 2022 (2022-09.1)](./2022-09.md)
 - [June 2022 (2022-06.1)](./2022-09.md)
 
@@ -21,5 +22,3 @@
 - Paritalie maps added (Missing names)
 - Last Update added in Right Bottom Navbar
 - Clean Up in KB maps
-
-## Previous Update "Workflow":
