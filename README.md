@@ -14,13 +14,17 @@ Maps are based on a previous work of Ivan « Colona » Delalande (map.epita.eu) 
 
 ## Documentation
 
-You can find the doc [here](./docs/README.md). This documentation is in progress and therefore contains partial information. If you have any questions or suggestions, please contact maintainers.
+You can find the full documentation [here](./docs/README.md). 
+
+This documentation is in progress and therefore contains partial information. If you have any questions or suggestions, please contact maintainers.
 
 <br />
 
 ## Contributing
 
-Contributing is Welcome ! Whether to update the maps or to fix issues, please refer to the guidelines. In case of difficulty, do not hesitate to contact the maintainers.
+Contributions are Welcome ! Whether to update the maps or to fix issues, please refer to the guidelines. Do not hesitate to contact the maintainers.
+
+<br />
 
 ### Run Epimap 
 
@@ -31,6 +35,8 @@ $ python3 server.py
 ```
 
 Here is the complete process to run Epimap on your machine: [Run Epimap locally](./docs/how-to.md#run-epimap-locally)
+
+<br />
 
 ### Add/Update SVG Maps
 
@@ -44,6 +50,6 @@ More on [maps contributing](./docs/map-contributing.md)
 
 Last Release: 
 
-- V2 - March 2023 Release [(v2.23.3.1)](./docs/releases/2023-03.md)
+- v2 - September 2023 Release [(v2.23.9.1)](./docs/releases/2023-09.md)
 
 More information about [previous releases](./docs/releases)
