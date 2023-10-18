@@ -29,6 +29,6 @@ A complete list of maps [here](map-list.md).
 
 ## Major Releases:
 
-- [v2.23.2.1 - February 2023]()
+- [v2 - September 2023](releases/2023-09.md)
 - [v1.22.9.1 - September 2022](releases/2022-09.md)
 - [v0.6.5 - June 2022](releases/2022-06.md)

@@ -207,7 +207,7 @@ getJSON(path.join(__dirname, '../src/js/data.map.json')).then( async (data) => {
         }
 
         if (elt.type === 'room') {
-            if (elt.name == null || elt.image == null || elt.description == null) {
+            if (elt.name == null) { // || elt.image == null || elt.description == null) {
                 console.log('⚠️ Warning: Missing name, image or description for ' + elt.id);
                 warnings++;
             }

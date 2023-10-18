@@ -531,25 +531,501 @@
                         "name": "Paritalie - 2eme étage",
                         "last_update": "28 Dec. 2021",
                         "floor": "2",
-                        "rooms": {}
+                        "rooms": {
+                            "communication-1": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["florence.moreau"],
+                                "tags": ["adm"]
+                            },
+                            "communication-2": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["trang.do", "lilou.lecomte", "pauline.plachez", "claire.leninivin"],
+                                "tags": ["adm"]
+                            },
+                            "communication-3": {
+                                "name": "Service Communication",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["christine.eche", "cindy.darei", "corentin.gorin"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-1": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["melissa.nicolle", "kahina.dahoumane"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-2": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["sandra.abou-nakad", "lina.godefroy", "anaelle.sacco"],
+                                "tags": ["adm"]
+                            },
+                            "admissions-3": {
+                                "name": "Service Admissions & Evenements",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["claire.couery", "majda.el-himdy"],
+                                "tags": ["adm"]
+                            },
+                            "reunion-2": {
+                                "name": "Salle de réunion 2",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["adm"]
+                            },
+                            "valve": {
+                                "name": "Salle Valve",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "valhalla": {
+                                "name": "Salle Valhalla",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "ghibli": {
+                                "name": "Salle Ghibli",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "blizzard": {
+                                "name": "Salle Blizzard",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "pedago": {
+                                "name": "Pédagogie: Communication professionnelle",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["juliette.gibert"],
+                                "tags": ["pedagogie"]
+                            },
+                            "coaching": {
+                                "name": "Bureau Coaching",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["catherine.borie"],
+                                "tags": ["pedagogie"]
+                            },
+                            "anglais": {
+                                "name": "Pédagogie: Anglais",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["guillaume.jaudhuin"],
+                                "tags": ["pedagogie"]
+                            },
+                            "salle-anglais": {
+                                "name": "Salle d'anglais",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "taker": {
+                                "name": "Association taker",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["associations"]
+                            },
+                            "vie-asso": {
+                                "name": "Vie associative",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": ["sarah.humbert"],
+                                "tags": ["associations"]
+                            },
+                            "relations-internationales": {
+                                "name": "Relations Internationales",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["maria.hutter", "julian.loubrieu", "angelica.nivia", "julien.zuinghedau"],
+                                "tags": ["ri"]
+                            },
+                            "direction-relations-internationales": {
+                                "name": "Relations Internationales",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["nazima.canda"],
+                                "tags": ["ri"]
+                            }
+                        }
                     },
                     "kb-paritalie-f3": {
                         "name": "Paritalie - 3eme étage",
                         "last_update": "Aug. 2022",
                         "floor": "3",
-                        "rooms": {}
+                        "rooms": {
+                            "apprentissage-1": {
+                                "name": "Apprentissage 1",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ofa"]
+                            },
+                            "apprentissage-2": {
+                                "name": "Apprentissage 2",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ofa"]
+                            },
+                            "apprentissage-3": {
+                                "name": "Apprentissage 3",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["ofa"]
+                            },
+                            "ofa": {
+                                "name": "OFA - Organisme de Formation par Apprentissage",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["isabelle.stains", "valerie.tuy"],
+                                "tags": ["ofa"]
+                            },
+                            "direction-ofa": {
+                                "name": "Direction de l'OFA",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["claire.leroux"],
+                                "tags": ["ofa"]
+                            },
+                            "blackfoot": {
+                                "name": "Startup Blackfoot",
+                                "description": null,
+                                "tenant": "blackfoot",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "lre": {
+                                "name": "LRE - Laboratoir de Recherche d'EPITA",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["lrde", "lse"]
+                            },
+                            "salle-dg": {
+                                "name": "Salle de réunion Direction Générale",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["dg"]
+                            },
+                            "bureau-1": {
+                                "name": "Direction des Ressources Humaines",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["anne-sophie.poilleaux"],
+                                "tags": ["rh", "drh"]
+                            },
+                            "bureau-2": {
+                                "name": "Assistante de la Direction Générale",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["julie.ounoughi"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-3": {
+                                "name": "Direction des Etudes",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["assia.touil"],
+                                "tags": ["de"]
+                            },
+                            "bureau-4": {
+                                "name": "Direction Générale Paris",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["claire.lecocq"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-5": {
+                                "name": "Adjointe à la Direction Générale",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["sandra.chanceau"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-6": {
+                                "name": "Responsable Bachelor",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["valentin.seux"],
+                                "tags": [""]
+                            },
+                            "bureau-7": {
+                                "name": "NA",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": [""]
+                            },
+                            "bureau-8": {
+                                "name": "Direction des Relations Entreprises",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["laurent.trebulle"],
+                                "tags": ["re"]
+                            },
+                            "bureau-9": {
+                                "name": "Responsable RSE - Direction des Etudes",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["anne-sophie.pachet", "helene.vaury"],
+                                "tags": ["de"]
+                            },
+                            "chercheurs": {
+                                "name": "Enseignants Chercheurs",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["lre"]
+                            }
+                        }
                     },
                     "kb-paritalie-f4": {
                         "name": "Paritalie - 4eme étage",
                         "last_update": "28 Dec. 2021",
                         "floor": "4",
-                        "rooms": {}
+                        "rooms": {
+                            "lovelace": {
+                                "name": "Salle Lovelace",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "alan": {
+                                "name": "Salle Alan",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "hopper": {
+                                "name": "Salle Hopper",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "grace": {
+                                "name": "Salle Grace",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "descartes": {
+                                "name": "Salle Descartes",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "claude-shanon": {
+                                "name": "Salle Shanon",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "hamilton": {
+                                "name": "Salle Hamilton",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "starwars": {
+                                "name": "Salle StarWars",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "galilee": {
+                                "name": "Salle Galilée",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "denis-ritchie": {
+                                "name": "Salle Denis Ritchie",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "tom": {
+                                "name": "Salle Tom",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "jerry": {
+                                "name": "Salle Jerry",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "turing": {
+                                "name": "Salle Turing",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "ada": {
+                                "name": "Salle Ada",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "hoppy": {
+                                "name": "Salle Hoppy",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "shaone": {
+                                "name": "Salle Shaone",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "albus": {
+                                "name": "Salle Albus",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "cei": {
+                                "name": "CEI - Cycle Expertise et Innovation",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": []
+                            },
+                            "poc": {
+                                "name": "POC",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["asso"]
+                            },
+                            "creative-lab": {
+                                "name": "Creative Lab",
+                                "description": null,
+                                "tenant": "epitech",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["maker"]
+                            }
+                        }
                     },
                     "kb-paritalie-f5": {
                         "name": "Paritalie - 5eme étage",
                         "last_update": "28 Dec. 2021",
                         "floor": "5",
-                        "rooms": {}
+                        "rooms": {
+                            "metalab": {
+                                "name": "Metalab",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["3ie", "labo"]
+                            },
+                            "teaching-lab": {
+                                "name": "Teaching Lab",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["cip", "tl"]
+                            }
+                        }
                     }
                 }
             }

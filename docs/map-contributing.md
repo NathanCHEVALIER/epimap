@@ -142,7 +142,7 @@ The only one colour is pure black (#000000) and there is no background.
 
 Require Node and npm
 ``` sh
-## Go to test tests folder and install depedencies
+## Go to tests folder and install depedencies
 $ cd tests && npm install
 $ node worker.js
 ```

@@ -14,12 +14,23 @@ $ git clone git@github.com:NathanCHEVALIER/epimap.git
 $ cd path/to/epimap
 ```
 
-3. Start a local http server 
+3. Start a local http server with routes rules
+
+### Using Python:
 ```sh
 $ python3 server.py
 ```
 
-3. Checkout [http://0.0.0.0:8000](http://0.0.0.0:8000).
+### Using Docker:
+```sh
+## using docker-compose from repo:
+$ docker-compose up
+
+## OR: without docker-compose:
+$ docker run -p 8080:80 -v './src:/var/www/html' php:8.1-apache
+```
+
+4. Checkout [http://0.0.0.0:8000](http://0.0.0.0:8000).
 
 <br /><br />
 
