@@ -309,11 +309,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.1753262"
-     inkscape:cx="1017.5898"
-     inkscape:cy="812.11494"
+     inkscape:zoom="1.6621623"
+     inkscape:cx="856.41456"
+     inkscape:cy="280.65851"
      inkscape:document-units="px"
-     inkscape:current-layer="a11237"
+     inkscape:current-layer="layer1"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -491,7 +491,7 @@
        id="path1017" />
     <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 622.44101,348.97408 595.32408,321.85715 M 578.9091,305.44217 524.99221,251.52528 m -15.9099,-15.9099 -31.56727,-31.56727 M 460.97379,187.50686 404.53152,131.06459 M 387.61147,114.14454 350.61463,77.147698 M 333.69457,60.227643 274.4015,0.93457"
+       d="M 622.44101,348.97408 595.32408,321.85715 M 578.9091,305.44217 524.99221,251.52528 m -15.9099,-15.9099 -31.56727,-31.56727 M 460.97379,187.50686 404.53152,131.06459 M 387.61147,114.14454 358.44459,84.977663 M 338.81654,65.349617 274.4015,0.93457"
        id="path1019"
        sodipodi:nodetypes="cccccccccccc" />
     <path
@@ -507,6 +507,10 @@
        d="m 505.29424,231.8273 -82.57997,82.57997"
        id="path1025" />
     <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 615.31228,119.91902 -82.57997,82.57997"
+       id="path1025-9" />
+    <path
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 574.99476,300.77021 -83.08504,83.08505"
        id="path1027" />
@@ -521,8 +525,9 @@
        id="path1031" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 333.69457,60.22764 350.61463,77.1477"
-       id="path1035" />
+       d="m 338.81654,65.349617 19.62805,19.628046"
+       id="path1035"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 387.61147,114.14454 16.92005,16.92005"
@@ -1209,90 +1214,145 @@
          x="868.85101"
          y="463.82797"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.7774px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.555543">Toilettes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="267.04257"
-       y="91.972176"
-       id="text1813-5-6"><tspan
-         sodipodi:role="line"
-         x="267.04257"
-         y="91.972176"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1845-8">Directrice </tspan><tspan
-         sodipodi:role="line"
-         x="267.04257"
-         y="104.04052"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1191">Générale </tspan><tspan
-         sodipodi:role="line"
-         x="267.04257"
-         y="116.10887"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1193">Adjointe </tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="340.8139"
-       y="193.08199"
-       id="text1813-5-2"><tspan
-         sodipodi:role="line"
-         x="340.8139"
-         y="193.08199"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1845-0">Directeur </tspan><tspan
-         sodipodi:role="line"
-         x="340.8139"
-         y="205.15033"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1193-0">Général</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="383.92673"
-       y="255.74136"
-       id="text1813-5-2-2"><tspan
-         sodipodi:role="line"
-         x="383.92673"
-         y="255.74136"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1193-0-8">   Assistante </tspan><tspan
-         sodipodi:role="line"
-         x="383.92673"
-         y="267.80972"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1247">de Direction</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="461.06027"
-       y="298.57922"
-       id="text1813-5-2-2-5"><tspan
-         sodipodi:role="line"
-         x="461.06027"
-         y="298.57922"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan1247-5">Direction </tspan><tspan
-         sodipodi:role="line"
-         x="461.06027"
-         y="309.18994"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan10284">des études</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
-       x="547.22467"
-       y="370.7301"
-       id="text1813-5-2-2-5-6"><tspan
-         sodipodi:role="line"
-         x="547.22467"
-         y="370.7301"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-         id="tspan10284-9">RH</tspan></text>
+    <a
+       id="a27410"
+       xlink:href="bureau-5"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="265.83932"
+         y="95.581932"
+         id="text1813-5-6"><tspan
+           sodipodi:role="line"
+           x="265.83932"
+           y="95.581932"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan1193">Adjointe DG</tspan></text>
+    </a>
+    <a
+       id="a27410-4"
+       xlink:href="bureau-6"
+       xlink:type="room"
+       transform="translate(38.610905,-103.43115)">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="307.87402"
+         y="95.581932"
+         id="text1813-5-6-6"><tspan
+           sodipodi:role="line"
+           x="307.87402"
+           y="95.581932"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.350716"
+           id="tspan1193-8">Responsable</tspan><tspan
+           sodipodi:role="line"
+           x="307.87402"
+           y="107.73251"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.350716"
+           id="tspan28686">Bachelors</tspan></text>
+    </a>
+    <a
+       id="a25638"
+       xlink:href="bureau-4"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="359.46432"
+         y="182.85435"
+         id="text1813-5-2"><tspan
+           sodipodi:role="line"
+           x="359.46432"
+           y="182.85435"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan1193-0">DG</tspan></text>
+    </a>
+    <a
+       id="a13920"
+       xlink:href="bureau-3"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="429.95926"
+         y="253.33485"
+         id="text1813-5-2-2"><tspan
+           sodipodi:role="line"
+           x="429.95926"
+           y="253.33485"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan1247">DE</tspan></text>
+    </a>
+    <a
+       id="a1545"
+       xlink:href="bureau-2"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="453.23914"
+         y="312.41663"
+         id="text1813-5-2-2-5"><tspan
+           sodipodi:role="line"
+           x="453.23914"
+           y="312.41663"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan10284">Assistante DG</tspan></text>
+    </a>
+    <a
+       id="a15239"
+       xlink:href="bureau-8"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="534.44373"
+         y="143.13463"
+         id="text1813-5-2-2-5-7"><tspan
+           sodipodi:role="line"
+           x="534.44373"
+           y="143.13463"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan10284-0">DRE</tspan></text>
+    </a>
+    <a
+       id="a15239-9"
+       xlink:href="bureau-7"
+       xlink:type="room"
+       transform="translate(-80.573968,-84.30697)">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="523.61444"
+         y="143.73625"
+         id="text1813-5-2-2-5-7-8"><tspan
+           sodipodi:role="line"
+           x="523.61444"
+           y="143.73625"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan10284-0-1">Bureau 7</tspan></text>
+    </a>
+    <a
+       id="a8966"
+       xlink:href="bureau-1"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="539.4035"
+         y="371.33173"
+         id="text1813-5-2-2-5-6"><tspan
+           sodipodi:role="line"
+           x="539.4035"
+           y="371.33173"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
+           id="tspan10284-9">DRH</tspan></text>
+    </a>
     <a
        id="a11241"
        xlink:href="chercheurs"
-       xlink:type="lrde">
+       xlink:type="room">
       <text
          xml:space="preserve"
          style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
@@ -1443,7 +1503,8 @@
     <a
        id="a12284"
        xlink:href="salle-dg"
-       xlink:type="room">
+       xlink:type="room"
+       transform="translate(24.81998,22.37072)">
       <text
          xml:space="preserve"
          style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
@@ -1465,16 +1526,6 @@
        style="fill:#37ffff;fill-opacity:0.993141;stroke:#000000;stroke-width:1;stroke-dasharray:none"
        d="m 380.33051,43.225 21.14814,20.86356"
        id="path9835" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
-       x="709.34515"
-       y="308.02829"
-       id="text5590"><tspan
-         sodipodi:role="line"
-         id="tspan5588"
-         x="709.34515"
-         y="308.02829">RSE</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 772.22706,660.28026 v 28.87805"
@@ -1604,5 +1655,35 @@
        d="m 32.2046,-27.83348 49.20455,49.20454 v 127.29585 l -173.057024,173.05702 -1.03071,416.7097 h -99.642856 l 0.79254,-416.7097 V -26.15128 Z"
        id="path1472"
        sodipodi:nodetypes="ccccccccc" />
+    <a
+       id="a2636"
+       xlink:href="bureau-9"
+       xlink:type="room">
+      <text
+         xml:space="preserve"
+         style="font-size:14.0286px;line-height:0.75;font-family:Bahagia;-inkscape-font-specification:Bahagia;text-align:start;text-anchor:start;stroke-width:0.350716"
+         x="741.2818"
+         y="285.83322"
+         id="text1813-5-2-9-6"><tspan
+           sodipodi:role="line"
+           x="741.2818"
+           y="285.83322"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.350716"
+           id="tspan3444">RSE</tspan><tspan
+           sodipodi:role="line"
+           x="741.2818"
+           y="297.9838"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.350716"
+           id="tspan5602">Adjointe DE</tspan></text>
+    </a>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 364.86415,30.75087 -4.45103,4.451031 m -21.20732,21.207313 -4.81301,4.813006"
+       id="path35028"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 339.2058,56.40921 360.41312,35.2019"
+       id="path37152" />
   </g>
 </svg>
