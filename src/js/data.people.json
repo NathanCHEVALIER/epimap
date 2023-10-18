@@ -2,7 +2,47 @@
     "julie.ounoughi": {
         "tenant": "epita",
         "name": "Julie Ounoughi",
-        "role": ""
+        "role": "Assistante de la Direction Générale, Référente CROUS et logements"
+    },
+    "assia.touil": {
+        "tenant": "epita",
+        "name": "Assia Touil",
+        "role": "Directrice des Etudes Cycle Ingenieur"
+    },
+    "anne-sophie.poilleaux": {
+        "tenant": "epita",
+        "name": "Anne-Sophie Poilleaux",
+        "role": "Responsable Ressources Humaines"
+    },
+    "claire.lecocq": {
+        "tenant": "epita",
+        "name": "Claire Lecocq",
+        "role": "Directrice Générale Adjointe, Directrice Paris"
+    },
+    "sandra.chanceau": {
+        "tenant": "epita",
+        "name": "Sandra Chanceau",
+        "role": "Adjointe à la Direction Générale, Référente Enquêtes"
+    },
+    "valentin.seux": {
+        "tenant": "epita",
+        "name": "Valentin Seux",
+        "role": "Responsable Bachelors, Référent Égalité"
+    },
+    "laurent.trebulle": {
+        "tenant": "epita",
+        "name": "Laurent Trebulle",
+        "role": "Directeur Relations Entreprises"
+    },
+    "helene.vaury": {
+        "tenant": "epita",
+        "name": "Hélène Vaury",
+        "role": "Adjointe à la Direction des Etudes"
+    },
+    "anne-sophie.pachet": {
+        "tenant": "epita",
+        "name": "Anne-Sophie Pachet",
+        "role": "Responsable Qualité, RSE & Plan Vert"
     },
     "florent.boullet": {
         "tenant": "epita",

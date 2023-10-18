@@ -754,6 +754,86 @@
                                 "image": "",
                                 "peoples": [],
                                 "tags": ["dg"]
+                            },
+                            "bureau-1": {
+                                "name": "Direction des Ressources Humaines",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["anne-sophie.poilleaux"],
+                                "tags": ["rh", "drh"]
+                            },
+                            "bureau-2": {
+                                "name": "Assistante de la Direction Générale",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["julie.ounoughi"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-3": {
+                                "name": "Direction des Etudes",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["assia.touil"],
+                                "tags": ["de"]
+                            },
+                            "bureau-4": {
+                                "name": "Direction Générale Paris",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["claire.lecocq"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-5": {
+                                "name": "Adjointe à la Direction Générale",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["sandra.chanceau"],
+                                "tags": ["dg"]
+                            },
+                            "bureau-6": {
+                                "name": "Responsable Bachelor",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["valentin.seux"],
+                                "tags": [""]
+                            },
+                            "bureau-7": {
+                                "name": "NA",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": [""]
+                            },
+                            "bureau-8": {
+                                "name": "Direction des Relations Entreprises",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["laurent.trebulle"],
+                                "tags": ["re"]
+                            },
+                            "bureau-9": {
+                                "name": "Responsable RSE - Direction des Etudes",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["anne-sophie.pachet", "helene.vaury"],
+                                "tags": ["de"]
+                            },
+                            "chercheurs": {
+                                "name": "Enseignants Chercheurs",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": [],
+                                "tags": ["lre"]
                             }
                         }
                     },
