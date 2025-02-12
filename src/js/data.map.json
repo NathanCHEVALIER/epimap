@@ -740,7 +740,7 @@
                                 "tags": []
                             },
                             "lre": {
-                                "name": "LRE - Laboratoir de Recherche d'EPITA",
+                                "name": "LRE - Laboratoire de Recherche d'EPITA",
                                 "description": null,
                                 "tenant": "epita",
                                 "image": "",
@@ -827,13 +827,13 @@
                                 "peoples": ["anne-sophie.pachet", "helene.vaury"],
                                 "tags": ["de"]
                             },
-                            "chercheurs": {
-                                "name": "Enseignants Chercheurs",
+                            "Relations": {
+                                "name": "Relations Internationales",
                                 "description": null,
                                 "tenant": "epita",
                                 "image": "",
                                 "peoples": [],
-                                "tags": ["lre"]
+                                "tags": []
                             }
                         }
                     },
@@ -1077,7 +1077,7 @@
                 "id": "",
                 "name": "VA",
                 "last_update": "",
-                "floors": {            
+                "floors": {
                     "vj-vjc-f0b": {
                         "name": "VJC - Rez de chaussée (Bas)",
                         "last_update": "May 2022",

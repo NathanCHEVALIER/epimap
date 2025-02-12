@@ -1351,7 +1351,7 @@
     </a>
     <a
        id="a11241"
-       xlink:href="chercheurs"
+       xlink:href="Relations"
        xlink:type="room">
       <text
          xml:space="preserve"
@@ -1363,12 +1363,12 @@
            x="544.98303"
            y="540.59192"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-           id="tspan1193-0-4">Enseignants</tspan><tspan
+           id="tspan1193-0-4">Relations</tspan><tspan
            sodipodi:role="line"
            x="544.98303"
            y="551.20264"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-           id="tspan7242">Chercheurs</tspan></text>
+           id="tspan7242">Internationales</tspan></text>
     </a>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1470,7 +1470,7 @@
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.2712px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.445976">Toilettes</tspan></text>
     <a
        id="a13385"
-       xlink:href="blackfoot"
+       xlink:href="lre"
        xlink:type="room">
       <text
          xml:space="preserve"
@@ -1482,7 +1482,7 @@
            x="947.87714"
            y="395.58118"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:start;text-anchor:start;stroke-width:0.350716"
-           id="tspan1193-0-4-4">Blackfoot</tspan></text>
+           id="tspan1193-0-4-4">LRE</tspan></text>
     </a>
     <a
        id="a11237"
