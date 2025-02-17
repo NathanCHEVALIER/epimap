@@ -826,14 +826,6 @@
                                 "image": "",
                                 "peoples": ["anne-sophie.pachet", "helene.vaury"],
                                 "tags": ["de"]
-                            },
-                            "Relations": {
-                                "name": "Relations Internationales",
-                                "description": null,
-                                "tenant": "epita",
-                                "image": "",
-                                "peoples": [],
-                                "tags": []
                             }
                         }
                     },
