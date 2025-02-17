@@ -5,7 +5,7 @@
    viewBox="0 0 2300 1150"
    id="svg2"
    version="1.1"
-   inkscape:version="1.2.1 (2ed6d7ae0b, 2022-08-22, custom)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="vj-va-f0.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -399,9 +399,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.7831044"
-     inkscape:cx="1964.5512"
-     inkscape:cy="796.08349"
+     inkscape:zoom="2.5216904"
+     inkscape:cx="1703.6191"
+     inkscape:cy="894.24142"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -409,8 +409,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1854"
-     inkscape:window-height="1016"
+     inkscape:window-width="1908"
+     inkscape:window-height="1040"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -675,11 +675,6 @@
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1344.8557,241.56128 v 310.03561 h 140.4112"
-       id="path156154"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 1793.7859,550.52544 -0.01,-309.76651"
        id="path156152"
        sodipodi:nodetypes="cc" />
@@ -818,12 +813,6 @@
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 52.790144,988.7232 v 84.6429 m -13.6549,-84.1072 v 83.5715 m -13.6549,-82.5001 v 81.4286 m -13.6548,-81.4286 v 81.4286 m -13.6551,-82.1429 v 82.8572 m -13.6549,-82.5 v 82.1429 m -13.6549,-81.9644 v 81.7858 m -13.6549,-82.1429 v 82.5 M -56.44926,989.2589 v 83.5715 m 122.894504,-0.3543 v -82.8629"
        sodipodi:nodetypes="cccccccccccccccccccc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 1023.1512,531.61771 c 39.8513,-62.52547 112.7208,-64.67081 151.5045,0 m 0.01,26.37955 -151.5137,0.002"
-       id="path5134"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccc" />
     <g
        id="g5250-0-9"
        transform="matrix(0.36878225,0,0,0.36878225,1865.743,946.93181)" />
@@ -839,13 +828,13 @@
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="1799.0925"
-       y="859.69952"
+       x="1797.9028"
+       y="837.09564"
        id="text1160"><tspan
          sodipodi:role="line"
          id="tspan1158"
-         x="1799.0925"
-         y="859.69952"
+         x="1797.9028"
+         y="837.09564"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Mathématiques</tspan></text>
     <text
        xml:space="preserve"
@@ -861,19 +850,24 @@
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:17.93px;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="1176.6416"
-       y="896.89972"
+       x="1175.0554"
+       y="892.14099"
        id="text1160-4-7"><tspan
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
          sodipodi:role="line"
          id="tspan1200"
-         x="1176.6416"
-         y="896.89972">Chantal Schmitt</tspan><tspan
+         x="1175.0554"
+         y="892.14099">Chantal Schmitt</tspan><tspan
          sodipodi:role="line"
-         x="1176.6416"
-         y="916.88806"
+         x="1175.0554"
+         y="910.4209"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
-         id="tspan1198">Marie Beaune</tspan></text>
+         id="tspan1198" /><tspan
+         sodipodi:role="line"
+         x="1175.0554"
+         y="928.70087"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
+         id="tspan1" /></text>
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
@@ -895,12 +889,7 @@
          x="1402.739"
          y="896.69287"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
-         id="tspan1198-6">Claudine</tspan><tspan
-         sodipodi:role="line"
-         x="1402.739"
-         y="916.68121"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
-         id="tspan1243">Cavatorta</tspan></text>
+         id="tspan1243">Marie Diot</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:17.93px;font-family:Bahagia;-inkscape-font-specification:Bahagia"
@@ -990,19 +979,34 @@
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:17.93px;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="1866.2823"
-       y="897.82758"
+       x="1867.0754"
+       y="870.86151"
        id="text1160-4-7-7-2-2-4-4"><tspan
          sodipodi:role="line"
-         x="1866.2823"
-         y="897.82758"
+         x="1867.0754"
+         y="870.86151"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
-         id="tspan1345-4">Tremoulet</tspan><tspan
+         id="tspan1345-4">Christel </tspan><tspan
          sodipodi:role="line"
-         x="1866.2823"
-         y="917.81592"
+         x="1867.0754"
+         y="889.14142"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
-         id="tspan1370">Euvrard</tspan></text>
+         id="tspan3">Tremoulet</tspan><tspan
+         sodipodi:role="line"
+         x="1867.0754"
+         y="907.42139"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
+         id="tspan1370" /><tspan
+         sodipodi:role="line"
+         x="1867.0754"
+         y="925.70129"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
+         id="tspan2">Guillaume </tspan><tspan
+         sodipodi:role="line"
+         x="1867.0754"
+         y="943.9812"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;text-anchor:middle"
+         id="tspan4">Euvrard</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
@@ -1053,30 +1057,19 @@
     <text
        xml:space="preserve"
        style="font-size:18.6667px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="1410.5277"
-       y="397.05334"
-       id="text1160-4-0-4"><tspan
-         sodipodi:role="line"
-         id="tspan1158-3-8-4"
-         x="1410.5277"
-         y="397.05334"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle">Crocus</tspan><tspan
-         sodipodi:role="line"
-         x="1410.5277"
-         y="422.44504"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle"
-         id="tspan1355">Cafeteria</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:18.6667px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="765.69293"
-       y="346.33905"
+       x="796.10339"
+       y="328.95364"
        id="text1160-4-0-6"><tspan
          sodipodi:role="line"
          id="tspan1158-3-8-8"
-         x="765.69293"
-         y="346.33905"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Accueil</tspan></text>
+         x="796.10339"
+         y="328.95364"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle">Sécurité</tspan><tspan
+         sodipodi:role="line"
+         x="796.10339"
+         y="352.63696"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle"
+         id="tspan8">Logistique</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
@@ -1091,23 +1084,12 @@
     <text
        xml:space="preserve"
        style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="51.563175"
-       y="405.87958"
-       id="text1160-4-0-6-3-5"><tspan
-         sodipodi:role="line"
-         x="51.563175"
-         y="405.87958"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"
-         id="tspan1403">Refectoire</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;line-height:1.25;font-family:Bahagia;-inkscape-font-specification:Bahagia"
-       x="84.429443"
-       y="441.93188"
+       x="82.843208"
+       y="408.62091"
        id="text1160-4-0-6-3-5-2"><tspan
          sodipodi:role="line"
-         x="84.429443"
-         y="441.93188"
+         x="82.843208"
+         y="408.62091"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'"
          id="tspan1403-8">VA02</tspan></text>
     <path
@@ -1208,5 +1190,37 @@
          style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:1.11803;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          d="m 60.543363,217.84993 c 1.1662,0 2.10641,0.94022 2.10641,2.10648 v 15.64071 c 0,1.16626 -0.94021,2.10647 -2.10641,2.10647 h -16.43493 c -1.16619,0 -2.1064,-0.94021 -2.1064,-2.10647 v -15.64071 c 0,-1.16626 0.94021,-2.10648 2.1064,-2.10648 z m -1.33386,3.04168 -3.81892,0.0491 -0.009,3.21184 h -3.19804 v 3.24864 h -3.21342 l -0.0537,3.25631 -3.11679,0.0399 -0.0491,3.89101 1.42892,0.0184 0.0307,-2.49895 3.11223,-0.0399 0.0535,-3.23791 h 3.23791 v -3.24711 h 3.19497 l 0.008,-3.23178 2.4116,-0.0307 z m -1.29697,7.90314 a 0.51781066,0.51781066 0 0 0 -0.44616,0.14717 l -3.53682,3.57059 v -1.45798 a 0.51781066,0.51781066 0 0 0 -0.51665,-0.51665 0.51781066,0.51781066 0 0 0 -0.51823,0.51665 v 2.68753 a 0.51781066,0.51781066 0 0 0 0,0.0567 v 0.48753 h 3.23179 a 0.51781066,0.51781066 0 0 0 0.51665,-0.51819 0.51781066,0.51781066 0 0 0 -0.51665,-0.51666 h -1.4764 l 3.54914,-3.58132 a 0.51781066,0.51781066 0 0 0 0,-0.73129 0.51781066,0.51781066 0 0 0 -0.28667,-0.14411 z" />
     </a>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+       x="1118.6177"
+       y="938.89813"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         x="1118.6177"
+         y="938.89813">Violette Simon</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000"
+       x="1103.5483"
+       y="915.89764"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         x="1103.5483"
+         y="915.89764"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible'">Stéphanie Durelle</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible';text-align:center;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#000000"
+       x="796.80139"
+       y="494.35516"
+       id="text9"><tspan
+         sodipodi:role="line"
+         id="tspan9"
+         x="796.80139"
+         y="494.35516"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold'">Imprimante</tspan></text>
   </g>
 </svg>
