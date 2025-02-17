@@ -5,7 +5,7 @@
    viewBox="0 0 2625.2542 1771.2416"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    sodipodi:docname="kb-pasteur-f-2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -273,9 +273,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.50911688"
-     inkscape:cx="952.62997"
-     inkscape:cy="897.63278"
+     inkscape:zoom="2.4731255"
+     inkscape:cx="1790.447"
+     inkscape:cy="1153.601"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -283,14 +283,16 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="1403"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0">
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
        id="grid3552" />
@@ -451,7 +453,8 @@
     </a>
     <a
        id="a4369"
-       xlink:href="https://www.facebook.com/Episport">
+       xlink:href="https://www.facebook.com/Episport"
+       transform="translate(-11.389624,-1.3662494)">
       <text
          id="text3919"
          y="915.98834"
@@ -462,7 +465,7 @@
            x="1213.512"
            id="tspan3921"
            sodipodi:role="line"
-           style="font-size:24px;line-height:1.25;font-family:sans-serif">Episport</tspan></text>
+           style="font-size:24px;line-height:1.25;font-family:sans-serif">Crescendo</tspan></text>
     </a>
     <path
        id="path3925"
