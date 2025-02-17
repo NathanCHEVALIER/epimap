@@ -827,13 +827,13 @@
                                 "peoples": ["anne-sophie.pachet", "helene.vaury"],
                                 "tags": ["de"]
                             },
-                            "Relations": {
+                            "relations-internationales": {
                                 "name": "Relations Internationales",
                                 "description": null,
                                 "tenant": "epita",
                                 "image": "",
-                                "peoples": [],
-                                "tags": []
+                                "peoples": ["maria.hutter", "julian.loubrieu", "angelica.nivia", "julien.zuinghedau"],
+                                "tags": ["ri"]
                             }
                         }
                     },
