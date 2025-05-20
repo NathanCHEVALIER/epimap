@@ -152,10 +152,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70000003"
-     inkscape:cx="1349.9999"
+     inkscape:cx="1719.9999"
      inkscape:cy="1369.2857"
      inkscape:document-units="px"
-     inkscape:current-layer="a11761"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1896"
      inkscape:window-height="955"
@@ -476,15 +476,14 @@
        xlink:type="room">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-         x="1317.7113"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+         x="1227.7272"
          y="1524.1519"
          id="text5325-1-1"><tspan
            sodipodi:role="line"
-           id="tspan5327-7-9"
-           x="1317.7113"
-           y="1524.1519"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Forge</tspan></text>
+           id="tspan2"
+           x="1227.7272"
+           y="1524.1519">Bureau de réunion</tspan></text>
     </a>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
