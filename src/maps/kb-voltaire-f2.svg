@@ -5,7 +5,7 @@
    viewBox="0 0 2995.0415 1715.4398"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    sodipodi:docname="kb-voltaire-f2.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -152,15 +152,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70000003"
-     inkscape:cx="2425.7142"
+     inkscape:cx="1349.9999"
      inkscape:cy="1369.2857"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="a11761"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1001"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-width="1896"
+     inkscape:window-height="955"
+     inkscape:window-x="10"
+     inkscape:window-y="40"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -375,25 +375,20 @@
        d="m 665.64221,180.55697 57.9985,-0.0163"
        id="path1020"
        sodipodi:nodetypes="cc" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 767.35541,1291.3519 V 1014.209"
-       id="path1022" />
     <a
        id="a11761"
        xlink:href="forge"
        xlink:type="room">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-         x="896.39215"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
+         x="727.72717"
          y="1161.9979"
          id="text5325"><tspan
            sodipodi:role="line"
-           id="tspan5327"
-           x="896.39215"
-           y="1161.9979"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Forge - Main</tspan></text>
+           id="tspan1"
+           x="727.72717"
+           y="1161.9979">Forge - Open Space</tspan></text>
     </a>
     <a
        id="a7491"
@@ -474,27 +469,6 @@
            x="543.07507"
            y="1531.129"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Lab Assistants</tspan></text>
-    </a>
-    <a
-       id="a11483"
-       xlink:href="forge-reunion"
-       xlink:type="room">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:0%;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-         x="624.86713"
-         y="1145.2717"
-         id="text5325-1-6"><tspan
-           sodipodi:role="line"
-           id="tspan5327-7-99"
-           x="624.86713"
-           y="1145.2717"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke:#333333;stroke-width:0.838759;stroke-opacity:1">Salle de</tspan><tspan
-           sodipodi:role="line"
-           x="624.86713"
-           y="1187.2097"
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:33.5504px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke:#333333;stroke-width:0.838759;stroke-opacity:1"
-           id="tspan13251">Réunion</tspan></text>
     </a>
     <a
        id="a11901"
