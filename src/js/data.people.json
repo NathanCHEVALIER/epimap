@@ -54,24 +54,19 @@
         "name": "Christian Chabrerie",
         "role": "Responsable Majeure SANTE & Chargé de Mission"
     },
-    "antoine.dumeige": {
-        "tenant": "epita",
-        "name": "Antoine Dumeige",
-        "role": "Responsable Forge"
-    },
     "nicolas.froger": {
         "tenant": "epita",
         "name": "Nicolas Froger",
-        "role": "Permanent Forge"
+        "role": "Responsable Forge"
     },
     "noam.bati": {
         "tenant": "epita",
         "name": "Noam Bati",
         "role": "Permanent Forge"
     },
-    "leo.portemont": {
+    "ahmed.ounadjela": {
         "tenant": "epita",
-        "name": "Léo Portemont",
+        "name": "Ahmed Ounadjela",
         "role": "Permanent Forge"
     },
     "francois-xavier.dufour": {

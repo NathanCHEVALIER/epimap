@@ -133,16 +133,16 @@
                     },
                     "kb-voltaire-f2": {
                         "name": "Voltaire - 2eme étage",
-                        "last_update": "Sep. 2023",
+                        "last_update": "Mai 2025",
                         "floor": "2",
                         "rooms": {
                             "forge": {
-                                "name": "Bureau Forge",
+                                "name": "Open Space Forge",
                                 "description": null,
                                 "tenant": "epita",
                                 "image": "",
-                                "peoples": ["antoine.dumeige", "nicolas.froger", "noam.bati", "leo.portemont"],
-                                "tags": ["cri", "labsi"]
+                                "peoples": ["nicolas.froger", "noam.bati", "ahmed.ounadjela"],
+                                "tags": ["cri", "labsi", "forge"]
                             },
                             "201": {
                                 "name": "KB 201",
@@ -181,7 +181,15 @@
                                 "description": null,
                                 "tenant": "epita",
                                 "image": "",
-                                "peoples": ["antoine.dumeige", "nicolas.froger", "noam.bati", "leo.portemont"],
+                                "peoples": ["nicolas.froger", "noam.bati", "ahmed.ounadjela"],
+                                "tags": ["cri", "labsi"]
+                            },
+                            "forge-storage": {
+                                "name": "Salle de Réserve Forge",
+                                "description": null,
+                                "tenant": "epita",
+                                "image": "",
+                                "peoples": ["nicolas.froger", "noam.bati", "ahmed.ounadjela"],
                                 "tags": ["cri", "labsi"]
                             },
                             "lab-assistant": {
