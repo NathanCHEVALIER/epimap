@@ -5,7 +5,7 @@
    viewBox="0 0 1900.0001 1900"
    id="svg2"
    version="1.1"
-   inkscape:version="1.1.2 (76b9e6a115, 2022-02-25)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    sodipodi:docname="kb-pasteur-f1.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -343,22 +343,24 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="1105.915"
-     inkscape:cy="849.94235"
+     inkscape:cx="840.04286"
+     inkscape:cy="1534.4217"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1862"
-     inkscape:window-height="1016"
-     inkscape:window-x="58"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
+     inkscape:window-width="1033"
+     inkscape:window-height="991"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:document-rotation="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -572,11 +574,6 @@
        id="path1033"
        sodipodi:nodetypes="cccccccccc" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -381.14408,413.7748 h 8.19278 m 32.28427,0 h 128.27294 v -81.3084 m 0,-32.17336 V 226.2748"
-       id="path1035"
-       sodipodi:nodetypes="ccccccc" />
-    <path
        style="fill:none;stroke:#000000;stroke-width:4.776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m -597.77179,544.86764 c -42.07005,-32.5192 -28.52646,-96.33798 10.52905,-114.06776 56.19538,-25.51059 100.75215,15.53055 100.68557,60.26819"
        id="path1206-4"
@@ -655,54 +652,10 @@
        d="m 154.30773,524.6227 v -6.62916 m 0,-27.05724 v -75.73841 m 0,-26.78167 V 381.08"
        id="path1148"
        sodipodi:nodetypes="cccccc" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.40247px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.533539"
-       x="215.99643"
-       y="417.61844"
-       id="text3899-9"><tspan
-         sodipodi:role="line"
-         x="215.99643"
-         y="417.61844"
-         id="tspan3903-9"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9391px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.533539">Toilettes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.40247px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.533539"
-       x="215.0952"
-       y="428.6384"
-       id="text3899-4-5"><tspan
-         sodipodi:role="line"
-         x="215.0952"
-         y="428.6384"
-         id="tspan3903-8-1"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9391px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.533539">hommes</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 154.35593,452.5248 h 130.5"
        id="path1174" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.40247px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.533539"
-       x="217.26003"
-       y="486.0737"
-       id="text3899-9-2"><tspan
-         sodipodi:role="line"
-         x="217.26003"
-         y="486.0737"
-         id="tspan3903-9-1"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9391px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.533539">Toilettes</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.40247px;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.533539"
-       x="217.99127"
-       y="497.09369"
-       id="text3899-4-5-4"><tspan
-         sodipodi:role="line"
-         x="217.99127"
-         y="497.09369"
-         id="tspan3903-8-1-1"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.9391px;line-height:1.25;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';text-align:center;text-anchor:middle;stroke-width:0.533539">femmes</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m -38.64405,418.3799 h -47.8181"
@@ -733,15 +686,19 @@
        id="path1213" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M -340.66703,413.7748 H -372.9513"
+       d="m -330.23721,413.7748 h -32.28427"
        id="path1215" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -279.76907,413.7748 h -30.31557"
+       id="path1215-7" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M -322.63581,273.2462 V 238.9515"
        id="path1217" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -212.39409,300.293 v 32.1734"
+       d="m -246.89409,135.793 v 32.1734"
        id="path1219" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1154,30 +1111,25 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-487.11176"
-       y="302.39145"
+       x="-449.58014"
+       y="314.39145"
        id="text5638"><tspan
          sodipodi:role="line"
          id="tspan5636"
-         x="-487.11176"
-         y="302.39145"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.247669px">Equipes ESLR</tspan></text>
+         x="-449.58014"
+         y="314.39145"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';stroke-width:0.247669px">Bureau</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:17.8193px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-269.5618"
-       y="302.89133"
+       x="-279.76907"
+       y="315.39133"
        id="text5638-7"><tspan
          sodipodi:role="line"
-         id="tspan5636-5"
-         x="-269.5618"
-         y="302.89133"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px">Directeur</tspan><tspan
-         sodipodi:role="line"
-         x="-269.5618"
-         y="320.71063"
+         x="-279.76907"
+         y="315.39133"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px"
-         id="tspan16402">LSE</tspan></text>
+         id="tspan16402">Bureau</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:17.8193px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1191,38 +1143,6 @@
          id="tspan26293">Equipe Système &amp; Sécurité</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.6667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184568px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-464.36624"
-       y="321.30737"
-       id="text5638-3"><tspan
-         sodipodi:role="line"
-         id="tspan5636-6"
-         x="-464.36624"
-         y="321.30737"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.184568px">Réda Dehak</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.6667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184568px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="12.651329"
-       y="315.44446"
-       id="text5638-3-2"><tspan
-         sodipodi:role="line"
-         id="tspan5636-6-7"
-         x="12.651329"
-         y="315.44446"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.184568px">Pierre Pagnoux - Fabrice Boissier</tspan><tspan
-         sodipodi:role="line"
-         x="12.651329"
-         y="333.77783"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.184568px"
-         id="tspan35745">Marc Espie - Mark Angoustures</tspan><tspan
-         sodipodi:role="line"
-         x="12.651329"
-         y="352.11121"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.184568px"
-         id="tspan35747">Alexandre Letois</tspan></text>
-    <text
-       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:17.8193px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-202.45071"
        y="578.02472"
@@ -1231,18 +1151,7 @@
          x="-202.45071"
          y="578.02472"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px"
-         id="tspan26293-9">Equipe Système &amp; Sécurité</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14.6667px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.184568px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-281.81863"
-       y="601.06232"
-       id="text5638-3-2-3"><tspan
-         sodipodi:role="line"
-         x="-281.81863"
-         y="601.06232"
-         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Italic';stroke-width:0.184568px"
-         id="tspan35747-6">Etudiants-chercheurs</tspan></text>
+         id="tspan26293-9">30x</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:17.8193px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -1253,23 +1162,7 @@
          x="-422.7753"
          y="606.19934"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px"
-         id="tspan16402-1">Bureau</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:17.3333px;line-height:17.8193px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.247669px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="192.16032"
-       y="595.42816"
-       id="text5638-7-2-2"><tspan
-         sodipodi:role="line"
-         x="192.16032"
-         y="595.42816"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px"
-         id="tspan16402-1-6">Salle </tspan><tspan
-         sodipodi:role="line"
-         x="192.16032"
-         y="613.24744"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:17.3333px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible Bold';text-align:center;text-anchor:middle;stroke-width:0.247669px"
-         id="tspan45046">de Réunion</tspan></text>
+         id="tspan16402-1">Accueil</tspan></text>
     <a
        xlink:href="kb-pasteur-f0.svg"
        transform="matrix(0.55019349,0,0,0.55019349,-1033.2929,-611.79551)"
@@ -1333,5 +1226,17 @@
        d="m -449.56367,-1123.2651 h 819.3159 v -32.9905"
        id="path51432"
        sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke-width:5;stroke-dasharray:none;stroke:#000000;stroke-opacity:1;stroke-linejoin:miter"
+       d="m -212.39409,226.2748 -51.90539,187.5 h -15.46959"
+       id="path1" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -330.23721,413.7748 h 20.15257"
+       id="path3" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -362.52148,413.7748 h -18.6226"
+       id="path4" />
   </g>
 </svg>
